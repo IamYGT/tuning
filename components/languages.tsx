@@ -1,5 +1,6 @@
 import Image from "next/image"
 
+
 export default function Languages() {
   const flags = [
     { code: "tr", name: "Türkçe" },
@@ -52,10 +53,10 @@ export default function Languages() {
                 Sistemimizde bulunan 16 farklı dil ile bütün dünyadaki insanlara hitap edin.
               </p>
 
-              <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mt-8">
+              <div className="grid grid-cols-4 gap-3 sm:gap-4 mt-8">
                 {flags.slice(0, 8).map((flag) => (
                   <div key={flag.code} className="flex items-center justify-center">
-                    <div className="w-14 h-10 relative overflow-hidden rounded-md border border-gray-700 hover:border-red-500 transition-all cursor-pointer">
+                    <div className="w-12 h-8 sm:w-14 sm:h-10 relative overflow-hidden rounded-md border border-gray-700 hover:border-red-500 transition-all cursor-pointer">
                       <Image 
                         src={`/assets/images/flag/${flag.code}.svg`} 
                         alt={flag.name}
@@ -67,10 +68,10 @@ export default function Languages() {
                 ))}
               </div>
 
-              <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mt-4">
+              <div className="grid grid-cols-4 gap-3 sm:gap-4 mt-3 sm:mt-4">
                 {flags.slice(8, 16).map((flag) => (
                   <div key={flag.code} className="flex items-center justify-center">
-                    <div className="w-14 h-10 relative overflow-hidden rounded-md border border-gray-700 hover:border-red-500 transition-all cursor-pointer">
+                    <div className="w-12 h-8 sm:w-14 sm:h-10 relative overflow-hidden rounded-md border border-gray-700 hover:border-red-500 transition-all cursor-pointer">
                       <Image 
                         src={`/assets/images/flag/${flag.code}.svg`} 
                         alt={flag.name}
@@ -84,7 +85,8 @@ export default function Languages() {
             </div>
 
             <div className="w-full md:w-1/2 relative">
-              <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-2xl md:-mr-8 md:translate-x-8">
+              {/* Desktop image - hidden on mobile */}
+              <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-2xl md:-mr-8 md:translate-x-8 hidden md:block">
                 <Image
                   src="/assets/images/language.avif"
                   alt="Language Interface"
