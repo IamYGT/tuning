@@ -68,10 +68,25 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fadeIn": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" }
+        },
+        "fadeInRight": {
+          "0%": { opacity: "0", transform: "translateX(20px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" }
+        },
+        "fadeInLeft": {
+          "0%": { opacity: "0", transform: "translateX(-20px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fadeIn": "fadeIn 0.5s ease-out forwards",
+        "fadeInRight": "fadeInRight 0.5s ease-out forwards",
+        "fadeInLeft": "fadeInLeft 0.5s ease-out forwards",
       },
     },
   },
