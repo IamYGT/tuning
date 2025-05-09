@@ -8,9 +8,11 @@
       "login": "Anmelden",
       "register": "Registrieren",
       "corporate": "Unternehmen",
-      "gallery": "Galerie"
+      "gallery": "Galerie",
+      "tryFree": "Kostenlos testen"
     },
     "promo": {
+      "promoLabel": "SONDERANGEBOT",
       "limitedOffer": "Zeitlich begrenztes Angebot",
       "offerText": "ECU Tuning Portal für €1399 statt €1899",
       "buyButton": "Kaufen"
@@ -24,13 +26,23 @@
       "subscribeButton": "Abonnieren",
       "copyright": "ECU Tuning Portal. Alle Rechte vorbehalten.",
       "terms": "Nutzungsbedingungen",
-      "privacy": "Datenschutzrichtlinie"
+      "privacy": "Datenschutzrichtlinie",
+      "helpCenter": "Hilfezentrum",
+      "faq": "FAQ",
+      "documentation": "Dokumentation",
+      "videoTutorials": "Video-Tutorials",
+      "communityForum": "Community-Forum",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "cookiePolicy": "Cookie-Richtlinie"
     }
   },
   "home": {
     "hero": {
-      "title": "Fortschrittliches ECU-Tuning-Portal",
-      "subtitle": "Professionelles Tuning-Dateiservice-Portal für Automobilspezialisten",
+      "mainTitle": "Professionelles Dateiservice-Portal",
+      "title": "ECU Tuning Portal v4.2",
+      "subtitle": "Bringen Sie Ihr Unternehmen mit der neuesten Version einen Schritt nach vorne!",
+      "description": "Verwalten Sie Ihre Kundendateien effizienter und optimieren Sie Ihre Geschäftsprozesse mit diesem hochwertigen Portal, das von Fachleuten entworfen und entwickelt wurde.",
+      "tagline": "ECU Tuning Portal v4.2 ist bereit, Ihr Unternehmen mit seinen mit neuester Technologie ausgestatteten Funktionen auf die nächste Stufe zu heben.",
       "cta": "Loslegen",
       "secondaryCta": "Mehr erfahren"
     },
@@ -95,6 +107,9 @@
       "heading": "Arbeiten Sie international mit 16 verschiedenen Sprachen",
       "description": "Sprechen Sie Menschen auf der ganzen Welt mit 16 verschiedenen Sprachen in unserem System an."
     },
+    "brands": {
+      "title": "Vertraut von führenden Marken"
+    },
     "stats": {
       "title": "STATISTIKEN",
       "heading": "ECU Tuning Portal in Zahlen",
@@ -107,13 +122,89 @@
     "testimonials": {
       "title": "KUNDENBEWERTUNGEN",
       "heading": "Unsere Kundenbewertungen",
-      "description": "Lesen Sie die Erfahrungen unserer Kunden über unsere Lösungen, die von Tuning-Profis vertraut und bevorzugt werden."
+      "description": "Lesen Sie die Erfahrungen unserer Kunden über unsere Lösungen, die von Tuning-Profis vertraut und bevorzugt werden.",
+      "testimonial1": {
+        "name": "John Smith",
+        "company": "Performance Tuning Ltd",
+        "text": "Dieses ECU-Tuning-Portal hat die Art und Weise, wie wir unsere Tuning-Dateien und Kundenbeziehungen verwalten, komplett verändert. Die Benutzeroberfläche ist intuitiv und die Fahrzeugdatenbank ist umfassend."
+      },
+      "testimonial2": {
+        "name": "Maria Rodriguez",
+        "company": "AutoTech Solutions",
+        "text": "Das Kreditsystem und die Abrechnungsfunktionen haben unsere Geschäftsabläufe viel effizienter gemacht. Der Kundensupport ist hervorragend und immer reaktionsschnell."
+      },
+      "testimonial3": {
+        "name": "Thomas Weber",
+        "company": "German Tuning Specialists",
+        "text": "Wir nutzen diese Plattform seit über einem Jahr und sie hat unseren Arbeitsablauf erheblich verbessert. Das Dateiverwaltungssystem ist besonders beeindruckend."
+      }
     },
     "cta": {
       "title": "Testen Sie das Portal jetzt!",
       "description": "Bringen Sie Ihr Geschäft mit ECU Tuning Portal auf die nächste Stufe! 19 Module, ausgestattet mit den fortschrittlichsten Funktionen, die entwickelt wurden, um die Bedürfnisse von Profis zu erfüllen. Verwalten Sie Ihre Kundendateien effektiver und optimieren Sie Ihre Geschäftsprozesse mit ECU Tuning Portal v4.2. Kundenverwaltungssystem, erweitertes Kreditsystem und mehr warten auf Sie.",
       "primaryButton": "7 Tage kostenlos testen",
       "secondaryButton": "Kontakt zum Vertriebsteam"
+    }
+  },
+  "Features": {
+    "hero": {
+      "title": "Unsere Funktionen",
+      "description": "Entdecken Sie alle leistungsstarken Funktionen, die ECU Tuning Portal zur führenden Lösung für Kfz-Tuning-Profis machen."
+    },
+    "cta": {
+      "title": "Bereit, Ihr Unternehmen zu transformieren?",
+      "description": "Schließen Sie sich Tausenden zufriedener Kunden an, die ihr Geschäft mit unserer umfassenden Lösung verbessert haben.",
+      "buttonText": "Preispäne anzeigen"
+    },
+    "items": {
+      "customerManagement": {
+        "title": "Kundenverwaltungssystem",
+        "description": "Fügen Sie Ihre Kunden einfach hinzu, bearbeiten und löschen Sie sie und fügen Sie auch Guthaben hinzu."
+      },
+      "advancedCredit": {
+        "title": "Erweitertes Kreditsystem",
+        "description": "Passen Sie Guthaben an und ermöglichen Sie Ihren Kunden einen einfachen Kauf."
+      },
+      "evcControl": {
+        "title": "EVC-Steuerungs- und Verkaufssystem",
+        "description": "Fügen Sie Ihren Kunden über die EVC-API Guthaben hinzu und verwalten Sie deren Verkäufe."
+      },
+      "fileTracking": {
+        "title": "Dateiverfolgungssystem",
+        "description": "Bearbeiten Sie eingehende Dateien und überprüfen Sie deren Inhalte."
+      },
+      "languageOptions": {
+        "title": "16 verschiedene Sprachoptionen",
+        "description": "Nutzen Sie das System in 16 verschiedenen Sprachen, um ein globales Publikum zu erreichen."
+      },
+      "paymentMethods": {
+        "title": "6 verschiedene Zahlungsmethoden",
+        "description": "Unterstützt Zahlungsmethoden wie Paypal, Stripe, Mollie, Iyzico und BTC Coin."
+      },
+      "advancedInvoice": {
+        "title": "Erweitertes Rechnungssystem",
+        "description": "Verwalten Sie Ihre Transaktionen mit automatischen oder manuellen Abrechnungsoptionen."
+      },
+      "vehicleDatabase": {
+        "title": "17.583 Fahrzeugdatenbank",
+        "description": "Bieten Sie Ihren Kunden umfassende Informationen mit einer umfangreichen Fahrzeugdatenbank."
+      },
+      "supportSystem": {
+        "title": "Support-Anfragensystem",
+        "description": "Verwalten Sie die Support-Anfragen Ihrer Kunden ganz einfach."
+      },
+      "notifications": {
+        "title": "E-Mail- und SMS-Benachrichtigungen",
+        "description": "Erhalten Sie E-Mail- und SMS-Benachrichtigungen über Datei-Uploads und Support-Anfragen."
+      },
+      "discountSystem": {
+        "title": "Kundenrabattprogramm",
+        "description": "Fügen Sie spezielle Rabatte, Preiserhöhungen und zusätzliche Boni für Kundengruppen hinzu."
+      },
+      "andMore": {
+        "title": "und mehr...",
+        "description": "Bieten Sie mit 8 zusätzlichen Modulen ein professionelleres und benutzerfreundlicheres System."
+      }
     }
   }
 }

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -63,6 +64,9 @@ export default function Header() {
     >
       {/* Promo Banner */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-2 px-4 text-center text-xs sm:text-sm relative">
+        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-white/20 mr-2">
+          {promoT("promoLabel")}
+        </span>
         <span className="hidden xs:inline">{promoT("limitedOffer")}: </span>{promoT("offerText")}
         <Button variant="link" size="sm" className="text-white font-bold ml-1 sm:ml-2 p-0 sm:p-1 h-auto" asChild>
           <Link href="/pricing">{promoT("buyButton")} →</Link>
@@ -82,7 +86,14 @@ export default function Header() {
         <div className="flex h-14 sm:h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="font-bold text-base sm:text-xl">ECU Tuning Portal</span>
+              <Image 
+                src="/assets/images/logo/ecu.svg" 
+                alt="ECU Tuning Portal Logo" 
+                width={40} 
+                height={40} 
+                className="h-8 w-auto" 
+              />
+
             </Link>
           </div>
 
@@ -129,7 +140,7 @@ export default function Header() {
               {/* ModeToggle removed - using only dark mode */}
               <Button size="sm" className="h-8 text-xs sm:text-sm hidden sm:flex" asChild>
                 <Link href="/trial">
-                  Try it Free <ArrowRight className="ml-1 h-3 w-3" />
+                  {t("tryFree")} <ArrowRight className="ml-1 h-3 w-3" />
                 </Link>
               </Button>
             </div>
@@ -156,7 +167,6 @@ export default function Header() {
           <div className="container mx-auto px-4 py-6 space-y-0">
             <div className="flex items-center justify-between mb-4">
               <LanguageSwitcher variant="mobile" />
-              {/* ModeToggle removed - using only dark mode */}
             </div>
             
             <div className="grid grid-cols-1 gap-1">
@@ -183,7 +193,7 @@ export default function Header() {
             <div className="pt-6 pb-2">
               <Button className="w-full" asChild>
                 <Link href="/trial">
-                  Try it Free for 7 Days <ArrowRight className="ml-2 h-4 w-4" />
+                  {t("tryFree")} <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>

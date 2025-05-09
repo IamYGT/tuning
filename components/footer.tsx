@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import Image from "next/image"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
 import { Link } from "@/i18n/navigation"
 
@@ -15,7 +16,15 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8 sm:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-6">
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">ECU Tuning Portal</h3>
+            <div className="mb-3 sm:mb-4">
+              <Image 
+                src="/assets/images/logo/ecu.svg" 
+                alt="ECU Tuning Portal Logo" 
+                width={120} 
+                height={40} 
+                className="h-8 w-auto" 
+              />
+            </div>
             <p className="text-sm sm:text-base text-muted-foreground mb-4">
               {t("about")}
             </p>
@@ -53,7 +62,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">
-                  About Us
+                  {nav("corporate")}
                 </Link>
               </li>
               <li>
@@ -79,27 +88,27 @@ export default function Footer() {
             <ul className="grid gap-2 text-sm sm:text-base">
               <li>
                 <Link href="/help" className="text-muted-foreground hover:text-primary transition-colors">
-                  Help Center
+                  {t("helpCenter")}
                 </Link>
               </li>
               <li>
                 <Link href="/faq" className="text-muted-foreground hover:text-primary transition-colors">
-                  FAQ
+                  {t("faq")}
                 </Link>
               </li>
               <li>
                 <Link href="/documentation" className="text-muted-foreground hover:text-primary transition-colors">
-                  Documentation
+                  {t("documentation")}
                 </Link>
               </li>
               <li>
                 <Link href="/tutorials" className="text-muted-foreground hover:text-primary transition-colors">
-                  Video Tutorials
+                  {t("videoTutorials")}
                 </Link>
               </li>
               <li>
                 <Link href="/community" className="text-muted-foreground hover:text-primary transition-colors">
-                  Community Forum
+                  {t("communityForum")}
                 </Link>
               </li>
             </ul>
@@ -109,7 +118,7 @@ export default function Footer() {
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("subscribe")}</h3>
             <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{t("subscribeText")}</p>
             <div className="flex flex-col space-y-2">
-              <Input type="email" placeholder="Your email address" className="bg-background h-9 sm:h-10 text-sm" />
+              <Input type="email" placeholder={t("emailPlaceholder")} className="bg-background h-9 sm:h-10 text-sm" />
               <Button size="sm" className="h-9 sm:h-10 text-sm">{t("subscribeButton")}</Button>
             </div>
           </div>
@@ -127,7 +136,7 @@ export default function Footer() {
               {t("privacy")}
             </Link>
             <Link href="/cookies" className="text-muted-foreground hover:text-primary transition-colors">
-              Cookie Policy
+              {t("cookiePolicy")}
             </Link>
           </div>
         </div>

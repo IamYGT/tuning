@@ -3,40 +3,42 @@
 import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Star } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 interface Testimonial {
   id: number
-  name: string
-  company: string
+  nameKey: string
+  companyKey: string
   rating: number
-  text: string
+  textKey: string
 }
 
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "John Smith",
-    company: "Performance Tuning Ltd",
+    nameKey: "testimonial1.name",
+    companyKey: "testimonial1.company",
     rating: 5,
-    text: "This ECU tuning portal has completely transformed how we manage our tuning files and customer relationships. The interface is intuitive and the vehicle database is comprehensive.",
+    textKey: "testimonial1.text",
   },
   {
     id: 2,
-    name: "Maria Rodriguez",
-    company: "AutoTech Solutions",
+    nameKey: "testimonial2.name",
+    companyKey: "testimonial2.company",
     rating: 5,
-    text: "The credit system and billing features have made our business operations much more efficient. Customer support is excellent and always responsive.",
+    textKey: "testimonial2.text",
   },
   {
     id: 3,
-    name: "Thomas Weber",
-    company: "German Tuning Specialists",
+    nameKey: "testimonial3.name",
+    companyKey: "testimonial3.company",
     rating: 4,
-    text: "We've been using this platform for over a year now and it has significantly improved our workflow. The file management system is particularly impressive.",
+    textKey: "testimonial3.text",
   },
 ]
 
 export default function TestimonialCarousel() {
+  const t = useTranslations('home.testimonials');
 
   return (
     <section className="py-16 bg-background">
@@ -45,11 +47,16 @@ export default function TestimonialCarousel() {
           <span className="inline-block py-1 px-3 rounded-full bg-red-500/10 text-red-500 text-sm font-medium mb-3 shadow-md backdrop-blur-sm">
             <div className="flex items-center">
               <svg className="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 6V18M6 12H18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M7.39999 6.32003L15.89 3.49003C19.7 2.22003 21.77 4.30003 20.51 8.11003L17.68 16.6C15.78 22.31 12.66 22.31 10.76 16.6L9.91999 14.08L7.39999 13.24C1.68999 11.34 1.68999 8.23003 7.39999 6.32003Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M10.11 13.6501L13.69 10.0601" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              <span>MÜŞTERİ YORUMLARI</span>
+              <span>{t('title')}</span>
             </div>
           </span>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">{t('heading')}</h2>
+          <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+            {t('description')}
+          </p>
         </div>
         
         <div className="relative">
@@ -70,9 +77,9 @@ export default function TestimonialCarousel() {
                     />
                   ))}
                 </div>
-                <p className="text-sm sm:text-base mb-4">{testimonial.text}</p>
-                <h4 className="font-bold">{testimonial.name}</h4>
-                <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                <p className="text-sm sm:text-base mb-4">{t(testimonial.textKey)}</p>
+                <h4 className="font-bold">{t(testimonial.nameKey)}</h4>
+                <p className="text-sm text-muted-foreground">{t(testimonial.companyKey)}</p>
               </div>
             </CardContent>
           </Card>
@@ -97,9 +104,9 @@ export default function TestimonialCarousel() {
                         />
                       ))}
                     </div>
-                    <p className="text-sm sm:text-base mb-4">{testimonial.text}</p>
-                    <h4 className="font-bold">{testimonial.name}</h4>
-                    <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                    <p className="text-sm sm:text-base mb-4">{t(testimonial.textKey)}</p>
+                    <h4 className="font-bold">{t(testimonial.nameKey)}</h4>
+                    <p className="text-sm text-muted-foreground">{t(testimonial.companyKey)}</p>
                   </div>
                 </CardContent>
               </Card>

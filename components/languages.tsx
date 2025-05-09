@@ -1,7 +1,8 @@
 import Image from "next/image"
-
+import { useTranslations } from "next-intl"
 
 export default function Languages() {
+  const t = useTranslations('home.languages');
   const flags = [
     { code: "tr", name: "Türkçe" },
     { code: "en", name: "English" },
@@ -49,12 +50,12 @@ export default function Languages() {
                     <path d="M12 3C14.5013 5.46452 15.9228 8.66283 16 12C15.9228 15.3372 14.5013 18.5355 12 21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M12 3C9.49872 5.46452 8.07725 8.66283 8 12C8.07725 15.3372 9.49872 18.5355 12 21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                  <span>DİL DESTEĞİ</span>
+                  <span>{t('title')}</span>
                 </div>
               </span>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">16 Farklı Dil ile Uluslararası çalışın.</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">{t('heading')}</h2>
               <p className="text-lg text-gray-300 mb-8">
-                Sistemimizde bulunan 16 farklı dil ile bütün dünyadaki insanlara hitap edin.
+                {t('description')}
               </p>
 
               <div className="grid grid-cols-4 gap-3 sm:gap-4 mt-8">

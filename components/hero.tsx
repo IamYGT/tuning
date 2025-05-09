@@ -25,13 +25,19 @@ export default function Hero() {
 
       <div className="container relative z-30 px-4 py-16 mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="max-w-2xl mb-8 md:mb-0">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
-              {t('title')}
+          <div className="max-w-2xl mb-8 md:mb-0 text-center md:text-left">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-white">
+              {t('mainTitle')}
             </h1>
-            <p className="text-2xl md:text-3xl font-semibold mb-4 text-white">{t('subtitle')}</p>
-            <p className="text-xl mb-8 text-gray-300">
-              Take your business a step forward with the latest version! Manage your customer files more efficiently and optimize your business processes with this high-quality portal designed and developed by professionals.
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
+              {t('title')}
+            </h2>
+            <p className="text-xl md:text-2xl font-semibold mb-4 text-white">{t('subtitle')}</p>
+            <p className="text-lg mb-4 text-gray-300">
+              {t('description')}
+            </p>
+            <p className="text-lg mb-8 text-gray-300 font-bold">
+              {t('tagline')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>

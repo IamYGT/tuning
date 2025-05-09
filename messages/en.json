@@ -8,9 +8,11 @@
       "login": "Login",
       "register": "Register",
       "corporate": "Corporate",
-      "gallery": "Gallery"
+      "gallery": "Gallery",
+      "tryFree": "Try it Free"
     },
     "promo": {
+      "promoLabel": "SPECIAL OFFER",
       "limitedOffer": "Limited Time Offer",
       "offerText": "ECU Tuning Portal for €1399 instead of €1899",
       "buyButton": "Buy"
@@ -24,13 +26,23 @@
       "subscribeButton": "Subscribe",
       "copyright": " 2025 ECU Tuning Portal. All rights reserved.",
       "terms": "Terms of Service",
-      "privacy": "Privacy Policy"
+      "privacy": "Privacy Policy",
+      "helpCenter": "Help Center",
+      "faq": "FAQ",
+      "documentation": "Documentation",
+      "videoTutorials": "Video Tutorials",
+      "communityForum": "Community Forum",
+      "emailPlaceholder": "Your email address",
+      "cookiePolicy": "Cookie Policy"
     }
   },
   "home": {
     "hero": {
-      "title": "Advanced ECU Tuning Portal",
-      "subtitle": "Professional tuning file service portal for automotive specialists",
+      "mainTitle": "Professional File Service Portal",
+      "title": "ECU Tuning Portal v4.2",
+      "subtitle": "Take your business a step forward with the latest version!",
+      "description": "Manage your customer files more efficiently and optimize your business processes with this high-quality portal designed and developed by professionals.",
+      "tagline": "ECU Tuning Portal v4.2 is ready to take your business to the next level with its features equipped with the latest technology.",
       "cta": "Get Started",
       "secondaryCta": "Learn More"
     },
@@ -95,6 +107,9 @@
       "heading": "Work Internationally with 16 Different Languages",
       "description": "Appeal to people all over the world with 16 different languages in our system."
     },
+    "brands": {
+      "title": "Trusted by Leading Brands"
+    },
     "stats": {
       "title": "STATISTICS",
       "heading": "ECU Tuning Portal in Numbers",
@@ -107,13 +122,89 @@
     "testimonials": {
       "title": "CUSTOMER REVIEWS",
       "heading": "Our Customer Reviews",
-      "description": "Read our customers' experiences about our solutions trusted and preferred by tuning professionals."
+      "description": "Read our customers' experiences about our solutions trusted and preferred by tuning professionals.",
+      "testimonial1": {
+        "name": "John Smith",
+        "company": "Performance Tuning Ltd",
+        "text": "This ECU tuning portal has completely transformed how we manage our tuning files and customer relationships. The interface is intuitive and the vehicle database is comprehensive."
+      },
+      "testimonial2": {
+        "name": "Maria Rodriguez",
+        "company": "AutoTech Solutions",
+        "text": "The credit system and billing features have made our business operations much more efficient. Customer support is excellent and always responsive."
+      },
+      "testimonial3": {
+        "name": "Thomas Weber",
+        "company": "German Tuning Specialists",
+        "text": "We've been using this platform for over a year now and it has significantly improved our workflow. The file management system is particularly impressive."
+      }
     },
     "cta": {
       "title": "Try the Portal Now!",
       "description": "Take your business to the next level with ECU Tuning Portal! 19 modules equipped with the most advanced features designed to meet the needs of professionals. Manage your customer files more effectively and optimize your business processes with ECU Tuning Portal v4.2. Customer Management System, Advanced Credit System and more are waiting for you.",
       "primaryButton": "Try Free for 7 Days",
       "secondaryButton": "Contact Sales Team"
+    }
+  },
+  "Features": {
+    "hero": {
+      "title": "Our Features",
+      "description": "Discover all the powerful features that make ECU Tuning Portal the leading solution for automotive tuning professionals."
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "description": "Join thousands of satisfied customers who have elevated their business with our comprehensive solution.",
+      "buttonText": "View Pricing Plans"
+    },
+    "items": {
+      "customerManagement": {
+        "title": "Customer Management System",
+        "description": "Easily add, edit and delete your customers, and you can also add credits."
+      },
+      "advancedCredit": {
+        "title": "Advanced Credit System",
+        "description": "Customize credits and ensure your customers can purchase easily."
+      },
+      "evcControl": {
+        "title": "EVC Control & Sales System",
+        "description": "Add credits to your customers via the EVC API and manage their sales."
+      },
+      "fileTracking": {
+        "title": "File Tracking System",
+        "description": "Edit incoming files and check their content."
+      },
+      "languageOptions": {
+        "title": "16 Different Language Options",
+        "description": "Use the system in 16 different languages to reach a global audience."
+      },
+      "paymentMethods": {
+        "title": "6 Different Payment Methods",
+        "description": "Supports payment methods such as Paypal, Stripe, Mollie, Iyzico and BTC Coin."
+      },
+      "advancedInvoice": {
+        "title": "Advanced Billing System",
+        "description": "Manage your transactions with automatic or manual invoicing options."
+      },
+      "vehicleDatabase": {
+        "title": "17,583 Thousand Vehicle Data",
+        "description": "Provide your customers with comprehensive information using a wide vehicle database."
+      },
+      "supportSystem": {
+        "title": "Support Request System",
+        "description": "Easily manage your customers' support requests."
+      },
+      "notifications": {
+        "title": "Email and SMS Notifications",
+        "description": "Receive email and SMS notifications about file uploads and support requests."
+      },
+      "discountSystem": {
+        "title": "Customer Discount System",
+        "description": "Add special discounts, markups, and extra bonuses to customer groups."
+      },
+      "andMore": {
+        "title": "and more...",
+        "description": "Provide a more professional and user-friendly system with 8 additional modules."
+      }
     }
   }
 }

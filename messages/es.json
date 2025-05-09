@@ -8,9 +8,11 @@
       "login": "Iniciar sesión",
       "register": "Registrarse",
       "corporate": "Corporativo",
-      "gallery": "Galería"
+      "gallery": "Galería",
+      "tryFree": "Prueba gratuita"
     },
     "promo": {
+      "promoLabel": "OFERTA ESPECIAL",
       "limitedOffer": "Oferta por tiempo limitado",
       "offerText": "ECU Tuning Portal por €1399 en lugar de €1899",
       "buyButton": "Comprar"
@@ -24,15 +26,25 @@
       "subscribeButton": "Suscribirse",
       "copyright": "ECU Tuning Portal. Todos los derechos reservados.",
       "terms": "Términos de servicio",
-      "privacy": "Política de privacidad"
+      "privacy": "Política de privacidad",
+      "helpCenter": "Centro de ayuda",
+      "faq": "Preguntas frecuentes",
+      "documentation": "Documentación",
+      "videoTutorials": "Tutoriales en vídeo",
+      "communityForum": "Foro de la comunidad",
+      "emailPlaceholder": "Su dirección de correo electrónico",
+      "cookiePolicy": "Política de cookies"
     }
   },
   "home": {
     "hero": {
-      "title": "Portal de sintonización ECU avanzado",
-      "subtitle": "Portal de servicios de archivos de sintonización profesional para especialistas automotrices",
+      "mainTitle": "Portal de Servicio de Archivos Profesional",
+      "title": "ECU Tuning Portal v4.2",
+      "subtitle": "¡Lleve su empresa un paso adelante con la última versión!",
+      "description": "Gestione sus archivos de clientes de manera más eficiente y optimice sus procesos comerciales con este portal de alta calidad diseñado y desarrollado por profesionales.",
+      "tagline": "ECU Tuning Portal v4.2 está listo para llevar su negocio al siguiente nivel con sus funciones equipadas con la última tecnología.",
       "cta": "Comenzar",
-      "secondaryCta": "Más información"
+      "secondaryCta": "Saber más"
     },
     "features": {
       "title": "CARACTERÍSTICAS",
@@ -93,7 +105,10 @@
     "languages": {
       "title": "SOPORTE DE IDIOMAS",
       "heading": "Trabaje internacionalmente con 16 idiomas diferentes",
-      "description": "Dirija su mensaje a personas de todo el mundo con 16 idiomas diferentes en nuestro sistema."
+      "description": "Atraiga a personas de todo el mundo con 16 idiomas diferentes en nuestro sistema."
+    },
+    "brands": {
+      "title": "Confiado por marcas líderes"
     },
     "stats": {
       "title": "ESTADÍSTICAS",
@@ -107,13 +122,89 @@
     "testimonials": {
       "title": "OPINIONES DE CLIENTES",
       "heading": "Opiniones de nuestros clientes",
-      "description": "Lea las experiencias de nuestros clientes sobre nuestras soluciones confiables y preferidas por los profesionales de la sintonización."
+      "description": "Lea las experiencias de nuestros clientes sobre nuestras soluciones confiables y preferidas por los profesionales de la sintonización.",
+      "testimonial1": {
+        "name": "John Smith",
+        "company": "Performance Tuning Ltd",
+        "text": "Este portal de sintonización ECU ha transformado completamente la forma en que gestionamos nuestros archivos de sintonización y las relaciones con los clientes. La interfaz es intuitiva y la base de datos de vehículos es completa."
+      },
+      "testimonial2": {
+        "name": "Maria Rodriguez",
+        "company": "AutoTech Solutions",
+        "text": "El sistema de crédito y las funciones de facturación han hecho que nuestras operaciones comerciales sean mucho más eficientes. El soporte al cliente es excelente y siempre responde rápidamente."
+      },
+      "testimonial3": {
+        "name": "Thomas Weber",
+        "company": "German Tuning Specialists",
+        "text": "Hemos estado utilizando esta plataforma durante más de un año y ha mejorado significativamente nuestro flujo de trabajo. El sistema de gestión de archivos es particularmente impresionante."
+      }
     },
     "cta": {
       "title": "¡Pruebe el portal ahora!",
       "description": "¡Lleve su negocio al siguiente nivel con ECU Tuning Portal! 19 módulos equipados con las características más avanzadas diseñadas para satisfacer las necesidades de los profesionales. Gestione los archivos de sus clientes de manera más efectiva y optimice sus procesos comerciales con ECU Tuning Portal v4.2. Sistema de gestión de clientes, sistema avanzado de créditos y más le esperan.",
-      "primaryButton": "Prueba gratuita de 7 días",
-      "secondaryButton": "Contactar con el equipo de ventas"
+      "primaryButton": "Prueba gratuita por 7 días",
+      "secondaryButton": "Contactar al equipo de ventas"
+    }
+  },
+  "Features": {
+    "hero": {
+      "title": "Nuestras Características",
+      "description": "Descubra todas las potentes características que hacen de ECU Tuning Portal la solución líder para profesionales de la puesta a punto automotriz."
+    },
+    "cta": {
+      "title": "¿Listo para transformar su negocio?",
+      "description": "Únase a miles de clientes satisfechos que han elevado su negocio con nuestra solución integral.",
+      "buttonText": "Ver planes de precios"
+    },
+    "items": {
+      "customerManagement": {
+        "title": "Sistema de Gestión de Clientes",
+        "description": "Añada, edite y elimine fácilmente sus clientes, y también puede añadir créditos."
+      },
+      "advancedCredit": {
+        "title": "Sistema de Crédito Avanzado",
+        "description": "Personalice los créditos y asegúrese de que sus clientes puedan comprar fácilmente."
+      },
+      "evcControl": {
+        "title": "Sistema de Control y Ventas EVC",
+        "description": "Añada créditos a sus clientes a través de la API de EVC y gestione sus ventas."
+      },
+      "fileTracking": {
+        "title": "Sistema de Seguimiento de Archivos",
+        "description": "Edite los archivos entrantes y compruebe su contenido."
+      },
+      "languageOptions": {
+        "title": "16 Opciones de Idioma Diferentes",
+        "description": "Utilice el sistema en 16 idiomas diferentes para llegar a una audiencia global."
+      },
+      "paymentMethods": {
+        "title": "6 Métodos de Pago Diferentes",
+        "description": "Admite métodos de pago como Paypal, Stripe, Mollie, Iyzico y BTC Coin."
+      },
+      "advancedInvoice": {
+        "title": "Sistema de Facturación Avanzado",
+        "description": "Gestione sus transacciones con opciones de facturación automática o manual."
+      },
+      "vehicleDatabase": {
+        "title": "Base de Datos de 17.583 Vehículos",
+        "description": "Proporcione a sus clientes información completa utilizando una amplia base de datos de vehículos."
+      },
+      "supportSystem": {
+        "title": "Sistema de Solicitud de Soporte",
+        "description": "Gestione fácilmente las solicitudes de soporte de sus clientes."
+      },
+      "notifications": {
+        "title": "Notificaciones por Correo Electrónico y SMS",
+        "description": "Reciba notificaciones por correo electrónico y SMS sobre cargas de archivos y solicitudes de soporte."
+      },
+      "discountSystem": {
+        "title": "Sistema de Descuentos para Clientes",
+        "description": "Añada descuentos especiales, aumentos de precio y bonificaciones adicionales para grupos de clientes."
+      },
+      "andMore": {
+        "title": "y más...",
+        "description": "Proporcione un sistema más profesional y fácil de usar con 8 módulos adicionales."
+      }
     }
   }
 }

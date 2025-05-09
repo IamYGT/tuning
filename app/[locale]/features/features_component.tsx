@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { usePathname } from "next/navigation"
 import clsx from "clsx"
 import { Users, CreditCard, BarChart3, FileText, Languages, CreditCard as PaymentIcon, FileCheck, BarChart, MessageSquare, BellRing, Percent, MoreHorizontal } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 interface FeatureProps {
   title: string
@@ -55,8 +56,9 @@ const FeatureItem = ({
 }
 
 export default function Features() {
+  const t = useTranslations('Features.items');
   const pathname = usePathname()
-  const isFeaturePage = pathname === "/features"
+  const isFeaturePage = pathname.endsWith('/features')
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   
   useEffect(() => {
@@ -83,69 +85,57 @@ export default function Features() {
 
   const features = [
     {
-      title: "Customer Management System",
-      description: "Easily add, edit and delete your customers, and you can also add credits.",
+      key: "customerManagement",
       icon: <Users className="h-12 w-12 stroke-primary" />
     },
     {
-      title: "Advanced Credit System",
-      description: "Customize credits and ensure your customers can purchase easily.",
+      key: "advancedCredit",
       icon: <CreditCard className="h-12 w-12 stroke-primary" />,
       reverse: true
     },
     {
-      title: "EVC Control & Sales System",
-      description: "Add credits to your customers via the EVC API and manage their sales.",
+      key: "evcControl",
       icon: <BarChart3 className="h-12 w-12 stroke-primary" />
     },
     {
-      title: "File Tracking System",
-      description: "Edit incoming files and check their content.",
+      key: "fileTracking",
       icon: <FileText className="h-12 w-12 stroke-primary" />,
       reverse: true
     },
     {
-      title: "16 Different Language Options",
-      description: "Use the system in 16 different languages to reach a global audience.",
+      key: "languageOptions",
       icon: <Languages className="h-12 w-12 stroke-primary" />
     },
     {
-      title: "6 Different Payment Methods",
-      description: "Supports payment methods such as Paypal, Stripe, Mollie, Iyzico and BTC Coin.",
+      key: "paymentMethods",
       icon: <PaymentIcon className="h-12 w-12 stroke-primary" />,
       reverse: true
     },
     {
-      title: "Advanced Billing System",
-      description: "Manage your transactions with automatic or manual invoicing options.",
+      key: "advancedInvoice",
       icon: <BarChart className="h-12 w-12 stroke-primary" />,
       reverse: true
     },
     {
-      title: "17,583 Thousand Vehicle Data",
-      description: "Provide your customers with comprehensive information using a wide vehicle database.",
+      key: "vehicleDatabase",
       icon: <BarChart3 className="h-12 w-12 stroke-primary" />
     },
     {
-      title: "Support Request System",
-      description: "Easily manage your customers' support requests.",
+      key: "supportSystem",
       icon: <MessageSquare className="h-12 w-12 stroke-primary" />,
       reverse: true
     },
     {
-      title: "Email and SMS Notifications",
-      description: "Receive email and SMS notifications about file uploads and support requests.",
+      key: "notifications",
       icon: <BellRing className="h-12 w-12 stroke-primary" />
     },
     {
-      title: "Customer Discount System",
-      description: "Add special discounts, markups, and extra bonuses to customer groups.",
+      key: "discountSystem",
       icon: <Percent className="h-12 w-12 stroke-primary" />,
       reverse: true
     },
     {
-      title: "and more...",
-      description: "Provide a more professional and user-friendly system with 8 additional modules.",
+      key: "andMore",
       icon: <MoreHorizontal className="h-12 w-12 stroke-primary" />,
       reverse: true
     }
@@ -158,8 +148,8 @@ export default function Features() {
           <FeatureItem 
             key={index}
             index={index}
-            title={feature.title}
-            description={feature.description}
+            title={t(`${feature.key}.title`)}
+            description={t(`${feature.key}.description`)}
             icon={feature.icon}
             reverse={index % 2 === 0 ? false : true}
             animate={isFeaturePage}

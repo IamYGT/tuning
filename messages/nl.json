@@ -8,9 +8,11 @@
       "login": "Inloggen",
       "register": "Registreren",
       "corporate": "Zakelijk",
-      "gallery": "Galerij"
+      "gallery": "Galerij",
+      "tryFree": "Gratis proberen"
     },
     "promo": {
+      "promoLabel": "SPECIALE AANBIEDING",
       "limitedOffer": "Tijdelijke aanbieding",
       "offerText": "ECU Tuning Portal voor €1399 in plaats van €1899",
       "buyButton": "Kopen"
@@ -24,13 +26,23 @@
       "subscribeButton": "Abonneren",
       "copyright": "ECU Tuning Portal. Alle rechten voorbehouden.",
       "terms": "Servicevoorwaarden",
-      "privacy": "Privacybeleid"
+      "privacy": "Privacybeleid",
+      "helpCenter": "Helpcentrum",
+      "faq": "Veelgestelde vragen",
+      "documentation": "Documentatie",
+      "videoTutorials": "Videotutorials",
+      "communityForum": "Communityforum",
+      "emailPlaceholder": "Uw e-mailadres",
+      "cookiePolicy": "Cookiebeleid"
     }
   },
   "home": {
     "hero": {
-      "title": "Geavanceerd ECU-tuningportaal",
-      "subtitle": "Professioneel tuning-bestandsserviceportaal voor autospecialisten",
+      "mainTitle": "Professioneel Bestandsserviceportaal",
+      "title": "ECU Tuning Portal v4.2",
+      "subtitle": "Breng uw bedrijf een stap vooruit met de nieuwste versie!",
+      "description": "Beheer uw klantbestanden efficiënter en optimaliseer uw bedrijfsprocessen met dit hoogwaardige portaal dat is ontworpen en ontwikkeld door professionals.",
+      "tagline": "ECU Tuning Portal v4.2 is klaar om uw bedrijf naar een hoger niveau te tillen met zijn functies die zijn uitgerust met de nieuwste technologie.",
       "cta": "Aan de slag",
       "secondaryCta": "Meer informatie"
     },
@@ -95,6 +107,9 @@
       "heading": "Werk internationaal met 16 verschillende talen",
       "description": "Bereik mensen over de hele wereld met 16 verschillende talen in ons systeem."
     },
+    "brands": {
+      "title": "Vertrouwd door toonaangevende merken"
+    },
     "stats": {
       "title": "STATISTIEKEN",
       "heading": "ECU Tuning Portal in cijfers",
@@ -107,13 +122,89 @@
     "testimonials": {
       "title": "KLANTBEOORDELINGEN",
       "heading": "Beoordelingen van onze klanten",
-      "description": "Lees de ervaringen van onze klanten over onze oplossingen die worden vertrouwd en geprefereerd door tuning professionals."
+      "description": "Lees de ervaringen van onze klanten over onze oplossingen die worden vertrouwd en geprefereerd door tuning professionals.",
+      "testimonial1": {
+        "name": "John Smith",
+        "company": "Performance Tuning Ltd",
+        "text": "Dit ECU-tuningportaal heeft de manier waarop we onze tuningbestanden en klantrelaties beheren volledig getransformeerd. De interface is intuïtief en de voertuigendatabase is uitgebreid."
+      },
+      "testimonial2": {
+        "name": "Maria Rodriguez",
+        "company": "AutoTech Solutions",
+        "text": "Het kredietsysteem en de factureringsmogelijkheden hebben onze bedrijfsactiviteiten veel efficiënter gemaakt. De klantenservice is uitstekend en reageert altijd snel."
+      },
+      "testimonial3": {
+        "name": "Thomas Weber",
+        "company": "German Tuning Specialists",
+        "text": "We gebruiken dit platform nu al meer dan een jaar en het heeft onze workflow aanzienlijk verbeterd. Het bestandsbeheersysteem is bijzonder indrukwekkend."
+      }
     },
     "cta": {
       "title": "Probeer het portaal nu!",
       "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal! 19 modules uitgerust met de meest geavanceerde functies ontworpen om aan de behoeften van professionals te voldoen. Beheer uw klantbestanden effectiever en optimaliseer uw bedrijfsprocessen met ECU Tuning Portal v4.2. Klantbeheersysteem, Geavanceerd Creditsysteem en meer wachten op u.",
       "primaryButton": "7 dagen gratis proberen",
-      "secondaryButton": "Contact opnemen met het verkoopteam"
+      "secondaryButton": "Contact met verkoopteam"
+    }
+  },
+  "Features": {
+    "hero": {
+      "title": "Onze Functies",
+      "description": "Ontdek alle krachtige functies die ECU Tuning Portal de toonaangevende oplossing maken voor professionals in autotuning."
+    },
+    "cta": {
+      "title": "Klaar om uw bedrijf te transformeren?",
+      "description": "Sluit u aan bij duizenden tevreden klanten die hun bedrijf hebben verbeterd met onze uitgebreide oplossing.",
+      "buttonText": "Bekijk prijsplannen"
+    },
+    "items": {
+      "customerManagement": {
+        "title": "Klantbeheersysteem",
+        "description": "Voeg uw klanten eenvoudig toe, bewerk en verwijder ze, en u kunt ook tegoeden toevoegen."
+      },
+      "advancedCredit": {
+        "title": "Geavanceerd Tegoedsysteem",
+        "description": "Pas tegoeden aan en zorg ervoor dat uw klanten gemakkelijk kunnen kopen."
+      },
+      "evcControl": {
+        "title": "EVC Controle- en Verkoopsysteem",
+        "description": "Voeg tegoeden toe aan uw klanten via de EVC API en beheer hun verkopen."
+      },
+      "fileTracking": {
+        "title": "Bestandsvolgsysteem",
+        "description": "Bewerk binnenkomende bestanden en controleer hun inhoud."
+      },
+      "languageOptions": {
+        "title": "16 Verschillende Taalopties",
+        "description": "Gebruik het systeem in 16 verschillende talen om een wereldwijd publiek te bereiken."
+      },
+      "paymentMethods": {
+        "title": "6 Verschillende Betaalmethoden",
+        "description": "Ondersteunt betaalmethoden zoals Paypal, Stripe, Mollie, Iyzico en BTC Coin."
+      },
+      "advancedInvoice": {
+        "title": "Geavanceerd Facturatiesysteem",
+        "description": "Beheer uw transacties met automatische of handmatige facturatieopties."
+      },
+      "vehicleDatabase": {
+        "title": "17.583 Voertuigendatabase",
+        "description": "Bied uw klanten uitgebreide informatie met behulp van een uitgebreide voertuigendatabase."
+      },
+      "supportSystem": {
+        "title": "Ondersteuningsaanvraagsysteem",
+        "description": "Beheer eenvoudig de ondersteuningsaanvragen van uw klanten."
+      },
+      "notifications": {
+        "title": "E-mail en SMS-meldingen",
+        "description": "Ontvang e-mail- en SMS-meldingen over bestandsuploads en ondersteuningsaanvragen."
+      },
+      "discountSystem": {
+        "title": "Klantenkortingssysteem",
+        "description": "Voeg speciale kortingen, prijsverhogingen en extra bonussen toe voor klantengroepen."
+      },
+      "andMore": {
+        "title": "en meer...",
+        "description": "Bied een professioneler en gebruiksvriendelijker systeem met 8 extra modules."
+      }
     }
   }
 }

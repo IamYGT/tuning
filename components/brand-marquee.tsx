@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export default function BrandMarquee() {
+  const t = useTranslations('home.brands');
   const [width, setWidth] = useState(0)
   const brandImages = Array.from({ length: 20 }, (_, i) => `/assets/images/brand/${i + 1}.png.avif`)
   
@@ -22,7 +24,7 @@ export default function BrandMarquee() {
   return (
     <div className="overflow-hidden py-6">
       <div className="mb-4">
-        <h3 className="text-lg font-medium text-center text-gray-300 mb-4">Trusted by Leading Brands</h3>
+        <h3 className="text-lg font-medium text-center text-gray-300 mb-4">{t('title')}</h3>
       </div>
       <div className="marquee-container relative flex overflow-hidden">
         <motion.div
