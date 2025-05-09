@@ -1,6 +1,8 @@
 import { Users, FileText, Code, Clock } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export default function Stats() {
+  const t = useTranslations('home.stats');
   return (
     <section className="relative py-16 overflow-hidden bg-background">
       {/* Background effects matching hero section */}
@@ -19,12 +21,12 @@ export default function Stats() {
               <svg className="w-4 h-4 mr-1 animate-pulse" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 13V17M12 9V17M16 5V17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              <span>İSTATİSTİKLER</span>
+              <span>{t('title')}</span>
             </div>
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Rakamlarla ECU Tuning Portal</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">{t('heading')}</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Yılların deneyimi ve güvenilir hizmet kalitemizle binlerce müşteriye hizmet veriyoruz.
+            {t('description')}
           </p>
         </div>
         
@@ -34,28 +36,28 @@ export default function Stats() {
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-red-500/50 bg-black/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-red-500 hover:shadow-md hover:shadow-red-500/10">
             <Users className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 mb-2 sm:mb-3" />
             <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-1 sm:mb-2">2,500+</h3>
-            <p className="text-sm sm:text-base md:text-lg text-white">Happy Customers</p>
+            <p className="text-sm sm:text-base md:text-lg text-white">{t('customers')}</p>
           </div>
 
           {/* Stat Box 2 - Number of Files */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-red-500/50 bg-black/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-red-500 hover:shadow-md hover:shadow-red-500/10">
             <FileText className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 mb-2 sm:mb-3" />
             <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-1 sm:mb-2">15,000+</h3>
-            <p className="text-sm sm:text-base md:text-lg text-white">Number of Files</p>
+            <p className="text-sm sm:text-base md:text-lg text-white">{t('files')}</p>
           </div>
 
           {/* Stat Box 3 - Lines of Code */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-red-500/50 bg-black/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-red-500 hover:shadow-md hover:shadow-red-500/10">
             <Code className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 mb-2 sm:mb-3" />
             <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-1 sm:mb-2">500K+</h3>
-            <p className="text-sm sm:text-base md:text-lg text-white">Lines of Code</p>
+            <p className="text-sm sm:text-base md:text-lg text-white">{t('code')}</p>
           </div>
 
           {/* Stat Box 4 - Years of Experience */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-red-500/50 bg-black/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-red-500 hover:shadow-md hover:shadow-red-500/10">
             <Clock className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 mb-2 sm:mb-3" />
             <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-1 sm:mb-2">10+</h3>
-            <p className="text-sm sm:text-base md:text-lg text-white">Years of Experience</p>
+            <p className="text-sm sm:text-base md:text-lg text-white">{t('experience')}</p>
           </div>
 
         </div>

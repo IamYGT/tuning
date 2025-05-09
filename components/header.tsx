@@ -1,27 +1,28 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ModeToggle } from "./mode-toggle"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
-import { Menu, X, ChevronDown, ArrowRight } from "lucide-react"
-import { usePathname } from "next/navigation"
+import { Menu, X, ArrowRight } from "lucide-react"
+import { useTranslations } from "next-intl"
+import { Link, usePathname, useRouter } from "@/i18n/navigation"
+import { LanguageSwitcher } from "./language-switcher"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
+  const router = useRouter()
+  const t = useTranslations("common.navigation")
+  const promoT = useTranslations("common.promo")
   
   // Add CSS variable for header height to allow mobile menu to calculate height correctly
   useEffect(() => {
@@ -62,9 +63,9 @@ export default function Header() {
     >
       {/* Promo Banner */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-2 px-4 text-center text-xs sm:text-sm relative">
-        <span className="hidden xs:inline">Limited Time Offer: </span>ECU Tuning Portal for €1399 instead of €1899
+        <span className="hidden xs:inline">{promoT("limitedOffer")}: </span>{promoT("offerText")}
         <Button variant="link" size="sm" className="text-white font-bold ml-1 sm:ml-2 p-0 sm:p-1 h-auto" asChild>
-          <Link href="/pricing">Buy →</Link>
+          <Link href="/pricing">{promoT("buyButton")} →</Link>
         </Button>
         <Button
           variant="ghost"
@@ -91,67 +92,41 @@ export default function Header() {
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <Link href="/" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>Home</NavigationMenuLink>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("home")}</NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <Link href="/about" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>Corporate</NavigationMenuLink>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("corporate")}</NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <Link href="/features" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>Features</NavigationMenuLink>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("features")}</NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <Link href="/pricing" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>Pricing</NavigationMenuLink>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("pricing")}</NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <Link href="/gallery" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>Gallery</NavigationMenuLink>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("gallery")}</NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <Link href="/contact" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>Contact Us</NavigationMenuLink>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("contact")}</NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
 
             <div className="flex items-center ml-2 sm:ml-4 space-x-1 sm:space-x-2">
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm" className="flex items-center gap-1 h-8 px-2 text-xs sm:text-sm">
-                    <span className="fi fi-gb"></span>
-                    <span className="ml-1 hidden xs:inline">EN</span>
-                    <ChevronDown className="h-3 w-3 sm:h-4 sm:w-4" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                  <DropdownMenuItem>
-                    <span className="fi fi-gb mr-2"></span> English
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-de mr-2"></span> Deutsch
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-fr mr-2"></span> Français
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-es mr-2"></span> Español
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-tr mr-2"></span> Türkçe
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
+              <LanguageSwitcher variant="desktop" />
 
-              <ModeToggle />
-
+              {/* ModeToggle removed - using only dark mode */}
               <Button size="sm" className="h-8 text-xs sm:text-sm hidden sm:flex" asChild>
                 <Link href="/trial">
                   Try it Free <ArrowRight className="ml-1 h-3 w-3" />
@@ -180,53 +155,28 @@ export default function Header() {
         <div className="md:hidden bg-background border-b shadow-lg fixed top-[var(--header-height)] left-0 right-0 h-[calc(100vh-var(--header-height))] z-50 overflow-auto">
           <div className="container mx-auto px-4 py-6 space-y-0">
             <div className="flex items-center justify-between mb-4">
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm" className="flex items-center gap-1">
-                    <span className="fi fi-gb"></span>
-                    <span className="ml-1">EN</span>
-                    <ChevronDown className="h-4 w-4" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="start">
-                  <DropdownMenuItem>
-                    <span className="fi fi-gb mr-2"></span> English
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-de mr-2"></span> Deutsch
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-fr mr-2"></span> Français
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-es mr-2"></span> Español
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <span className="fi fi-tr mr-2"></span> Türkçe
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-              <ModeToggle />
+              <LanguageSwitcher variant="mobile" />
+              {/* ModeToggle removed - using only dark mode */}
             </div>
             
             <div className="grid grid-cols-1 gap-1">
               <Link href="/" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
-                <span className="text-base font-medium">Home</span>
+                <span className="text-base font-medium">{t("home")}</span>
               </Link>
               <Link href="/about" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
-                <span className="text-base font-medium">Corporate</span>
+                <span className="text-base font-medium">{t("corporate")}</span>
               </Link>
               <Link href="/features" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
-                <span className="text-base font-medium">Features</span>
+                <span className="text-base font-medium">{t("features")}</span>
               </Link>
               <Link href="/pricing" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
-                <span className="text-base font-medium">Pricing</span>
+                <span className="text-base font-medium">{t("pricing")}</span>
               </Link>
               <Link href="/gallery" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
-                <span className="text-base font-medium">Gallery</span>
+                <span className="text-base font-medium">{t("gallery")}</span>
               </Link>
               <Link href="/contact" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
-                <span className="text-base font-medium">Contact Us</span>
+                <span className="text-base font-medium">{t("contact")}</span>
               </Link>
             </div>
             

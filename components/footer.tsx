@@ -1,9 +1,15 @@
-import Link from "next/link"
+"use client"
+
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
+import { Link } from "@/i18n/navigation"
 
 export default function Footer() {
+  const t = useTranslations("common.footer");
+  const nav = useTranslations("common.navigation");
+  
   return (
     <footer className="bg-muted/30 border-t">
       <div className="container mx-auto px-4 py-8 sm:py-12">
@@ -11,7 +17,7 @@ export default function Footer() {
           <div>
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">ECU Tuning Portal</h3>
             <p className="text-sm sm:text-base text-muted-foreground mb-4">
-              Professional file service portal for ECU tuning specialists and automotive enthusiasts.
+              {t("about")}
             </p>
             <div className="flex flex-wrap gap-4 sm:gap-5">
               <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -38,11 +44,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Quick Links</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("links")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               <li>
                 <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
-                  Home
+                  {nav("home")}
                 </Link>
               </li>
               <li>
@@ -52,24 +58,24 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/features" className="text-muted-foreground hover:text-primary transition-colors">
-                  Features
+                  {nav("features")}
                 </Link>
               </li>
               <li>
                 <Link href="/pricing" className="text-muted-foreground hover:text-primary transition-colors">
-                  Pricing
+                  {nav("pricing")}
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  Contact
+                  {nav("contact")}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Support</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("resources")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               <li>
                 <Link href="/help" className="text-muted-foreground hover:text-primary transition-colors">
@@ -100,25 +106,25 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Newsletter</h3>
-            <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("subscribe")}</h3>
+            <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{t("subscribeText")}</p>
             <div className="flex flex-col space-y-2">
               <Input type="email" placeholder="Your email address" className="bg-background h-9 sm:h-10 text-sm" />
-              <Button size="sm" className="h-9 sm:h-10 text-sm">Subscribe</Button>
+              <Button size="sm" className="h-9 sm:h-10 text-sm">{t("subscribeButton")}</Button>
             </div>
           </div>
         </div>
 
         <div className="border-t border-border mt-6 sm:mt-8 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-xs sm:text-sm text-muted-foreground mb-4 sm:mb-0 text-center sm:text-left">
-            © {new Date().getFullYear()} ECU Tuning Portal. All rights reserved.
+            © {new Date().getFullYear()} {t("copyright")}
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs sm:text-sm">
             <Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
-              Terms of Service
+              {t("terms")}
             </Link>
             <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
-              Privacy Policy
+              {t("privacy")}
             </Link>
             <Link href="/cookies" className="text-muted-foreground hover:text-primary transition-colors">
               Cookie Policy

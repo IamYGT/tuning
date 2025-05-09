@@ -1,0 +1,119 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "login": "Login",
+      "register": "Register",
+      "corporate": "Corporate",
+      "gallery": "Gallery"
+    },
+    "promo": {
+      "limitedOffer": "Limited Time Offer",
+      "offerText": "ECU Tuning Portal for €1399 instead of €1899",
+      "buyButton": "Buy"
+    },
+    "footer": {
+      "about": "Professional file service portal for ECU tuning specialists and automotive enthusiasts.",
+      "links": "Quick Links",
+      "resources": "Resources",
+      "subscribe": "Subscribe to our newsletter",
+      "subscribeText": "Stay updated with our latest news and offers.",
+      "subscribeButton": "Subscribe",
+      "copyright": " 2025 ECU Tuning Portal. All rights reserved.",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Advanced ECU Tuning Portal",
+      "subtitle": "Professional tuning file service portal for automotive specialists",
+      "cta": "Get Started",
+      "secondaryCta": "Learn More"
+    },
+    "features": {
+      "title": "FEATURES",
+      "heading": "Our Features",
+      "description": "As a professional tuning file service portal, ECU Tuning Portal offers the most comprehensive service in the industry with 19 different features. Optimize your operations with efficiency and reliability.",
+      "cta": "Explore All Our Features",
+      "items": {
+        "customerManagement": {
+          "title": "Customer Management System",
+          "description": "Easily add, edit, delete your customers, and also add credits."
+        },
+        "advancedCredit": {
+          "title": "Advanced Credit System",
+          "description": "Customize credits and enable your customers to purchase easily."
+        },
+        "fileTracking": {
+          "title": "File Tracking System",
+          "description": "Edit incoming files and check their contents."
+        },
+        "advancedInvoice": {
+          "title": "Advanced Invoice System",
+          "description": "Manage your transactions with automatic or manual billing options."
+        },
+        "paymentMethods": {
+          "title": "6 Different Payment Methods",
+          "description": "Supports payment methods like Paypal, Stripe, Mollie, Iyzico, and BTC Coin."
+        },
+        "languageOptions": {
+          "title": "16 Different Language Options",
+          "description": "Use the system in 16 different languages to reach a global audience."
+        },
+        "notifications": {
+          "title": "Email and SMS Notifications",
+          "description": "Receive email and SMS notifications about file uploads and support requests."
+        },
+        "discountSystem": {
+          "title": "Customer Discount System",
+          "description": "Add special discounts, price increases, and extra bonuses for customer groups."
+        },
+        "supportSystem": {
+          "title": "Support Request System",
+          "description": "Easily manage your customers' support requests."
+        },
+        "evcControl": {
+          "title": "EVC Control and Sales System",
+          "description": "Add credits to your customers and manage their sales through EVC API."
+        },
+        "automaticDelivery": {
+          "title": "Automatic Delivery System",
+          "description": "Ensure files are automatically delivered when transactions are completed."
+        },
+        "vehicleDatabase": {
+          "title": "17,583 Vehicle Database",
+          "description": "Provide comprehensive information to your customers using an extensive vehicle database."
+        }
+      }
+    },
+    "languages": {
+      "title": "LANGUAGE SUPPORT",
+      "heading": "Work Internationally with 16 Different Languages",
+      "description": "Appeal to people all over the world with 16 different languages in our system."
+    },
+    "stats": {
+      "title": "STATISTICS",
+      "heading": "ECU Tuning Portal in Numbers",
+      "description": "We serve thousands of customers with years of experience and reliable service quality.",
+      "customers": "Happy Customers",
+      "files": "Number of Files",
+      "code": "Lines of Code",
+      "experience": "Years of Experience"
+    },
+    "testimonials": {
+      "title": "CUSTOMER REVIEWS",
+      "heading": "Our Customer Reviews",
+      "description": "Read our customers' experiences about our solutions trusted and preferred by tuning professionals."
+    },
+    "cta": {
+      "title": "Try the Portal Now!",
+      "description": "Take your business to the next level with ECU Tuning Portal! 19 modules equipped with the most advanced features designed to meet the needs of professionals. Manage your customer files more effectively and optimize your business processes with ECU Tuning Portal v4.2. Customer Management System, Advanced Credit System and more are waiting for you.",
+      "primaryButton": "Try Free for 7 Days",
+      "secondaryButton": "Contact Sales Team"
+    }
+  }
+}

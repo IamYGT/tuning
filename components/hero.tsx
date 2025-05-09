@@ -1,10 +1,13 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
-import Link from "next/link"
 import Image from "next/image"
 import BrandMarquee from "@/components/brand-marquee"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/navigation"
 
 export default function Hero() {
+  const t = useTranslations('home.hero');
+  
   return (
     <section className="relative w-full min-h-[600px] flex items-center overflow-hidden">
       {/* Dark background with layered red glowing radial effects */}
@@ -24,20 +27,20 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="max-w-2xl mb-8 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
-              Professional File Service Portal
+              {t('title')}
             </h1>
-            <p className="text-2xl md:text-3xl font-semibold mb-4 text-white">ECU Tuning Portal v4.2</p>
+            <p className="text-2xl md:text-3xl font-semibold mb-4 text-white">{t('subtitle')}</p>
             <p className="text-xl mb-8 text-gray-300">
               Take your business a step forward with the latest version! Manage your customer files more efficiently and optimize your business processes with this high-quality portal designed and developed by professionals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
                 <Link href="/register">
-                  Get Started <ArrowRight className="ml-2 h-4 w-4" />
+                  {t('cta')} <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="/pricing">View Pricing</Link>
+                <Link href="/pricing">{t('secondaryCta')}</Link>
               </Button>
             </div>
           </div>
