@@ -40,11 +40,11 @@ export default function PricingPage() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-16 bg-black">
+      <section className="py-16 bg-gradient-to-b from-muted/30 to-background">
         <div className="container px-4 mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto relative z-10">
             {/* Monthly Plan */}
-            <div className="relative rounded-lg p-6 flex flex-col h-full border border-zinc-800 bg-zinc-950">
+            <div className="relative rounded-lg p-6 flex flex-col h-full border border-zinc-800 bg-zinc-950 transform transition-all duration-300 hover:translate-y-[-5px]">
               <h3 className="text-center text-xl font-bold mb-4 text-gray-300">{t("monthly")}</h3>
               
               <div className="mb-6 text-center">
@@ -71,7 +71,7 @@ export default function PricingPage() {
             </div>
 
             {/* One-time Plan */}
-            <div className="relative rounded-lg p-6 flex flex-col h-full border-2 border-zinc-700 bg-zinc-950 ring-2 ring-primary/20">
+            <div className="relative rounded-lg p-6 flex flex-col h-full border-2 border-zinc-700 bg-zinc-950 ring-2 ring-primary/20 shadow-xl shadow-primary/20 transform transition-all duration-300 hover:translate-y-[-8px] md:scale-110 md:-translate-y-4 z-20">
               <div className="absolute -top-3 left-0 right-0 flex justify-center">
                 <div className="bg-primary text-white px-4 py-1 text-xs font-medium rounded-full">
                   {t("popular")}
@@ -104,7 +104,12 @@ export default function PricingPage() {
 
             {/* Yearly Plan */}
             
-            <div className="relative rounded-lg p-6 flex flex-col h-full border border-zinc-800 bg-zinc-950">
+            <div className="relative rounded-lg p-6 flex flex-col h-full border border-zinc-800 bg-zinc-950 transform transition-all duration-300 hover:translate-y-[-5px]">
+              <div className="absolute -top-3 left-0 right-0 flex justify-center">
+                <div className="bg-primary text-white px-4 py-1 text-xs font-medium rounded-full">
+                  {t("discount30")}
+                </div>
+              </div>
               <h3 className="text-center text-xl font-bold mb-4 text-gray-300">{t("yearly")}</h3>
               
               <div className="mb-6 text-center">
