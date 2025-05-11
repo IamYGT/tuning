@@ -146,6 +146,42 @@
       "secondaryButton": "Satış Ekibiyle İletişime Geçin"
     }
   },
+  "Pricing": {
+    "label": "Ecu Tuning Portal Fiyatları",
+    "title": "Avantajlı Fiyatlar ve Özel Teklifler",
+    "subtitle": "Chip tuning profesyonelleri için özel portal yazılımı. Rekabetçi fiyatlar ve gelişmiş özelliklerle işinizi büyütün. Avantajlı tekliflerimizi keşfedin.",
+    "monthly": "AYLIK",
+    "yearly": "YILLIK",
+    "oneTime": "TEK SEFERLİK",
+    "monthlyPrice": "299",
+    "yearlyPrice": "799",
+    "oneTimePrice": "1399",
+    "perMonth": "/ay",
+    "perYear": "/yıl",
+    "billedMonthly": "aylık faturalandırma",
+    "popular": "Popüler",
+    "discount30": "%30 İndirim",
+    "perfectForIndividuals": "Bireyler ve küçük projeler için idealdir",
+    "idealForGrowingTeams": "Büyüyen ekipler ve işletmeler için idealdir",
+    "forLargeOrganizations": "Özel ihtiyaçları olan büyük kuruluşlar için",
+    "contactSales": "Satış Ekibiyle İletişim",
+    "features": {
+      "unlimitedCustomers": "Sınırsız Müşteri",
+      "unlimitedFiles": "Sınırsız Dosya Sayısı",
+      "languages": "16 Farklı Dil Desteği",
+      "payment": "6 Farklı Ödeme Yöntemi",
+      "vehicles": "17.583 Bin Araç Verisi",
+      "pCodes": "4.407 P Kodları",
+      "boschCodes": "27.465 Bosch Kodları",
+      "supportSystem": "Gelişmiş Destek Sistemi",
+      "invoiceSystem": "Gelişmiş Fatura Sistemi",
+      "creditSystem": "Gelişmiş Kredi Yönetimi",
+      "notificationSystem": "Gelişmiş Duyuru Sistemi",
+      "techSupport": "7/24 Teknik Destek"
+    },
+    "buyButton": "SATIN AL"
+  },
+
   "Features": {
     "hero": {
       "title": "Özelliklerimiz",
@@ -205,6 +241,41 @@
         "title": "ve daha fazlası...",
         "description": "8 ek modül ile daha profesyonel ve kullanıcı dostu bir sistem sağlayın."
       }
+    }
+  },
+  "Contact": {
+    "titleLabel": "İletişime Geçin:",
+    "titleMain": "Profesyonel Destek",
+    "subtitle": "Size nasıl yardımcı olabiliriz?",
+    "contactInfo": {
+      "phoneTitle": "Telefon Numarası",
+      "phoneDesc": "Profesyonel destek için bizi arayın",
+      "emailTitle": "E-posta Adresi",
+      "emailDesc": "İstediğiniz zaman bize e-posta gönderin",
+      "addressTitle": "Ofis Adresi",
+      "addressDesc": "Ofisimizi ziyaret edin"
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "nameLabel": "Adınız",
+      "namePlaceholder": "Tam adınızı girin",
+      "emailLabel": "E-posta Adresiniz",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "subjectLabel": "Konu",
+      "subjectPlaceholder": "Bu ne hakkında?",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "submitButton": "Mesaj Gönder",
+      "successTitle": "Mesaj Gönderildi!",
+      "successMessage": "Mesajınız için teşekkür ederiz. En kısa sürede size geri döneceğiz."
+    },
+    "cta": {
+      "title": "Hemen Portalı Deneyin!",
+      "description": "Bizimle iletişime geçmekten çekinmeyin! Ecu Tuning Portal'ın sunduğu hizmetler ve modüller hakkında daha fazla bilgi almak için iletişim sayfamızı kullanabilirsiniz. E-posta, telefon veya doğrudan mesaj yoluyla bize ulaşın. Müşteri hizmetleri ekibimiz, sorularınıza en kısa sürede yanıt vermek için burada.",
+      "primaryButton": "7 Gün Ücretsiz Deneyin",
+      "secondaryButton": "Fiyat Planlarını Görüntüle",
+      "imageTitle": "ECU Tuning Portal",
+      "imageText": "Tuning işletmeniz için profesyonel çözümler"
     }
   }
 }

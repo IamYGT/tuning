@@ -146,6 +146,42 @@
       "secondaryButton": "Contactar al equipo de ventas"
     }
   },
+  "Pricing": {
+    "label": "Precios del Portal ECU Tuning",
+    "title": "Precios Ventajosos y Ofertas Especiales",
+    "subtitle": "Software de portal personalizado para profesionales de chip tuning. Precios competitivos y características avanzadas te esperan. Descubre nuestras ofertas ventajosas.",
+    "monthly": "MENSUAL",
+    "yearly": "ANUAL",
+    "oneTime": "PAGO ÚNICO",
+    "monthlyPrice": "299",
+    "yearlyPrice": "799",
+    "oneTimePrice": "1399",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "billedMonthly": "facturado mensualmente",
+    "popular": "Popular",
+    "discount30": "30% de Descuento",
+    "perfectForIndividuals": "Perfecto para individuos y proyectos pequeños",
+    "idealForGrowingTeams": "Ideal para equipos y empresas en crecimiento",
+    "forLargeOrganizations": "Para grandes organizaciones con necesidades específicas",
+    "contactSales": "Contactar con ventas",
+    "features": {
+      "unlimitedCustomers": "Clientes Ilimitados",
+      "unlimitedFiles": "Archivos Ilimitados",
+      "languages": "Soporte para 16 Idiomas Diferentes",
+      "payment": "6 Métodos de Pago Diferentes",
+      "vehicles": "17.583 Datos de Vehículos",
+      "pCodes": "4.407 Códigos P",
+      "boschCodes": "27.465 Códigos Bosch",
+      "supportSystem": "Sistema de Soporte Avanzado",
+      "invoiceSystem": "Sistema de Facturación Avanzado",
+      "creditSystem": "Gestión de Crédito Avanzada",
+      "notificationSystem": "Sistema de Notificaciones Avanzado",
+      "techSupport": "Soporte Técnico 24/7"
+    },
+    "buyButton": "COMPRAR AHORA"
+  },
+
   "Features": {
     "hero": {
       "title": "Nuestras Características",
@@ -205,6 +241,41 @@
         "title": "y más...",
         "description": "Proporcione un sistema más profesional y fácil de usar con 8 módulos adicionales."
       }
+    }
+  },
+  "Contact": {
+    "titleLabel": "Ponte en Contacto:",
+    "titleMain": "Soporte Profesional",
+    "subtitle": "¿Cómo podemos ayudarte?",
+    "contactInfo": {
+      "phoneTitle": "Número de Teléfono",
+      "phoneDesc": "Llámanos para soporte profesional",
+      "emailTitle": "Dirección de Correo Electrónico",
+      "emailDesc": "Envíanos un correo electrónico en cualquier momento",
+      "addressTitle": "Dirección de la Oficina",
+      "addressDesc": "Visita nuestra oficina"
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "Ingresa tu nombre completo",
+      "emailLabel": "Tu Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "¿De qué se trata?",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "¿Cómo podemos ayudarte?",
+      "submitButton": "Enviar Mensaje",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Gracias por tu mensaje. Nos pondremos en contacto contigo en breve."
+    },
+    "cta": {
+      "title": "¡Prueba el Portal Ahora!",
+      "description": "¡No dudes en contactarnos! Puedes utilizar nuestra página de contacto para obtener más información sobre los servicios y módulos que ofrece ECU Tuning Portal. Contáctanos por correo electrónico, teléfono o mensaje directo. Nuestro equipo de servicio al cliente está aquí para responder tus preguntas lo antes posible.",
+      "primaryButton": "Prueba Gratis por 7 Días",
+      "secondaryButton": "Ver Planes de Precios",
+      "imageTitle": "ECU Tuning Portal",
+      "imageText": "Soluciones profesionales para tu negocio de tuning"
     }
   }
 }

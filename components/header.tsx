@@ -57,10 +57,7 @@ export default function Header() {
 
   return (
     <header
-      className={cn(
-        "sticky top-0 z-50 w-full transition-all duration-200",
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b" : "bg-transparent",
-      )}
+      className="sticky top-0 z-50 w-full bg-slate-900 border-b border-slate-800 shadow-md"
     >
       {/* Promo Banner */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-2 px-4 text-center text-xs sm:text-sm relative">
@@ -89,64 +86,87 @@ export default function Header() {
               <Image 
                 src="/assets/images/logo/ecu.svg" 
                 alt="ECU Tuning Portal Logo" 
-                width={40} 
-                height={40} 
-                className="h-8 w-auto" 
+                width={52} 
+                height={52} 
+                className="h-10 w-auto md:h-12 transition-all duration-200" 
               />
 
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <Link href="/" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("home")}</NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="/about" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("corporate")}</NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="/features" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("features")}</NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="/pricing" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("pricing")}</NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="/gallery" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("gallery")}</NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="/contact" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("contact")}</NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
+          {/* Desktop Navigation - Show on large screens (lg and up) */}
+          <div className="hidden lg:flex items-center justify-between w-full pl-8">
+            <nav className="flex items-center space-x-1">
+              <NavigationMenu>
+                <NavigationMenuList className="flex flex-wrap">
+                  <NavigationMenuItem>
+                    <Link href="/" legacyBehavior passHref>
+                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("home")}</NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <Link href="/about" legacyBehavior passHref>
+                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("corporate")}</NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <Link href="/features" legacyBehavior passHref>
+                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("features")}</NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <Link href="/pricing" legacyBehavior passHref>
+                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("pricing")}</NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <Link href="/gallery" legacyBehavior passHref>
+                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("gallery")}</NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <Link href="/contact" legacyBehavior passHref>
+                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("contact")}</NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
+            </nav>
 
-            <div className="flex items-center ml-2 sm:ml-4 space-x-1 sm:space-x-2">
+            <div className="flex items-center space-x-2 sm:space-x-3 ml-4">
               <LanguageSwitcher variant="desktop" />
 
               {/* ModeToggle removed - using only dark mode */}
-              <Button size="sm" className="h-8 text-xs sm:text-sm hidden sm:flex" asChild>
+              <Button size="sm" className="h-8 text-xs sm:text-sm flex whitespace-nowrap" asChild>
                 <Link href="/trial">
                   {t("tryFree")} <ArrowRight className="ml-1 h-3 w-3" />
                 </Link>
               </Button>
             </div>
-          </nav>
+          </div>
+          
+          {/* Medium Screen Navigation - Show on medium screens (md) */}
+          <div className="hidden md:flex lg:hidden items-center ml-auto space-x-2">
+            <LanguageSwitcher variant="desktop" />
+            
+            <Button size="sm" className="h-8 text-xs sm:text-sm flex whitespace-nowrap" asChild>
+              <Link href="/trial">
+                {t("tryFree")} <ArrowRight className="ml-1 h-3 w-3" />
+              </Link>
+            </Button>
+            
+            <Button
+              variant="ghost"
+              size="icon"
+              aria-label="Toggle Menu"
+              className="ml-1"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X className="h-5 w-5 sm:h-6 sm:w-6" /> : <Menu className="h-5 w-5 sm:h-6 sm:w-6" />}
+            </Button>
+          </div>
 
-          {/* Mobile Navigation Toggle */}
+          {/* Mobile Navigation Toggle - Show on small screens (sm and below) */}
           <div className="md:hidden flex items-center">
             <Button
               variant="ghost"

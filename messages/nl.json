@@ -146,6 +146,41 @@
       "secondaryButton": "Contact met verkoopteam"
     }
   },
+  "Pricing": {
+    "label": "ECU Tuning Portal Prijzen",
+    "title": "Voordelige Prijzen en Speciale Aanbiedingen",
+    "subtitle": "Aangepaste portaalsoftware voor chip tuning professionals. Concurrerende prijzen en geavanceerde functies wachten op u. Ontdek onze voordelige aanbiedingen.",
+    "monthly": "MAANDELIJKS",
+    "yearly": "JAARLIJKS",
+    "oneTime": "EENMALIG",
+    "monthlyPrice": "299",
+    "yearlyPrice": "799",
+    "oneTimePrice": "1399",
+    "perMonth": "/maand",
+    "perYear": "/jaar",
+    "billedMonthly": "maandelijks gefactureerd",
+    "popular": "Populair",
+    "perfectForIndividuals": "Perfect voor individuen en kleine projecten",
+    "idealForGrowingTeams": "Ideaal voor groeiende teams en bedrijven",
+    "forLargeOrganizations": "Voor grote organisaties met specifieke behoeften",
+    "contactSales": "Contact verkoop",
+    "features": {
+      "unlimitedCustomers": "Onbeperkt Aantal Klanten",
+      "unlimitedFiles": "Onbeperkt Aantal Bestanden",
+      "languages": "Ondersteuning voor 16 Verschillende Talen",
+      "payment": "6 Verschillende Betaalmethoden",
+      "vehicles": "17.583 Voertuiggegevens",
+      "pCodes": "4.407 P-codes",
+      "boschCodes": "27.465 Bosch-codes",
+      "supportSystem": "Geavanceerd Ondersteuningssysteem",
+      "invoiceSystem": "Geavanceerd Facturatiesysteem",
+      "creditSystem": "Geavanceerd Kredietbeheer",
+      "notificationSystem": "Geavanceerd Notificatiesysteem",
+      "techSupport": "24/7 Technische Ondersteuning"
+    },
+    "buyButton": "NU KOPEN"
+  },
+
   "Features": {
     "hero": {
       "title": "Onze Functies",
@@ -205,6 +240,41 @@
         "title": "en meer...",
         "description": "Bied een professioneler en gebruiksvriendelijker systeem met 8 extra modules."
       }
+    }
+  },
+  "Contact": {
+    "titleLabel": "Neem Contact Op:",
+    "titleMain": "Professionele Ondersteuning",
+    "subtitle": "Hoe kunnen we u helpen?",
+    "contactInfo": {
+      "phoneTitle": "Telefoonnummer",
+      "phoneDesc": "Bel ons voor professionele ondersteuning",
+      "emailTitle": "E-mailadres",
+      "emailDesc": "Stuur ons op elk moment een e-mail",
+      "addressTitle": "Kantooradres",
+      "addressDesc": "Bezoek ons kantoor"
+    },
+    "form": {
+      "title": "Stuur ons een bericht",
+      "nameLabel": "Uw naam",
+      "namePlaceholder": "Voer uw volledige naam in",
+      "emailLabel": "Uw e-mail",
+      "emailPlaceholder": "Voer uw e-mailadres in",
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Waar gaat het over?",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Hoe kunnen we u helpen?",
+      "submitButton": "Bericht versturen",
+      "successTitle": "Bericht verzonden!",
+      "successMessage": "Bedankt voor uw bericht. We nemen zo spoedig mogelijk contact met u op."
+    },
+    "cta": {
+      "title": "Probeer het Portal Nu!",
+      "description": "Aarzel niet om contact met ons op te nemen! U kunt onze contactpagina gebruiken om meer informatie te krijgen over de diensten en modules die ECU Tuning Portal aanbiedt. Bereik ons via e-mail, telefoon of direct bericht. Ons klantenserviceteam staat klaar om uw vragen zo snel mogelijk te beantwoorden.",
+      "primaryButton": "7 Dagen Gratis Proberen",
+      "secondaryButton": "Prijsplannen Bekijken",
+      "imageTitle": "ECU Tuning Portal",
+      "imageText": "Professionele oplossingen voor uw tuningbedrijf"
     }
   }
 }

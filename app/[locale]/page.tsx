@@ -10,7 +10,7 @@ import {Link} from '@/i18n/navigation';
 
 
 export default function Home() {
-  const t = useTranslations('Index');
+  const t = useTranslations('home');
   return (
     <div className="flex flex-col w-full">
       <Hero />

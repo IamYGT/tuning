@@ -88,3 +88,22 @@
 .fi-tr {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDgwMCI+PHBhdGggZmlsbD0iI2UzMGExYSIgZD0iTTAgMGgxMjAwdjgwMEgweiIvPjxjaXJjbGUgY3g9IjQyNSIgY3k9IjQwMCIgcj0iMjAwIiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iNDc1IiBjeT0iNDAwIiByPSIxNjAiIGZpbGw9IiNlMzBhMWEiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJtNTgzLjMzNCAzMjAuMDU4IDg0LjQ0MyAyNTkuOTQ4LTIyMS4yMTMtMTYwLjcxNGgyNzMuNTRsLTIyMS4yMTMgMTYwLjcxNHoiLz48L3N2Zz4=");
 }
+
+/* Hide scrollbar for a clean look */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Disable animations on mobile devices */
+@media (max-width: 767px) {
+  .animate-fadeIn,
+  [class*="animate-"] {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
