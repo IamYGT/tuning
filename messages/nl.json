@@ -43,7 +43,7 @@
       "subtitle": "Breng uw bedrijf een stap vooruit met de nieuwste versie!",
       "description": "Beheer uw klantbestanden efficiënter en optimaliseer uw bedrijfsprocessen met dit hoogwaardige portaal dat is ontworpen en ontwikkeld door professionals.",
       "tagline": "ECU Tuning Portal v4.2 is klaar om uw bedrijf naar een hoger niveau te tillen met zijn functies die zijn uitgerust met de nieuwste technologie.",
-      "cta": "Aan de slag",
+      "cta": "7 dagen gratis proberen",
       "secondaryCta": "Meer informatie"
     },
     "features": {
@@ -183,7 +183,23 @@
       "paragraph7": "Bedankt dat u voor ons heeft gekozen. Met ECU Tuning Portal zetten we samen stappen naar de toekomst van automotieve technologieën.",
       "stat1": "Opgericht",
       "stat2": "Ondersteuning",
-      "stat3": "Klanten"
+      "stat3": "Klanten",
+      "brands": {
+        "title": "Onze Vertrouwde Merken"
+      },
+      "stats": {
+        "title": "Onze Statistieken",
+        "customers": "Tevreden Klanten",
+        "files": "Aantal Bestanden",
+        "code": "Regels Code",
+        "experience": "Jaren Ervaring"
+      },
+      "cta": {
+        "title": "Probeer het Portal Nu!",
+        "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal! 19 modules uitgerust met de meest geavanceerde functies ontworpen om aan de behoeften van professionals te voldoen. Beheer uw klantbestanden effectiever en optimaliseer uw bedrijfsprocessen met ECU Tuning Portal v4.2.",
+        "primaryButton": "7 dagen gratis proberen",
+        "secondaryButton": "Contact met Verkoopteam"
+      }
     }
   },
 

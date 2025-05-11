@@ -43,7 +43,7 @@
       "subtitle": "En güncel sürümle firmanızı bir adım öne taşıyın!",
       "description": "Profesyoneller tarafından tasarlanmış ve geliştirilmiş olan bu yüksek kaliteli portal ile müşteri dosyalarınızı daha verimli yönetin ve iş süreçlerinizi optimize edin.",
       "tagline": "Ecu Tuning Portal v4.2, son teknoloji ile donatılmış özellikleriyle işinizi bir üst seviyeye taşımak için hazır.",
-      "cta": "Başla",
+      "cta": "7 Gün Ücretsiz Deneyin",
       "secondaryCta": "Daha Fazla Bilgi"
     },
     "features": {
@@ -183,7 +183,23 @@
       "paragraph7": "Bizi tercih ettiğiniz için teşekkür ederiz. ECU Tuning Portal ile geleceğin otomotiv teknolojilerine birlikte adım atıyoruz.",
       "stat1": "Kuruluş",
       "stat2": "Destek",
-      "stat3": "Müşteri"
+      "stat3": "Müşteri",
+      "brands": {
+        "title": "Güvendiğimiz Markalar"
+      },
+      "stats": {
+        "title": "İstatistiklerimiz",
+        "customers": "Mutlu Müşteri",
+        "files": "Dosya Sayısı",
+        "code": "Kod Satırı",
+        "experience": "Yıllık Deneyim"
+      },
+      "cta": {
+        "title": "Hemen Portalı Deneyin!",
+        "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin.",
+        "primaryButton": "7 Gün Ücretsiz Deneyin",
+        "secondaryButton": "Satış Ekibiyle İletişime Geçin"
+      }
     }
   },
 

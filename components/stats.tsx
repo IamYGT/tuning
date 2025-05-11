@@ -56,7 +56,7 @@ export default function Stats() {
           {/* Stat Box 4 - Years of Experience */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-red-500/50 bg-black/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-red-500 hover:shadow-md hover:shadow-red-500/10">
             <Clock className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 mb-2 sm:mb-3" />
-            <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-1 sm:mb-2">10+</h3>
+            <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-1 sm:mb-2">8+</h3>
             <p className="text-sm sm:text-base md:text-lg text-white">{t('experience')}</p>
           </div>
 

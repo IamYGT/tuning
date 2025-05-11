@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Users, FileText, Code, Clock } from "lucide-react"
 
 export default function AboutPage() {
   const t = useTranslations("Corporate")
@@ -69,10 +69,10 @@ export default function AboutPage() {
             <div className="relative rounded-lg overflow-hidden bg-gradient-to-t from-muted/30 to-background">
               <div className="aspect-video relative">
                 <Image
-                  src="/assets/images/eculogo.png"
+                  src="/assets/images/logo.svg"
                   alt="ECU Tuning Portal Team"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-contain rounded-lg"
                 />
               </div>
               <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -88,6 +88,109 @@ export default function AboutPage() {
                   <div className="text-3xl font-bold text-primary mb-1">1000+</div>
                   <div className="text-sm text-muted-foreground">{t("content.stat3")}</div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Brand Logos Section */}
+      <section className="py-12 bg-muted/10">
+        <div className="container px-4 mx-auto">
+          <h2 className="text-2xl font-bold mb-8 text-center">{t("content.brands.title") || "Our Trusted Brands"}</h2>
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            {[...Array(20)].map((_, index) => (
+              <a 
+                key={index + 1} 
+                href="https://tuningwebsite.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group transition-all duration-300 flex items-center justify-center"
+              >
+                <div className="relative w-full h-12 sm:h-14 md:h-16 transition-all duration-300 group-hover:scale-110 group-hover:brightness-125">
+                  <Image
+                    src={`/assets/images/brand/${index + 1}.png.avif`}
+                    alt={`Brand Logo ${index + 1}`}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Stats Section */}
+      <section className="py-16 bg-gradient-to-b from-background to-slate-900">
+        <div className="container px-4 mx-auto">
+          <h2 className="text-2xl font-bold mb-10 text-center">{t("content.stats.title") || "Our Statistics"}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {/* Stat Box 1 - Happy Customers */}
+            <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/50 bg-slate-900/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-primary hover:shadow-md hover:shadow-primary/10">
+              <Users className="w-8 h-8 sm:w-10 sm:h-10 text-primary mb-2 sm:mb-3" />
+              <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-1 sm:mb-2">1000+</h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-300">{t("content.stats.customers") || "Happy Customers"}</p>
+            </div>
+
+            {/* Stat Box 2 - Number of Files */}
+            <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/50 bg-slate-900/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-primary hover:shadow-md hover:shadow-primary/10">
+              <FileText className="w-8 h-8 sm:w-10 sm:h-10 text-primary mb-2 sm:mb-3" />
+              <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-1 sm:mb-2">15,000+</h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-300">{t("content.stats.files") || "Number of Files"}</p>
+            </div>
+
+            {/* Stat Box 3 - Lines of Code */}
+            <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/50 bg-slate-900/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-primary hover:shadow-md hover:shadow-primary/10">
+              <Code className="w-8 h-8 sm:w-10 sm:h-10 text-primary mb-2 sm:mb-3" />
+              <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-1 sm:mb-2">500K+</h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-300">{t("content.stats.code") || "Lines of Code"}</p>
+            </div>
+
+            {/* Stat Box 4 - Years of Experience */}
+            <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/50 bg-slate-900/40 backdrop-blur-sm flex flex-col items-center text-center transition-all hover:border-primary hover:shadow-md hover:shadow-primary/10">
+              <Clock className="w-8 h-8 sm:w-10 sm:h-10 text-primary mb-2 sm:mb-3" />
+              <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-1 sm:mb-2">8+</h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-300">{t("content.stats.experience") || "Years of Experience"}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-red-900/70 to-orange-900/70">
+        <div className="container px-4 mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="w-full md:w-1/2 flex flex-col justify-center">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+                  {t("content.cta.title")}
+                </h2>
+                <p className="text-base sm:text-lg mb-8 text-gray-200">
+                  {t("content.cta.description")}
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button size="lg" variant="default" className="bg-white text-red-900 hover:bg-gray-200" asChild>
+                    <Link href="/register">
+                      {t("content.cta.primaryButton")} <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </Button>
+                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+                    <Link href="/contact">
+                      {t("content.cta.secondaryButton")}
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+              <div className="relative w-full max-w-md">
+                <Image 
+                  src="/assets/images/call.png.avif" 
+                  alt="Call to action" 
+                  width={500} 
+                  height={400} 
+                  className="rounded-lg shadow-xl"
+                />
               </div>
             </div>
           </div>

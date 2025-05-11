@@ -43,7 +43,7 @@
       "subtitle": "Bringen Sie Ihr Unternehmen mit der neuesten Version einen Schritt nach vorne!",
       "description": "Verwalten Sie Ihre Kundendateien effizienter und optimieren Sie Ihre Geschäftsprozesse mit diesem hochwertigen Portal, das von Fachleuten entworfen und entwickelt wurde.",
       "tagline": "ECU Tuning Portal v4.2 ist bereit, Ihr Unternehmen mit seinen mit neuester Technologie ausgestatteten Funktionen auf die nächste Stufe zu heben.",
-      "cta": "Loslegen",
+      "cta": "7 Tage kostenlos testen",
       "secondaryCta": "Mehr erfahren"
     },
     "features": {
@@ -183,7 +183,23 @@
       "paragraph7": "Vielen Dank, dass Sie sich für uns entschieden haben. Mit ECU Tuning Portal gehen wir gemeinsam in die Zukunft der Automobiltechnologien.",
       "stat1": "Gegründet",
       "stat2": "Support",
-      "stat3": "Kunden"
+      "stat3": "Kunden",
+      "brands": {
+        "title": "Unsere vertrauenswürdigen Marken"
+      },
+      "stats": {
+        "title": "Unsere Statistiken",
+        "customers": "Zufriedene Kunden",
+        "files": "Anzahl der Dateien",
+        "code": "Codezeilen",
+        "experience": "Jahre Erfahrung"
+      },
+      "cta": {
+        "title": "Testen Sie das Portal jetzt!",
+        "description": "Bringen Sie Ihr Unternehmen mit ECU Tuning Portal auf die nächste Stufe! 19 Module mit den fortschrittlichsten Funktionen, die auf die Bedürfnisse von Fachleuten zugeschnitten sind. Verwalten Sie Ihre Kundendateien effektiver und optimieren Sie Ihre Geschäftsprozesse mit ECU Tuning Portal v4.2.",
+        "primaryButton": "7 Tage kostenlos testen",
+        "secondaryButton": "Kontakt zum Vertriebsteam"
+      }
     }
   },
 

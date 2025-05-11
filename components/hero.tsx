@@ -48,6 +48,19 @@ export default function Hero() {
               <Button size="lg" variant="outline" asChild>
                 <Link href="/pricing">{t('secondaryCta')}</Link>
               </Button>
+              <Button size="lg" variant="outline" className="px-4" asChild>
+                <Link href="https://tuningwebsite.com" aria-label="Tuning Website">
+                  <Image 
+                    src="/assets/images/website.png" 
+                    alt="Tuning Website" 
+                    width={100} 
+                    height={100} 
+                    className="object-contain" 
+                  />
+                </Link>
+              </Button>
+
+
             </div>
           </div>
           
