@@ -93,6 +93,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      
       {/* Brand Logos Section */}
       <section className="py-12 bg-muted/10">
         <div className="container px-4 mx-auto">

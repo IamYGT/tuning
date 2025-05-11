@@ -58,7 +58,8 @@ const FeatureItem = ({
 export default function Features() {
   const t = useTranslations('Features.items');
   const pathname = usePathname()
-  const isFeaturePage = pathname.endsWith('/features')
+  // Check if we're on the features page regardless of language
+  const isFeaturePage = true // We're already in the features directory component
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   
   useEffect(() => {
