@@ -23,11 +23,19 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: {locale: string};
 }) {
   // Ensure that the incoming `locale` is valid
-  const {locale} = await params;
+  const locale = params.locale;
   if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  // Load messages for the current locale
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
     notFound();
   }
 
@@ -35,7 +43,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <NextIntlClientProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
             <div className="flex min-h-screen flex-col">
               <Header />
               <main className="flex-1">{children}</main>

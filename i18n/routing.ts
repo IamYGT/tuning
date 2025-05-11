@@ -7,7 +7,51 @@ export const routing = defineRouting({
   // Used when no locale matches
   defaultLocale: 'en',
 
-
- // kok dizinini kullan
+  // Use the root directory
   localePrefix: 'always',
+  // Define path mappings for different locales
+  pathnames: {
+    '/': {
+      en: '/',
+      tr: '/',
+      de: '/',
+      nl: '/',
+      es: '/'
+    },
+    '/about': {
+      en: '/about',
+      tr: '/hakkimizda',
+      de: '/uber-uns',
+      nl: '/over-ons',
+      es: '/sobre-nosotros'
+    },
+    '/contact': {
+      en: '/contact',
+      tr: '/iletisim',
+      de: '/kontakt',
+      nl: '/contact',
+      es: '/contacto'
+    },
+    '/features': {
+      en: '/features',
+      tr: '/ozellikler',
+      de: '/funktionen',
+      nl: '/functies',
+      es: '/caracteristicas'
+    },
+    '/pricing': {
+      en: '/pricing',
+      tr: '/fiyatlandirma',
+      de: '/preise',
+      nl: '/prijzen',
+      es: '/precios'
+    },
+    '/gallery': {
+      en: '/gallery',
+      tr: '/galeri',
+      de: '/galerie',
+      nl: '/galerij',
+      es: '/galeria'
+    }
+  },
 });

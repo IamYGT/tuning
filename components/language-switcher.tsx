@@ -62,8 +62,7 @@ export function LanguageSwitcher({ variant = "desktop" }: LanguageSwitcherProps)
           {locale === 'tr' && 'TR'}
           {locale === 'de' && 'DE'}
           {locale === 'nl' && 'NL'}
-          {locale === 'es' && 'ES'}
-        </span>
+          {locale === 'es' && 'ES'}        </span>
         <ChevronDown className={variant === "desktop" ? "h-3 w-3 sm:h-4 sm:w-4" : "h-4 w-4"} />
       </Button>
       
