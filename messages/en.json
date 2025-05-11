@@ -146,6 +146,47 @@
       "secondaryButton": "Contact Sales Team"
     }
   },
+  "Gallery": {
+    "title": "Our Gallery",
+    "subtitle": "Explore our portfolio of successful projects and customer vehicles",
+    "imageAlt": "Gallery image {index}",
+    "prevImage": "Previous image",
+    "nextImage": "Next image",
+    "goToImage": "Go to image {index}",
+    "clickToZoom": "Click to zoom",
+    "zoomedImage": "Zoomed image",
+    "closeZoom": "Close zoom view",
+    "cta": {
+      "title": "Ready to Enhance Your Tuning Business?",
+      "description": "Join thousands of tuning professionals who have transformed their business with our platform. Start your free trial today or explore our pricing options.",
+      "primaryButton": "Start Free Trial",
+      "secondaryButton": "View Pricing"
+    }
+  },
+
+  "Corporate": {
+    "hero": {
+      "label": "About ECU Tuning Portal",
+      "title": "Get to Know Us Better",
+      "description": "ECU Tuning Portal is a leading software solution designed specifically for automotive tuning professionals. Learn about our mission, vision, and the team behind our success.",
+      "primaryButton": "Contact Us",
+      "secondaryButton": "Learn More"
+    },
+    "content": {
+      "title": "ECU Tuning Portal: Leading the Future of Automotive Technology",
+      "paragraph1": "ECU Tuning Portal was established in 2016 with a vision to revolutionize the automotive world. Since then, we have maintained our leadership position in the chip tuning industry through continuous innovation and by constantly reshaping the sector.",
+      "paragraph2": "Our platform is equipped with cutting-edge technologies, offering unparalleled solutions to automotive professionals. Our advanced file management system, multilingual interface, and integrated payment solutions help optimize your business processes.",
+      "paragraph3": "Our team of experienced engineers continuously monitors the latest automotive trends and technologies. This way, we constantly update and improve our platform. Our goal is to always provide you with the most innovative and effective chip tuning solutions.",
+      "paragraph4": "At ECU Tuning Portal, we are not just a software provider, but also a business partner. We accompany our customers on their digital transformation journey, developing customized strategies for their needs. Security, performance, and user experience are our top priorities.",
+      "paragraph5": "To date, we have served thousands of automotive professionals worldwide and helped them grow their businesses. Customer satisfaction is paramount to us, which is why we offer 24/7 support services.",
+      "paragraph6": "Looking to the future, we continue our efforts to adapt to new trends such as electric vehicles and autonomous driving. As ECU Tuning Portal, we will continue to shape the future of automotive technology.",
+      "paragraph7": "Thank you for choosing us. With ECU Tuning Portal, we are stepping into the future of automotive technologies together.",
+      "stat1": "Founded",
+      "stat2": "Support",
+      "stat3": "Clients"
+    }
+  },
+
   "Pricing": {
     "label": "ECU Tuning Portal Pricing",
     "title": "Advantageous Prices and Special Offers",

@@ -146,6 +146,47 @@
       "secondaryButton": "Contact met verkoopteam"
     }
   },
+  "Gallery": {
+    "title": "Onze Galerij",
+    "subtitle": "Ontdek onze portfolio van succesvolle projecten en klantvoertuigen",
+    "imageAlt": "Galerijafbeelding {index}",
+    "prevImage": "Vorige afbeelding",
+    "nextImage": "Volgende afbeelding",
+    "goToImage": "Ga naar afbeelding {index}",
+    "clickToZoom": "Klik om te zoomen",
+    "zoomedImage": "Ingezoomde afbeelding",
+    "closeZoom": "Zoomweergave sluiten",
+    "cta": {
+      "title": "Klaar om uw tuningbedrijf te verbeteren?",
+      "description": "Sluit u aan bij duizenden tuningprofessionals die hun bedrijf hebben getransformeerd met ons platform. Start vandaag nog uw gratis proefversie of bekijk onze prijsopties.",
+      "primaryButton": "Gratis proefversie starten",
+      "secondaryButton": "Prijzen bekijken"
+    }
+  },
+
+  "Corporate": {
+    "hero": {
+      "label": "Over ECU Tuning Portal",
+      "title": "Leer ons beter kennen",
+      "description": "ECU Tuning Portal is een toonaangevende softwareoplossing die speciaal is ontworpen voor professionals in automotive tuning. Lees meer over onze missie, visie en het team achter ons succes.",
+      "primaryButton": "Neem contact op",
+      "secondaryButton": "Meer informatie"
+    },
+    "content": {
+      "title": "ECU Tuning Portal: Voorloper in Automotieve Technologie",
+      "paragraph1": "ECU Tuning Portal werd in 2016 opgericht met de visie om de automotieve wereld te revolutioneren. Sindsdien hebben we onze leidende positie in de chip tuning-industrie behouden door voortdurende innovatie en het constant hervormen van de sector.",
+      "paragraph2": "Ons platform is uitgerust met de nieuwste technologieën en biedt ongeëvenaarde oplossingen aan automotieve professionals. Ons geavanceerde bestandsbeheersysteem, meertalige interface en geïntegreerde betalingsoplossingen helpen u uw bedrijfsprocessen te optimaliseren.",
+      "paragraph3": "Ons team van ervaren ingenieurs houdt voortdurend de nieuwste automotieve trends en technologieën in de gaten. Op deze manier updaten en verbeteren we ons platform constant. Ons doel is om u altijd de meest innovatieve en effectieve chip tuning-oplossingen te bieden.",
+      "paragraph4": "Bij ECU Tuning Portal zijn we niet alleen een softwareleverancier, maar ook een zakenpartner. We begeleiden onze klanten op hun digitale transformatiereis en ontwikkelen op maat gemaakte strategieën voor hun behoeften. Veiligheid, prestaties en gebruikerservaring zijn onze topprioriteiten.",
+      "paragraph5": "Tot op heden hebben we duizenden automotieve professionals wereldwijd gediend en hen geholpen hun bedrijf te laten groeien. Klanttevredenheid is voor ons van het grootste belang, daarom bieden we 24/7 ondersteuningsdiensten.",
+      "paragraph6": "Met het oog op de toekomst zetten we onze inspanningen voort om ons aan te passen aan nieuwe trends zoals elektrische voertuigen en autonoom rijden. Als ECU Tuning Portal blijven we de toekomst van automotieve technologie vormgeven.",
+      "paragraph7": "Bedankt dat u voor ons heeft gekozen. Met ECU Tuning Portal zetten we samen stappen naar de toekomst van automotieve technologieën.",
+      "stat1": "Opgericht",
+      "stat2": "Ondersteuning",
+      "stat3": "Klanten"
+    }
+  },
+
   "Pricing": {
     "label": "ECU Tuning Portal Prijzen",
     "title": "Voordelige Prijzen en Speciale Aanbiedingen",

@@ -146,6 +146,47 @@
       "secondaryButton": "Satış Ekibiyle İletişime Geçin"
     }
   },
+  "Gallery": {
+    "title": "Galerimiz",
+    "subtitle": "Başarılı projelerimiz ve müşteri araçlarımızdan oluşan portfolyomuzu keşfedin",
+    "imageAlt": "Galeri resmi {index}",
+    "prevImage": "Önceki resim",
+    "nextImage": "Sonraki resim",
+    "goToImage": "Resim {index}'e git",
+    "clickToZoom": "Büyütmek için tıklayın",
+    "zoomedImage": "Büyütülmüş resim",
+    "closeZoom": "Büyütme görünümünü kapat",
+    "cta": {
+      "title": "Tuning İşinizi Geliştirmeye Hazır mısınız?",
+      "description": "Platformumuzla işlerini dönüştüren binlerce tuning uzmanına katılın. Bugün ücretsiz denemenizi başlatın veya fiyatlandırma seçeneklerimizi keşfedin.",
+      "primaryButton": "Ücretsiz Deneyin",
+      "secondaryButton": "Fiyatları Görüntüle"
+    }
+  },
+
+  "Corporate": {
+    "hero": {
+      "label": "ECU Tuning Portal Hakkında",
+      "title": "Bizi daha yakından tanıyın",
+      "description": "ECU Tuning Portal, otomotiv tuning profesyonelleri için özel olarak tasarlanmış lider bir yazılım çözümüdür. Misyonumuz, vizyonumuz ve başarımızın arkasındaki ekip hakkında bilgi edinin.",
+      "primaryButton": "Bize Ulaşın",
+      "secondaryButton": "Daha Fazla Bilgi"
+    },
+    "content": {
+      "title": "Ecu Tuning Portal Otomotiv Teknolojisinde Öncü: ECU Tuning'in Geleceğini Şekillendiriyoruz.",
+      "paragraph1": "ECU Tuning Portal, 2016 yılında otomotiv dünyasında devrim yaratma vizyonuyla yola çıktı. O günden bu yana, chip tuning endüstrisinde lider konumumuzu sürdürüyor ve sürekli yeniliklerle sektörü şekillendiriyoruz.",
+      "paragraph2": "Platformumuz, en son teknolojilerle donatılmış olup, otomotiv profesyonellerine benzersiz çözümler sunuyor. Gelişmiş dosya yönetim sistemimiz, çok dilli arayüzümüz ve entegre ödeme çözümlerimizle, iş süreçlerinizi optimize etmenize yardımcı oluyoruz.",
+      "paragraph3": "Deneyimli mühendislerden oluşan ekibimiz, sürekli olarak en son otomotiv trendlerini ve teknolojilerini takip ediyor. Bu sayede, platformumuzu sürekli güncelliyor ve geliştiriyoruz. Amacımız, size her zaman en yenilikçi ve etkili chip tuning çözümlerini sunmak.",
+      "paragraph4": "ECU Tuning Portal olarak, sadece bir yazılım sağlayıcısı değil, aynı zamanda bir iş ortağıyız. Müşterilerimizin dijital dönüşüm yolculuğunda yanlarında yer alıyor, onların ihtiyaçlarına özel stratejiler geliştiriyoruz. Güvenlik, performans ve kullanıcı deneyimi bizim için en önemli öncelikler.",
+      "paragraph5": "Bugüne kadar, dünya çapında binlerce otomotiv profesyoneline hizmet verdik ve onların işlerini büyütmelerine yardımcı olduk. Müşteri memnuniyeti bizim için her şeyden önemli ve bu nedenle 7/24 destek hizmeti sunuyoruz.",
+      "paragraph6": "Geleceğe baktığımızda, elektrikli araçlar ve otonom sürüş gibi yeni trendlere uyum sağlamak için çalışmalarımızı sürdürüyoruz. ECU Tuning Portal olarak, otomotiv teknolojisinin geleceğini şekillendirmeye devam edeceğiz.",
+      "paragraph7": "Bizi tercih ettiğiniz için teşekkür ederiz. ECU Tuning Portal ile geleceğin otomotiv teknolojilerine birlikte adım atıyoruz.",
+      "stat1": "Kuruluş",
+      "stat2": "Destek",
+      "stat3": "Müşteri"
+    }
+  },
+
   "Pricing": {
     "label": "Ecu Tuning Portal Fiyatları",
     "title": "Avantajlı Fiyatlar ve Özel Teklifler",
