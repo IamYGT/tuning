@@ -5,6 +5,8 @@ import "@/styles/features.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import BackToTop from "@/components/back-to-top"
+import WhatsAppButton from "@/components/whatsapp-button"
 import { Toaster } from "@/components/ui/toaster"
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
@@ -38,6 +40,8 @@ export default async function RootLayout({
               <Header />
               <main className="flex-1">{children}</main>
               <Footer />
+              <BackToTop />
+              <WhatsAppButton />
             </div>
             <Toaster />
           </NextIntlClientProvider>
