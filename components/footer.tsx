@@ -87,27 +87,27 @@ export default function Footer() {
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("resources")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               <li>
-                <Link href="/help" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
                   {t("helpCenter")}
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
                   {t("faq")}
                 </Link>
               </li>
               <li>
-                <Link href="/documentation" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
                   {t("documentation")}
                 </Link>
               </li>
               <li>
-                <Link href="/tutorials" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
                   {t("videoTutorials")}
                 </Link>
               </li>
               <li>
-                <Link href="/community" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
                   {t("communityForum")}
                 </Link>
               </li>
