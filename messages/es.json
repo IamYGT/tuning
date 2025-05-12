@@ -9,7 +9,7 @@
       "register": "Registrarse",
       "corporate": "Corporativo",
       "gallery": "Galería",
-      "tryFree": "Prueba gratuita"
+      "tryFree": "Prueba gratis por 7 días"
     },
     "promo": {
       "promoLabel": "OFERTA ESPECIAL",
@@ -318,8 +318,8 @@
       "namePlaceholder": "Ingresa tu nombre completo",
       "emailLabel": "Tu Correo Electrónico",
       "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
-      "subjectLabel": "Asunto",
-      "subjectPlaceholder": "¿De qué se trata?",
+      "phoneLabel": "Número de Teléfono",
+      "phonePlaceholder": "Ingresa tu número de teléfono",
       "messageLabel": "Mensaje",
       "messagePlaceholder": "¿Cómo podemos ayudarte?",
       "submitButton": "Enviar Mensaje",

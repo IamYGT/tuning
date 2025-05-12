@@ -9,7 +9,7 @@
       "register": "Registrieren",
       "corporate": "Unternehmen",
       "gallery": "Galerie",
-      "tryFree": "Kostenlos testen"
+      "tryFree": "7 Tage kostenlos testen"
     },
     "promo": {
       "promoLabel": "SONDERANGEBOT",
@@ -318,8 +318,8 @@
       "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
       "emailLabel": "Ihre E-Mail",
       "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
-      "subjectLabel": "Betreff",
-      "subjectPlaceholder": "Worum geht es?",
+      "phoneLabel": "Telefonnummer",
+      "phonePlaceholder": "Geben Sie Ihre Telefonnummer ein",
       "messageLabel": "Nachricht",
       "messagePlaceholder": "Wie können wir Ihnen helfen?",
       "submitButton": "Nachricht senden",

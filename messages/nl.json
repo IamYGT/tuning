@@ -9,7 +9,7 @@
       "register": "Registreren",
       "corporate": "Zakelijk",
       "gallery": "Galerij",
-      "tryFree": "Gratis proberen"
+      "tryFree": "7 dagen gratis proberen"
     },
     "promo": {
       "promoLabel": "SPECIALE AANBIEDING",
@@ -318,8 +318,8 @@
       "namePlaceholder": "Voer uw volledige naam in",
       "emailLabel": "Uw e-mail",
       "emailPlaceholder": "Voer uw e-mailadres in",
-      "subjectLabel": "Onderwerp",
-      "subjectPlaceholder": "Waar gaat het over?",
+      "phoneLabel": "Telefoonnummer",
+      "phonePlaceholder": "Voer uw telefoonnummer in",
       "messageLabel": "Bericht",
       "messagePlaceholder": "Hoe kunnen we u helpen?",
       "submitButton": "Bericht versturen",

@@ -9,7 +9,7 @@
       "register": "Kayıt",
       "corporate": "Kurumsal",
       "gallery": "Galeri",
-      "tryFree": "Ücretsiz Deneyin"
+      "tryFree": "7 Gün Ücretsiz Deneyin"
     },
     "promo": {
       "promoLabel": "ÖZEL TEKLİF",
@@ -194,6 +194,19 @@
         "code": "Kod Satırı",
         "experience": "Yıllık Deneyim"
       },
+      "video": {
+        "title": "Yüksek performans",
+        "subtitle": "Kolay yönetim.",
+        "feature1": {
+          "title": "Kolay Müşteri Yönetimi",
+          "description": "Müşterilerin dosyalarını inceleyebilir, kredilerini görebilir, destek sisteminde ne yazdıklarını görebilirsiniz. Ayrıca kredi ekleyebilir veya silebilirsiniz."
+        },
+        "feature2": {
+          "title": "16 Farklı Dil Desteği",
+          "description": "Sistemimiz İngilizce, İspanyolca, Almanca, Hollandaca, Rusça, Arapça, Portekizce, Fransızca, İbranice, İtalyanca, Slovakça, Macarca, Çekçe, Lehçe, Yunanca ve Türkçe dillerine entegre edilmiştir."
+        },
+        "primaryButton": "7 Gün Ücretsiz Deneyin"
+      },
       "cta": {
         "title": "Hemen Portalı Deneyin!",
         "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin.",
@@ -300,6 +313,39 @@
       }
     }
   },
+  "Trial": {
+    "subtitle": "Profesyonel ECU Tuning Dosya Yönetimi",
+    "description": "ECU Tuning Portal'ın gücünü 7 gün boyunca ücretsiz deneyimleyin. İş akışınızı düzenleyin, dosya yönetimini geliştirin ve gelişmiş sistemimizle tuning süreçlerinizi devrimleştirin.",
+    "features": {
+      "fileManagement": {
+        "title": "Gelişmiş Dosya Yönetimi",
+        "description": "Güçlü sistemimizle tuning dosyalarını verimli bir şekilde düzenleyin, saklayın ve işleyin."
+      },
+      "customerTools": {
+        "title": "Müşteri İlişkileri Araçları",
+        "description": "Müşteri etkileşimlerini yönetin, talepleri takip edin ve iletişimi geliştirin."
+      },
+      "secureData": {
+        "title": "Güvenli Veri İşleme",
+        "description": "Değerli tuning dosyalarınızı ve müşteri verilerinizi kurumsal düzeyde güvenlikle koruyun."
+      }
+    },
+    "startNowButton": "Hemen Başla!",
+    "form": {
+      "title": "Ücretsiz Denemenizi Başlatın",
+      "namePlaceholder": "Adınız",
+      "phonePlaceholder": "Telefon numaranız",
+      "emailPlaceholder": "E-Posta Adresiniz",
+      "messagePlaceholder": "Mesajınız",
+      "submitButton": "GÖNDER",
+      "submittingButton": "Gönderiliyor...",
+      "successTitle": "Talep Alındı",
+      "successMessage": "İlginiz için teşekkürler! Deneme erişim bilgilerinizle kısa süre içinde sizinle iletişime geçeceğiz.",
+      "errorTitle": "Gönderim Hatası",
+      "errorMessage": "Talebinizi gönderirken bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
+      "privacyNotice": "Bu formu göndererek, gizlilik politikamızı ve hizmet şartlarımızı kabul etmiş olursunuz."
+    }
+  },
   "Contact": {
     "titleLabel": "İletişime Geçin:",
     "titleMain": "Profesyonel Destek",
@@ -318,8 +364,8 @@
       "namePlaceholder": "Tam adınızı girin",
       "emailLabel": "E-posta Adresiniz",
       "emailPlaceholder": "E-posta adresinizi girin",
-      "subjectLabel": "Konu",
-      "subjectPlaceholder": "Bu ne hakkında?",
+      "phoneLabel": "Telefon Numarası",
+      "phonePlaceholder": "Telefon numaranızı girin",
       "messageLabel": "Mesaj",
       "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
       "submitButton": "Mesaj Gönder",

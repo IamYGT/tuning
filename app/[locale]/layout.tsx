@@ -15,7 +15,19 @@ import {routing} from '@/i18n/routing';
 
 export const metadata: Metadata = {
   title: "Advanced ECU Tuning Portal",
-  description: "Professional ECU tuning portal for automotive tuning professionals"
+  description: "Professional ECU tuning portal for automotive tuning professionals",
+  icons: {
+    icon: [
+      { url: '/favicon/ecutuning/favicon.ico' },
+      { url: '/favicon/ecutuning/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon/ecutuning/apple-touch-icon.png' }
+    ],
+    other: [
+      { rel: 'manifest', url: '/favicon/ecutuning/site.webmanifest' },
+    ]
+  }
 }
 
 export default async function RootLayout({

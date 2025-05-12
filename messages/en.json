@@ -9,7 +9,7 @@
       "register": "Register",
       "corporate": "Corporate",
       "gallery": "Gallery",
-      "tryFree": "Try it Free"
+      "tryFree": "Try Free for 7 Days"
     },
     "promo": {
       "promoLabel": "SPECIAL OFFER",
@@ -194,6 +194,19 @@
         "code": "Lines of Code",
         "experience": "Years of Experience"
       },
+      "video": {
+        "title": "High performance",
+        "subtitle": "Easy to manage.",
+        "feature1": {
+          "title": "Easy Customer Management",
+          "description": "You can examine the files of the customers, see their credits, see what they wrote in the support system. You can also add or delete credits."
+        },
+        "feature2": {
+          "title": "16 Different Language Support",
+          "description": "Our system is integrated into English, Spanish, German, Dutch, Russian, Arabic, Portuguese, French, Hebrew, Italian, Slovak, Hungarian, Czech, Polish, Greek and Turkish languages."
+        },
+        "primaryButton": "7-Day Free Trial"
+      },
       "cta": {
         "title": "Try the Portal Now!",
         "description": "Take your business to the next level with ECU Tuning Portal! 19 modules equipped with the most advanced features designed to meet the needs of professionals. Manage your customer files more effectively and optimize your business processes with ECU Tuning Portal v4.2.",
@@ -300,6 +313,39 @@
       }
     }
   },
+  "Trial": {
+    "subtitle": "Professional ECU Tuning File Management",
+    "description": "Experience the power of ECU Tuning Portal for 7 days at no cost. Streamline your workflow, enhance file management, and revolutionize your tuning processes with our advanced system.",
+    "features": {
+      "fileManagement": {
+        "title": "Advanced File Management",
+        "description": "Organize, store, and process tuning files efficiently with our powerful system."
+      },
+      "customerTools": {
+        "title": "Customer Relationship Tools",
+        "description": "Manage client interactions, track requests, and improve communication."
+      },
+      "secureData": {
+        "title": "Secure Data Handling",
+        "description": "Keep your valuable tuning files and customer data protected with enterprise-grade security."
+      }
+    },
+    "startNowButton": "Start Now!",
+    "form": {
+      "title": "Start Your Free Trial",
+      "namePlaceholder": "Your name",
+      "phonePlaceholder": "Your phone number",
+      "emailPlaceholder": "E-Mail Address",
+      "messagePlaceholder": "Your Message",
+      "submitButton": "SEND",
+      "submittingButton": "Sending...",
+      "successTitle": "Request Received",
+      "successMessage": "Thanks for your interest! We'll contact you shortly with your trial access details.",
+      "errorTitle": "Submission Error",
+      "errorMessage": "There was a problem submitting your request. Please try again later.",
+      "privacyNotice": "By submitting this form, you agree to our privacy policy and terms of service."
+    }
+  },
   "Contact": {
     "titleLabel": "Get in Touch:",
     "titleMain": "Professional Support",
@@ -318,8 +364,8 @@
       "namePlaceholder": "Enter your full name",
       "emailLabel": "Your Email",
       "emailPlaceholder": "Enter your email address",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this regarding?",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
       "messageLabel": "Message",
       "messagePlaceholder": "How can we help you?",
       "submitButton": "Send Message",

@@ -41,7 +41,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <Link href="/register">
+                <Link href="/trial">
                   {t('cta')} <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -49,7 +49,7 @@ export default function Hero() {
                 <Link href="/pricing">{t('secondaryCta')}</Link>
               </Button>
               <Button size="lg" variant="outline" className="px-4" asChild>
-                <Link href="https://tuningwebsite.com" aria-label="Tuning Website">
+                <Link href="https://tuningwebsite.com" aria-label="Tuning Website" target="_blank" rel="noopener noreferrer">
                   <Image 
                     src="/assets/images/website.png" 
                     alt="Tuning Website" 

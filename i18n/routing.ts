@@ -52,6 +52,13 @@ export const routing = defineRouting({
       de: '/galerie',
       nl: '/galerij',
       es: '/galeria'
+    },
+    '/trial': {
+      en: '/trial',
+      tr: '/deneme',
+      de: '/test',
+      nl: '/probeer',
+      es: '/prueba'
     }
   },
 });

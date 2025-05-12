@@ -15,7 +15,7 @@ export default function CTASection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" variant="default" className="bg-white text-red-900 hover:bg-gray-200" asChild>
-            <Link href="/register">
+            <Link href="/trial">
               {t('primaryButton')} <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>

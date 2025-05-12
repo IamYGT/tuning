@@ -129,7 +129,7 @@ export default function PricingPage() {
               </div>
               
               <Button variant="outline" size="lg" className="w-full border-primary text-primary hover:bg-primary/10 mt-auto">
-                <Link href="/contact" className="w-full">
+                <Link href="/trial" className="w-full">
                   {t("buyButton")}
                 </Link>
               </Button>
