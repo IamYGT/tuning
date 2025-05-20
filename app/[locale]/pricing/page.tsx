@@ -64,7 +64,7 @@ export default function PricingPage() {
               </div>
               
               <Button variant="outline" size="lg" className="w-full border-primary text-primary hover:bg-primary/10 mt-auto">
-                <Link href="/trial" className="w-full">
+                <Link href={`https://wa.me/905466367027?text=Merhaba,%20${t("monthly")}%20paket%20hakkında%20bilgi%20almak%20istiyorum.`} target="_blank" rel="noopener noreferrer" className="w-full">
                   {t("buyButton")} →
                 </Link>
               </Button>
@@ -96,7 +96,7 @@ export default function PricingPage() {
               </div>
               
               <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-white mt-auto">
-                <Link href="/trial" className="w-full">
+                <Link href={`https://wa.me/905466367027?text=Merhaba,%20${t("oneTime")}%20paket%20hakkında%20bilgi%20almak%20istiyorum.`} target="_blank" rel="noopener noreferrer" className="w-full">
                   {t("buyButton")} →
                 </Link>
               </Button>
@@ -129,8 +129,8 @@ export default function PricingPage() {
               </div>
               
               <Button variant="outline" size="lg" className="w-full border-primary text-primary hover:bg-primary/10 mt-auto">
-                <Link href="/trial" className="w-full">
-                  {t("buyButton")}
+                <Link href={`https://wa.me/905466367027?text=Merhaba,%20${t("yearly")}%20paket%20hakkında%20bilgi%20almak%20istiyorum.`} target="_blank" rel="noopener noreferrer" className="w-full">
+                  {t("buyButton")} →
                 </Link>
               </Button>
             </div>

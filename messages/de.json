@@ -300,6 +300,43 @@
       }
     }
   },
+  "Trial": {
+    "title": {
+      "days": "7 Tage",
+      "tryFree": "Kostenlos testen"
+    },
+    "subtitle": "Professionelles ECU-Tuning-Dateimanagement",
+    "description": "Erleben Sie die Leistungsfähigkeit des ECU Tuning Portals 7 Tage lang kostenlos. Optimieren Sie Ihren Arbeitsablauf, verbessern Sie die Dateiverwaltung und revolutionieren Sie Ihre Tuning-Prozesse mit unserem fortschrittlichen System.",
+    "features": {
+      "fileManagement": {
+        "title": "Fortschrittliches Dateimanagement",
+        "description": "Organisieren, speichern und verarbeiten Sie Tuning-Dateien effizient mit unserem leistungsstarken System."
+      },
+      "customerTools": {
+        "title": "Kundenbeziehungstools",
+        "description": "Verwalten Sie Kundeninteraktionen, verfolgen Sie Anfragen und verbessern Sie die Kommunikation."
+      },
+      "secureData": {
+        "title": "Sichere Datenverarbeitung",
+        "description": "Schützen Sie Ihre wertvollen Tuning-Dateien und Kundendaten mit Sicherheit auf Unternehmensebene."
+      }
+    },
+    "startNowButton": "Jetzt starten!",
+    "form": {
+      "title": "Starten Sie Ihre kostenlose Testversion",
+      "namePlaceholder": "Ihr Name",
+      "phonePlaceholder": "Ihre Telefonnummer",
+      "emailPlaceholder": "E-Mail-Adresse",
+      "messagePlaceholder": "Ihre Nachricht",
+      "submitButton": "SENDEN",
+      "submittingButton": "Wird gesendet...",
+      "successTitle": "Anfrage erhalten",
+      "successMessage": "Vielen Dank für Ihr Interesse! Wir werden uns in Kürze mit Ihren Testzugangsdaten bei Ihnen melden.",
+      "errorTitle": "Übermittlungsfehler",
+      "errorMessage": "Bei der Übermittlung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.",
+      "privacyNotice": "Durch das Absenden dieses Formulars stimmen Sie unserer Datenschutzrichtlinie und unseren Nutzungsbedingungen zu."
+    }
+  },
   "Contact": {
     "titleLabel": "Kontakt aufnehmen:",
     "titleMain": "Professionelle Unterstützung",

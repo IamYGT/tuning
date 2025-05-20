@@ -300,6 +300,43 @@
       }
     }
   },
+  "Trial": {
+    "title": {
+      "days": "7 Días",
+      "tryFree": "Pruébalo Gratis"
+    },
+    "subtitle": "Gestión Profesional de Archivos de Sintonización ECU",
+    "description": "Experimente el poder del Portal de Sintonización ECU durante 7 días sin costo. Optimice su flujo de trabajo, mejore la gestión de archivos y revolucione sus procesos de sintonización con nuestro sistema avanzado.",
+    "features": {
+      "fileManagement": {
+        "title": "Gestión Avanzada de Archivos",
+        "description": "Organice, almacene y procese archivos de sintonización de manera eficiente con nuestro potente sistema."
+      },
+      "customerTools": {
+        "title": "Herramientas de Relación con el Cliente",
+        "description": "Gestione las interacciones con los clientes, realice un seguimiento de las solicitudes y mejore la comunicación."
+      },
+      "secureData": {
+        "title": "Manejo Seguro de Datos",
+        "description": "Mantenga sus valiosos archivos de sintonización y datos de clientes protegidos con seguridad de nivel empresarial."
+      }
+    },
+    "startNowButton": "¡Comenzar Ahora!",
+    "form": {
+      "title": "Inicie Su Prueba Gratuita",
+      "namePlaceholder": "Su nombre",
+      "phonePlaceholder": "Su número de teléfono",
+      "emailPlaceholder": "Dirección de correo electrónico",
+      "messagePlaceholder": "Su mensaje",
+      "submitButton": "ENVIAR",
+      "submittingButton": "Enviando...",
+      "successTitle": "Solicitud Recibida",
+      "successMessage": "¡Gracias por su interés! Nos pondremos en contacto con usted en breve con los detalles de acceso a su prueba.",
+      "errorTitle": "Error de Envío",
+      "errorMessage": "Hubo un problema al enviar su solicitud. Por favor, inténtelo de nuevo más tarde.",
+      "privacyNotice": "Al enviar este formulario, acepta nuestra política de privacidad y términos de servicio."
+    }
+  },
   "Contact": {
     "titleLabel": "Ponte en Contacto:",
     "titleMain": "Soporte Profesional",

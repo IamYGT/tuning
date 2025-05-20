@@ -300,6 +300,43 @@
       }
     }
   },
+  "Trial": {
+    "title": {
+      "days": "7 Dagen",
+      "tryFree": "Probeer Gratis"
+    },
+    "subtitle": "Professioneel ECU Tuning Bestandsbeheer",
+    "description": "Ervaar de kracht van het ECU Tuning Portal gedurende 7 dagen zonder kosten. Stroomlijn uw werkstroom, verbeter bestandsbeheer en revolutioneer uw tuningprocessen met ons geavanceerde systeem.",
+    "features": {
+      "fileManagement": {
+        "title": "Geavanceerd Bestandsbeheer",
+        "description": "Organiseer, bewaar en verwerk tuningbestanden efficiënt met ons krachtige systeem."
+      },
+      "customerTools": {
+        "title": "Klantrelatietools",
+        "description": "Beheer klantinteracties, volg verzoeken en verbeter communicatie."
+      },
+      "secureData": {
+        "title": "Veilige Gegevensverwerking",
+        "description": "Houd uw waardevolle tuningbestanden en klantgegevens beschermd met beveiliging van bedrijfsniveau."
+      }
+    },
+    "startNowButton": "Nu Beginnen!",
+    "form": {
+      "title": "Start Uw Gratis Proefversie",
+      "namePlaceholder": "Uw naam",
+      "phonePlaceholder": "Uw telefoonnummer",
+      "emailPlaceholder": "E-mailadres",
+      "messagePlaceholder": "Uw bericht",
+      "submitButton": "VERZENDEN",
+      "submittingButton": "Verzenden...",
+      "successTitle": "Aanvraag Ontvangen",
+      "successMessage": "Bedankt voor uw interesse! We nemen binnenkort contact met u op met uw proeftoegangsgegevens.",
+      "errorTitle": "Verzendingsfout",
+      "errorMessage": "Er is een probleem opgetreden bij het verzenden van uw aanvraag. Probeer het later opnieuw.",
+      "privacyNotice": "Door dit formulier in te dienen, gaat u akkoord met ons privacybeleid en onze servicevoorwaarden."
+    }
+  },
   "Contact": {
     "titleLabel": "Neem Contact Op:",
     "titleMain": "Professionele Ondersteuning",

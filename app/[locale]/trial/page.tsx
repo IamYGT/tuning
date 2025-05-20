@@ -88,8 +88,8 @@ export default function TrialPage() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-7xl font-bold text-white">
-                <span className="block">7 Days</span>
-                <span className="block text-[#f05545]">Try It Free</span>
+                <span className="block">{t("title.days") || "7 Days"}</span>
+                <span className="block text-[#f05545]">{t("title.tryFree") || "Try It Free"}</span>
               </h1>
               <h2 className="text-2xl font-semibold">
                 {t("subtitle")}

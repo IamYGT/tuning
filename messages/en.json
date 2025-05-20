@@ -314,6 +314,10 @@
     }
   },
   "Trial": {
+    "title": {
+      "days": "7 Days",
+      "tryFree": "Try It Free"
+    },
     "subtitle": "Professional ECU Tuning File Management",
     "description": "Experience the power of ECU Tuning Portal for 7 days at no cost. Streamline your workflow, enhance file management, and revolutionize your tuning processes with our advanced system.",
     "features": {

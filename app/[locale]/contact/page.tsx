@@ -100,9 +100,7 @@ export default function ContactPage() {
             {/* Contact Card - Phone */}
             <div className="bg-card rounded-lg shadow-md p-6 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <Image 
-                  src="/assets/images/call.png.avif" 
-                  alt="Phone" 
+                <Phone 
                   width={28} 
                   height={28} 
                   className="text-primary" 
