@@ -25,9 +25,26 @@ export default function Header() {
   const t = useTranslations("common.navigation")
   const promoT = useTranslations("common.promo")
   
-  // Add CSS variable for header height to allow mobile menu to calculate height correctly
+  // Function to update header heights
+  const updateHeaderHeights = () => {
+    // Get the banner height if visible
+    const banner = document.querySelector(".bg-gradient-to-r");
+    const bannerHeight = banner && !banner.classList.contains("hidden") ? banner.clientHeight : 0;
+    
+    // Get the main header height (without banner)
+    const headerContainer = document.querySelector(".container.mx-auto");
+    const headerHeight = headerContainer ? headerContainer.clientHeight : 56;
+    
+    // Set CSS variables
+    document.documentElement.style.setProperty('--banner-height', `${bannerHeight}px`);
+    document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+    document.documentElement.style.setProperty('--total-header-height', `${bannerHeight + headerHeight}px`);
+  }
+  
+  // Add CSS variables for header and banner height to allow mobile menu to calculate height correctly
   useEffect(() => {
-    document.documentElement.style.setProperty('--header-height', isOpen ? '56px' : '0px')
+    // Update header heights
+    updateHeaderHeights();
     
     // Prevent scrolling when mobile menu is open
     if (isOpen) {
@@ -40,6 +57,16 @@ export default function Header() {
       document.body.style.overflow = ''
     }
   }, [isOpen])
+  
+  // Add a resize listener to update header heights when window is resized
+  useEffect(() => {
+    const handleResize = () => {
+      updateHeaderHeights();
+    }
+    
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -72,7 +99,11 @@ export default function Header() {
           variant="ghost"
           size="icon"
           className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 h-5 w-5 sm:h-6 sm:w-6 text-white hover:bg-white/20 p-0.5"
-          onClick={() => document.querySelector(".bg-gradient-to-r")?.classList.add("hidden")}
+          onClick={() => {
+            document.querySelector(".bg-gradient-to-r")?.classList.add("hidden");
+            // Banner kapandığında CSS değişkenlerini hemen güncelle
+            setTimeout(updateHeaderHeights, 0);
+          }}
         >
           <X className="h-3 w-3" />
           <span className="sr-only">Close</span>
@@ -100,34 +131,46 @@ export default function Header() {
               <NavigationMenu>
                 <NavigationMenuList className="flex flex-wrap">
                   <NavigationMenuItem>
-                    <Link href="/" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("home")}</NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink asChild>
+                      <Link href="/" className={navigationMenuTriggerStyle()}>
+                        {t("home")}
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <Link href="/about" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("corporate")}</NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink asChild>
+                      <Link href="/about" className={navigationMenuTriggerStyle()}>
+                        {t("corporate")}
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <Link href="/features" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("features")}</NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink asChild>
+                      <Link href="/features" className={navigationMenuTriggerStyle()}>
+                        {t("features")}
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <Link href="/pricing" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("pricing")}</NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink asChild>
+                      <Link href="/pricing" className={navigationMenuTriggerStyle()}>
+                        {t("pricing")}
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <Link href="/gallery" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("gallery")}</NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink asChild>
+                      <Link href="/gallery" className={navigationMenuTriggerStyle()}>
+                        {t("gallery")}
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <Link href="/contact" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>{t("contact")}</NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink asChild>
+                      <Link href="/contact" className={navigationMenuTriggerStyle()}>
+                        {t("contact")}
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                 </NavigationMenuList>
               </NavigationMenu>
@@ -183,7 +226,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="md:hidden bg-background border-b shadow-lg fixed top-[var(--header-height)] left-0 right-0 h-[calc(100vh-var(--header-height))] z-50 overflow-auto">
+        <div className="lg:hidden bg-background border-b shadow-lg fixed top-[var(--total-header-height)] left-0 right-0 h-[calc(100vh-var(--total-header-height))] z-50 overflow-auto">
           <div className="container mx-auto px-4 py-6 space-y-0">
             <div className="flex items-center justify-between mb-4">
               <LanguageSwitcher variant="mobile" />

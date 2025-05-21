@@ -37,8 +37,12 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: {locale: string};
 }) {
+  // Next.js 14+ requires dynamic params to be handled asynchronously
+  // Await params before accessing its properties
+  const paramsData = await params;
+  const locale = paramsData.locale;
+  
   // Ensure that the incoming `locale` is valid
-  const locale = params.locale;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }

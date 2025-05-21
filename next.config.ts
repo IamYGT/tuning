@@ -2,7 +2,7 @@
 import {NextConfig} from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
  
-const nextConfig = {
+const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -12,6 +12,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Hidrasyon hatalarını önlemek için
+  output: 'standalone' as const,
+  // URL'lerin tutarlı olmasını sağlamak için
+  trailingSlash: false,
 }
  
 const withNextIntl = createNextIntlPlugin();

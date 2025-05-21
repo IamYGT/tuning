@@ -29,23 +29,23 @@ export default function Footer() {
               {t("about")}
             </p>
             <div className="flex flex-wrap gap-4 sm:gap-5">
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook size={18} />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter size={18} />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram size={18} />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={18} />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
                 <Youtube size={18} />
                 <span className="sr-only">YouTube</span>
               </Link>
@@ -129,18 +129,18 @@ export default function Footer() {
             © {new Date().getFullYear()} {t("copyright")}
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs sm:text-sm">
-            <Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
               {t("terms")}
             </Link>
-            <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
               {t("privacy")}
             </Link>
-            <Link href="/cookies" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
               {t("cookiePolicy")}
             </Link>
           </div>
         </div>
-      </div>
+      </div>  
     </footer>
   )
 }
