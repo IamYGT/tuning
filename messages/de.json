@@ -197,6 +197,19 @@
       "paragraph5": "Bis heute haben wir Tausenden von Automobilfachleuten weltweit gedient und ihnen geholfen, ihr Geschäft auszubauen. Kundenzufriedenheit ist für uns von höchster Bedeutung, weshalb wir einen 24/7-Support-Service anbieten.",
       "paragraph6": "Mit Blick auf die Zukunft setzen wir unsere Bemühungen fort, uns an neue Trends wie Elektrofahrzeuge und autonomes Fahren anzupassen. Als ECU Tuning Portal werden wir weiterhin die Zukunft der Automobiltechnologie gestalten.",
       "paragraph7": "Vielen Dank, dass Sie sich für uns entschieden haben. Mit ECU Tuning Portal gehen wir gemeinsam in die Zukunft der Automobiltechnologien.",
+      "video": {
+        "title": "Hohe Leistung",
+        "subtitle": "Einfach zu verwalten",
+        "feature1": {
+          "title": "Einfache Kundenverwaltung",
+          "description": "Sie können die Dateien der Kunden prüfen, ihre Guthaben einsehen und sehen, was sie im Support-System geschrieben haben. Sie können auch Guthaben hinzufügen oder löschen."
+        },
+        "feature2": {
+          "title": "Unterstützung für 16 verschiedene Sprachen",
+          "description": "Unser System ist in Englisch, Spanisch, Deutsch, Niederländisch, Russisch, Arabisch, Portugiesisch, Französisch, Hebräisch, Italienisch, Slowakisch, Ungarisch, Tschechisch, Polnisch, Griechisch und Türkisch integriert."
+        },
+        "primaryButton": "7 Tage kostenlos testen"
+      },
       "stat1": "Gegründet",
       "stat2": "Support",
       "stat3": "Kunden",

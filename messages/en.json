@@ -197,6 +197,19 @@
       "paragraph5": "To date, we have served thousands of automotive professionals worldwide and helped them grow their businesses. Customer satisfaction is paramount to us, which is why we offer 24/7 support services.",
       "paragraph6": "Looking to the future, we continue our efforts to adapt to new trends such as electric vehicles and autonomous driving. As ECU Tuning Portal, we will continue to shape the future of automotive technology.",
       "paragraph7": "Thank you for choosing us. With ECU Tuning Portal, we are stepping into the future of automotive technologies together.",
+      "video": {
+        "title": "High Performance",
+        "subtitle": "Easy to Manage",
+        "feature1": {
+          "title": "Easy Customer Management",
+          "description": "You can examine the files of the customers, see their credits, see what they wrote in the support system. You can also add or delete credits."
+        },
+        "feature2": {
+          "title": "16 Different Language Support",
+          "description": "Our system is integrated into English, Spanish, German, Dutch, Russian, Arabic, Portuguese, French, Hebrew, Italian, Slovak, Hungarian, Czech, Polish, Greek and Turkish languages."
+        },
+        "primaryButton": "7-Day Free Trial"
+      },
       "stat1": "Founded",
       "stat2": "Support",
       "stat3": "Clients",
