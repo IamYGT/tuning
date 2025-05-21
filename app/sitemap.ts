@@ -9,13 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Sitemap girişleri
   return [
     // İngilizce (varsayılan)
-    { url: `${baseUrl}/en`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 1.0 },
-    { url: `${baseUrl}/en/about`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.8 },
-    { url: `${baseUrl}/en/contact`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.8 },
-    { url: `${baseUrl}/en/features`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.9 },
-    { url: `${baseUrl}/en/gallery`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.7 },
-    { url: `${baseUrl}/en/pricing`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 0.9 },
-    { url: `${baseUrl}/en/trial`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 0.9 },
+    { url: `${baseUrl}/`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 1.0 },
+    { url: `${baseUrl}/about`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.8 },
+    { url: `${baseUrl}/contact`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.8 },
+    { url: `${baseUrl}/features`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.9 },
+    { url: `${baseUrl}/gallery`, lastModified: currentDate, changeFrequency: 'monthly' as ChangeFrequency, priority: 0.7 },
+    { url: `${baseUrl}/pricing`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 0.9 },
+    { url: `${baseUrl}/trial`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 0.9 },
     
     // Türkçe
     { url: `${baseUrl}/tr`, lastModified: currentDate, changeFrequency: 'weekly' as ChangeFrequency, priority: 1.0 },
