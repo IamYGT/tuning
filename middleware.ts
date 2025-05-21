@@ -6,6 +6,7 @@ export default createMiddleware({
   locales: routing.locales,
   defaultLocale: routing.defaultLocale,
   localePrefix: routing.localePrefix,
+  pathnames: routing.pathnames,
   
   // Tarayıcı diline göre otomatik yönlendirmeyi devre dışı bırak
   localeDetection: false

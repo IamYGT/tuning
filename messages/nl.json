@@ -1,12 +1,19 @@
 {
   "metadata": {
     "home": "ECU Tuning Portal | Professionele Tuning Systeem Service",
+    "homeDescription": "Professioneel ECU-tuningportaal voor automotive tuning professionals",
     "about": "Over Ons | ECU Tuning Portal",
+    "aboutDescription": "Lees meer over ECU Tuning Portal, onze missie, visie en team",
     "features": "Functies | ECU Tuning Portal",
+    "featuresDescription": "Ontdek de geavanceerde functies van ECU Tuning Portal ontworpen voor automotive tuning professionals",
     "pricing": "Prijzen & Plannen | ECU Tuning Portal",
+    "pricingDescription": "Bekijk onze prijsplannen en speciale aanbiedingen voor ECU Tuning Portal",
     "gallery": "Galerij | ECU Tuning Portal",
+    "galleryDescription": "Ontdek onze portfolio van succesvolle projecten en klantvoertuigen",
     "contact": "Contact | ECU Tuning Portal",
-    "trial": "7 Dagen Gratis Proberen | ECU Tuning Portal"
+    "contactDescription": "Neem contact op met ons team voor vragen over ECU Tuning Portal",
+    "trial": "7 Dagen Gratis Proberen | ECU Tuning Portal",
+    "trialDescription": "Start uw gratis proefperiode van 7 dagen van ECU Tuning Portal en ontdek alle premium functies"
   },
   "common": {
     "navigation": {

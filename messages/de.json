@@ -1,12 +1,19 @@
 {
   "metadata": {
     "home": "ECU Tuning Portal | Professioneller Tuning-System-Service",
+    "homeDescription": "Professionelles ECU-Tuning-Portal für Kfz-Tuning-Experten",
     "about": "Über uns | ECU Tuning Portal",
+    "aboutDescription": "Erfahren Sie mehr über ECU Tuning Portal, unsere Mission, Vision und unser Team",
     "features": "Funktionen | ECU Tuning Portal",
+    "featuresDescription": "Entdecken Sie die fortschrittlichen Funktionen des ECU Tuning Portals, die für Kfz-Tuning-Experten entwickelt wurden",
     "pricing": "Preise & Pläne | ECU Tuning Portal",
+    "pricingDescription": "Sehen Sie sich unsere Preispläne und Sonderangebote für das ECU Tuning Portal an",
     "gallery": "Galerie | ECU Tuning Portal",
+    "galleryDescription": "Entdecken Sie unser Portfolio erfolgreicher Projekte und Kundenfahrzeuge",
     "contact": "Kontakt | ECU Tuning Portal",
-    "trial": "7 Tage kostenlos testen | ECU Tuning Portal"
+    "contactDescription": "Kontaktieren Sie unser Team für Fragen zum ECU Tuning Portal",
+    "trial": "7 Tage kostenlos testen | ECU Tuning Portal",
+    "trialDescription": "Starten Sie Ihre kostenlose 7-tägige Testversion des ECU Tuning Portals und entdecken Sie alle Premium-Funktionen"
   },
   "common": {
     "navigation": {
