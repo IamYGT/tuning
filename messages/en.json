@@ -1,4 +1,13 @@
 {
+  "metadata": {
+    "home": "ECU Tuning Portal | Professional Tuning System Service",
+    "about": "About Us | ECU Tuning Portal",
+    "features": "Features | ECU Tuning Portal",
+    "pricing": "Pricing & Plans | ECU Tuning Portal",
+    "gallery": "Gallery | ECU Tuning Portal",
+    "contact": "Contact Us | ECU Tuning Portal",
+    "trial": "Free 7-Day Trial | ECU Tuning Portal"
+  },
   "common": {
     "navigation": {
       "home": "Home",

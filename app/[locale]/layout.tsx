@@ -12,9 +12,8 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 
-
-export const metadata: Metadata = {
-  title: "Advanced ECU Tuning Portal",
+// Base metadata tanımı
+const baseMetadata = {
   description: "Professional ECU tuning portal for automotive tuning professionals",
   icons: {
     icon: [
@@ -28,6 +27,44 @@ export const metadata: Metadata = {
       { rel: 'manifest', url: '/favicon/ecutuning/site.webmanifest' },
     ]
   }
+};
+
+// Ana sayfa için metadata oluşturan fonksiyon
+export async function generateMetadata({
+  params
+}: {
+  params: { locale: string }
+}): Promise<Metadata> {
+  // Await params before accessing its properties
+  const paramsData = await params;
+  const locale = paramsData.locale;
+  
+  // Validate the locale
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  // Load messages for the current locale
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
+  
+  // Ana sayfa için başlık
+  const title = messages.metadata?.home || 'ECU Tuning Portal | Professional Tuning System Service';
+  
+  return {
+    ...baseMetadata,
+    title,
+    alternates: {
+      canonical: '/',
+      languages: Object.fromEntries(
+        routing.locales.map(locale => [locale, `/${locale}`])
+      ),
+    },
+  };
 }
 
 export default async function RootLayout({

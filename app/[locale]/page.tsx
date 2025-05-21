@@ -1,4 +1,3 @@
-
 import TestimonialCarousel from "@/components/testimonial-carousel"
 import Hero from "@/components/hero"
 import Stats from "@/components/stats"

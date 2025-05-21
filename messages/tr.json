@@ -1,4 +1,13 @@
 {
+  "metadata": {
+    "home": "ECU Tuning Portal | Profesyonel Tuning Sistem Servisi",
+    "about": "Hakkımızda | ECU Tuning Portal",
+    "features": "Özellikler | ECU Tuning Portal",
+    "pricing": "Fiyatlandırma & Planlar | ECU Tuning Portal",
+    "gallery": "Galeri | ECU Tuning Portal",
+    "contact": "İletişim | ECU Tuning Portal",
+    "trial": "7 Gün Ücretsiz Deneme | ECU Tuning Portal"
+  },
   "common": {
     "navigation": {
       "home": "Ana Sayfa",

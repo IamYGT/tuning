@@ -1,4 +1,13 @@
 {
+  "metadata": {
+    "home": "ECU Tuning Portal | Professionele Tuning Systeem Service",
+    "about": "Over Ons | ECU Tuning Portal",
+    "features": "Functies | ECU Tuning Portal",
+    "pricing": "Prijzen & Plannen | ECU Tuning Portal",
+    "gallery": "Galerij | ECU Tuning Portal",
+    "contact": "Contact | ECU Tuning Portal",
+    "trial": "7 Dagen Gratis Proberen | ECU Tuning Portal"
+  },
   "common": {
     "navigation": {
       "home": "Home",
