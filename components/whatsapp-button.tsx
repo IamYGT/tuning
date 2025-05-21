@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function WhatsAppButton() {
   const phoneNumber = "+905466367027";
-  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\+/g, '')}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber.replace(/\+/g, '')}`;  // Doğrudan API URL'si kullanılıyor
 
   return (
     <a
