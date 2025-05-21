@@ -13,7 +13,7 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 
 // Base metadata tanımı
-export const baseMetadata = {
+const baseMetadata = {
   description: "Professional ECU tuning portal for automotive tuning professionals",
   icons: {
     icon: [
