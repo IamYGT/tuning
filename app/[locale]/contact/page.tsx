@@ -16,9 +16,13 @@ export function generateStaticParams() {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'Contact' })
+  // Hata mesajı "params should be awaited before using its properties" şeklinde.
+  // Bu, params nesnesinin özelliklerine erişmeden önce kendisinin await edilmesi gerektiğini belirtir.
+  const resolvedParams = await params;
+  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Contact' });
   
   return {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
     title: `${t('titleMain')} | ECU Tuning Portal`,
     description: t('subtitle'),
     openGraph: {
@@ -26,7 +30,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       description: t('subtitle'),
       images: ['/assets/images/call.png.avif'],
     },
-  } as Metadata
+  } as Metadata;
 }
 
 // Lazy load client components

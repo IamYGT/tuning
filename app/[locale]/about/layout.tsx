@@ -26,9 +26,9 @@ export async function generateMetadata({
 }: {
   params: { locale: string }
 }): Promise<Metadata> {
-  // Await params before accessing its properties
-  const paramsData = await params;
-  const locale = paramsData.locale;
+  // Hata mesajına göre params nesnesinin özelliklerine erişmeden önce await ile çözümlenmesi gerekiyor.
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
   
   // Validate the locale
   if (!hasLocale(routing.locales, locale)) {

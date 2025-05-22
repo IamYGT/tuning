@@ -93,8 +93,8 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale}>
-      <body>
+    <html lang={locale} suppressHydrationWarning={true}>
+      <body suppressHydrationWarning={true}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <NextIntlClientProvider locale={locale} messages={messages}>
             <div className="flex min-h-screen flex-col">

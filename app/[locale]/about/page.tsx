@@ -73,6 +73,7 @@ export default function AboutPage() {
                   alt="ECU Tuning Portal Team"
                   fill
                   className="object-contain rounded-lg"
+                  priority
                 />
               </div>
               <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -195,6 +196,7 @@ export default function AboutPage() {
                     alt={`Brand Logo ${index + 1}`}
                     fill
                     className="object-contain"
+                    loading="lazy" // priority yerine lazy loading
                   />
                 </div>
               </a>
@@ -268,11 +270,12 @@ export default function AboutPage() {
             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
               <div className="relative w-full max-w-md">
                 <Image 
-                  src="/assets/images/call.png.avif" 
-                  alt="Call to action" 
-                  width={500} 
-                  height={400} 
+                  src="/assets/images/call.png.avif"
+                  alt="Call to action"
+                  width={500}
+                  height={400}
                   className="rounded-lg shadow-xl"
+                  loading="lazy" // priority yerine lazy loading
                 />
               </div>
             </div>
