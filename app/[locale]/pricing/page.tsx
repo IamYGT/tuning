@@ -137,6 +137,32 @@ export default function PricingPage() {
           </div>
         </div>
       </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-gradient-to-b from-background to-muted/30">
+        <div className="container px-4 mx-auto">
+          <div className="max-w-5xl mx-auto bg-zinc-950 border border-zinc-800 rounded-xl p-8 md:p-12 shadow-xl">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">{t("cta.title")}</h2>
+            
+            <div className="space-y-6 mb-8 text-muted-foreground">
+              <p className="text-base md:text-lg">
+                {t("cta.description1")}
+              </p>
+              <p className="text-base md:text-lg">
+                {t("cta.description2")}
+              </p>
+            </div>
+            
+            <div className="flex justify-center">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+                <Link href="/trial" className="w-full">
+                  {t("cta.buttonText")} →
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

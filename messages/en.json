@@ -238,7 +238,7 @@
         "code": "Lines of Code",
         "experience": "Years of Experience"
       },
-      "video": {
+      "corporateVideo": {
         "title": "High performance",
         "subtitle": "Easy to manage.",
         "feature1": {
@@ -293,7 +293,13 @@
       "notificationSystem": "Advanced Notification System",
       "techSupport": "24/7 Technical Support"
     },
-    "buyButton": "BUY NOW"
+    "buyButton": "BUY NOW",
+    "cta": {
+      "title": "Professional Tuning Solution",
+      "description1": "ECU Tuning Portal is a fully optimized digital platform designed for professional tuners. It brings together the entire workflow in one panel from file uploads and credit-based transactions to vehicle database search, tuning option selection, and real-time support. Users can track the status of each submitted file step by step, access their transaction history, and generate detailed reports for all operations.",
+      "description2": "The platform is ideal for international use, with multi-language support, multi-currency payments, flexible credit packages, and secure payment options such as PayPal, Stripe, Iyzico, and Wise. Additionally, built-in tools like Bosch code search and DTC lookup allow users to obtain fast and accurate results. All these features provide a reliable, time-saving, and professional tuning experience.",
+      "buttonText": "Get Started Now"
+    }
   },
 
   "Features": {

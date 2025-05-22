@@ -280,7 +280,13 @@
       "notificationSystem": "Gelişmiş Duyuru Sistemi",
       "techSupport": "7/24 Teknik Destek"
     },
-    "buyButton": "SATIN AL"
+    "buyButton": "SATIN AL",
+    "cta": {
+      "title": "Profesyonel Tuning Çözümü",
+      "description1": "ECU Tuning Portal, profesyonel tunerlar için tamamen optimize edilmiş dijital bir platformdur. Dosya yüklemelerinden kredi bazlı işlemlere, araç veritabanı aramasından tuning seçeneği seçimine ve gerçek zamanlı desteğe kadar tüm iş akışını tek bir panelde bir araya getirir. Kullanıcılar, gönderilen her dosyanın durumunu adım adım takip edebilir, işlem geçmişlerine erişebilir ve tüm işlemler için detaylı raporlar oluşturabilir.",
+      "description2": "Platform, çoklu dil desteği, çoklu para birimi ödemeleri, esnek kredi paketleri ve PayPal, Stripe, Iyzico ve Wise gibi güvenli ödeme seçenekleriyle uluslararası kullanım için idealdir. Ayrıca, Bosch kod araması ve DTC arama gibi yerleşik araçlar, kullanıcıların hızlı ve doğru sonuçlar elde etmesini sağlar. Tüm bu özellikler güvenilir, zaman tasarrufu sağlayan ve profesyonel bir tuning deneyimi sunar.",
+      "buttonText": "Hemen Başla"
+    }
   },
 
   "Features": {
