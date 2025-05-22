@@ -177,6 +177,21 @@
       "description": "Únase a miles de profesionales de tuning que han transformado su negocio con nuestra plataforma. Comience su prueba gratuita hoy o explore nuestras opciones de precios.",
       "primaryButton": "Iniciar prueba gratuita",
       "secondaryButton": "Ver precios"
+    },
+    "content": {
+      "video": {
+        "title": "Alto Rendimiento",
+        "subtitle": "Fácil de Gestionar",
+        "feature1": {
+          "title": "Gestión Sencilla de Clientes",
+          "description": "Puede examinar los archivos de los clientes, ver sus créditos, ver lo que escribieron en el sistema de soporte. También puede agregar o eliminar créditos."
+        },
+        "feature2": {
+          "title": "Soporte para 16 Idiomas Diferentes",
+          "description": "Nuestro sistema está integrado en inglés, español, alemán, holandés, ruso, árabe, portugués, francés, hebreo, italiano, eslovaco, húngaro, checo, polaco, griego y turco."
+        },
+        "primaryButton": "Prueba Gratuita de 7 Días"
+      }
     }
   },
 

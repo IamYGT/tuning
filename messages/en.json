@@ -177,6 +177,21 @@
       "description": "Join thousands of tuning professionals who have transformed their business with our platform. Start your free trial today or explore our pricing options.",
       "primaryButton": "Start Free Trial",
       "secondaryButton": "View Pricing"
+    },
+    "content": {
+      "video": {
+        "title": "High Performance",
+        "subtitle": "Easy to Manage",
+        "feature1": {
+          "title": "Easy Customer Management",
+          "description": "You can examine the files of the customers, see their credits, see what they wrote in the support system. You can also add or delete credits."
+        },
+        "feature2": {
+          "title": "16 Different Language Support",
+          "description": "Our system is integrated into English, Spanish, German, Dutch, Russian, Arabic, Portuguese, French, Hebrew, Italian, Slovak, Hungarian, Czech, Polish, Greek and Turkish languages."
+        },
+        "primaryButton": "7-Day Free Trial"
+      }
     }
   },
 
@@ -407,7 +422,8 @@
     },
     "cta": {
       "title": "Try the Portal Now!",
-      "description": "Don't hesitate to contact us! You can use our contact page to get more information about the services and modules offered by ECU Tuning Portal. Reach us via email, phone, or direct message. Our customer service team is here to answer your questions as soon as possible.",
+      "description": "Don't hesitate to contact us!",
+      "description2": "You can use our contact page to get more information about the services and modules offered by ECU Tuning Portal. Reach us via email, phone, or direct message. Our customer service team is here to answer your questions as soon as possible.",
       "primaryButton": "Try Free for 7 Days",
       "secondaryButton": "View Pricing Plans",
       "imageTitle": "ECU Tuning Portal",

@@ -177,6 +177,21 @@
       "description": "Schließen Sie sich Tausenden von Tuning-Profis an, die ihr Geschäft mit unserer Plattform transformiert haben. Starten Sie noch heute Ihre kostenlose Testversion oder erkunden Sie unsere Preisoptionen.",
       "primaryButton": "Kostenlose Testversion starten",
       "secondaryButton": "Preise anzeigen"
+    },
+    "content": {
+      "video": {
+        "title": "Hohe Leistung",
+        "subtitle": "Einfach zu verwalten",
+        "feature1": {
+          "title": "Einfache Kundenverwaltung",
+          "description": "Sie können die Dateien der Kunden einsehen, ihre Guthaben sehen, sehen, was sie im Support-System geschrieben haben. Sie können auch Guthaben hinzufügen oder löschen."
+        },
+        "feature2": {
+          "title": "Unterstützung für 16 verschiedene Sprachen",
+          "description": "Unser System ist in Englisch, Spanisch, Deutsch, Niederländisch, Russisch, Arabisch, Portugiesisch, Französisch, Hebräisch, Italienisch, Slowakisch, Ungarisch, Tschechisch, Polnisch, Griechisch und Türkisch integriert."
+        },
+        "primaryButton": "7 Tage kostenlos testen"
+      }
     }
   },
 

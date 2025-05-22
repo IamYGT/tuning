@@ -174,9 +174,24 @@
     "closeZoom": "Zoomweergave sluiten",
     "cta": {
       "title": "Klaar om uw tuningbedrijf te verbeteren?",
-      "description": "Sluit u aan bij duizenden tuningprofessionals die hun bedrijf hebben getransformeerd met ons platform. Start vandaag nog uw gratis proefversie of bekijk onze prijsopties.",
-      "primaryButton": "Gratis proefversie starten",
+      "description": "Sluit u aan bij duizenden tuningprofessionals die hun bedrijf hebben getransformeerd met ons platform. Start vandaag nog uw gratis proefperiode of bekijk onze prijsopties.",
+      "primaryButton": "Gratis proefperiode starten",
       "secondaryButton": "Prijzen bekijken"
+    },
+    "content": {
+      "video": {
+        "title": "Hoge Prestaties",
+        "subtitle": "Eenvoudig te Beheren",
+        "feature1": {
+          "title": "Eenvoudig Klantenbeheer",
+          "description": "U kunt de bestanden van klanten bekijken, hun tegoeden zien, zien wat ze in het ondersteuningssysteem hebben geschreven. U kunt ook tegoeden toevoegen of verwijderen."
+        },
+        "feature2": {
+          "title": "Ondersteuning voor 16 Verschillende Talen",
+          "description": "Ons systeem is geïntegreerd in Engels, Spaans, Duits, Nederlands, Russisch, Arabisch, Portugees, Frans, Hebreeuws, Italiaans, Slowaaks, Hongaars, Tsjechisch, Pools, Grieks en Turks."
+        },
+        "primaryButton": "7 Dagen Gratis Proberen"
+      }
     }
   },
 

@@ -177,6 +177,21 @@
       "description": "Platformumuzla işlerini dönüştüren binlerce tuning uzmanına katılın. Bugün ücretsiz denemenizi başlatın veya fiyatlandırma seçeneklerimizi keşfedin.",
       "primaryButton": "Ücretsiz Deneyin",
       "secondaryButton": "Fiyatları Görüntüle"
+    },
+    "content": {
+      "video": {
+        "title": "Yüksek Performans",
+        "subtitle": "Kolay Yönetim",
+        "feature1": {
+          "title": "Kolay Müşteri Yönetimi",
+          "description": "Müşterilerin dosyalarını inceleyebilir, kredilerini görebilir, destek sisteminde ne yazdıklarını görebilirsiniz. Ayrıca kredi ekleyebilir veya silebilirsiniz."
+        },
+        "feature2": {
+          "title": "16 Farklı Dil Desteği",
+          "description": "Sistemimiz İngilizce, İspanyolca, Almanca, Hollandaca, Rusça, Arapça, Portekizce, Fransızca, İbranice, İtalyanca, Slovakça, Macarca, Çekçe, Lehce, Yunanca ve Türkçe dillerine entegre edilmiştir."
+        },
+        "primaryButton": "7 Gün Ücretsiz Deneyin"
+      }
     }
   },
 
