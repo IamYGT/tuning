@@ -409,7 +409,8 @@
     },
     "cta": {
       "title": "Testen Sie das Portal jetzt!",
-      "description": "Zögern Sie nicht, uns zu kontaktieren! Sie können unsere Kontaktseite nutzen, um weitere Informationen über die Dienste und Module des ECU Tuning Portals zu erhalten. Erreichen Sie uns per E-Mail, Telefon oder Direktnachricht. Unser Kundenservice-Team ist hier, um Ihre Fragen so schnell wie möglich zu beantworten.",
+      "description": "Zögern Sie nicht, uns zu kontaktieren!",
+      "description2": "Sie können unsere Kontaktseite nutzen, um weitere Informationen über die Dienste und Module des ECU Tuning Portals zu erhalten. Erreichen Sie uns per E-Mail, Telefon oder Direktnachricht. Unser Kundenservice-Team ist hier, um Ihre Fragen so schnell wie möglich zu beantworten.",
       "primaryButton": "7 Tage kostenlos testen",
       "secondaryButton": "Preispläne anzeigen",
       "imageTitle": "ECU Tuning Portal",

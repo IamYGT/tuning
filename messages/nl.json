@@ -409,7 +409,8 @@
     },
     "cta": {
       "title": "Probeer het Portal Nu!",
-      "description": "Aarzel niet om contact met ons op te nemen! U kunt onze contactpagina gebruiken om meer informatie te krijgen over de diensten en modules die ECU Tuning Portal aanbiedt. Bereik ons via e-mail, telefoon of direct bericht. Ons klantenserviceteam staat klaar om uw vragen zo snel mogelijk te beantwoorden.",
+      "description": "Aarzel niet om contact met ons op te nemen!",
+      "description2": "U kunt onze contactpagina gebruiken om meer informatie te krijgen over de diensten en modules die ECU Tuning Portal aanbiedt. Bereik ons via e-mail, telefoon of direct bericht. Ons klantenserviceteam staat klaar om uw vragen zo snel mogelijk te beantwoorden.",
       "primaryButton": "7 Dagen Gratis Proberen",
       "secondaryButton": "Prijsplannen Bekijken",
       "imageTitle": "ECU Tuning Portal",

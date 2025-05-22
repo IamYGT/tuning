@@ -409,7 +409,8 @@
     },
     "cta": {
       "title": "Hemen Portalı Deneyin!",
-      "description": "Bizimle iletişime geçmekten çekinmeyin! Ecu Tuning Portal'ın sunduğu hizmetler ve modüller hakkında daha fazla bilgi almak için iletişim sayfamızı kullanabilirsiniz. E-posta, telefon veya doğrudan mesaj yoluyla bize ulaşın. Müşteri hizmetleri ekibimiz, sorularınıza en kısa sürede yanıt vermek için burada.",
+      "description": "Bizimle iletişime geçmekten çekinmeyin!",
+      "description2": "Ecu Tuning Portal'ın sunduğu hizmetler ve modüller hakkında daha fazla bilgi almak için iletişim sayfamızı kullanabilirsiniz. E-posta, telefon veya doğrudan mesaj yoluyla bize ulaşın. Müşteri hizmetleri ekibimiz, sorularınıza en kısa sürede yanıt vermek için burada.",
       "primaryButton": "7 Gün Ücretsiz Deneyin",
       "secondaryButton": "Fiyat Planlarını Görüntüle",
       "imageTitle": "ECU Tuning Portal",
