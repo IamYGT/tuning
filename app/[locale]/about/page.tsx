@@ -108,6 +108,7 @@ export default function AboutPage() {
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="ECU Tuning Portal Video"
+                  title="ECU Tuning Portal Video"
                   className="block w-full"
                 >
                   <div className="relative">
@@ -185,9 +186,10 @@ export default function AboutPage() {
             {[...Array(20)].map((_, index) => (
               <a 
                 key={index + 1} 
-                href="https://tuningwebsite.com" 
-                target="_blank" 
+                href="https://tuningwebsite.com"
+                target="_blank"
                 rel="noopener noreferrer"
+                title={`Brand Logo ${index + 1}`}
                 className="group transition-all duration-300 flex items-center justify-center"
               >
                 <div className="relative w-full h-12 sm:h-14 md:h-16 transition-all duration-300 group-hover:scale-110 group-hover:brightness-125">
