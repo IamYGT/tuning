@@ -30,25 +30,11 @@ export default function middleware(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  // Handle root path - rewrite to default locale content without redirect
-  if (!hasLocalePrefix && pathname === "/") {
-    const url = request.nextUrl.clone();
-    url.pathname = "/en";
-    return NextResponse.rewrite(url);
-  }
-
-  // For paths without locale prefix (except root), add default locale prefix via rewrite
-  if (!hasLocalePrefix && pathname !== "/") {
-    const url = request.nextUrl.clone();
-    url.pathname = `/en${pathname}`;
-    return NextResponse.rewrite(url);
-  }
-
   // Use standard next-intl middleware with redirect prevention
   const intlMiddleware = createMiddleware({
     locales: routing.locales,
     defaultLocale: routing.defaultLocale,
-    localePrefix: "always", // Always show locale to prevent ambiguity
+    localePrefix: "as-needed", // Default locale at root, others with prefix
     pathnames: routing.pathnames,
     localeDetection: false, // Disable automatic detection to prevent redirects
   });
