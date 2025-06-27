@@ -1,13 +1,44 @@
-"use client"
-
-import { useTranslations } from "next-intl"
+import { getTranslations } from "next-intl/server"
+import type { Metadata } from "next"
+import { generateFullHreflangs } from "@/lib/hreflang"
+import { routing } from "@/i18n/routing"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
 import { ArrowRight, PlayIcon, Check, Users, FileText, Code, Clock } from "lucide-react"
 
-export default function AboutPage() {
-  const t = useTranslations("Corporate")
+// Generate metadata for SEO
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Corporate' });
+  const hreflangs = generateFullHreflangs('/about', resolvedParams.locale);
+
+  return {
+    title: `${t('hero.title')} | ECU Tuning Portal`,
+    description: t('hero.description'),
+    alternates: {
+      canonical: hreflangs.canonical,
+      languages: hreflangs.languages
+    },
+    openGraph: {
+      title: `${t('hero.title')} | ECU Tuning Portal`,
+      description: t('hero.description'),
+      images: ['/assets/images/logo.svg'],
+    },
+  };
+}
+
+export default async function AboutPage({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const resolvedParams = await params;
+  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Corporate' });
 
   return (
     <div className="min-h-screen bg-background">

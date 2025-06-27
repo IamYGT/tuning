@@ -36,6 +36,9 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
+  // Import hreflang utility
+  const { generateFullHreflangs } = await import('@/lib/hreflang');
+
   // Await params before accessing its properties
   const paramsData = await params;
   const locale = paramsData.locale;
@@ -53,6 +56,9 @@ export async function generateMetadata({
     notFound();
   }
 
+  // Generate hreflang for homepage
+  const hreflangs = generateFullHreflangs('/', locale);
+
   // Ana sayfa için başlık
   const title = messages.metadata?.home || 'ECU Tuning Portal | Professional Tuning System Service';
 
@@ -60,10 +66,8 @@ export async function generateMetadata({
     ...baseMetadata,
     title,
     alternates: {
-      canonical: '/',
-      languages: Object.fromEntries(
-        routing.locales.map(locale => [locale, `/${locale}`])
-      ),
+      canonical: hreflangs.canonical,
+      languages: hreflangs.languages,
     },
   };
 }

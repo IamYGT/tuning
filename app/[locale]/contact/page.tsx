@@ -7,6 +7,7 @@ import dynamic from "next/dynamic"
 import ContactInfoCard from "@/components/contact-info-card"
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
+import { generateFullHreflangs } from "@/lib/hreflang"
 import { routing } from "@/i18n/routing"
 
 // Generate static params for all locales
@@ -16,15 +17,18 @@ export function generateStaticParams() {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-  // Hata mesajı "params should be awaited before using its properties" şeklinde.
-  // Bu, params nesnesinin özelliklerine erişmeden önce kendisinin await edilmesi gerektiğini belirtir.
   const resolvedParams = await params;
   const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Contact' });
+  const hreflangs = generateFullHreflangs('/contact', resolvedParams.locale);
 
   return {
     metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
     title: `${t('titleMain')} | ECU Tuning Portal`,
     description: t('subtitle'),
+    alternates: {
+      canonical: hreflangs.canonical,
+      languages: hreflangs.languages
+    },
     openGraph: {
       title: `${t('titleMain')} | ECU Tuning Portal`,
       description: t('subtitle'),

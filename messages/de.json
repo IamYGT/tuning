@@ -140,19 +140,19 @@
       "heading": "Unsere Kundenbewertungen",
       "description": "Lesen Sie die Erfahrungen unserer Kunden über unsere Lösungen, die von Tuning-Profis vertraut und bevorzugt werden.",
       "testimonial1": {
-        "name": "John Smith",
+        "name": "Hans Mueller",
         "company": "Performance Tuning Ltd",
-        "text": "Dieses ECU-Tuning-Portal hat die Art und Weise, wie wir unsere Tuning-Dateien und Kundenbeziehungen verwalten, komplett verändert. Die Benutzeroberfläche ist intuitiv und die Fahrzeugdatenbank ist umfassend."
+        "text": "Dieses ECU-Tuning-Portal hat unseren gesamten Geschäftsablauf revolutioniert. Das Kundenverwaltungssystem ist äußerst intuitiv und die umfassende Fahrzeugdatenbank spart uns stundenlange Recherchezeit."
       },
       "testimonial2": {
-        "name": "Maria Rodriguez",
+        "name": "Petra Schmidt",
         "company": "AutoTech Solutions",
-        "text": "Das Kreditsystem und die Abrechnungsfunktionen haben unsere Geschäftsabläufe viel effizienter gemacht. Der Kundensupport ist hervorragend und immer reaktionsschnell."
+        "text": "Das erweiterte Kreditsystem und die automatisierten Abrechnungsfunktionen haben unsere Abläufe erheblich optimiert. Das professionelle Support-Team bietet außergewöhnliche Hilfe, wann immer wir sie benötigen."
       },
       "testimonial3": {
-        "name": "Thomas Weber",
+        "name": "Klaus Weber",
         "company": "German Tuning Specialists",
-        "text": "Wir nutzen diese Plattform seit über einem Jahr und sie hat unseren Arbeitsablauf erheblich verbessert. Das Dateiverwaltungssystem ist besonders beeindruckend."
+        "text": "Nach 18 Monaten der Nutzung dieser Plattform ist unsere Produktivität dramatisch gestiegen. Die Dateiverfolgung und Verwaltungskapazitäten sind für professionelle Tuning-Arbeiten wirklich außergewöhnlich."
       }
     },
     "cta": {
@@ -194,7 +194,6 @@
       }
     }
   },
-
   "Corporate": {
     "hero": {
       "label": "Über ECU Tuning Portal",
@@ -246,7 +245,6 @@
       }
     }
   },
-
   "Pricing": {
     "label": "ECU Tuning Portal Preise",
     "title": "Vorteilhafte Preise und Sonderangebote",
@@ -288,7 +286,6 @@
       "buttonText": "Jetzt Starten"
     }
   },
-
   "Features": {
     "hero": {
       "title": "Unsere Funktionen",

@@ -1,15 +1,46 @@
-"use client"
-
-import { useTranslations } from "next-intl"
+import { getTranslations } from "next-intl/server"
+import type { Metadata } from "next"
+import { generateFullHreflangs } from "@/lib/hreflang"
+import { routing } from "@/i18n/routing"
 import { ImageSlider } from "@/components/image-slider"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
 import Image from "next/image"
 import { ArrowRight, Check, PlayIcon } from "lucide-react"
 
-export default function GalleryPage() {
-  const t = useTranslations("Gallery")
-  
+// Generate metadata for SEO
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Gallery' });
+  const hreflangs = generateFullHreflangs('/gallery', resolvedParams.locale);
+
+  return {
+    title: `${t('title')} | ECU Tuning Portal`,
+    description: t('subtitle'),
+    alternates: {
+      canonical: hreflangs.canonical,
+      languages: hreflangs.languages
+    },
+    openGraph: {
+      title: `${t('title')} | ECU Tuning Portal`,
+      description: t('subtitle'),
+      images: ['/assets/images/galery/1.avif'],
+    },
+  };
+}
+
+export default async function GalleryPage({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const resolvedParams = await params;
+  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Gallery' });
+
   // Gallery images
   const images = [
     "/assets/images/galery/1.avif",
@@ -46,9 +77,9 @@ export default function GalleryPage() {
             <div className="w-full md:w-1/2">
               <div className="relative rounded-lg overflow-hidden shadow-xl group cursor-pointer">
                 {/* Kapak resmi */}
-                <a 
-                  href="https://www.youtube.com/watch?v=nRXDRadgO4c" 
-                  target="_blank" 
+                <a
+                  href="https://www.youtube.com/watch?v=nRXDRadgO4c"
+                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label="ECU Tuning Portal Video"
                   className="block w-full"
@@ -62,11 +93,11 @@ export default function GalleryPage() {
                       className="w-full h-auto max-w-md mx-auto group-hover:opacity-90 transition-opacity duration-300"
                       priority
                     />
-                    
+
                     {/* Karanlık gradyan kaplama */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                   </div>
-                  
+
                   {/* Oynat butonu */}
                   <div className="absolute inset-0 top-0 left-0 right-0 bottom-0 flex items-center justify-center pointer-events-none">
                     <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 pointer-events-auto">
@@ -76,12 +107,12 @@ export default function GalleryPage() {
                 </a>
               </div>
             </div>
-            
+
             {/* Content Right Side */}
             <div className="w-full md:w-1/2 mt-8 md:mt-0">
               <h2 className="text-4xl font-bold mb-4">{t("content.video.title") || "High performance"}</h2>
               <h3 className="text-3xl font-bold text-primary mb-6">{t("content.video.subtitle") || "Easy to manage."}</h3>
-              
+
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-3">
                   <div className="bg-primary p-1 rounded-full mt-1">
@@ -94,7 +125,7 @@ export default function GalleryPage() {
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-3">
                   <div className="bg-primary p-1 rounded-full mt-1">
                     <Check className="h-4 w-4 text-white" />
@@ -107,7 +138,7 @@ export default function GalleryPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" variant="default" className="bg-primary text-white hover:bg-primary/90" asChild>
                   <Link href="/trial">
@@ -118,27 +149,27 @@ export default function GalleryPage() {
             </div>
           </div>
         </div>
-      </section>      
+      </section>
 
       {/* CTA Section */}
-    <section className="py-16 bg-gradient-to-r from-red-900/70 to-orange-900/70">
-      <div className="container px-4 mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
-        <p className="text-base sm:text-lg max-w-3xl mx-auto mb-10 text-gray-200">
-          {t('cta.description')}
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" variant="default" className="bg-white text-red-900 hover:bg-gray-200" asChild>
-            <Link href="/trial">
-              {t('cta.primaryButton')} <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-            <Link href="/pricing">{t('cta.secondaryButton')}</Link>
-          </Button>
+      <section className="py-16 bg-gradient-to-r from-red-900/70 to-orange-900/70">
+        <div className="container px-4 mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
+          <p className="text-base sm:text-lg max-w-3xl mx-auto mb-10 text-gray-200">
+            {t('cta.description')}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" variant="default" className="bg-white text-red-900 hover:bg-gray-200" asChild>
+              <Link href="/trial">
+                {t('cta.primaryButton')} <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+              <Link href="/pricing">{t('cta.secondaryButton')}</Link>
+            </Button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
   )
 }

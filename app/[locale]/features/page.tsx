@@ -4,13 +4,13 @@ import Features from "../features/features_component"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useEffect, useState } from "react";
 
 export default function FeaturesPage() {
   const t = useTranslations('Features');
   const [isMobile, setIsMobile] = useState(true); // Default to mobile to prevent flash
-  
+
   useEffect(() => {
     // Check if we're on client-side
     if (typeof window !== 'undefined') {
@@ -18,18 +18,18 @@ export default function FeaturesPage() {
       const checkIfMobile = () => {
         setIsMobile(window.innerWidth < 768); // md breakpoint is typically 768px
       };
-      
+
       // Initial check
       checkIfMobile();
-      
+
       // Add event listener for window resize
       window.addEventListener('resize', checkIfMobile);
-      
+
       // Cleanup
       return () => window.removeEventListener('resize', checkIfMobile);
     }
   }, []);
-  
+
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section with Animation (only on desktop) */}
@@ -53,8 +53,8 @@ export default function FeaturesPage() {
 
       {/* CTA Section with Button (animation only on desktop) */}
       <section className="py-16 bg-gradient-to-t from-muted/30 to-background">
-        <div 
-          className={isMobile ? "container px-4 mx-auto text-center opacity-100" : "container px-4 mx-auto text-center animate-fadeIn opacity-0"} 
+        <div
+          className={isMobile ? "container px-4 mx-auto text-center opacity-100" : "container px-4 mx-auto text-center animate-fadeIn opacity-0"}
           style={!isMobile ? { animationDelay: '0.5s' } : {}}
         >
           <h2 className="text-2xl md:text-3xl font-bold mb-6">{t('cta.title')}</h2>

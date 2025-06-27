@@ -140,19 +140,19 @@
       "heading": "Beoordelingen van onze klanten",
       "description": "Lees de ervaringen van onze klanten over onze oplossingen die worden vertrouwd en geprefereerd door tuning professionals.",
       "testimonial1": {
-        "name": "John Smith",
+        "name": "Jan de Vries",
         "company": "Performance Tuning Ltd",
-        "text": "Dit ECU-tuningportaal heeft de manier waarop we onze tuningbestanden en klantrelaties beheren volledig getransformeerd. De interface is intuïtief en de voertuigendatabase is uitgebreid."
+        "text": "Dit ECU-tuningportaal heeft onze hele bedrijfsworkflow gerevolutioneerd. Het klantbeheersysteem is buitengewoon intuïtief en de uitgebreide voertuigendatabase bespaart ons uren aan onderzoekstijd."
       },
       "testimonial2": {
-        "name": "Maria Rodriguez",
+        "name": "Marie Janssen",
         "company": "AutoTech Solutions",
-        "text": "Het kredietsysteem en de factureringsmogelijkheden hebben onze bedrijfsactiviteiten veel efficiënter gemaakt. De klantenservice is uitstekend en reageert altijd snel."
+        "text": "Het geavanceerde kreditsysteem en geautomatiseerde factureringsfuncties hebben onze operaties aanzienlijk geoptimaliseerd. Hun professionele supportteam biedt uitzonderlijke hulp wanneer we die nodig hebben."
       },
       "testimonial3": {
-        "name": "Thomas Weber",
+        "name": "Peter van der Berg",
         "company": "German Tuning Specialists",
-        "text": "We gebruiken dit platform nu al meer dan een jaar en het heeft onze workflow aanzienlijk verbeterd. Het bestandsbeheersysteem is bijzonder indrukwekkend."
+        "text": "Na het implementeren van dit platform voor 18 maanden is onze productiviteit dramatisch gestegen. De bestandsvolging en beheercapaciteiten zijn werkelijk uitzonderlijk voor professioneel tuningwerk."
       }
     },
     "cta": {
@@ -194,7 +194,6 @@
       }
     }
   },
-
   "Corporate": {
     "hero": {
       "label": "Over ECU Tuning Portal",
@@ -246,7 +245,6 @@
       }
     }
   },
-
   "Pricing": {
     "label": "ECU Tuning Portal Prijzen",
     "title": "Voordelige Prijzen en Speciale Aanbiedingen",
@@ -288,7 +286,6 @@
       "buttonText": "Nu Beginnen"
     }
   },
-
   "Features": {
     "hero": {
       "title": "Onze Functies",

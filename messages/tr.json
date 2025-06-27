@@ -140,19 +140,19 @@
       "heading": "Müşterilerimizin Yorumları",
       "description": "Tuning profesyonelleri tarafından güvenilen ve tercih edilen çözümlerimiz hakkında müşterilerimizin deneyimlerini okuyun.",
       "testimonial1": {
-        "name": "John Smith",
+        "name": "Ahmet Öztürk",
         "company": "Performance Tuning Ltd",
-        "text": "Bu ECU tuning portalı, tuning dosyalarımızı ve müşteri ilişkilerimizi nasıl yönettiğimizi tamamen değiştirdi. Arayüz sezgisel ve araç veritabanı kapsamlı."
+        "text": "Bu ECU tuning portalı iş akışımızı tamamen devrimleştirdi. Müşteri yönetim sistemi son derece sezgisel ve kapsamlı araç veritabanı araştırma zamanımızı saatlerce kısaltıyor."
       },
       "testimonial2": {
-        "name": "Maria Rodriguez",
+        "name": "Elif Demir",
         "company": "AutoTech Solutions",
-        "text": "Kredi sistemi ve faturalama özellikleri iş operasyonlarımızı çok daha verimli hale getirdi. Müşteri desteği mükemmel ve her zaman duyarlı."
+        "text": "Gelişmiş kredi sistemi ve otomatik faturalama özellikleri operasyonlarımızı büyük ölçüde optimize etti. Profesyonel destek ekibi ihtiyaç duyduğumuzda olağanüstü yardım sağlıyor."
       },
       "testimonial3": {
-        "name": "Thomas Weber",
+        "name": "Mehmet Kaya",
         "company": "German Tuning Specialists",
-        "text": "Bu platformu bir yılı aşkın süredir kullanıyoruz ve iş akışımızı önemli ölçüde geliştirdi. Dosya yönetim sistemi özellikle etkileyici."
+        "text": "Bu platformu 18 aydır kullandıktan sonra üretkenliğimiz dramatik şekilde arttı. Dosya takip ve yönetim yetenekleri profesyonel tuning işleri için gerçekten istisnai."
       }
     },
     "cta": {
@@ -194,7 +194,6 @@
       }
     }
   },
-
   "Corporate": {
     "hero": {
       "label": "ECU Tuning Portal Hakkında",
@@ -246,7 +245,6 @@
       }
     }
   },
-
   "Pricing": {
     "label": "Ecu Tuning Portal Fiyatları",
     "title": "Avantajlı Fiyatlar ve Özel Teklifler",
@@ -288,7 +286,6 @@
       "buttonText": "Hemen Başla"
     }
   },
-
   "Features": {
     "hero": {
       "title": "Özelliklerimiz",

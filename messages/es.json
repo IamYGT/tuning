@@ -140,19 +140,19 @@
       "heading": "Opiniones de nuestros clientes",
       "description": "Lea las experiencias de nuestros clientes sobre nuestras soluciones confiables y preferidas por los profesionales de la sintonización.",
       "testimonial1": {
-        "name": "John Smith",
+        "name": "Carlos Ruiz",
         "company": "Performance Tuning Ltd",
-        "text": "Este portal de sintonización ECU ha transformado completamente la forma en que gestionamos nuestros archivos de sintonización y las relaciones con los clientes. La interfaz es intuitiva y la base de datos de vehículos es completa."
+        "text": "Este portal de sintonización ECU ha revolucionado completamente nuestro flujo de trabajo empresarial. El sistema de gestión de clientes es extremadamente intuitivo y la base de datos integral de vehículos nos ahorra horas de investigación."
       },
       "testimonial2": {
-        "name": "Maria Rodriguez",
+        "name": "Ana García",
         "company": "AutoTech Solutions",
-        "text": "El sistema de crédito y las funciones de facturación han hecho que nuestras operaciones comerciales sean mucho más eficientes. El soporte al cliente es excelente y siempre responde rápidamente."
+        "text": "El sistema avanzado de créditos y las funciones de facturación automatizada han optimizado significativamente nuestras operaciones. Su equipo de soporte profesional brinda asistencia excepcional cuando la necesitamos."
       },
       "testimonial3": {
-        "name": "Thomas Weber",
+        "name": "Miguel Fernández",
         "company": "German Tuning Specialists",
-        "text": "Hemos estado utilizando esta plataforma durante más de un año y ha mejorado significativamente nuestro flujo de trabajo. El sistema de gestión de archivos es particularmente impresionante."
+        "text": "Después de implementar esta plataforma durante 18 meses, nuestra productividad ha aumentado dramáticamente. Las capacidades de seguimiento y gestión de archivos son verdaderamente excepcionales para el trabajo profesional de sintonización."
       }
     },
     "cta": {
@@ -194,7 +194,6 @@
       }
     }
   },
-
   "Corporate": {
     "hero": {
       "label": "Acerca del Portal ECU Tuning",
@@ -246,7 +245,6 @@
       }
     }
   },
-
   "Pricing": {
     "label": "Precios del Portal ECU Tuning",
     "title": "Precios Ventajosos y Ofertas Especiales",
@@ -288,7 +286,6 @@
       "buttonText": "Comenzar Ahora"
     }
   },
-
   "Features": {
     "hero": {
       "title": "Nuestras Características",
