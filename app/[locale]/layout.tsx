@@ -11,6 +11,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { Analytics } from "@vercel/analytics/next";
 
 // Base metadata tanımı
 const baseMetadata = {
@@ -107,6 +108,7 @@ export default async function RootLayout({
             <Toaster />
           </NextIntlClientProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
