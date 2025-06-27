@@ -67,7 +67,7 @@ async function submitTrialForm(
 
   // Doğrulama başarılı, API çağrısını yap (simülasyon)
   try {
-    console.log("Sunucuya gönderilen deneme formu verileri (simülasyon):", validationResult.data);
+    // Sunucuya gönderilen deneme formu verileri (simülasyon)
     // Örnek API çağrısı:
     // const response = await fetch('/api/submit-trial', {
     //   method: 'POST',
@@ -87,8 +87,8 @@ async function submitTrialForm(
       message: "Deneme talebiniz başarıyla gönderildi!", // i18n, veya API'den gelen mesaj: resultData.message
       resetKey: Date.now().toString(), // Formu sıfırlamak için yeni anahtar
     };
-  } catch (error) {
-    console.error("Deneme formu gönderilirken hata oluştu:", error);
+  } catch {
+    // Deneme formu gönderilirken hata oluştu
     return {
       success: false,
       message: "Form gönderilirken beklenmedik bir hata oluştu.", // i18n
@@ -243,98 +243,98 @@ export default function TrialPage() {
             <h2 className="text-2xl font-bold mb-6 text-center text-white">
               {t("form.title")}
             </h2>
-              <form action={formAction} className="space-y-8" key={state.resetKey}>
-                <div>
-                  <Label htmlFor="name" className="text-white">
-                    {t("form.namePlaceholder")}
-                  </Label>
-                  <Input
-                    id="name"
-                    name="name"
-                    placeholder={t("form.namePlaceholder")}
-                    value={internalFormData.name}
-                    onChange={handleInputChange}
-                    className="mt-1 bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
-                    aria-describedby="name-error"
-                  />
-                  {state.errors?.name && (
-                    <p id="name-error" className="mt-1 text-sm text-red-400">{state.errors.name.join(", ")}</p>
-                  )}
-                </div>
+            <form action={formAction} className="space-y-8" key={state.resetKey}>
+              <div>
+                <Label htmlFor="name" className="text-white">
+                  {t("form.namePlaceholder")}
+                </Label>
+                <Input
+                  id="name"
+                  name="name"
+                  placeholder={t("form.namePlaceholder")}
+                  value={internalFormData.name}
+                  onChange={handleInputChange}
+                  className="mt-1 bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
+                  aria-describedby="name-error"
+                />
+                {state.errors?.name && (
+                  <p id="name-error" className="mt-1 text-sm text-red-400">{state.errors.name.join(", ")}</p>
+                )}
+              </div>
 
-                <div>
-                  <Label htmlFor="email" className="text-white">
-                    {t("form.emailPlaceholder")}
-                  </Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    placeholder={t("form.emailPlaceholder")}
-                    type="email"
-                    value={internalFormData.email}
-                    onChange={handleInputChange}
-                    className="mt-1 bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
-                    aria-describedby="email-error"
-                  />
-                  {state.errors?.email && (
-                    <p id="email-error" className="mt-1 text-sm text-red-400">{state.errors.email.join(", ")}</p>
-                  )}
-                </div>
+              <div>
+                <Label htmlFor="email" className="text-white">
+                  {t("form.emailPlaceholder")}
+                </Label>
+                <Input
+                  id="email"
+                  name="email"
+                  placeholder={t("form.emailPlaceholder")}
+                  type="email"
+                  value={internalFormData.email}
+                  onChange={handleInputChange}
+                  className="mt-1 bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
+                  aria-describedby="email-error"
+                />
+                {state.errors?.email && (
+                  <p id="email-error" className="mt-1 text-sm text-red-400">{state.errors.email.join(", ")}</p>
+                )}
+              </div>
 
-                <div>
-                  <Label htmlFor="phone" className="text-white">
-                    {t("form.phonePlaceholder")}
-                  </Label>
-                  <PhoneInput
-                    id="phone"
-                    name="phone"
-                    placeholder={t("form.phonePlaceholder")}
-                    value={internalFormData.phone}
-                    onChange={handlePhoneChange}
-                    defaultCountry="US"
-                    inputComponent={Input}
-                    // PhoneInput sarmalayıcısı için stiller:
-                    // Diğer Input'lar `h-10` (Shadcn varsayılanı) yüksekliğindedir.
-                    // `flex items-center` bayrağın ve input'un dikeyde ortalanmasına yardımcı olur.
-                    // `rounded-md border border-zinc-600 bg-zinc-700` diğer inputlarla aynı temel görünümü sağlar.
-                    // `focus-within:` stilleri, sarmalayıcının da odaklandığında tepki vermesini sağlar.
-                    // `inputComponent` olarak verilen `Input` kendi `bg-zinc-700`, `text-white`, `placeholder:text-gray-400` stillerini zaten getirecektir.
-                    // Bu nedenle bu stilleri PhoneInput'un dış className'inde tekrarlamaya gerek yok, sadece kenarlık ve genel yapı için.
-                    // Dış sarmalayıcının arka planını transparent ve kenarlığını da border-input yapalım (önceki başarılı durum).
-                    // inputComponent olan Input, kendi bg-zinc-700 arka planını koruyacaktır.
-                    className="flex h-10 items-center rounded-md border px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
-                    aria-describedby="phone-error"
-                  />
-                  {state.errors?.phone && (
-                    <p id="phone-error" className="mt-1 text-sm text-red-400">{state.errors.phone.join(", ")}</p>
-                  )}
-                </div>
+              <div>
+                <Label htmlFor="phone" className="text-white">
+                  {t("form.phonePlaceholder")}
+                </Label>
+                <PhoneInput
+                  id="phone"
+                  name="phone"
+                  placeholder={t("form.phonePlaceholder")}
+                  value={internalFormData.phone}
+                  onChange={handlePhoneChange}
+                  defaultCountry="US"
+                  inputComponent={Input}
+                  // PhoneInput sarmalayıcısı için stiller:
+                  // Diğer Input'lar `h-10` (Shadcn varsayılanı) yüksekliğindedir.
+                  // `flex items-center` bayrağın ve input'un dikeyde ortalanmasına yardımcı olur.
+                  // `rounded-md border border-zinc-600 bg-zinc-700` diğer inputlarla aynı temel görünümü sağlar.
+                  // `focus-within:` stilleri, sarmalayıcının da odaklandığında tepki vermesini sağlar.
+                  // `inputComponent` olarak verilen `Input` kendi `bg-zinc-700`, `text-white`, `placeholder:text-gray-400` stillerini zaten getirecektir.
+                  // Bu nedenle bu stilleri PhoneInput'un dış className'inde tekrarlamaya gerek yok, sadece kenarlık ve genel yapı için.
+                  // Dış sarmalayıcının arka planını transparent ve kenarlığını da border-input yapalım (önceki başarılı durum).
+                  // inputComponent olan Input, kendi bg-zinc-700 arka planını koruyacaktır.
+                  className="flex h-10 items-center rounded-md border px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
+                  aria-describedby="phone-error"
+                />
+                {state.errors?.phone && (
+                  <p id="phone-error" className="mt-1 text-sm text-red-400">{state.errors.phone.join(", ")}</p>
+                )}
+              </div>
 
-                <div>
-                  <Label htmlFor="message" className="text-white">
-                    {t("form.messagePlaceholder")}
-                  </Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    placeholder={t("form.messagePlaceholder")}
-                    className="mt-1 resize-none bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
-                    value={internalFormData.message}
-                    onChange={handleInputChange}
-                    aria-describedby="message-error"
-                  />
-                  {state.errors?.message && (
-                    <p id="message-error" className="mt-1 text-sm text-red-400">{state.errors.message.join(", ")}</p>
-                  )}
-                </div>
-                
-                <Button
-                  type="submit"
-                  className="bg-[#f05545] hover:bg-[#d03535] text-white rounded-md px-6 py-3 w-full"
-                >
-                  <SubmitButtonContent />
-                </Button>
-              </form>
+              <div>
+                <Label htmlFor="message" className="text-white">
+                  {t("form.messagePlaceholder")}
+                </Label>
+                <Textarea
+                  id="message"
+                  name="message"
+                  placeholder={t("form.messagePlaceholder")}
+                  className="mt-1 resize-none bg-zinc-700 border-zinc-600 text-white placeholder:text-gray-400"
+                  value={internalFormData.message}
+                  onChange={handleInputChange}
+                  aria-describedby="message-error"
+                />
+                {state.errors?.message && (
+                  <p id="message-error" className="mt-1 text-sm text-red-400">{state.errors.message.join(", ")}</p>
+                )}
+              </div>
+
+              <Button
+                type="submit"
+                className="bg-[#f05545] hover:bg-[#d03535] text-white rounded-md px-6 py-3 w-full"
+              >
+                <SubmitButtonContent />
+              </Button>
+            </form>
           </div>
         </div>
       </div>

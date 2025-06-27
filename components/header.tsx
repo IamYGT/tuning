@@ -10,72 +10,61 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { cn } from "@/lib/utils"
 import { Menu, X, ArrowRight } from "lucide-react"
 import { useTranslations } from "next-intl"
-import { Link, usePathname, useRouter } from "@/i18n/navigation"
+import { Link, usePathname } from "@/i18n/navigation"
 import { LanguageSwitcher } from "./language-switcher"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
-  const router = useRouter()
   const t = useTranslations("common.navigation")
   const promoT = useTranslations("common.promo")
-  
+
   // Function to update header heights
   const updateHeaderHeights = () => {
     // Get the banner height if visible
     const banner = document.querySelector(".bg-gradient-to-r");
     const bannerHeight = banner && !banner.classList.contains("hidden") ? banner.clientHeight : 0;
-    
+
     // Get the main header height (without banner)
     const headerContainer = document.querySelector(".container.mx-auto");
     const headerHeight = headerContainer ? headerContainer.clientHeight : 56;
-    
+
     // Set CSS variables
     document.documentElement.style.setProperty('--banner-height', `${bannerHeight}px`);
     document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
     document.documentElement.style.setProperty('--total-header-height', `${bannerHeight + headerHeight}px`);
   }
-  
+
   // Add CSS variables for header and banner height to allow mobile menu to calculate height correctly
   useEffect(() => {
     // Update header heights
     updateHeaderHeights();
-    
+
     // Prevent scrolling when mobile menu is open
     if (isOpen) {
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = ''
     }
-    
+
     return () => {
       document.body.style.overflow = ''
     }
   }, [isOpen])
-  
+
   // Add a resize listener to update header heights when window is resized
   useEffect(() => {
     const handleResize = () => {
       updateHeaderHeights();
     }
-    
+
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [])
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10)
-    }
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
 
   useEffect(() => {
     // Close mobile menu when route changes
@@ -114,12 +103,12 @@ export default function Header() {
         <div className="flex h-14 sm:h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image 
-                src="/assets/images/logo/ecu.svg" 
-                alt="ECU Tuning Portal Logo" 
-                width={52} 
-                height={52} 
-                className="h-10 w-auto md:h-12 transition-all duration-200" 
+              <Image
+                src="/assets/images/logo/ecu.svg"
+                alt="ECU Tuning Portal Logo"
+                width={52}
+                height={52}
+                className="h-10 w-auto md:h-12 transition-all duration-200"
               />
 
             </Link>
@@ -187,17 +176,17 @@ export default function Header() {
               </Button>
             </div>
           </div>
-          
+
           {/* Medium Screen Navigation - Show on medium screens (md) */}
           <div className="hidden md:flex lg:hidden items-center ml-auto space-x-2">
             <LanguageSwitcher variant="desktop" />
-            
+
             <Button size="sm" className="h-8 text-xs sm:text-sm flex whitespace-nowrap" asChild>
               <Link href="/trial">
                 {t("tryFree")} <ArrowRight className="ml-1 h-3 w-3" />
               </Link>
             </Button>
-            
+
             <Button
               variant="ghost"
               size="icon"
@@ -231,7 +220,7 @@ export default function Header() {
             <div className="flex items-center justify-between mb-4">
               <LanguageSwitcher variant="mobile" />
             </div>
-            
+
             <div className="grid grid-cols-1 gap-1">
               <Link href="/" className="flex items-center py-3 px-2 rounded-md hover:bg-muted transition-colors">
                 <span className="text-base font-medium">{t("home")}</span>
@@ -252,7 +241,7 @@ export default function Header() {
                 <span className="text-base font-medium">{t("contact")}</span>
               </Link>
             </div>
-            
+
             <div className="pt-6 pb-2">
               <Button className="w-full" asChild>
                 <Link href="/trial">

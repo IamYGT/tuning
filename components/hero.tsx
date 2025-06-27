@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation"
 
 export default function Hero() {
   const t = useTranslations('home.hero');
-  
+
   return (
     <section className="relative w-full min-h-[600px] flex items-center overflow-hidden">
       {/* Dark background with layered red glowing radial effects */}
@@ -49,24 +49,24 @@ export default function Hero() {
                 <Link href="/pricing">{t('secondaryCta')}</Link>
               </Button>
               <Button size="lg" variant="outline" className="px-4" asChild>
-                <Link href="https://tuningwebsite.com" aria-label="Tuning Website" target="_blank" rel="noopener noreferrer">
-                  <Image 
-                    src="/assets/images/website.png" 
-                    alt="Tuning Website" 
-                    width={100} 
-                    height={100} 
-                    className="object-contain" 
+                <a href="https://tuningwebsite.com" aria-label="Tuning Website" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/assets/images/website.png"
+                    alt="Tuning Website"
+                    width={100}
+                    height={100}
+                    className="object-contain"
                   />
-                </Link>
+                </a>
               </Button>
 
 
             </div>
           </div>
-          
+
           {/* Image on the right side */}
           <div className="relative w-full md:w-2/5 h-[300px] md:h-[400px]">
-            <Image 
+            <Image
               src="/assets/images/call.png.avif"
               alt="ECU Tuning Support"
               fill
@@ -75,7 +75,7 @@ export default function Hero() {
             />
           </div>
         </div>
-        
+
         {/* Brand Marquee */}
         <div className="mt-16">
           <BrandMarquee />

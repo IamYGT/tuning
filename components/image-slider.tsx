@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
-import { motion, AnimatePresence, useAnimation, useMotionValue, PanInfo } from "framer-motion"
+import { motion, AnimatePresence, PanInfo } from "framer-motion"
 import { useTranslations } from "next-intl"
 import { useMediaQuery } from "../hooks/use-media-query"
 import { X } from "lucide-react"
@@ -12,20 +12,16 @@ interface ImageSliderProps {
   autoPlayInterval?: number
 }
 
-export const ImageSlider = ({ 
-  images, 
-  autoPlayInterval = 5000 
+export const ImageSlider = ({
+  images,
+  autoPlayInterval = 5000
 }: ImageSliderProps) => {
   const t = useTranslations("Gallery")
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [direction, setDirection] = useState(0)
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
-  const controls = useAnimation()
-  const x = useMotionValue(0)
   const containerRef = useRef<HTMLDivElement>(null)
   const isDesktop = useMediaQuery("(min-width: 768px)")
   const autoPlayRef = useRef<NodeJS.Timeout | null>(null)
-  const dragStartX = useRef(0)
   const dragThreshold = 100 // Drag threshold (pixels)
 
   // Automatic sliding at regular intervals (desktop only)
@@ -34,10 +30,9 @@ export const ImageSlider = ({
 
     const startAutoPlay = () => {
       if (autoPlayRef.current) clearTimeout(autoPlayRef.current)
-      
+
       autoPlayRef.current = setTimeout(() => {
         const newIndex = (currentIndex + 1) % images.length
-        setDirection(1)
         setCurrentIndex(newIndex)
       }, autoPlayInterval)
     }
@@ -53,7 +48,6 @@ export const ImageSlider = ({
   const prevSlide = () => {
     if (autoPlayRef.current) clearTimeout(autoPlayRef.current)
     const newIndex = (currentIndex - 1 + images.length) % images.length
-    setDirection(-1)
     setCurrentIndex(newIndex)
   }
 
@@ -61,14 +55,12 @@ export const ImageSlider = ({
   const nextSlide = () => {
     if (autoPlayRef.current) clearTimeout(autoPlayRef.current)
     const newIndex = (currentIndex + 1) % images.length
-    setDirection(1)
     setCurrentIndex(newIndex)
   }
 
   // Go to specific image
   const goToSlide = (index: number) => {
     if (autoPlayRef.current) clearTimeout(autoPlayRef.current)
-    setDirection(index > currentIndex ? 1 : -1)
     setCurrentIndex(index)
   }
 
@@ -77,7 +69,7 @@ export const ImageSlider = ({
     // Calculate previous, current, and next image indices
     const prevIndex = (currentIndex - 1 + images.length) % images.length
     const nextIndex = (currentIndex + 1) % images.length
-    
+
     // Return only 3 images: previous, current, and next
     return [
       { src: images[prevIndex], position: -1, index: prevIndex },
@@ -91,9 +83,9 @@ export const ImageSlider = ({
   // Function to be called when drag is completed
   const handleDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     if (isDesktop) return // Disable drag functionality on desktop
-    
+
     const { offset } = info
-    
+
     // Drag to right (previous image)
     if (offset.x > dragThreshold) {
       prevSlide()
@@ -106,7 +98,7 @@ export const ImageSlider = ({
 
   return (
     <div className="relative w-full overflow-hidden py-12">
-      <motion.div 
+      <motion.div
         ref={containerRef}
         className="flex items-center justify-center w-full h-[450px] md:h-[600px] px-4"
         drag={!isDesktop ? "x" : false}
@@ -116,15 +108,14 @@ export const ImageSlider = ({
       >
         {visibleImages.map((item) => {
           const isCenter = item.position === 0
-          
+
           return (
             <motion.div
               key={item.src}
-              className={`absolute cursor-pointer transition-all duration-500 ${
-                isCenter 
-                  ? "z-20 scale-100 brightness-100 shadow-2xl shadow-primary/50 border-2 border-primary/20" 
-                  : "z-10 scale-50 brightness-20"
-              }`}
+              className={`absolute cursor-pointer transition-all duration-500 ${isCenter
+                ? "z-20 scale-100 brightness-100 shadow-2xl shadow-primary/50 border-2 border-primary/20"
+                : "z-10 scale-50 brightness-20"
+                }`}
               style={{
                 x: `calc(${item.position * 100}% + ${item.position * 60}px)`,
               }}
@@ -132,7 +123,7 @@ export const ImageSlider = ({
               onClick={() => !isCenter && goToSlide(item.index)}
               transition={{ duration: 0.5 }}
             >
-              <div 
+              <div
                 className="relative w-[320px] md:w-[500px] h-[320px] md:h-[500px] rounded-lg overflow-hidden"
                 onClick={() => {
                   if (isCenter) {
@@ -190,9 +181,8 @@ export const ImageSlider = ({
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-colors ${
-              index === currentIndex ? "bg-primary" : "bg-gray-400"
-            }`}
+            className={`w-3 h-3 rounded-full transition-colors ${index === currentIndex ? "bg-primary" : "bg-gray-400"
+              }`}
             aria-label={t("goToImage", { index: index + 1 })}
           />
         ))}
@@ -201,7 +191,7 @@ export const ImageSlider = ({
       {/* Zoom Modal */}
       <AnimatePresence>
         {selectedImage && (
-          <motion.div 
+          <motion.div
             className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 md:p-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

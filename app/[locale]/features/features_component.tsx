@@ -1,34 +1,31 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
 import clsx from "clsx"
-import { Users, CreditCard, BarChart3, FileText, Languages, CreditCard as PaymentIcon, FileCheck, BarChart, MessageSquare, BellRing, Percent, MoreHorizontal } from "lucide-react"
+import { Users, CreditCard, BarChart3, FileText, Languages, CreditCard as PaymentIcon, BarChart, MessageSquare, BellRing, Percent, MoreHorizontal } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 interface FeatureProps {
   title: string
   description: string
   icon: React.ReactNode
-  reverse?: boolean
   animate?: boolean
   isHovered?: boolean
   onHover?: (isHovered: boolean) => void
   index: number
 }
 
-const FeatureItem = ({ 
-  title, 
-  description, 
-  icon, 
-  reverse = false, 
+const FeatureItem = ({
+  title,
+  description,
+  icon,
   animate = false,
   isHovered = false,
   onHover,
   index
 }: FeatureProps) => {
   return (
-    <div 
+    <div
       className={clsx(
         "flex flex-col items-center gap-6 p-6 rounded-xl border relative bg-black/20",
         "transition-all duration-500 cursor-pointer group",
@@ -57,15 +54,14 @@ const FeatureItem = ({
 
 export default function Features() {
   const t = useTranslations('Features.items');
-  const pathname = usePathname()
   // Check if we're on the features page regardless of language
   const isFeaturePage = true // We're already in the features directory component
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
-  
+
   useEffect(() => {
     // Sadece features sayfasında animasyonları uygula
     if (!isFeaturePage) return
-    
+
     // Animasyon için görünürlük kontrolü
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -146,13 +142,13 @@ export default function Features() {
     <div className="w-full overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 fade-out-siblings">
         {features.map((feature, index) => (
-          <FeatureItem 
+          <FeatureItem
             key={index}
             index={index}
             title={t(`${feature.key}.title`)}
             description={t(`${feature.key}.description`)}
             icon={feature.icon}
-            reverse={index % 2 === 0 ? false : true}
+
             animate={isFeaturePage}
             isHovered={hoveredIndex === index}
             onHover={(isHovered) => setHoveredIndex(isHovered ? index : null)}

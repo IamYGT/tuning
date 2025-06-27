@@ -21,9 +21,8 @@ interface FormState {
 }
 
 async function submitForm(prevState: FormState, formData: FormData): Promise<FormState> {
-  const t = useTranslations("Contact") // Bu satır hata verebilir, Server Action içinde useTranslations doğrudan kullanılamaz.
-                                      // Dil çevirilerini ya API'ye parametre olarak geçmeli ya da API tarafında halletmelisiniz.
-                                      // Şimdilik mesajları doğrudan string olarak bırakacağım veya API'den gelen mesajları kullanacağım.
+  // Server Action içinde useTranslations doğrudan kullanılamaz.
+  // Dil çevirilerini ya API'ye parametre olarak geçmeli ya da API tarafında halletmelisiniz.
 
   const rawFormData = {
     name: formData.get("name") as string,
@@ -53,8 +52,7 @@ async function submitForm(prevState: FormState, formData: FormData): Promise<For
     } else {
       return { success: false, message: data.error || "Failed to send message.", errors: data.errors }
     }
-  } catch (error) {
-    console.error('Error sending message:', error)
+  } catch {
     return { success: false, message: "An unexpected error occurred." }
   }
 }
@@ -184,7 +182,7 @@ export default function ContactForm() {
             // className="phone-input-container" // Gerekirse dış sarmalayıcı için özel bir sınıf
             required
             aria-describedby={state.errors?.phone ? "phone-error" : undefined}
-           
+
           />
           {state.errors?.phone && (
             <p id="phone-error" className="text-sm text-red-500 mt-1">

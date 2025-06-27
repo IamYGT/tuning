@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
-import { ArrowRight, Users, FileText, Code, Clock, PlayIcon, PlaySquare, Check } from "lucide-react"
+import { ArrowRight, PlayIcon, Check, Users, FileText, Code, Clock } from "lucide-react"
 
 export default function AboutPage() {
   const t = useTranslations("Corporate")
@@ -103,9 +103,9 @@ export default function AboutPage() {
             <div className="w-full md:w-1/2">
               <div className="relative rounded-lg overflow-hidden shadow-xl group cursor-pointer">
                 {/* Kapak resmi */}
-                <a 
-                  href="https://www.youtube.com/watch?v=nRXDRadgO4c" 
-                  target="_blank" 
+                <a
+                  href="https://www.youtube.com/watch?v=nRXDRadgO4c"
+                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label="ECU Tuning Portal Video"
                   title="ECU Tuning Portal Video"
@@ -120,11 +120,11 @@ export default function AboutPage() {
                       className="w-full h-auto max-w-md mx-auto group-hover:opacity-90 transition-opacity duration-300"
                       priority
                     />
-                    
+
                     {/* Karanlık gradyan kaplama */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                   </div>
-                  
+
                   {/* Oynat butonu */}
                   <div className="absolute inset-0 top-0 left-0 right-0 bottom-0 flex items-center justify-center pointer-events-none">
                     <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 pointer-events-auto">
@@ -134,12 +134,12 @@ export default function AboutPage() {
                 </a>
               </div>
             </div>
-            
+
             {/* Content Right Side */}
             <div className="w-full md:w-1/2 mt-8 md:mt-0">
               <h2 className="text-4xl font-bold mb-4">{t("content.video.title") || "High performance"}</h2>
               <h3 className="text-3xl font-bold text-primary mb-6">{t("content.video.subtitle") || "Easy to manage."}</h3>
-              
+
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-3">
                   <div className="bg-primary p-1 rounded-full mt-1">
@@ -152,7 +152,7 @@ export default function AboutPage() {
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-3">
                   <div className="bg-primary p-1 rounded-full mt-1">
                     <Check className="h-4 w-4 text-white" />
@@ -165,7 +165,7 @@ export default function AboutPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" variant="default" className="bg-primary text-white hover:bg-primary/90" asChild>
                   <Link href="/trial">
@@ -177,15 +177,15 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Brand Logos Section */}
       <section className="py-12 bg-muted/10">
         <div className="container px-4 mx-auto">
           <h2 className="text-2xl font-bold mb-8 text-center">{t("content.brands.title") || "Our Trusted Brands"}</h2>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
             {[...Array(20)].map((_, index) => (
-              <a 
-                key={index + 1} 
+              <a
+                key={index + 1}
                 href="https://tuningwebsite.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -206,7 +206,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Stats Section */}
       <section className="py-16 bg-gradient-to-b from-background to-slate-900">
         <div className="container px-4 mx-auto">
@@ -271,7 +271,7 @@ export default function AboutPage() {
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
               <div className="relative w-full max-w-md">
-                <Image 
+                <Image
                   src="/assets/images/call.png.avif"
                   alt="Call to action"
                   width={500}

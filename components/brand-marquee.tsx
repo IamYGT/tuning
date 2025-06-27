@@ -8,18 +8,12 @@ import { useTranslations } from "next-intl"
 export default function BrandMarquee() {
   const t = useTranslations('home.brands');
   const [width, setWidth] = useState(0)
-  const [isMobile, setIsMobile] = useState(false)
   const brandImages = Array.from({ length: 20 }, (_, i) => `/assets/images/brand/${i + 1}.png.avif`)
-  
+
   // Duplicate the array to create a seamless loop for desktop
   const duplicatedBrands = [...brandImages, ...brandImages]
-  
+
   useEffect(() => {
-    // Check if mobile on initial load
-    const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 768) // 768px is typical md breakpoint
-    }
-    
     // Set the width of the container for animation
     const updateWidth = () => {
       const marqueeContainer = document.querySelector(".marquee-container")
@@ -27,18 +21,15 @@ export default function BrandMarquee() {
         setWidth(marqueeContainer.scrollWidth / 2)
       }
     }
-    
-    // Initial checks
-    checkIfMobile()
+
+    // Initial check
     updateWidth()
-    
-    // Add event listeners for resize
-    window.addEventListener('resize', checkIfMobile)
+
+    // Add event listener for resize
     window.addEventListener('resize', updateWidth)
-    
-    // Cleanup event listeners
+
+    // Cleanup event listener
     return () => {
-      window.removeEventListener('resize', checkIfMobile)
       window.removeEventListener('resize', updateWidth)
     }
   }, [])

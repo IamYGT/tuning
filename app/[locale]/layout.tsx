@@ -8,9 +8,9 @@ import Footer from "@/components/footer"
 import BackToTop from "@/components/back-to-top"
 import WhatsAppButton from "@/components/whatsapp-button"
 import { Toaster } from "@/components/ui/toaster"
-import {NextIntlClientProvider, hasLocale} from 'next-intl';
-import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { notFound } from 'next/navigation';
+import { routing } from '@/i18n/routing';
 
 // Base metadata tanımı
 const baseMetadata = {
@@ -33,12 +33,12 @@ const baseMetadata = {
 export async function generateMetadata({
   params
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   // Await params before accessing its properties
   const paramsData = await params;
   const locale = paramsData.locale;
-  
+
   // Validate the locale
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -48,13 +48,13 @@ export async function generateMetadata({
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
-  } catch (error) {
+  } catch {
     notFound();
   }
-  
+
   // Ana sayfa için başlık
   const title = messages.metadata?.home || 'ECU Tuning Portal | Professional Tuning System Service';
-  
+
   return {
     ...baseMetadata,
     title,
@@ -72,13 +72,13 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+  params: Promise<{ locale: string }>;
 }) {
   // Next.js 14+ requires dynamic params to be handled asynchronously
   // Await params before accessing its properties
   const paramsData = await params;
   const locale = paramsData.locale;
-  
+
   // Ensure that the incoming `locale` is valid
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -88,7 +88,7 @@ export default async function RootLayout({
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
-  } catch (error) {
+  } catch {
     notFound();
   }
 

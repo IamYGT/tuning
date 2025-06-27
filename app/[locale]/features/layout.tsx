@@ -24,12 +24,12 @@ const baseMetadata = {
 export async function generateMetadata({
   params
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   // Await params before accessing its properties
   const paramsData = await params;
   const locale = paramsData.locale;
-  
+
   // Validate the locale
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -39,14 +39,14 @@ export async function generateMetadata({
   let messages;
   try {
     messages = (await import(`../../../messages/${locale}.json`)).default;
-  } catch (error) {
+  } catch {
     notFound();
   }
-  
+
   // Features page specific metadata
   const title = messages.metadata?.features || 'Features | ECU Tuning Portal';
   const description = messages.metadata?.featuresDescription || 'Explore the advanced features of our professional ECU tuning platform';
-  
+
   return {
     ...baseMetadata,
     title,
