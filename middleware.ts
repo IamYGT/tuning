@@ -2,35 +2,60 @@ import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
 import { NextRequest, NextResponse } from "next/server";
 
-// Custom middleware to handle SEO-friendly routing
+// Custom middleware to handle SEO-friendly routing without redirects
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  // CRITICAL: Handle trailing slash for locale-only paths to prevent redirects
+  // /tr/ -> /tr, /de/ -> /de, etc. (rewrite, not redirect)
+  if (pathname.match(/^\/(tr|de|nl|es)\/$/)) {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname.slice(0, -1); // Remove trailing slash
+    return NextResponse.rewrite(url);
+  }
+
+  // Handle general trailing slash normalization for other paths
+  if (
+    pathname.endsWith("/") &&
+    pathname.length > 1 &&
+    !pathname.match(/^\/(tr|de|nl|es)\/$/)
+  ) {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname.slice(0, -1);
+    return NextResponse.rewrite(url);
+  }
 
   // Check if pathname already has a locale prefix
   const hasLocalePrefix = routing.locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  // If pathname has no locale prefix and is the root path, serve default locale content
+  // Handle root path - rewrite to default locale content without redirect
   if (!hasLocalePrefix && pathname === "/") {
-    // Rewrite to default locale content without redirecting
     const url = request.nextUrl.clone();
     url.pathname = "/en";
     return NextResponse.rewrite(url);
   }
 
-  // For other paths, use the standard next-intl middleware
+  // For paths without locale prefix (except root), add default locale prefix via rewrite
+  if (!hasLocalePrefix && pathname !== "/") {
+    const url = request.nextUrl.clone();
+    url.pathname = `/en${pathname}`;
+    return NextResponse.rewrite(url);
+  }
+
+  // Use standard next-intl middleware with redirect prevention
   const intlMiddleware = createMiddleware({
     locales: routing.locales,
     defaultLocale: routing.defaultLocale,
-    localePrefix: routing.localePrefix,
+    localePrefix: "always", // Always show locale to prevent ambiguity
     pathnames: routing.pathnames,
-    localeDetection: false,
+    localeDetection: false, // Disable automatic detection to prevent redirects
   });
 
   const response = intlMiddleware(request);
 
-  // If the response is a redirect to add locale prefix, convert it to a rewrite
+  // CRITICAL: Convert ANY redirect response to rewrite for SEO
   if (response && response.status >= 300 && response.status < 400) {
     const location = response.headers.get("location");
     if (location) {

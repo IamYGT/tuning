@@ -7,8 +7,8 @@ export const routing = defineRouting({
   // Used when no locale matches
   defaultLocale: "en",
 
-  // SEO friendly approach - use as-needed but with custom logic
-  localePrefix: "as-needed",
+  // Always show locale prefix to prevent redirects (SEO friendly)
+  localePrefix: "always",
 
   // Define path mappings for different locales
   pathnames: {
