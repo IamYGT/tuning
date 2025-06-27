@@ -64,10 +64,7 @@ export async function generateMetadata({
 
   return {
     ...baseMetadata,
-    title: {
-      default: title,
-      template: `%s | ECU Tuning Portal`,
-    },
+    title,
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages,
