@@ -15,6 +15,16 @@ const nextConfig: NextConfig = {
   output: "standalone" as const,
   // URL'lerin tutarlı olmasını sağlamak için
   trailingSlash: false,
+  async redirects() {
+    return [
+      {
+        source: "/:locale/",
+        destination: "/:locale",
+        permanent: true,
+        locale: false, // This is important to avoid next-intl interference
+      },
+    ];
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();

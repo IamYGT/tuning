@@ -13,14 +13,14 @@ export async function generateMetadata({
   const hreflangs = generateFullHreflangs('/trial', resolvedParams.locale);
 
   return {
-    title: `${t('title.tryFree')} | ECU Tuning Portal`,
+    title: t('title.tryFree'),
     description: t('description'),
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages
     },
     openGraph: {
-      title: `${t('title.tryFree')} | ECU Tuning Portal`,
+      title: t('title.tryFree'),
       description: t('description'),
       images: ['/assets/images/call.png.avif'],
     },

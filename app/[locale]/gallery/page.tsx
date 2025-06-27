@@ -18,14 +18,14 @@ export async function generateMetadata({
   const hreflangs = generateFullHreflangs('/gallery', resolvedParams.locale);
 
   return {
-    title: `${t('title')} | ECU Tuning Portal`,
+    title: t('title'),
     description: t('subtitle'),
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages
     },
     openGraph: {
-      title: `${t('title')} | ECU Tuning Portal`,
+      title: t('title'),
       description: t('subtitle'),
       images: ['/assets/images/galery/1.avif'],
     },

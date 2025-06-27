@@ -39,17 +39,20 @@ export function generateHreflangs(
       }
     }
 
-    // URL'yi oluştur
-    if (locale === routing.defaultLocale && pathname === "/") {
-      // Ana sayfa default locale için
-      languages[locale] = "/";
-    } else if (locale === routing.defaultLocale) {
-      // Diğer sayfalar default locale için
-      languages[locale] = localizedPath;
+    // URL'yi oluştur ve sondaki eğik çizgiyi kaldır (ana sayfa hariç)
+    let finalPath: string;
+    if (locale === routing.defaultLocale) {
+      finalPath = localizedPath;
     } else {
-      // Diğer diller için
-      languages[locale] = `/${locale}${localizedPath}`;
+      finalPath = `/${locale}${localizedPath}`;
     }
+
+    // Ana sayfa (`/`) dışındaki tüm yollarda sondaki eğik çizgiyi kaldır
+    if (finalPath !== "/" && finalPath.endsWith("/")) {
+      finalPath = finalPath.slice(0, -1);
+    }
+
+    languages[locale] = finalPath;
   });
 
   // Canonical URL'yi belirle (mevcut locale'in URL'si)
