@@ -246,9 +246,9 @@
     }
   },
   "Pricing": {
-    "label": "Ecu Tuning Portal Fiyatları",
+    "label": "Fiyatlandırma Planları",
     "title": "Avantajlı Fiyatlar ve Özel Teklifler",
-    "subtitle": "Chip tuning profesyonelleri için özel portal yazılımı. Rekabetçi fiyatlar ve gelişmiş özelliklerle işinizi büyütün. Avantajlı tekliflerimizi keşfedin.",
+    "subtitle": "İşletmeniz için en uygun maliyetli çözümü bulun. Şeffaf ve avantajlı fiyatlarımız, özel tekliflerimizle birleşerek size en iyi değeri sunar.",
     "monthly": "AYLIK",
     "yearly": "YILLIK",
     "oneTime": "TEK SEFERLİK",
@@ -426,7 +426,7 @@
       "tryFree": "Ücretsiz ECU Tuning Portal Denemesi"
     },
     "subtitle": "Tüm premium özellikleri keşfedin ve iş akışınızı risksiz optimize edin.",
-    "description": "ECU Tuning Portal'ın tam gücünü deneyimleyin. Kredi kartı gerekmez. Yedi günlük sınırsız erişimle tuning işinizi nasıl dönüştürebileceğini görün.",
+    "description": "7 günlük ücretsiz ECU Tuning Portal denemesi ile platformumuzun tam gücünü deneyimleyin. Kredi kartı gerekmez. Yedi gün boyunca sınırsız erişimle tuning işinizi nasıl dönüştürebileceğini görün.",
     "features": {
       "fileManagement": {
         "title": "Gelişmiş Dosya Yönetimi",
@@ -458,9 +458,9 @@
     }
   },
   "Contact": {
-    "titleLabel": "İletişime Geçin:",
-    "titleMain": "Profesyonel Destek",
-    "subtitle": "Size nasıl yardımcı olabiliriz?",
+    "titleLabel": "İletişime Geçin",
+    "titleMain": "Bizimle İletişime Geçin",
+    "subtitle": "Size nasıl yardımcı olabiliriz? Sorularınız, talepleriniz veya işbirliği teklifleriniz için uzman ekibimizle iletişime geçmekten çekinmeyin.",
     "contactInfo": {
       "phoneTitle": "Telefon Numarası",
       "phoneDesc": "Profesyonel destek için bizi arayın",

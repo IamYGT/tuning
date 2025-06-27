@@ -246,9 +246,9 @@
     }
   },
   "Pricing": {
-    "label": "ECU Tuning Portal Pricing",
+    "label": "Pricing Plans",
     "title": "Advantageous Prices and Special Offers",
-    "subtitle": "Custom portal software for chip tuning professionals. Competitive prices and advanced features await you. Discover our advantageous offers.",
+    "subtitle": "Find the most cost-effective solution for your business. Our transparent and advantageous prices, combined with our special offers, provide you with the best value.",
     "monthly": "MONTHLY",
     "yearly": "YEARLY",
     "oneTime": "ONE TIME",
@@ -426,7 +426,7 @@
       "tryFree": "Free ECU Tuning Portal Trial"
     },
     "subtitle": "Explore all premium features and optimize your workflow, risk-free.",
-    "description": "Experience the full power of ECU Tuning Portal. No credit card required. Get unlimited access for seven days and see how it can transform your tuning business.",
+    "description": "Experience the full power of our platform with a 7-day free ECU Tuning Portal trial. No credit card required. Get unlimited access and see how it can transform your business.",
     "features": {
       "fileManagement": {
         "title": "Advanced File Management",
@@ -458,9 +458,9 @@
     }
   },
   "Contact": {
-    "titleLabel": "Get in Touch:",
-    "titleMain": "Professional Support",
-    "subtitle": "How can we help you?",
+    "titleLabel": "Get in Touch",
+    "titleMain": "Contact Us",
+    "subtitle": "How can we help you? Feel free to contact our expert team for your questions, requests, or collaboration proposals.",
     "contactInfo": {
       "phoneTitle": "Phone Number",
       "phoneDesc": "Call us for professional support",

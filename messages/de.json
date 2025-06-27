@@ -246,9 +246,9 @@
     }
   },
   "Pricing": {
-    "label": "ECU Tuning Portal Preise",
+    "label": "Preispläne",
     "title": "Vorteilhafte Preise und Sonderangebote",
-    "subtitle": "Spezielle Portalsoftware für Chip-Tuning-Profis. Wettbewerbsfähige Preise und fortschrittliche Funktionen erwarten Sie. Entdecken Sie unsere vorteilhaften Angebote.",
+    "subtitle": "Finden Sie die kostengünstigste Lösung für Ihr Unternehmen. Unsere transparenten und vorteilhaften Preise, kombiniert mit unseren Sonderangeboten, bieten Ihnen den besten Wert.",
     "monthly": "MONATLICH",
     "yearly": "JÄHRLICH",
     "oneTime": "EINMALIG",
@@ -426,7 +426,7 @@
       "tryFree": "Kostenlose Testversion des ECU Tuning Portals"
     },
     "subtitle": "Entdecken Sie alle Premium-Funktionen und optimieren Sie Ihren Workflow, ohne Risiko.",
-    "description": "Erleben Sie die volle Leistung des ECU Tuning Portals. Keine Kreditkarte erforderlich. Erhalten Sie sieben Tage lang unbegrenzten Zugang und sehen Sie, wie es Ihr Tuning-Geschäft verändern kann.",
+    "description": "Erleben Sie die volle Leistung unserer Plattform mit einer 7-tägigen kostenlosen Testversion des ECU Tuning Portals. Keine Kreditkarte erforderlich. Erhalten Sie unbegrenzten Zugang.",
     "features": {
       "fileManagement": {
         "title": "Fortschrittliches Dateimanagement",
@@ -458,9 +458,9 @@
     }
   },
   "Contact": {
-    "titleLabel": "Kontakt aufnehmen:",
-    "titleMain": "Professionelle Unterstützung",
-    "subtitle": "Wie können wir Ihnen helfen?",
+    "titleLabel": "Kontakt aufnehmen",
+    "titleMain": "Kontaktieren Sie uns",
+    "subtitle": "Wie können wir Ihnen helfen? Zögern Sie nicht, unser Expertenteam für Ihre Fragen, Anfragen oder Kooperationsvorschläge zu kontaktieren.",
     "contactInfo": {
       "phoneTitle": "Telefonnummer",
       "phoneDesc": "Rufen Sie uns für professionellen Support an",

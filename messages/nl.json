@@ -246,9 +246,9 @@
     }
   },
   "Pricing": {
-    "label": "ECU Tuning Portal Prijzen",
-    "title": "Prijzen en Aanbiedingen",
-    "subtitle": "Aangepaste portaalsoftware voor chip tuning professionals. Concurrerende prijzen en geavanceerde functies wachten op u. Ontdek onze voordelige aanbiedingen.",
+    "label": "Prijsplannen",
+    "title": "Voordelige Prijzen en Speciale Aanbiedingen",
+    "subtitle": "Vind de meest kosteneffectieve oplossing voor uw bedrijf. Onze transparante en voordelige prijzen, gecombineerd met onze speciale aanbiedingen, bieden u de beste waarde.",
     "monthly": "MAANDELIJKS",
     "yearly": "JAARLIJKS",
     "oneTime": "EENMALIG",
@@ -426,7 +426,7 @@
       "tryFree": "Gratis Proefversie van de ECU Tuning Portal"
     },
     "subtitle": "Ontdek alle premium functies en optimaliseer uw workflow, zonder risico.",
-    "description": "Ervaar de volledige kracht van de ECU Tuning Portal. Geen creditcard vereist. Krijg zeven dagen onbeperkt toegang en zie hoe het uw tuningbedrijf kan transformeren.",
+    "description": "Ervaar de volledige kracht van ons platform met een gratis proefversie van 7 dagen van de ECU Tuning Portal. Geen creditcard vereist. Krijg onbeperkte toegang.",
     "features": {
       "fileManagement": {
         "title": "Geavanceerd Bestandsbeheer",
@@ -458,9 +458,9 @@
     }
   },
   "Contact": {
-    "titleLabel": "Neem Contact Op:",
-    "titleMain": "Professionele Ondersteuning",
-    "subtitle": "Hoe kunnen we u helpen?",
+    "titleLabel": "Neem Contact Op",
+    "titleMain": "Neem Contact Met Ons Op",
+    "subtitle": "Hoe kunnen we u helpen? Neem gerust contact op met ons deskundige team voor uw vragen, verzoeken of samenwerkingsvoorstellen.",
     "contactInfo": {
       "phoneTitle": "Telefoonnummer",
       "phoneDesc": "Bel ons voor professionele ondersteuning",
