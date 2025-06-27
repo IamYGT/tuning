@@ -45,6 +45,7 @@ export default function BrandMarquee() {
               alt={`Brand logo ${index + 1}`}
               width={128}
               height={48}
+              loading="lazy"
               className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
             />
           </div>
@@ -73,6 +74,7 @@ export default function BrandMarquee() {
               alt={`Brand logo ${index % brandImages.length + 1}`}
               width={128}
               height={48}
+              loading="lazy"
               className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
             />
           </div>

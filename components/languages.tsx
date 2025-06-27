@@ -66,6 +66,7 @@ export default function Languages() {
                         src={`/assets/images/flag/${flag.code}.svg`}
                         alt={flag.name}
                         fill
+                        loading="lazy"
                         className="object-cover"
                       />
                     </div>
@@ -81,6 +82,7 @@ export default function Languages() {
                         src={`/assets/images/flag/${flag.code}.svg`}
                         alt={flag.name}
                         fill
+                        loading="lazy"
                         className="object-cover"
                       />
                     </div>
@@ -96,6 +98,7 @@ export default function Languages() {
                   src="/assets/images/language.avif"
                   alt="Language Interface"
                   fill
+                  loading="lazy"
                   className="object-contain object-right"
                 />
               </div>
