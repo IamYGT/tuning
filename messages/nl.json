@@ -199,7 +199,7 @@
     "hero": {
       "label": "Over ECU Tuning Portal",
       "title": "Maak kennis met de ECU Tuning Portal",
-      "description": "Maak kennis met de ECU Tuning Portal, een toonaangevende softwareoplossing voor tuningprofessionals. Leer over onze missie en visie.",
+      "description": "Maak kennis met de ECU Tuning Portal, een toonaangevende softwareoplossing voor tuningprofessionals. In dit gedeelte kunt u meer te weten komen over onze missie en visie.",
       "primaryButton": "Neem contact op",
       "secondaryButton": "Ontdek Functies"
     },
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Prijsplannen",
     "title": "Voordelige Prijzen en Speciale Aanbiedingen",
-    "subtitle": "Vind de meest kosteneffectieve oplossing voor uw bedrijf. Ontdek onze voordelige prijzen en speciale aanbiedingen om de beste waarde te krijgen.",
+    "subtitle": "Ontdek onze voordelige prijzen en speciale aanbiedingen. Wij bieden de meest kosteneffectieve en transparante prijsoplossingen voor uw bedrijf.",
     "monthly": "MAANDELIJKS",
     "yearly": "JAARLIJKS",
     "oneTime": "EENMALIG",
@@ -290,7 +290,7 @@
   "Features": {
     "hero": {
       "title": "Geavanceerde Functies van de ECU Tuning Portal",
-      "description": "Ontdek de geavanceerde functies van de ECU Tuning Portal. Ons professionele portaal voor tuningbestandsdiensten biedt de meest uitgebreide service."
+      "description": "Ontdek de geavanceerde functies van de ECU Tuning Portal. Ons professionele portaal voor tuningbestandsdiensten is ontworpen om de meest uitgebreide service te bieden."
     },
     "intro": {
       "title": "Waarom kiezen voor ECU Tuning Portal?",
@@ -426,8 +426,8 @@
       "days": "7 Dagen",
       "tryFree": "Gratis Proefversie van de ECU Tuning Portal"
     },
-    "subtitle": "Start vandaag nog uw gratis proefversie van de ECU Tuning Portal. Ontdek alle premium functies en optimaliseer uw workflow zonder risico.",
-    "description": "Ervaar de volledige kracht van de ECU Tuning Portal met een 7-daagse proefversie. Geen creditcard vereist. Transformeer uw tuningbedrijf.",
+    "subtitle": "Start vandaag nog uw gratis proefversie van de ECU Tuning Portal. Met deze proefversie kunt u alle premium functies verkennen en uw workflow zonder risico optimaliseren.",
+    "description": "Ervaar de volledige kracht van de ECU Tuning Portal met een 7-daagse proefversie. Geen creditcard vereist om te starten. Transformeer nu uw tuningbedrijf.",
     "features": {
       "fileManagement": {
         "title": "Geavanceerd Bestandsbeheer",

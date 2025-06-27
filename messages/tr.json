@@ -58,7 +58,7 @@
       "mainTitle": "Profesyonel Dosya Servis Portalı",
       "title": "ECU Tuning Portal v4.2",
       "subtitle": "İşletmenizi en güncel sürümle bir adım öne taşıyın!",
-      "description": "Profesyonel bir tuning sistem servisi olan yüksek kaliteli portalımızla müşteri dosyalarınızı daha verimli yönetin ve iş süreçlerinizi optimize edin.",
+      "description": "Yüksek kaliteli portalımız, profesyonel bir tuning sistem servisi olarak, müşteri dosyalarınızı daha verimli yönetmenizi ve iş süreçlerinizi optimize etmenizi sağlar.",
       "tagline": "ECU Tuning Portal v4.2, işinizi bir üst seviyeye taşımak için en son teknolojiyle donatılmış özellikler sunar.",
       "cta": "7 Gün Ücretsiz Deneyin",
       "secondaryCta": "Fiyatları İncele"
@@ -199,7 +199,7 @@
     "hero": {
       "label": "ECU Tuning Portal Hakkında",
       "title": "ECU Tuning Portal'ı Yakından Tanıyın",
-      "description": "Otomotiv tuning profesyonelleri için tasarlanmış lider bir yazılım çözümü olan ECU Tuning Portal'ı yakından tanıyın. Misyonumuz ve vizyonumuzla tanışın.",
+      "description": "Otomotiv tuning profesyonelleri için lider bir yazılım çözümü olan ECU Tuning Portal'ı yakından tanıyın. Bu bölümde misyonumuz ve vizyonumuz hakkında bilgi edinebilirsiniz.",
       "primaryButton": "Bize Ulaşın",
       "secondaryButton": "Özellikleri Keşfet"
     },
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Fiyatlandırma Planları",
     "title": "Avantajlı Fiyatlar ve Özel Teklifler",
-    "subtitle": "İşletmeniz için en uygun maliyetli çözümü bulun. Avantajlı fiyatlarımızı ve özel tekliflerimizi keşfederek en iyi değeri elde edin.",
+    "subtitle": "Avantajlı fiyatlarımızı ve özel tekliflerimizi keşfedin. İşletmeniz için en uygun maliyetli ve şeffaf fiyatlandırma çözümlerini sunuyoruz.",
     "monthly": "AYLIK",
     "yearly": "YILLIK",
     "oneTime": "TEK SEFERLİK",
@@ -290,7 +290,7 @@
   "Features": {
     "hero": {
       "title": "ECU Tuning Portal Gelişmiş Özellikleri",
-      "description": "ECU Tuning Portal'ın gelişmiş özelliklerini keşfedin. Profesyonel tuning dosya hizmeti portalımız, sektördeki en kapsamlı hizmeti sunar."
+      "description": "ECU Tuning Portal'ın gelişmiş özelliklerini keşfedin. Profesyonel tuning dosya hizmeti portalımız, sektördeki en kapsamlı hizmeti sunmak üzere tasarlanmıştır."
     },
     "intro": {
       "title": "Neden ECU Tuning Portal'ı Seçmelisiniz?",
@@ -426,13 +426,13 @@
       "days": "7 Gün",
       "tryFree": "Ücretsiz ECU Tuning Portal Denemesi"
     },
-    "subtitle": "Ücretsiz ECU Tuning Portal denemenizi bugün başlatın. Tüm premium özellikleri keşfedin ve iş akışınızı risksiz optimize edin.",
-    "description": "7 günlük deneme ile ECU Tuning Portal'ın tam gücünü deneyimleyin. Kredi kartı gerekmez. Tuning işinizi dönüştürün."
+    "subtitle": "Ücretsiz ECU Tuning Portal denemenizi bugün başlatın. Bu deneme, tüm premium özellikleri keşfetmenize ve iş akışınızı risksiz optimize etmenize olanak tanır.",
+    "description": "7 günlük deneme ile ECU Tuning Portal'ın tam gücünü deneyimleyin. Başlamak için kredi kartı gerekmez. Tuning işinizi şimdi dönüştürün."
   },
   "Contact": {
     "titleLabel": "İletişime Geçin",
-    "titleMain": "Bizimle İletişime Geçin",
-    "subtitle": "Size nasıl yardımcı olabiliriz? Uzman ekibimizle iletişime geçmek için sorularınız veya talepleriniz için aşağıdaki formu kullanabilirsiniz.",
+    "titleMain": "Uzman Ekibimizle İletişime Geçin",
+    "subtitle": "Size nasıl yardımcı olabiliriz? Uzman ekibimizle iletişime geçmek için sorularınız, talepleriniz veya işbirliği önerileriniz için aşağıdaki formu kullanabilirsiniz.",
     "contactInfo": {
       "phoneTitle": "Telefon Numarası",
       "phoneDesc": "Pazartesiden Cumaya, 09:00-18:00",
