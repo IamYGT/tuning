@@ -15,7 +15,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 // Base metadata tanımı
 const baseMetadata = {
-  description: "Professional ECU tuning portal for automotive tuning professionals",
+  description: "Professional ECU tuning portal for automotive professionals. Manage customer files efficiently and optimize your business processes.",
   icons: {
     icon: [
       { url: '/favicon/ecutuning/favicon.ico' },

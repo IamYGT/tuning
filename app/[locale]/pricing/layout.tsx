@@ -45,7 +45,7 @@ export async function generateMetadata({
 
   // Pricing page specific metadata
   const title = messages.metadata?.pricing || 'Pricing | ECU Tuning Portal';
-  const description = messages.metadata?.pricingDescription || 'View our competitive pricing options for professional ECU tuning services';
+  const description = messages.metadata?.pricingDescription || 'Discover ECU Tuning Portal competitive pricing plans. Special offers and benefits for professional automotive tuning solutions.';
 
   return {
     ...baseMetadata,

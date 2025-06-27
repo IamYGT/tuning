@@ -45,7 +45,7 @@ export async function generateMetadata({
 
   // Contact page specific metadata
   const title = messages.metadata?.contact || 'Contact Us | ECU Tuning Portal';
-  const description = messages.metadata?.contactDescription || 'Contact our expert ECU tuning team for professional support, consultation services, and comprehensive automotive tuning solutions.';
+  const description = messages.metadata?.contactDescription || 'Contact our expert ECU tuning team for professional support, consultation services and comprehensive automotive tuning solutions.';
 
   return {
     ...baseMetadata,
