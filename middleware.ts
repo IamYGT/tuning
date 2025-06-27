@@ -6,22 +6,18 @@ import { NextRequest, NextResponse } from "next/server";
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // CRITICAL: Handle trailing slash for locale-only paths to prevent redirects
-  // /tr/ -> /tr, /de/ -> /de, etc. (rewrite, not redirect)
-  if (pathname.match(/^\/(tr|de|nl|es)\/$/)) {
-    const url = request.nextUrl.clone();
-    url.pathname = pathname.slice(0, -1); // Remove trailing slash
-    return NextResponse.rewrite(url);
-  }
-
-  // Handle general trailing slash normalization for other paths
-  if (
-    pathname.endsWith("/") &&
-    pathname.length > 1 &&
-    !pathname.match(/^\/(tr|de|nl|es)\/$/)
-  ) {
+  // ABSOLUTE PRIORITY: Block ALL trailing slash redirects before anything else
+  if (pathname.endsWith("/") && pathname.length > 1) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.slice(0, -1);
+
+    // For locale-only paths, ensure we serve the correct content
+    if (pathname.match(/^\/(tr|de|nl|es)\/$/)) {
+      // Force rewrite to locale homepage without trailing slash
+      return NextResponse.rewrite(url);
+    }
+
+    // For all other paths, remove trailing slash
     return NextResponse.rewrite(url);
   }
 
@@ -41,13 +37,21 @@ export default function middleware(request: NextRequest) {
 
   const response = intlMiddleware(request);
 
-  // CRITICAL: Convert ANY redirect response to rewrite for SEO
+  // CRITICAL: Convert ANY redirect response to rewrite for SEO (ABSOLUTE PRIORITY)
   if (response && response.status >= 300 && response.status < 400) {
     const location = response.headers.get("location");
     if (location) {
-      const url = new URL(location, request.url);
-      // Convert redirect to rewrite to avoid SEO issues
-      return NextResponse.rewrite(url);
+      try {
+        const url = new URL(location, request.url);
+        // Special handling for trailing slash redirects
+        if (url.pathname.endsWith("/") && url.pathname.length > 1) {
+          url.pathname = url.pathname.slice(0, -1);
+        }
+        // Convert ALL redirects to rewrite to avoid SEO issues
+        return NextResponse.rewrite(url);
+      } catch {
+        // If URL parsing fails, continue with original response
+      }
     }
   }
 
