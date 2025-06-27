@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Servicio Profesional de Sistemas de Tuning",
     "homeDescription": "Portal profesional de tuning ECU para profesionales automotrices. Gestione archivos de clientes eficientemente y optimice procesos empresariales.",
     "about": "Sobre Nosotros | ECU Tuning Portal",
-    "aboutDescription": "Descubra la misión, visión y el compromiso con la excelencia en tuning de ECU Tuning Portal. Conozca a nuestro equipo profesional.",
+    "aboutDescription": "Descubra ECU Tuning Portal, una solución de software líder para profesionales del tuning. Conozca nuestra misión, visión y el equipo que da forma al futuro.",
     "features": "Características | ECU Tuning Portal",
-    "featuresDescription": "Explore las características avanzadas de ECU Tuning Portal. Optimice sus operaciones con gestión de clientes y facturación automatizada.",
+    "featuresDescription": "Explore las potentes funciones de ECU Tuning Portal. Una solución completa diseñada para optimizar sus operaciones de tuning con la máxima eficiencia.",
     "pricing": "Precios| ECU Tuning Portal",
-    "pricingDescription": "Descubra precios competitivos y características avanzadas de nuestro software de portal para profesionales del chip tuning. Le esperan ofertas ventajosas.",
+    "pricingDescription": "Descubra nuestros planes de precios para profesionales del chip tuning. Precios competitivos y funciones avanzadas para sus necesidades. ¡Explore ahora!",
     "gallery": "Galería | ECU Tuning Portal",
     "galleryDescription": "Explore nuestro portafolio de proyectos exitosos y vehículos de clientes. Vea ejemplos de nuestro trabajo profesional de tuning ECU.",
     "contact": "Contacto | ECU Tuning Portal",
     "contactDescription": "Contacte a nuestro equipo experto en tuning ECU para soporte profesional, consultoría y soluciones integrales de tuning automotriz.",
     "trial": "Prueba Gratuita de 7 Días | ECU Tuning Portal",
-    "trialDescription": "Pruebe ECU Tuning Portal gratis durante 7 días. Explore todas las funciones premium y optimice sus flujos de trabajo de tuning sin riesgos."
+    "trialDescription": "Inicie su prueba gratuita de 7 días de ECU Tuning Portal. Experimente todas las funciones sin riesgo y sin tarjeta de crédito. Transforme su negocio."
   },
   "common": {
     "navigation": {
@@ -198,7 +198,7 @@
     "hero": {
       "label": "Acerca del Portal ECU Tuning",
       "title": "Conozca el Portal de Tuning ECU",
-      "description": "ECU Tuning Portal es una solución de software líder diseñada específicamente para profesionales de tuning automotriz. Conozca nuestra misión, visión y el equipo dedicado detrás de nuestro éxito, todos trabajando juntos para dar forma al futuro de la tecnología de tuning.",
+      "description": "ECU Tuning Portal es una solución de software líder diseñada para profesionales del tuning. Conozca nuestra misión y visión.",
       "primaryButton": "Contáctenos",
       "secondaryButton": "Explorar Características"
     },
@@ -289,12 +289,35 @@
   "Features": {
     "hero": {
       "title": "Características Avanzadas del Portal de Tuning ECU",
-      "description": "Como portal profesional de servicios de archivos de tuning, ECU Tuning Portal ofrece el servicio más completo de la industria. Optimice sus operaciones con eficiencia y fiabilidad."
+      "description": "Nuestro portal profesional de servicios de archivos de tuning ofrece el servicio más completo de la industria. Optimice sus operaciones con eficiencia."
+    },
+    "intro": {
+      "title": "¿Por qué elegir ECU Tuning Portal?",
+      "description": "Nuestro portal está diseñado pensando en las necesidades de los profesionales del tuning. Eleve su negocio al siguiente nivel con nuestra potente infraestructura, interfaz fácil de usar y características únicas."
+    },
+    "benefits": {
+      "title": "Sus ventajas principales",
+      "item1": {
+        "title": "Aumente la eficiencia",
+        "description": "Ahorre tiempo con nuestras herramientas de gestión de clientes y archivos y automatice sus flujos de trabajo."
+      },
+      "item2": {
+        "title": "Aumente la rentabilidad",
+        "description": "Maximice sus ingresos con nuestros avanzados sistemas de crédito y facturación y simplifique los procesos financieros."
+      },
+      "item3": {
+        "title": "Garantice la seguridad",
+        "description": "Sus datos están protegidos con protocolos de seguridad estándar de la industria y una infraestructura segura."
+      },
+      "item4": {
+        "title": "Satisfacción del cliente",
+        "description": "Ofrezca un servicio excepcional a sus clientes con nuestra rápida entrega de archivos y nuestro eficaz sistema de soporte."
+      }
     },
     "cta": {
-      "title": "¿Listo para transformar su negocio?",
-      "description": "Únase a miles de clientes satisfechos que han elevado su negocio con nuestra solución integral.",
-      "buttonText": "Ver planes de precios"
+      "title": "¿Listo para transformar su negocio de tuning?",
+      "description": "Explore nuestros planes de precios y encuentre la solución perfecta para su negocio.",
+      "buttonText": "Ver precios"
     },
     "items": {
       "customerManagement": {
@@ -345,6 +368,56 @@
         "title": "y más...",
         "description": "Proporcione un sistema más profesional y fácil de usar con 8 módulos adicionales."
       }
+    }
+  },
+  "FeaturesPage": {
+    "customerManagement": {
+      "title": "Sistema detallado de gestión de clientes",
+      "description": "Cree perfiles detallados para cada cliente, rastree su historial de crédito, agregue notas especiales y gestione todos los intercambios de archivos desde un solo lugar. Aumente la lealtad definiendo descuentos y campañas especiales para grupos de clientes."
+    },
+    "advancedCredit": {
+      "title": "Sistema de crédito flexible y avanzado",
+      "description": "Cree varios paquetes de crédito para diferentes niveles de servicio. Integre sistemas de pago automatizados que faciliten a sus clientes la compra de créditos y realice análisis detallados con informes de uso de crédito."
+    },
+    "fileTracking": {
+      "title": "Seguimiento y gestión integral de archivos",
+      "description": "Rastree instantáneamente el estado de cada archivo cargado (pendiente, en proceso, completado). Vea el historial de archivos, compare versiones y envíe notificaciones automáticas a sus clientes."
+    },
+    "advancedInvoice": {
+      "title": "Sistema de facturación automático y manual",
+      "description": "Genere automáticamente facturas con IVA incluido al final de cada transacción o emita facturas personalizadas manualmente. Simplifique su gestión financiera recibiendo informes que se pueden integrar con el software de contabilidad."
+    },
+    "paymentMethods": {
+      "title": "6 integraciones de métodos de pago globales diferentes",
+      "description": "Ofrezca flexibilidad a sus clientes al admitir métodos de pago ampliamente utilizados en todo el mundo, como Paypal, Stripe, Mollie, Iyzico y BTC Coin. Asegure sus transacciones financieras con una infraestructura de pago segura."
+    },
+    "languageOptions": {
+      "title": "Alcance global con 16 opciones de idioma diferentes",
+      "description": "Expándase a mercados internacionales ofreciendo su portal en 16 idiomas diferentes. Maximice la experiencia del usuario permitiendo que sus clientes reciban servicio en su propio idioma y aumente su confianza en su marca."
+    },
+    "notifications": {
+      "title": "Notificaciones instantáneas por correo electrónico y SMS",
+      "description": "Reciba notificaciones instantáneas por correo electrónico y SMS cuando se cargue un nuevo archivo, se reciba una solicitud de soporte o se complete una transacción. Elimine las brechas de comunicación."
+    },
+    "discountSystem": {
+      "title": "Sistema de descuentos específico para grupos de clientes",
+      "description": "Defina tasas de descuento especiales, aumentos de precios y créditos de bonificación para sus clientes leales o grupos de distribuidores. Cree una estructura de precios flexible que respalde sus estrategias de marketing."
+    },
+    "supportSystem": {
+      "title": "Sistema integrado de tickets de soporte",
+      "description": "Reciba, priorice y gestione fácilmente las solicitudes de soporte técnico de sus clientes a través del portal. Aumente la satisfacción del cliente y la velocidad de resolución de problemas registrando el historial de cada solicitud."
+    },
+    "evcControl": {
+      "title": "Control EVC y sistema de ventas automatizado",
+      "description": "Agregue créditos automáticamente a sus distribuidores o clientes y realice un seguimiento de sus ventas en tiempo real a través de la integración de la API de EVC. Sincronice las transacciones realizadas a través de EVC con su portal."
+    },
+    "automaticDelivery": {
+      "title": "Sistema de entrega de archivos automatizado",
+      "description": "Asegúrese de que el archivo modificado se envíe automáticamente al cliente una vez que se complete el proceso de ajuste. Ahorre tiempo y aumente la velocidad de su servicio eliminando los procesos manuales."
+    },
+    "vehicleDatabase": {
+      "title": "Amplia base de datos de 17.583 vehículos",
+      "description": "Proporcione un servicio detallado y preciso a sus clientes en función de la marca, el modelo y la información del motor del vehículo con nuestra amplia base de datos que cubre más de 17.583 vehículos. Esta base de datos le ayuda a encontrar el archivo correcto rápidamente."
     }
   },
   "Trial": {

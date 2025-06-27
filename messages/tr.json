@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Profesyonel Tuning Sistem Servisi",
     "homeDescription": "Otomotiv tuning profesyonelleri için tasarlanmış ECU Tuning Portal ile müşteri dosyalarınızı verimli yönetin ve iş süreçlerinizi optimize edin.",
     "about": "Hakkımızda | ECU Tuning Portal",
-    "aboutDescription": "ECU Tuning Portal'ın misyonunu, vizyonunu ve otomotiv tuning mükemmelliğine olan bağlılığını keşfedin. Profesyonel ekibimizle tanışın.",
+    "aboutDescription": "Lider tuning yazılımı ECU Tuning Portal'ı keşfedin. Misyonumuz, vizyonumuz ve tuning'in geleceğini şekillendiren özel ekibimiz hakkında bilgi edinin.",
     "features": "Özellikler | ECU Tuning Portal",
-    "featuresDescription": "ECU Tuning Portal'ın gelişmiş özelliklerini keşfedin. Müşteri yönetimi, dosya takibi ve otomatik faturalama ile operasyonlarınızı optimize edin.",
+    "featuresDescription": "ECU Tuning Portal'ın güçlü özelliklerini keşfedin. Tuning operasyonlarınızı maksimum verimlilik ve güvenilirlikle optimize etmek için tasarlanmış kapsamlı bir çözüm.",
     "pricing": "Fiyatlandırma | ECU Tuning Portal",
-    "pricingDescription": "Chip tuning profesyonelleri için özel portal yazılımımızın rekabetçi fiyatlarını ve gelişmiş özelliklerini keşfedin. Avantajlı teklifler sizi bekliyor.",
+    "pricingDescription": "Chip tuning profesyonelleri için fiyat planlarımızı keşfedin. Tuning ihtiyaçlarınız için rekabetçi fiyatlar ve gelişmiş özellikler. Şimdi keşfedin.",
     "gallery": "Galeri | ECU Tuning Portal",
     "galleryDescription": "Başarılı projelerimizi ve müşteri araçlarından oluşan portfolyomuzu keşfedin. ECU tuning çalışmalarımızdan örnekler görün.",
     "contact": "İletişim | ECU Tuning Portal",
     "contactDescription": "Uzman ECU tuning ekibimizle iletişime geçin. Profesyonel destek, danışmanlık ve kapsamlı otomotiv tuning çözümleri.",
     "trial": "7 Gün Ücretsiz Deneme | ECU Tuning Portal",
-    "trialDescription": "ECU Tuning Portal'ı 7 gün ücretsiz deneyin. Tüm premium özellikleri keşfederek tuning iş akışlarınızı risksiz bir şekilde optimize edin."
+    "trialDescription": "ECU Tuning Portal'ın 7 günlük ücretsiz denemesini başlatın. Tüm özellikleri risksiz ve kredi kartsız deneyimleyin. İşinizi dönüştürün."
   },
   "common": {
     "navigation": {
@@ -198,13 +198,13 @@
     "hero": {
       "label": "ECU Tuning Portal Hakkında",
       "title": "ECU Tuning Portal'ı Yakından Tanıyın",
-      "description": "ECU Tuning Portal, otomotiv tuning profesyonelleri için özel olarak tasarlanmış lider bir yazılım çözümüdür. Misyonumuz, vizyonumuz ve başarımızın arkasındaki özel ekibimizi tanıyın, hepsi tuning teknolojisinin geleceğini şekillendirmek için birlikte çalışıyor.",
+      "description": "ECU Tuning Portal, otomotiv tuning profesyonelleri için özel olarak tasarlanmış lider bir yazılım çözümüdür. Misyonumuz ve vizyonumuzla tanışın.",
       "primaryButton": "Bize Ulaşın",
       "secondaryButton": "Özellikleri Keşfet"
     },
     "content": {
       "title": "Misyonumuz ve Vizyonumuz",
-      "paragraph1": "ECU Tuning Portal olarak misyonumuz, dünya genelindeki otomotiv tuning profesyonellerine en gelişmiş, güvenilir ve kullanıcı dostu yazılım çözümlerini sunmaktır.",
+      "paragraph1": "ECU Tuning Portal'da misyonumuz, dünya çapındaki otomotiv tuning profesyonellerine en gelişmiş, güvenilir ve kullanıcı dostu yazılım çözümlerini sunmaktır.",
       "paragraph2": "Sektördeki yenilikleri yakından takip ederek ve sürekli Ar-Ge çalışmaları yaparak, müşterilerimizin işlerini daha verimli, karlı ve rekabetçi hale getirmelerine olanak tanıyoruz. Müşteri memnuniyetini en üst düzeyde tutarak, onların başarısının bir parçası olmayı hedefliyoruz.",
       "paragraph3": "Vizyonumuz, ECU tuning teknolojisinde küresel bir lider olmak ve endüstri standartlarını belirleyen bir marka olarak tanınmaktır. Sadece bir yazılım sağlayıcısı olmanın ötesinde, tuning topluluğu için bir bilgi ve inovasyon merkezi olmayı amaçlıyoruz.",
       "paragraph4": "Sürdürülebilirlik ve teknolojik ilerlemeyi bir araya getirerek, otomotiv performansının geleceğini şekillendirmeye kararlıyız. Müşterilerimizle birlikte büyüyerek, onların en güvendiği stratejik iş ortağı olmak en büyük arzumuzdur.",
@@ -289,35 +289,35 @@
   "Features": {
     "hero": {
       "title": "ECU Tuning Portal Gelişmiş Özellikleri",
-      "description": "Profesyonel bir tuning dosya hizmeti portalı olarak, ECU Tuning Portal sektördeki en kapsamlı hizmeti sunmaktadır. Verimlilik ve güvenilirlikle operasyonlarınızı optimize edin."
+      "description": "Profesyonel tuning dosya hizmeti portalımız, sektördeki en kapsamlı hizmeti sunar. Operasyonlarınızı verimlilik ve güvenilirlikle optimize edin."
     },
     "intro": {
-      "title": "Neden ECU Tuning Portal?",
-      "description": "ECU Tuning Portal, tuning profesyonellerinin ihtiyaçlarını karşılamak için özel olarak tasarlanmış kapsamlı bir dijital platformdur. Gelişmiş teknolojiler ve kullanıcı dostu arayüzle, işletmenizin verimliliğini artırır ve müşteri memnuniyetini garanti eder. Modern tuning işletmelerinin karşılaştığı zorlukları çözmek için tasarlanan bu sistem, profesyonel tunerların işlerini kolaylaştırır ve karlılığını artırır."
+      "title": "Neden ECU Tuning Portal'ı Seçmelisiniz?",
+      "description": "Portalımız, tuning profesyonellerinin ihtiyaçları düşünülerek tasarlanmıştır. Güçlü altyapımız, kullanıcı dostu arayüzümüz ve benzersiz özelliklerimizle işinizi bir sonraki seviyeye taşıyın."
     },
     "benefits": {
-      "title": "Platform Avantajları",
+      "title": "Temel Avantajlarınız",
       "item1": {
-        "title": "Zaman Tasarrufu",
-        "description": "Otomatik iş akışları ve akıllı sistemlerle operasyonlarınızı %80'e varan oranda hızlandırın."
+        "title": "Verimliliği Artırın",
+        "description": "Müşteri ve dosya yönetimi araçlarımızla zamandan tasarruf edin ve iş akışlarınızı otomatikleştirin."
       },
       "item2": {
-        "title": "Global Erişim",
-        "description": "16 dil desteği ve çoklu para birimi ile dünya çapında müşterilere hizmet verin."
+        "title": "Karlılığı Yükseltin",
+        "description": "Gelişmiş kredi ve faturalama sistemlerimizle gelirinizi en üst düzeye çıkarın ve finansal süreçleri basitleştirin."
       },
       "item3": {
-        "title": "Güvenlik",
-        "description": "Bankacılık seviyesinde güvenlik protokolleri ile müşteri verilerinizi koruyun."
+        "title": "Güvenliği Sağlayın",
+        "description": "Verileriniz, endüstri standardı güvenlik protokolleri ve güvenli altyapı ile korunmaktadır."
       },
       "item4": {
-        "title": "Sürekli Destek",
-        "description": "7/24 teknik destek ve düzenli güncellemelerle kesintisiz hizmet alın."
+        "title": "Müşteri Memnuniyeti",
+        "description": "Hızlı dosya teslimatı ve etkili destek sistemimizle müşterilerinize olağanüstü hizmet sunun."
       }
     },
     "cta": {
-      "title": "İşinizi Dönüştürmeye Hazır mısınız?",
-      "description": "Kapsamlı çözümümüzle işlerini yükselten binlerce memnun müşteriye katılın.",
-      "buttonText": "Fiyatlandırma Planlarını Görüntüle"
+      "title": "Tuning İşinizi Dönüştürmeye Hazır mısınız?",
+      "description": "Fiyatlandırma planlarımızı keşfedin ve işletmeniz için en uygun çözümü bulun.",
+      "buttonText": "Fiyatlandırmayı Görüntüle"
     },
     "items": {
       "customerManagement": {
@@ -370,13 +370,63 @@
       }
     }
   },
+  "FeaturesPage": {
+    "customerManagement": {
+      "title": "Detaylı Müşteri Yönetim Sistemi",
+      "description": "Her müşteriniz için ayrıntılı profiller oluşturun, kredi geçmişlerini takip edin, özel notlar ekleyin ve tüm dosya alışverişlerini tek bir yerden yönetin. Müşteri gruplarına özel indirimler ve kampanyalar tanımlayarak sadakati artırın."
+    },
+    "advancedCredit": {
+      "title": "Esnek ve Gelişmiş Kredi Sistemi",
+      "description": "Farklı hizmet seviyeleri için çeşitli kredi paketleri oluşturun. Müşterilerinizin kredi satın almasını kolaylaştıran otomatik ödeme sistemleri entegre edin ve kredi kullanım raporları ile detaylı analizler yapın."
+    },
+    "fileTracking": {
+      "title": "Kapsamlı Dosya Takip ve Yönetim Sistemi",
+      "description": "Yüklenen her dosyanın durumunu (beklemede, işleniyor, tamamlandı) anlık olarak takip edin. Dosya geçmişini görüntüleyin, versiyonlar arasında karşılaştırma yapın ve müşterilerinize otomatik bildirimler gönderin."
+    },
+    "advancedInvoice": {
+      "title": "Otomatik ve Manuel Fatura Sistemi",
+      "description": "Her işlem sonunda otomatik olarak KDV dahil faturalar oluşturun veya manuel olarak özel faturalar düzenleyin. Muhasebe programlarıyla entegre çalışabilen raporlar alarak finansal yönetiminizi kolaylaştırın."
+    },
+    "paymentMethods": {
+      "title": "6 Farklı Global Ödeme Yöntemi Entegrasyonu",
+      "description": "Paypal, Stripe, Mollie, Iyzico ve BTC Coin gibi dünya genelinde yaygın olarak kullanılan ödeme yöntemlerini destekleyerek müşterilerinize esneklik sunun. Güvenli ödeme altyapısıyla finansal işlemlerinizi güvence altına alın."
+    },
+    "languageOptions": {
+      "title": "16 Farklı Dil Seçeneği ile Küresel Erişim",
+      "description": "Portalınızı 16 farklı dilde sunarak uluslararası pazarlara açılın. Müşterileriniz kendi dillerinde hizmet alarak kullanıcı deneyimini en üst düzeye çıkarın ve markanıza olan güvenlerini artırın."
+    },
+    "notifications": {
+      "title": "Anlık E-posta ve SMS Bildirimleri",
+      "description": "Yeni dosya yüklendiğinde, bir destek talebi geldiğinde veya bir işlem tamamlandığında hem siz hem de müşterileriniz anında e-posta ve SMS ile bilgilendirilsin. İletişim kopukluklarını ortadan kaldırın."
+    },
+    "discountSystem": {
+      "title": "Müşteri Gruplarına Özel İndirim Sistemi",
+      "description": "Sadık müşterilerinize veya bayi gruplarınıza özel indirim oranları, fiyat artışları ve bonus krediler tanımlayın. Pazarlama stratejilerinizi destekleyen esnek bir fiyatlandırma altyapısı kurun."
+    },
+    "supportSystem": {
+      "title": "Entegre Destek Talep (Ticket) Sistemi",
+      "description": "Müşterilerinizin teknik destek taleplerini portal üzerinden kolayca alın, önceliklendirin ve yönetin. Her talebin geçmişini kaydederek müşteri memnuniyetini ve sorun çözme hızınızı artırın."
+    },
+    "evcControl": {
+      "title": "EVC Kontrol ve Otomatik Satış Sistemi",
+      "description": "EVC API entegrasyonu sayesinde, bayilerinize veya müşterilerinize otomatik olarak kredi ekleyin ve satışlarınızı anlık olarak takip edin. EVC üzerinden yapılan işlemleri portalınızla senkronize edin."
+    },
+    "automaticDelivery": {
+      "title": "Otomatik Dosya Teslimat Sistemi",
+      "description": "Tuning işlemi tamamlandığında, modifiye edilmiş dosyanın müşteriye otomatik olarak gönderilmesini sağlayın. Manuel işlemleri ortadan kaldırarak zamandan tasarruf edin ve hizmet hızınızı artırın."
+    },
+    "vehicleDatabase": {
+      "title": "17.583 Araçlık Geniş Veritabanı",
+      "description": "17.583'ten fazla aracı kapsayan geniş veritabanımızla, müşterilerinize araç marka, model ve motor bilgilerine göre detaylı ve doğru hizmet sunun. Bu veritabanı, doğru dosyayı hızlıca bulmanızı sağlar."
+    }
+  },
   "Trial": {
     "title": {
       "days": "7 Gün",
       "tryFree": "Ücretsiz ECU Tuning Portal Denemesi"
     },
     "subtitle": "Tüm premium özellikleri keşfedin ve iş akışınızı risksiz optimize edin.",
-    "description": "ECU Tuning Portal'ın tam gücünü deneyimleyin. Kredi kartı gerekmez. Yedi gün boyunca sınırsız erişim elde edin ve tuning işinizi nasıl dönüştürebileceğini görün.",
+    "description": "ECU Tuning Portal'ın tam gücünü deneyimleyin. Kredi kartı gerekmez. Yedi günlük sınırsız erişimle tuning işinizi nasıl dönüştürebileceğini görün.",
     "features": {
       "fileManagement": {
         "title": "Gelişmiş Dosya Yönetimi",

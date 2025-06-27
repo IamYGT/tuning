@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Professionele Tuning Systeem Service",
     "homeDescription": "Professioneel ECU-tuningportaal voor automotive professionals. Beheer klantbestanden efficiënt en optimaliseer uw bedrijfsprocessen.",
     "about": "Over Ons | ECU Tuning Portal",
-    "aboutDescription": "Ontdek de missie, visie en toewijding aan excellentie in automotive tuning van ECU Tuning Portal. Maak kennis met ons professionele team.",
+    "aboutDescription": "Ontdek ECU Tuning Portal, een toonaangevende softwareoplossing voor tuningprofessionals. Leer over onze missie, visie en het team dat de toekomst vormgeeft.",
     "features": "Functies | ECU Tuning Portal",
-    "featuresDescription": "Ontdek de geavanceerde functies van ECU Tuning Portal. Optimaliseer uw activiteiten met klantenbeheer en geautomatiseerde facturering.",
+    "featuresDescription": "Ontdek de krachtige functies van ECU Tuning Portal. Een complete oplossing om uw tuning-activiteiten met maximale efficiëntie te optimaliseren.",
     "pricing": "Prijzen | ECU Tuning Portal",
-    "pricingDescription": "Ontdek concurrerende prijzen en geavanceerde functies van onze portalsoftware voor chiptuningprofessionals. Voordelige aanbiedingen wachten.",
+    "pricingDescription": "Ontdek onze prijsplannen voor chiptuningprofessionals. Concurrerende prijzen en geavanceerde functies voor uw tuningbehoeften. Ontdek nu.",
     "gallery": "Galerij | ECU Tuning Portal",
     "galleryDescription": "Ontdek onze portfolio van succesvolle projecten en klantvoertuigen. Bekijk voorbeelden van ons professionele ECU-tuningwerk.",
     "contact": "Contact | ECU Tuning Portal",
     "contactDescription": "Neem contact op met ons ECU-tuning expertenteam voor professionele ondersteuning, advies en uitgebreide automotive tuning oplossingen.",
     "trial": "7 Dagen Gratis Proberen | ECU Tuning Portal",
-    "trialDescription": "Probeer ECU Tuning Portal 7 dagen gratis. Ontdek alle premium functies en optimaliseer uw tuning-workflows zonder risico."
+    "trialDescription": "Start uw gratis 7-daagse proefversie van ECU Tuning Portal. Ervaar alle functies zonder risico en zonder creditcard. Transformeer uw bedrijf."
   },
   "common": {
     "navigation": {
@@ -198,7 +198,7 @@
     "hero": {
       "label": "Over ECU Tuning Portal",
       "title": "Maak kennis met de ECU Tuning Portal",
-      "description": "ECU Tuning Portal is een toonaangevende softwareoplossing die speciaal is ontworpen voor professionals in automotive tuning. Leer onze missie, visie en het toegewijde team achter ons succes kennen, die allemaal samenwerken om de toekomst van tuning-technologie vorm te geven.",
+      "description": "ECU Tuning Portal is een toonaangevende softwareoplossing voor tuningprofessionals. Leer onze missie en visie kennen.",
       "primaryButton": "Neem contact op",
       "secondaryButton": "Ontdek Functies"
     },
@@ -289,12 +289,35 @@
   "Features": {
     "hero": {
       "title": "Geavanceerde Functies van de ECU Tuning Portal",
-      "description": "Als een professioneel portaal voor tuningbestandsdiensten biedt de ECU Tuning Portal de meest uitgebreide service in de branche. Optimaliseer uw activiteiten met efficiëntie en betrouwbaarheid."
+      "description": "Ons professionele portaal voor tuningbestandsdiensten biedt de meest uitgebreide service in de branche. Optimaliseer uw activiteiten met efficiëntie."
+    },
+    "intro": {
+      "title": "Waarom kiezen voor ECU Tuning Portal?",
+      "description": "Ons portaal is ontworpen met de behoeften van tuningprofessionals in gedachten. Til uw bedrijf naar een hoger niveau met onze krachtige infrastructuur, gebruiksvriendelijke interface en unieke functies."
+    },
+    "benefits": {
+      "title": "Uw kernvoordelen",
+      "item1": {
+        "title": "Verhoog de efficiëntie",
+        "description": "Bespaar tijd met onze tools voor klanten- en bestandsbeheer en automatiseer uw workflows."
+      },
+      "item2": {
+        "title": "Verhoog de winstgevendheid",
+        "description": "Maximaliseer uw omzet met onze geavanceerde krediet- en facturatiesystemen en vereenvoudig financiële processen."
+      },
+      "item3": {
+        "title": "Garandeer de veiligheid",
+        "description": "Uw gegevens worden beschermd met industriestandaard beveiligingsprotocollen en een veilige infrastructuur."
+      },
+      "item4": {
+        "title": "Klanttevredenheid",
+        "description": "Bied uw klanten uitzonderlijke service met onze snelle bestandslevering en ons effectieve ondersteuningssysteem."
+      }
     },
     "cta": {
-      "title": "Klaar om uw bedrijf te transformeren?",
-      "description": "Sluit u aan bij duizenden tevreden klanten die hun bedrijf hebben verbeterd met onze uitgebreide oplossing.",
-      "buttonText": "Bekijk prijsplannen"
+      "title": "Klaar om uw tuningbedrijf te transformeren?",
+      "description": "Ontdek onze prijsplannen en vind de perfecte oplossing voor uw bedrijf.",
+      "buttonText": "Bekijk prijzen"
     },
     "items": {
       "customerManagement": {
@@ -345,6 +368,56 @@
         "title": "en meer...",
         "description": "Bied een professioneler en gebruiksvriendelijker systeem met 8 extra modules."
       }
+    }
+  },
+  "FeaturesPage": {
+    "customerManagement": {
+      "title": "Gedetailleerd klantenbeheersysteem",
+      "description": "Maak gedetailleerde profielen voor elke klant, volg hun kredietgeschiedenis, voeg speciale notities toe en beheer alle bestandsuitwisselingen vanaf één plek. Verhoog de loyaliteit door speciale kortingen en campagnes voor klantgroepen te definiëren."
+    },
+    "advancedCredit": {
+      "title": "Flexibel en geavanceerd kredietsysteem",
+      "description": "Maak verschillende kredietpakketten voor verschillende serviceniveaus. Integreer geautomatiseerde betalingssystemen die het voor uw klanten gemakkelijk maken om kredieten te kopen en voer gedetailleerde analyses uit met kredietgebruiksrapporten."
+    },
+    "fileTracking": {
+      "title": "Uitgebreide bestandsregistratie en -beheer",
+      "description": "Volg direct de status van elk geüpload bestand (in behandeling, in verwerking, voltooid). Bekijk de bestandsgeschiedenis, vergelijk versies en stuur automatische meldingen naar uw klanten."
+    },
+    "advancedInvoice": {
+      "title": "Automatisch en handmatig facturatiesysteem",
+      "description": "Genereer automatisch facturen inclusief btw aan het einde van elke transactie of stel handmatig aangepaste facturen op. Vereenvoudig uw financieel beheer door rapporten te ontvangen die kunnen worden geïntegreerd met boekhoudsoftware."
+    },
+    "paymentMethods": {
+      "title": "6 verschillende wereldwijde betaalmethode-integraties",
+      "description": "Bied uw klanten flexibiliteit door wereldwijd veelgebruikte betaalmethoden te ondersteunen, zoals Paypal, Stripe, Mollie, Iyzico en BTC Coin. Beveilig uw financiële transacties met een veilige betalingsinfrastructuur."
+    },
+    "languageOptions": {
+      "title": "Wereldwijd bereik met 16 verschillende taalopties",
+      "description": "Breid uit naar internationale markten door uw portaal in 16 verschillende talen aan te bieden. Maximaliseer de gebruikerservaring door uw klanten service in hun eigen taal te laten ontvangen en hun vertrouwen in uw merk te vergroten."
+    },
+    "notifications": {
+      "title": "Directe e-mail- en sms-meldingen",
+      "description": "Word direct per e-mail en sms op de hoogte gesteld wanneer een nieuw bestand wordt geüpload, een ondersteuningsverzoek wordt ontvangen of een transactie is voltooid. Elimineer communicatiehiaten."
+    },
+    "discountSystem": {
+      "title": "Klantgroep specifiek kortingssysteem",
+      "description": "Definieer speciale kortingstarieven, prijsverhogingen en bonuskredieten voor uw trouwe klanten of dealer groepen. Bouw een flexibele prijsstructuur die uw marketingstrategieën ondersteunt."
+    },
+    "supportSystem": {
+      "title": "Geïntegreerd ondersteuningsticketsysteem",
+      "description": "Ontvang, prioriteer en beheer eenvoudig de technische ondersteuningsverzoeken van uw klanten via het portaal. Verhoog de klanttevredenheid en de snelheid van het oplossen van problemen door de geschiedenis van elk verzoek vast te leggen."
+    },
+    "evcControl": {
+      "title": "EVC-besturings- en geautomatiseerd verkoopsysteem",
+      "description": "Voeg automatisch kredieten toe aan uw dealers of klanten en volg uw verkopen in realtime via de EVC API-integratie. Synchroniseer transacties die via EVC zijn gedaan met uw portaal."
+    },
+    "automaticDelivery": {
+      "title": "Geautomatiseerd bestandsafleversysteem",
+      "description": "Zorg ervoor dat het gewijzigde bestand automatisch naar de klant wordt verzonden zodra het afstemmingsproces is voltooid. Bespaar tijd en verhoog uw servicesnelheid door handmatige processen te elimineren."
+    },
+    "vehicleDatabase": {
+      "title": "Uitgebreide database van 17.583 voertuigen",
+      "description": "Bied uw klanten gedetailleerde en nauwkeurige service op basis van voertuigmerk, model en motorinformatie met onze uitgebreide database met meer dan 17.583 voertuigen. Deze database helpt u snel het juiste bestand te vinden."
     }
   },
   "Trial": {

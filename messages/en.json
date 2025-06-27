@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Professional Tuning System Service",
     "homeDescription": "Professional ECU tuning portal for automotive professionals. Manage customer files efficiently and optimize your business processes.",
     "about": "About Us | ECU Tuning Portal",
-    "aboutDescription": "Discover the mission, vision, and commitment to automotive tuning excellence of ECU Tuning Portal. Meet our professional team.",
+    "aboutDescription": "Discover ECU Tuning Portal, a leading software solution for tuning pros. Learn about our mission, vision, and the dedicated team shaping the future of tuning.",
     "features": "Features | ECU Tuning Portal",
-    "featuresDescription": "Explore the advanced features of ECU Tuning Portal. Optimize your operations with customer management, file tracking, and automated billing.",
+    "featuresDescription": "Explore the powerful features of ECU Tuning Portal. A comprehensive solution designed to optimize your tuning operations with maximum efficiency and reliability.",
     "pricing": "Pricing | ECU Tuning Portal",
-    "pricingDescription": "Discover competitive pricing and advanced features of our custom portal software for chip tuning professionals. Advantageous offers await you.",
+    "pricingDescription": "Discover our pricing plans for chip tuning professionals. Competitive prices and advanced features for your tuning needs. Explore now.",
     "gallery": "Gallery | ECU Tuning Portal",
     "galleryDescription": "Explore our portfolio of successful projects and customer vehicles. See examples of our professional ECU tuning work and achievements.",
     "contact": "Contact Us | ECU Tuning Portal",
     "contactDescription": "Contact our expert ECU tuning team for professional support, consultation services and comprehensive automotive tuning solutions.",
     "trial": "Free 7 Day Trial | ECU Tuning Portal",
-    "trialDescription": "Try ECU Tuning Portal free for 7 days. Explore all premium features and optimize your tuning workflows risk-free."
+    "trialDescription": "Start your free 7-day trial of ECU Tuning Portal. Experience all features risk-free with no credit card required. Transform your business."
   },
   "common": {
     "navigation": {
@@ -198,7 +198,7 @@
     "hero": {
       "label": "About ECU Tuning Portal",
       "title": "Get to Know ECU Tuning Portal",
-      "description": "ECU Tuning Portal is a leading software solution designed specifically for automotive tuning professionals. Get to know our mission, vision, and the dedicated team behind our success, all working together to shape the future of tuning technology.",
+      "description": "ECU Tuning Portal is a leading software solution designed for automotive tuning pros. Get to know our mission and vision.",
       "primaryButton": "Contact Us",
       "secondaryButton": "Explore Features"
     },
@@ -289,12 +289,35 @@
   "Features": {
     "hero": {
       "title": "Advanced Features of ECU Tuning Portal",
-      "description": "As a professional tuning file service portal, ECU Tuning Portal offers the most comprehensive service in the industry. Optimize your operations with efficiency and reliability."
+      "description": "Our professional tuning file service portal offers the most comprehensive service in the industry. Optimize your operations with efficiency and reliability."
+    },
+    "intro": {
+      "title": "Why Choose ECU Tuning Portal?",
+      "description": "Our portal is designed with the needs of tuning professionals in mind. Elevate your business to the next level with our powerful infrastructure, user-friendly interface, and unique features."
+    },
+    "benefits": {
+      "title": "Your Core Advantages",
+      "item1": {
+        "title": "Increase Efficiency",
+        "description": "Save time with our customer and file management tools and automate your workflows."
+      },
+      "item2": {
+        "title": "Boost Profitability",
+        "description": "Maximize your revenue with our advanced credit and invoicing systems and simplify financial processes."
+      },
+      "item3": {
+        "title": "Ensure Security",
+        "description": "Your data is protected with industry-standard security protocols and a secure infrastructure."
+      },
+      "item4": {
+        "title": "Customer Satisfaction",
+        "description": "Deliver exceptional service to your customers with our fast file delivery and effective support system."
+      }
     },
     "cta": {
-      "title": "Ready to Transform Your Business?",
-      "description": "Join thousands of satisfied customers who have elevated their business with our comprehensive solution.",
-      "buttonText": "View Pricing Plans"
+      "title": "Ready to Transform Your Tuning Business?",
+      "description": "Explore our pricing plans and find the perfect solution for your business.",
+      "buttonText": "View Pricing"
     },
     "items": {
       "customerManagement": {
@@ -345,6 +368,56 @@
         "title": "and more...",
         "description": "Provide a more professional and user-friendly system with 8 additional modules."
       }
+    }
+  },
+  "FeaturesPage": {
+    "customerManagement": {
+      "title": "Detailed Customer Management System",
+      "description": "Create detailed profiles for each customer, track their credit history, add special notes, and manage all file exchanges from one place. Increase loyalty by defining special discounts and campaigns for customer groups."
+    },
+    "advancedCredit": {
+      "title": "Flexible and Advanced Credit System",
+      "description": "Create various credit packages for different service levels. Integrate automated payment systems that make it easy for your customers to purchase credits and perform detailed analyses with credit usage reports."
+    },
+    "fileTracking": {
+      "title": "Comprehensive File Tracking and Management",
+      "description": "Instantly track the status of each uploaded file (pending, processing, completed). View file history, compare versions, and send automatic notifications to your customers."
+    },
+    "advancedInvoice": {
+      "title": "Automatic and Manual Invoicing System",
+      "description": "Automatically generate VAT-inclusive invoices at the end of each transaction or manually issue custom invoices. Simplify your financial management by receiving reports that can be integrated with accounting software."
+    },
+    "paymentMethods": {
+      "title": "6 Different Global Payment Method Integrations",
+      "description": "Offer flexibility to your customers by supporting widely used payment methods worldwide, such as Paypal, Stripe, Mollie, Iyzico, and BTC Coin. Secure your financial transactions with a secure payment infrastructure."
+    },
+    "languageOptions": {
+      "title": "Global Reach with 16 Different Language Options",
+      "description": "Expand into international markets by offering your portal in 16 different languages. Maximize user experience by allowing your customers to receive service in their own language and increase their trust in your brand."
+    },
+    "notifications": {
+      "title": "Instant Email and SMS Notifications",
+      "description": "Get notified instantly via email and SMS when a new file is uploaded, a support request is received, or a transaction is completed. Eliminate communication gaps."
+    },
+    "discountSystem": {
+      "title": "Customer Group-Specific Discount System",
+      "description": "Define special discount rates, price increases, and bonus credits for your loyal customers or dealer groups. Build a flexible pricing structure that supports your marketing strategies."
+    },
+    "supportSystem": {
+      "title": "Integrated Support Ticket System",
+      "description": "Easily receive, prioritize, and manage your customers' technical support requests through the portal. Increase customer satisfaction and problem-solving speed by recording the history of each request."
+    },
+    "evcControl": {
+      "title": "EVC Control and Automated Sales System",
+      "description": "Automatically add credits to your dealers or customers and track your sales in real-time through EVC API integration. Synchronize transactions made via EVC with your portal."
+    },
+    "automaticDelivery": {
+      "title": "Automated File Delivery System",
+      "description": "Ensure that the modified file is automatically sent to the customer once the tuning process is complete. Save time and increase your service speed by eliminating manual processes."
+    },
+    "vehicleDatabase": {
+      "title": "Extensive Database of 17,583 Vehicles",
+      "description": "Provide detailed and accurate service to your customers based on vehicle make, model, and engine information with our extensive database covering over 17,583 vehicles. This database helps you find the right file quickly."
     }
   },
   "Trial": {
