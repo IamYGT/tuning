@@ -58,8 +58,8 @@
       "mainTitle": "Professioneel Bestandsserviceportaal",
       "title": "ECU Tuning Portal v4.2",
       "subtitle": "Breng uw bedrijf een stap vooruit met de nieuwste versie!",
-      "description": "Beheer uw klantbestanden efficiënter en optimaliseer uw bedrijfsprocessen met dit hoogwaardige portaal dat is ontworpen en ontwikkeld door professionals.",
-      "tagline": "ECU Tuning Portal v4.2 is klaar om uw bedrijf naar een hoger niveau te tillen met zijn functies die zijn uitgerust met de nieuwste technologie.",
+      "description": "Beheer uw klantbestanden efficiënter en optimaliseer uw bedrijfsprocessen met ons hoogwaardige portaal, ontworpen en ontwikkeld door professionals.",
+      "tagline": "ECU Tuning Portal v4.2 biedt functies die zijn uitgerust met de nieuwste technologie om uw bedrijf naar een hoger niveau te tillen.",
       "cta": "7 dagen gratis proberen",
       "secondaryCta": "Bekijk Prijzen"
     },
@@ -157,10 +157,10 @@
       }
     },
     "cta": {
-      "title": "Start nu uw gratis proefversie",
-      "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal! 19 modules uitgerust met de meest geavanceerde functies ontworpen om aan de behoeften van professionals te voldoen. Beheer uw klantbestanden effectiever en optimaliseer uw bedrijfsprocessen met ECU Tuning Portal v4.2. Klantbeheersysteem, Geavanceerd Creditsysteem en meer wachten op u.",
-      "primaryButton": "7 dagen gratis proberen",
-      "secondaryButton": "Contact met verkoopteam"
+      "title": "Probeer nu ons geavanceerde portaal",
+      "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal, uitgerust met 19 modules en de meest geavanceerde functies. Klantbeheersysteem, geavanceerd kredietsysteem en meer wachten op u.",
+      "primaryButton": "Start gratis proefversie",
+      "secondaryButton": "Contact opnemen met verkoopteam"
     }
   },
   "Gallery": {
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Prijsplannen",
     "title": "Voordelige Prijzen en Speciale Aanbiedingen",
-    "subtitle": "Vind de meest kosteneffectieve oplossing voor uw bedrijf. Onze transparante en voordelige prijzen, gecombineerd met onze speciale aanbiedingen, bieden u de beste waarde.",
+    "subtitle": "Vind de meest kosteneffectieve oplossing voor uw bedrijf. Onze transparante prijzen en speciale aanbiedingen bieden u de beste waarde.",
     "monthly": "MAANDELIJKS",
     "yearly": "JAARLIJKS",
     "oneTime": "EENMALIG",

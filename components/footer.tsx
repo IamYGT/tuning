@@ -11,28 +11,29 @@ import { Link, usePathname } from "@/i18n/navigation"
 type Pathname = React.ComponentProps<typeof Link>["href"];
 
 export default function Footer() {
-  const t = useTranslations("common.footer");
+  const tFooter = useTranslations("common.footer");
+  const tNav = useTranslations("common.navigation");
   const pathname = usePathname();
 
   // Ana sayfa dışındaki sayfalarda daha kısa metni kullan
-  const aboutText = pathname === "/" ? t("about") : t("about_short");
+  const aboutText = pathname === "/" ? tFooter("about") : tFooter("about_short");
 
   // Hataları önlemek için tüm linklerin `routing.ts`'de tanımlı yolları kullanmasını sağla
   const quickLinks: { href: Pathname; label: string }[] = [
-    { href: "/", label: t("navigation.home") },
-    { href: "/about", label: t("navigation.corporate") },
-    { href: "/features", label: t("navigation.features") },
-    { href: "/pricing", label: t("navigation.pricing") },
-    { href: "/contact", label: t("navigation.contact") },
+    { href: "/", label: tNav("home") },
+    { href: "/about", label: tNav("corporate") },
+    { href: "/features", label: tNav("features") },
+    { href: "/pricing", label: tNav("pricing") },
+    { href: "/contact", label: tNav("contact") },
   ];
 
   // Bu linklerin henüz sayfası olmadığı için geçici olarak `/contact`'a yönlendir
   const resourceLinks: { href: Pathname; label: string }[] = [
-    { href: "/contact", label: t("helpCenter") },
-    { href: "/contact", label: t("faq") },
-    { href: "/contact", label: t("documentation") },
-    { href: "/contact", label: t("videoTutorials") },
-    { href: "/contact", label: t("communityForum") },
+    { href: "/contact", label: tFooter("helpCenter") },
+    { href: "/contact", label: tFooter("faq") },
+    { href: "/contact", label: tFooter("documentation") },
+    { href: "/contact", label: tFooter("videoTutorials") },
+    { href: "/contact", label: tFooter("communityForum") },
   ];
 
   return (
@@ -77,7 +78,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("links")}</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{tFooter("links")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               {quickLinks.map((link) => (
                 <li key={link.label}>
@@ -90,7 +91,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("resources")}</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{tFooter("resources")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               {resourceLinks.map((link) => (
                 <li key={link.label}>
@@ -103,28 +104,28 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("subscribe")}</h3>
-            <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{t("subscribeText")}</p>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{tFooter("subscribe")}</h3>
+            <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{tFooter("subscribeText")}</p>
             <div className="flex flex-col space-y-2">
-              <Input type="email" placeholder={t("emailPlaceholder")} className="bg-background h-9 sm:h-10 text-sm" />
-              <Button size="sm" className="h-9 sm:h-10 text-sm">{t("subscribeButton")}</Button>
+              <Input type="email" placeholder={tFooter("emailPlaceholder")} className="bg-background h-9 sm:h-10 text-sm" />
+              <Button size="sm" className="h-9 sm:h-10 text-sm">{tFooter("subscribeButton")}</Button>
             </div>
           </div>
         </div>
 
         <div className="border-t border-border mt-6 sm:mt-8 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-xs sm:text-sm text-muted-foreground mb-4 sm:mb-0 text-center sm:text-left">
-            © {new Date().getFullYear()} {t("copyright")}
+            © {new Date().getFullYear()} {tFooter("copyright")}
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs sm:text-sm">
             <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
-              {t("terms")}
+              {tFooter("terms")}
             </Link>
             <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
-              {t("privacy")}
+              {tFooter("privacy")}
             </Link>
             <Link href={"/"} className="text-muted-foreground hover:text-primary transition-colors">
-              {t("cookiePolicy")}
+              {tFooter("cookiePolicy")}
             </Link>
           </div>
         </div>

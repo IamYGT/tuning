@@ -58,8 +58,8 @@
       "mainTitle": "Professional File Service Portal",
       "title": "ECU Tuning Portal v4.2",
       "subtitle": "Take your business a step forward with the latest version!",
-      "description": "Manage your customer files more efficiently and optimize your business processes with this high-quality portal designed and developed by professionals.",
-      "tagline": "ECU Tuning Portal v4.2 is ready to take your business to the next level with its features equipped with the latest technology.",
+      "description": "Manage your customer files more efficiently and optimize your business processes with our high-quality portal, designed and developed by professionals.",
+      "tagline": "ECU Tuning Portal v4.2 offers features equipped with the latest technology to take your business to the next level.",
       "cta": "Try Free for 7 Days",
       "secondaryCta": "View Pricing"
     },
@@ -157,9 +157,9 @@
       }
     },
     "cta": {
-      "title": "Start Your Free Trial Now",
-      "description": "Take your business to the next level with ECU Tuning Portal! 19 modules equipped with the most advanced features designed to meet the needs of professionals. Manage your customer files more effectively and optimize your business processes with ECU Tuning Portal v4.2. Customer Management System, Advanced Credit System and more are waiting for you.",
-      "primaryButton": "Try Free for 7 Days",
+      "title": "Try Our Advanced Portal Now",
+      "description": "Elevate your business with ECU Tuning Portal, equipped with 19 modules and the most advanced features. Customer Management System, Advanced Credit System, and more await you.",
+      "primaryButton": "Start Free Trial",
       "secondaryButton": "Contact Sales Team"
     }
   },
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Pricing Plans",
     "title": "Advantageous Prices and Special Offers",
-    "subtitle": "Find the most cost-effective solution for your business. Our transparent and advantageous prices, combined with our special offers, provide you with the best value.",
+    "subtitle": "Find the most cost-effective solution for your business. Our transparent pricing and special offers provide you with the best value.",
     "monthly": "MONTHLY",
     "yearly": "YEARLY",
     "oneTime": "ONE TIME",
@@ -427,7 +427,7 @@
       "tryFree": "Free ECU Tuning Portal Trial"
     },
     "subtitle": "Explore all premium features and optimize your workflow, risk-free.",
-    "description": "Experience the full power of our platform with a 7-day free ECU Tuning Portal trial. No credit card required. Get unlimited access and see how it can transform your business.",
+    "description": "Start your free 7-day trial of ECU Tuning Portal. Experience all features risk-free with no credit card required. Transform your tuning business.",
     "features": {
       "fileManagement": {
         "title": "Advanced File Management",
@@ -460,8 +460,8 @@
   },
   "Contact": {
     "titleLabel": "Get in Touch",
-    "titleMain": "Contact Us",
-    "subtitle": "How can we help you? Feel free to contact our expert team for your questions, requests, or collaboration proposals.",
+    "titleMain": "Contact Our Expert Team",
+    "subtitle": "How can we help you? Feel free to contact our team for your questions, requests, or collaboration proposals.",
     "contactInfo": {
       "phoneTitle": "Phone Number",
       "phoneDesc": "Mon-Fri from 9am to 6pm",

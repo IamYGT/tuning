@@ -59,59 +59,35 @@ export default function TestimonialCarousel() {
         </div>
 
         <div className="relative">
-          {/* Desktop view - 3 column grid */}
-          <div className="hidden md:grid md:grid-cols-3 gap-6">
+          <div className="flex space-x-4 overflow-x-auto pb-4 md:grid md:grid-cols-3 md:gap-8 md:space-x-0 md:overflow-visible">
             {testimonials.map((testimonial) => (
-              <Card key={testimonial.id} className="border border-muted bg-background h-full">
-                <CardContent className="p-4 h-full">
-                  <div className="flex flex-col items-center text-center">
-
-                    <div className="flex mb-2">
-                      {[...Array(5)].map((_, i) => (
-                        <Star
-                          key={i}
-                          className={`h-5 w-5 ${i < testimonial.rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300"
-                            }`}
-                        />
-                      ))}
-                    </div>
-                    <p className="text-sm sm:text-base mb-4">{t(testimonial.textKey)}</p>
-                    <h3 className="font-bold">{t(testimonial.nameKey)}</h3>
-                    <p className="text-sm text-muted-foreground">{t(testimonial.companyKey)}</p>
+              <Card
+                key={testimonial.id}
+                className="w-80 flex-shrink-0 border border-muted bg-background md:w-auto md:flex-shrink"
+              >
+                <CardContent className="flex h-full flex-col items-center p-6 text-center">
+                  <div className="mb-4 flex">
+                    {[...Array(5)].map((_, i) => (
+                      <Star
+                        key={i}
+                        className={`h-5 w-5 ${i < testimonial.rating
+                            ? "fill-yellow-500 text-yellow-500"
+                            : "text-gray-300"
+                          }`}
+                      />
+                    ))}
                   </div>
+                  <p className="mb-4 flex-grow text-sm text-muted-foreground sm:text-base">
+                    {t(testimonial.textKey)}
+                  </p>
+                  <h3 className="font-bold">{t(testimonial.nameKey)}</h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t(testimonial.companyKey)}
+                  </p>
                 </CardContent>
               </Card>
             ))}
           </div>
-
-          {/* Mobile view - horizontally scrollable */}
-          <div className="md:hidden overflow-x-auto pb-4 -mx-4 px-4">
-            <div className="flex space-x-4">
-              {testimonials.map((testimonial) => (
-                <div key={testimonial.id} className="w-72 flex-shrink-0">
-                  <Card className="border border-muted bg-background h-full">
-                    <CardContent className="p-4 h-full">
-                      <div className="flex flex-col items-center text-center">
-                        <div className="flex mb-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star
-                              key={i}
-                              className={`h-5 w-5 ${i < testimonial.rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300"
-                                }`}
-                            />
-                          ))}
-                        </div>
-                        <p className="text-sm sm:text-base mb-4">{t(testimonial.textKey)}</p>
-                        <h3 className="font-bold">{t(testimonial.nameKey)}</h3>
-                        <p className="text-sm text-muted-foreground">{t(testimonial.companyKey)}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              ))}
-            </div>
-          </div>
-
         </div>
       </div>
     </section>

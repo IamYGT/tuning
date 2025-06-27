@@ -57,9 +57,9 @@
     "hero": {
       "mainTitle": "Profesyonel Dosya Servis Portalı",
       "title": "ECU Tuning Portal v4.2",
-      "subtitle": "En güncel sürümle firmanızı bir adım öne taşıyın!",
-      "description": "Profesyoneller tarafından tasarlanmış ve geliştirilmiş olan bu yüksek kaliteli portal ile müşteri dosyalarınızı daha verimli yönetin ve iş süreçlerinizi optimize edin.",
-      "tagline": "Ecu Tuning Portal v4.2, son teknoloji ile donatılmış özellikleriyle işinizi bir üst seviyeye taşımak için hazır.",
+      "subtitle": "İşletmenizi en güncel sürümle bir adım öne taşıyın!",
+      "description": "Yüksek kaliteli portalımızla müşteri dosyalarınızı daha verimli yönetin ve iş süreçlerinizi, profesyoneller tarafından tasarlanmış bu çözümle optimize edin.",
+      "tagline": "ECU Tuning Portal v4.2, işinizi bir üst seviyeye taşımak için en son teknolojiyle donatılmış özellikler sunar.",
       "cta": "7 Gün Ücretsiz Deneyin",
       "secondaryCta": "Fiyatları İncele"
     },
@@ -157,10 +157,10 @@
       }
     },
     "cta": {
-      "title": "Hemen Ücretsiz Denemeye Başlayın",
-      "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin.",
-      "primaryButton": "7 Gün Ücretsiz Deneyin",
-      "secondaryButton": "Satış Ekibiyle İletişime Geçin"
+      "title": "Gelişmiş Portalımızı Hemen Deneyin",
+      "description": "19 modül ve en gelişmiş özelliklerle donatılmış ECU Tuning Portal ile işinizi bir üst seviyeye taşıyın. Müşteri Yönetim Sistemi, Gelişmiş Kredi Sistemi ve daha fazlası sizi bekliyor.",
+      "primaryButton": "Ücretsiz Denemeyi Başlat",
+      "secondaryButton": "Satış Ekibiyle İletişime Geç"
     }
   },
   "Gallery": {
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Fiyatlandırma Planları",
     "title": "Avantajlı Fiyatlar ve Özel Teklifler",
-    "subtitle": "İşletmeniz için en uygun maliyetli çözümü bulun. Şeffaf ve avantajlı fiyatlarımız, özel tekliflerimizle birleşerek size en iyi değeri sunar.",
+    "subtitle": "İşletmeniz için en uygun maliyetli çözümü bulun. Şeffaf fiyatlarımız ve özel tekliflerimiz size en iyi değeri sunar.",
     "monthly": "AYLIK",
     "yearly": "YILLIK",
     "oneTime": "TEK SEFERLİK",
@@ -427,36 +427,7 @@
       "tryFree": "Ücretsiz ECU Tuning Portal Denemesi"
     },
     "subtitle": "Tüm premium özellikleri keşfedin ve iş akışınızı risksiz optimize edin.",
-    "description": "7 günlük ücretsiz ECU Tuning Portal denemesi ile platformumuzun tam gücünü deneyimleyin. Kredi kartı gerekmez. Yedi gün boyunca sınırsız erişimle tuning işinizi nasıl dönüştürebileceğini görün.",
-    "features": {
-      "fileManagement": {
-        "title": "Gelişmiş Dosya Yönetimi",
-        "description": "Güçlü sistemimizle tuning dosyalarını verimli bir şekilde düzenleyin, saklayın ve işleyin."
-      },
-      "customerTools": {
-        "title": "Müşteri İlişkileri Araçları",
-        "description": "Müşteri etkileşimlerini yönetin, talepleri takip edin ve iletişimi geliştirin."
-      },
-      "secureData": {
-        "title": "Güvenli Veri İşleme",
-        "description": "Değerli tuning dosyalarınızı ve müşteri verilerinizi kurumsal düzeyde güvenlikle koruyun."
-      }
-    },
-    "startNowButton": "Hemen Başla!",
-    "form": {
-      "title": "Ücretsiz Denemenizi Başlatın",
-      "namePlaceholder": "Adınız",
-      "phonePlaceholder": "Telefon numaranız",
-      "emailPlaceholder": "E-Posta Adresiniz",
-      "messagePlaceholder": "Mesajınız",
-      "submitButton": "GÖNDER",
-      "submittingButton": "Gönderiliyor...",
-      "successTitle": "Talep Alındı",
-      "successMessage": "İlginiz için teşekkürler! Deneme erişim bilgilerinizle kısa süre içinde sizinle iletişime geçeceğiz.",
-      "errorTitle": "Gönderim Hatası",
-      "errorMessage": "Talebinizi gönderirken bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
-      "privacyNotice": "Bu formu göndererek, gizlilik politikamızı ve hizmet şartlarımızı kabul etmiş olursunuz."
-    }
+    "description": "7 günlük ücretsiz ECU Tuning Portal denemenizi başlatın. Platformumuzun tam gücünü risksiz ve kredi kartsız deneyimleyin."
   },
   "Contact": {
     "titleLabel": "İletişime Geçin",

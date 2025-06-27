@@ -58,8 +58,8 @@
       "mainTitle": "Portal de Servicio de Archivos Profesional",
       "title": "ECU Tuning Portal v4.2",
       "subtitle": "¡Lleve su empresa un paso adelante con la última versión!",
-      "description": "Gestione sus archivos de clientes de manera más eficiente y optimice sus procesos comerciales con este portal de alta calidad diseñado y desarrollado por profesionales.",
-      "tagline": "ECU Tuning Portal v4.2 está listo para llevar su negocio al siguiente nivel con sus funciones equipadas con la última tecnología.",
+      "description": "Gestione sus archivos de clientes de manera más eficiente y optimice sus procesos comerciales con nuestro portal de alta calidad, diseñado por profesionales.",
+      "tagline": "ECU Tuning Portal v4.2 ofrece funciones equipadas con la última tecnología para llevar su negocio al siguiente nivel.",
       "cta": "Prueba gratis por 7 días",
       "secondaryCta": "Ver Precios"
     },
@@ -157,9 +157,9 @@
       }
     },
     "cta": {
-      "title": "Comience su prueba gratuita ahora",
-      "description": "¡Lleve su negocio al siguiente nivel con ECU Tuning Portal! 19 módulos equipados con las características más avanzadas diseñadas para satisfacer las necesidades de los profesionales. Gestione los archivos de sus clientes de manera más efectiva y optimice sus procesos comerciales con ECU Tuning Portal v4.2. Sistema de gestión de clientes, sistema avanzado de créditos y más le esperan.",
-      "primaryButton": "Prueba gratuita por 7 días",
+      "title": "Pruebe nuestro portal avanzado ahora",
+      "description": "Eleve su negocio con ECU Tuning Portal, equipado con 19 módulos y las características más avanzadas. Sistema de gestión de clientes, sistema de crédito avanzado y más le esperan.",
+      "primaryButton": "Iniciar prueba gratuita",
       "secondaryButton": "Contactar al equipo de ventas"
     }
   },
@@ -247,9 +247,9 @@
     }
   },
   "Pricing": {
-    "label": "Precios del Portal ECU Tuning",
+    "label": "Planes de Precios",
     "title": "Precios Ventajosos y Ofertas Especiales",
-    "subtitle": "Software de portal personalizado para profesionales de chip tuning. Precios competitivos y características avanzadas te esperan. Descubre nuestras ofertas ventajosas.",
+    "subtitle": "Encuentre la solución más rentable para su negocio. Nuestros precios transparentes y ofertas especiales le ofrecen el mejor valor.",
     "monthly": "MENSUAL",
     "yearly": "ANUAL",
     "oneTime": "PAGO ÚNICO",
@@ -427,7 +427,7 @@
       "tryFree": "Prueba Gratuita del Portal de Tuning ECU"
     },
     "subtitle": "Explore todas las funciones premium y optimice su flujo de trabajo, sin riesgos.",
-    "description": "Experimente toda la potencia de ECU Tuning Portal. No se requiere tarjeta de crédito. Obtenga acceso ilimitado durante siete días y vea cómo puede transformar su negocio de tuning.",
+    "description": "Inicie su prueba gratuita de 7 días de ECU Tuning Portal. Experimente todas las funciones sin riesgo y sin necesidad de tarjeta de crédito.",
     "features": {
       "fileManagement": {
         "title": "Gestión Avanzada de Archivos",
@@ -459,9 +459,9 @@
     }
   },
   "Contact": {
-    "titleLabel": "Ponte en Contacto:",
-    "titleMain": "Soporte Profesional",
-    "subtitle": "¿Cómo podemos ayudarte?",
+    "titleLabel": "Ponerse en Contacto",
+    "titleMain": "Contacte a Nuestro Equipo Experto",
+    "subtitle": "¿Cómo podemos ayudarte? No dude en ponerse en contacto con nuestro equipo para sus preguntas, solicitudes o propuestas de colaboración.",
     "contactInfo": {
       "phoneTitle": "Número de Teléfono",
       "phoneDesc": "Lun-Vie de 9am a 6pm",

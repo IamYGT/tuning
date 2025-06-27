@@ -152,7 +152,7 @@ export default function Features() {
 
         {/* Discover All Features Button */}
         <div className="text-center">
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10" asChild>
+          <Button size="lg" variant="default" asChild>
             <Link href="/features">
               {t('cta')} <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
