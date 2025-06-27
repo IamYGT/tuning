@@ -3,15 +3,15 @@
     "home": "ECU Tuning Portal | Profesyonel Tuning Sistem Servisi",
     "homeDescription": "Otomotiv tuning profesyonelleri için profesyonel ECU tuning portalı",
     "about": "Hakkımızda | ECU Tuning Portal",
-    "aboutDescription": "ECU Tuning Portal, misyonumuz, vizyonumuz ve ekibimiz hakkında daha fazla bilgi edinin",
+    "aboutDescription": "ECU Tuning Portal'ın misyonu, vizyonu, profesyonel ekibi ve otomotiv tuning mükemmeliyetine olan bağlılığımız hakkında bilgi edinin.",
     "features": "Özellikler | ECU Tuning Portal",
     "featuresDescription": "Otomotiv tuning profesyonelleri için tasarlanmış ECU Tuning Portal'ın gelişmiş özelliklerini keşfedin",
     "pricing": "Fiyatlandırma | ECU Tuning Portal",
-    "pricingDescription": "ECU Tuning Portal için fiyatlandırma planlarımızı ve özel tekliflerimizi görüntüleyin",
+    "pricingDescription": "ECU Tuning Portal'ın rekabetçi fiyatlandırma planlarını, özel tekliflerini ve profesyonel tuning çözümlerini keşfedin.",
     "gallery": "Galeri | ECU Tuning Portal",
     "galleryDescription": "Başarılı projelerimiz ve müşteri araçlarımızdan oluşan portfolyomuzu keşfedin",
     "contact": "İletişim | ECU Tuning Portal",
-    "contactDescription": "ECU Tuning Portal hakkında herhangi bir sorunuz için ekibimizle iletişime geçin",
+    "contactDescription": "Uzman ECU tuning ekibimizle profesyonel destek, danışmanlık hizmetleri ve kapsamlı otomotiv tuning çözümleri için iletişime geçin.",
     "trial": "7 Gün Ücretsiz Deneme | ECU Tuning Portal",
     "trialDescription": "ECU Tuning Portal'ın 7 gün ücretsiz deneme süresini başlatın ve tüm premium özellikleri keşfedin"
   },
@@ -353,7 +353,7 @@
       "tryFree": "Ücretsiz Deneyin"
     },
     "subtitle": "Profesyonel ECU Tuning Dosya Yönetimi",
-    "description": "ECU Tuning Portal'ın gücünü 7 gün ücretsiz deneyimleyin. İş akışınızı düzenleyin, dosya yönetimini geliştirin ve gelişmiş sistemimizle tuning süreçlerinizi devrimleştirin.",
+    "description": "7 günlük ücretsiz ECU Tuning Portal denemenizi başlatın. İş akışlarınızı optimize edin ve profesyonel tuning süreçlerinizi dönüştürün.",
     "features": {
       "fileManagement": {
         "title": "Gelişmiş Dosya Yönetimi",

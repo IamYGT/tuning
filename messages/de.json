@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Professioneller Tuning-System-Service",
     "homeDescription": "Professionelles ECU-Tuning-Portal für Kfz-Tuning-Experten",
     "about": "Über uns | ECU Tuning Portal",
-    "aboutDescription": "Erfahren Sie mehr über ECU Tuning Portal, unsere Mission, Vision und unser Team",
+    "aboutDescription": "Erfahren Sie mehr über ECU Tuning Portal, unsere Mission, Vision, unser professionelles Team und unser Engagement für Automotive-Tuning-Exzellenz.",
     "features": "Funktionen | ECU Tuning Portal",
     "featuresDescription": "Entdecken Sie die fortschrittlichen Funktionen des ECU Tuning Portals, die für Kfz-Tuning-Experten entwickelt wurden",
     "pricing": "Preise | ECU Tuning Portal",
-    "pricingDescription": "Sehen Sie sich unsere Preispläne und Sonderangebote für das ECU Tuning Portal an",
+    "pricingDescription": "Entdecken Sie die wettbewerbsfähigen Preispläne, Sonderangebote und professionellen Automotive-Tuning-Lösungen des ECU Tuning Portals.",
     "gallery": "Galerie | ECU Tuning Portal",
     "galleryDescription": "Entdecken Sie unser Portfolio erfolgreicher Projekte und Kundenfahrzeuge",
     "contact": "Kontakt | ECU Tuning Portal",
-    "contactDescription": "Kontaktieren Sie unser Team für Fragen zum ECU Tuning Portal",
+    "contactDescription": "Kontaktieren Sie unser ECU-Tuning-Expertenteam für professionelle Unterstützung, Beratung und umfassende Automotive-Tuning-Lösungen.",
     "trial": "7 Tage kostenlos testen | ECU Tuning Portal",
-    "trialDescription": "Starten Sie Ihre kostenlose 7 tägige Testversion des ECU Tuning Portals und entdecken Sie alle Premium-Funktionen"
+    "trialDescription": "Starten Sie Ihre kostenlose 7-tägige ECU Tuning Portal Testversion. Optimieren Sie Arbeitsabläufe und transformieren Sie Ihre Tuning-Prozesse."
   },
   "common": {
     "navigation": {
@@ -353,7 +353,7 @@
       "tryFree": "Kostenlos testen"
     },
     "subtitle": "Professionelles ECU-Tuning-Dateimanagement",
-    "description": "Erleben Sie die Leistungsfähigkeit des ECU Tuning Portals 7 Tage lang kostenlos. Optimieren Sie Ihren Arbeitsablauf, verbessern Sie die Dateiverwaltung und revolutionieren Sie Ihre Tuning-Prozesse mit unserem fortschrittlichen System.",
+    "description": "Starten Sie Ihre kostenlose 7-tägige ECU Tuning Portal Testversion. Optimieren Sie Arbeitsabläufe und transformieren Sie Ihre Tuning-Prozesse.",
     "features": {
       "fileManagement": {
         "title": "Fortschrittliches Dateimanagement",

@@ -3,15 +3,15 @@
     "home": "ECU Tuning Portal | Professional Tuning System Service",
     "homeDescription": "Professional ECU tuning portal for automotive tuning professionals",
     "about": "About Us | ECU Tuning Portal",
-    "aboutDescription": "Learn more about ECU Tuning Portal, our mission, vision and team",
+    "aboutDescription": "Learn more about ECU Tuning Portal, our mission, vision, professional team, and our commitment to automotive tuning excellence.",
     "features": "Features | ECU Tuning Portal",
     "featuresDescription": "Explore the advanced features of ECU Tuning Portal designed for automotive tuning professionals",
     "pricing": "Pricing | ECU Tuning Portal",
-    "pricingDescription": "View our pricing plans and special offers for ECU Tuning Portal",
+    "pricingDescription": "Explore ECU Tuning Portal's competitive pricing plans, special offers, and professional automotive tuning solutions for your business.",
     "gallery": "Gallery | ECU Tuning Portal",
     "galleryDescription": "Explore our portfolio of successful projects and customer vehicles",
     "contact": "Contact Us | ECU Tuning Portal",
-    "contactDescription": "Get in touch with our team for any questions about ECU Tuning Portal",
+    "contactDescription": "Contact our expert ECU tuning team for professional support, consultation services, and comprehensive automotive tuning solutions.",
     "trial": "Free 7 Day Trial | ECU Tuning Portal",
     "trialDescription": "Start your free 7 day trial of ECU Tuning Portal and explore all premium features"
   },
@@ -366,7 +366,7 @@
       "tryFree": "Try It Free"
     },
     "subtitle": "Professional ECU Tuning File Management",
-    "description": "Experience the power of ECU Tuning Portal for 7 days at no cost. Streamline your workflow, enhance file management, and revolutionize your tuning processes with our advanced system.",
+    "description": "Start your free 7-day ECU Tuning Portal trial. Streamline workflows, enhance file management, and transform your professional tuning processes.",
     "features": {
       "fileManagement": {
         "title": "Advanced File Management",
