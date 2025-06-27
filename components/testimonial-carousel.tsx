@@ -71,8 +71,8 @@ export default function TestimonialCarousel() {
                       <Star
                         key={i}
                         className={`h-5 w-5 ${i < testimonial.rating
-                            ? "fill-yellow-500 text-yellow-500"
-                            : "text-gray-300"
+                          ? "fill-yellow-500 text-yellow-500"
+                          : "text-gray-300"
                           }`}
                       />
                     ))}
