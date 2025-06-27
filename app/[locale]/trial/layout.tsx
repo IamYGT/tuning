@@ -9,19 +9,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const resolvedParams = await params;
-  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Trial' });
+  const tMetadata = await getTranslations({ locale: resolvedParams.locale, namespace: 'metadata' });
   const hreflangs = generateFullHreflangs('/trial', resolvedParams.locale);
 
   return {
-    title: t('title.tryFree'),
-    description: t('description'),
+    title: tMetadata('trial'),
+    description: tMetadata('trialDescription'),
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages
     },
     openGraph: {
-      title: t('title.tryFree'),
-      description: t('description'),
+      title: tMetadata('trial'),
+      description: tMetadata('trialDescription'),
       images: ['/assets/images/call.png.avif'],
     },
   };

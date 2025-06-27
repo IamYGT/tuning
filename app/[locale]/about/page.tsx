@@ -14,18 +14,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const resolvedParams = await params;
   const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Corporate' });
+  const tMetadata = await getTranslations({ locale: resolvedParams.locale, namespace: 'metadata' });
   const hreflangs = generateFullHreflangs('/about', resolvedParams.locale);
 
   return {
-    title: t('hero.title'),
-    description: t('hero.description'),
+    title: tMetadata('about'),
+    description: tMetadata('aboutDescription'),
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages
     },
     openGraph: {
-      title: t('hero.title'),
-      description: t('hero.description'),
+      title: tMetadata('about'),
+      description: tMetadata('aboutDescription'),
       images: ['/assets/images/logo.svg'],
     },
   };
