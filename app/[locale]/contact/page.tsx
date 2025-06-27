@@ -143,9 +143,14 @@ export default function ContactPage() {
               <p className="text-lg mb-8 text-muted-foreground">
                 {t("cta.description")}
               </p>
-              <h3 className="text-2xl font-bold mb-6"></h3>
-              <p className="text-lg mb-8 text-muted-foreground">
+              <p className="text-lg mb-6 text-muted-foreground">
                 {t("cta.description2")}
+              </p>
+              <p className="text-lg mb-6 text-muted-foreground">
+                {t("cta.description3")}
+              </p>
+              <p className="text-lg mb-8 text-muted-foreground">
+                {t("cta.description4")}
               </p>
               <div className="grid grid-cols-2 gap-4 sm:flex sm:flex-wrap">
                 <Button size="lg" className="w-full sm:w-auto" asChild>

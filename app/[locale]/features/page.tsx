@@ -44,8 +44,43 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      {/* Features Section with Animation */}
+      {/* Intro Section */}
+      <section className="py-16 bg-background">
+        <div className="container px-4 mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">{t('intro.title')}</h2>
+            <p className="text-lg text-muted-foreground mb-12">{t('intro.description')}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
       <section className="py-16 bg-muted/5">
+        <div className="container px-4 mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-12">{t('benefits.title')}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <h3 className="text-xl font-semibold mb-4">{t('benefits.item1.title')}</h3>
+              <p className="text-muted-foreground">{t('benefits.item1.description')}</p>
+            </div>
+            <div className="text-center">
+              <h3 className="text-xl font-semibold mb-4">{t('benefits.item2.title')}</h3>
+              <p className="text-muted-foreground">{t('benefits.item2.description')}</p>
+            </div>
+            <div className="text-center">
+              <h3 className="text-xl font-semibold mb-4">{t('benefits.item3.title')}</h3>
+              <p className="text-muted-foreground">{t('benefits.item3.description')}</p>
+            </div>
+            <div className="text-center">
+              <h3 className="text-xl font-semibold mb-4">{t('benefits.item4.title')}</h3>
+              <p className="text-muted-foreground">{t('benefits.item4.description')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section with Animation */}
+      <section className="py-16 bg-background">
         <div className="container px-4 mx-auto">
           <Features />
         </div>

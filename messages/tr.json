@@ -291,6 +291,29 @@
       "title": "Özelliklerimiz",
       "description": "ECU Tuning Portal'ı otomotiv tuning profesyonelleri için lider çözüm yapan tüm güçlü özellikleri keşfedin."
     },
+    "intro": {
+      "title": "Neden ECU Tuning Portal?",
+      "description": "ECU Tuning Portal, tuning profesyonellerinin ihtiyaçlarını karşılamak için özel olarak tasarlanmış kapsamlı bir dijital platformdur. Gelişmiş teknolojiler ve kullanıcı dostu arayüzle, işletmenizin verimliliğini artırır ve müşteri memnuniyetini garanti eder. Modern tuning işletmelerinin karşılaştığı zorlukları çözmek için tasarlanan bu sistem, profesyonel tunerların işlerini kolaylaştırır ve karlılığını artırır."
+    },
+    "benefits": {
+      "title": "Platform Avantajları",
+      "item1": {
+        "title": "Zaman Tasarrufu",
+        "description": "Otomatik iş akışları ve akıllı sistemlerle operasyonlarınızı %80'e varan oranda hızlandırın."
+      },
+      "item2": {
+        "title": "Global Erişim",
+        "description": "16 dil desteği ve çoklu para birimi ile dünya çapında müşterilere hizmet verin."
+      },
+      "item3": {
+        "title": "Güvenlik",
+        "description": "Bankacılık seviyesinde güvenlik protokolleri ile müşteri verilerinizi koruyun."
+      },
+      "item4": {
+        "title": "Sürekli Destek",
+        "description": "7/24 teknik destek ve düzenli güncellemelerle kesintisiz hizmet alın."
+      }
+    },
     "cta": {
       "title": "İşinizi Dönüştürmeye Hazır mısınız?",
       "description": "Kapsamlı çözümümüzle işlerini yükselten binlerce memnun müşteriye katılın.",
@@ -413,7 +436,9 @@
     "cta": {
       "title": "Hemen Portalı Deneyin!",
       "description": "Bizimle iletişime geçmekten çekinmeyin!",
-      "description2": "Ecu Tuning Portal'ın sunduğu hizmetler ve modüller hakkında daha fazla bilgi almak için iletişim sayfamızı kullanabilirsiniz. E-posta, telefon veya doğrudan mesaj yoluyla bize ulaşın. Müşteri hizmetleri ekibimiz, sorularınıza en kısa sürede yanıt vermek için burada.",
+      "description2": "ECU Tuning Portal'ın sunduğu hizmetler ve modüller hakkında daha fazla bilgi almak için iletişim sayfamızı kullanabilirsiniz. E-posta, telefon veya doğrudan mesaj yoluyla bize ulaşın. Müşteri hizmetleri ekibimiz, sorularınıza en kısa sürede yanıt vermek için burada.",
+      "description3": "ECU Tuning Portal, otomotiv tuning profesyonelleri için tasarlanmış kapsamlı bir yazılım çözümüdür. 16 farklı dil desteği, gelişmiş dosya yönetim sistemi, müşteri ilişkileri yönetimi ve güvenli ödeme sistemleri ile işletmenizi bir üst seviyeye taşıyoruz. Profesyonel destek ekibimiz, teknik sorularınızdan kurulum sürecinize kadar her adımda yanınızda.",
+      "description4": "Gaziantep merkezli ofisimizden dünya çapında hizmet veriyoruz. 7/24 teknik destek, online eğitim programları ve sürekli güncellemeler ile müşterilerimizin başarısını garantiliyoruz. ECU tuning sektöründe 10 yılı aşkın deneyimimizle, binlerce profesyonel tuner'ın güvenini kazandık. Gelişmiş altyapımız ve uzman ekibimizle, işletmenizin tüm tuning ihtiyaçlarını karşılamaya hazırız.",
       "primaryButton": "7 Gün Ücretsiz Deneyin",
       "secondaryButton": "Fiyat Planlarını Görüntüle",
       "imageTitle": "ECU Tuning Portal",
