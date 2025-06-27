@@ -7,28 +7,32 @@ import Image from "next/image"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
 import { Link, usePathname } from "@/i18n/navigation"
 
+// `next-intl`'in Link bileşeninin beklediği `href` türünü tanımla
+type Pathname = React.ComponentProps<typeof Link>["href"];
+
 export default function Footer() {
   const t = useTranslations("common.footer");
-  const nav = useTranslations("common.navigation");
   const pathname = usePathname();
 
   // Ana sayfa dışındaki sayfalarda daha kısa metni kullan
   const aboutText = pathname === "/" ? t("about") : t("about_short");
 
-  const quickLinks = [
+  // Hataları önlemek için tüm linklerin `routing.ts`'de tanımlı yolları kullanmasını sağla
+  const quickLinks: { href: Pathname; label: string }[] = [
     { href: "/", label: t("navigation.home") },
     { href: "/about", label: t("navigation.corporate") },
     { href: "/features", label: t("navigation.features") },
     { href: "/pricing", label: t("navigation.pricing") },
     { href: "/contact", label: t("navigation.contact") },
-    { href: "/trial", label: t("navigation.tryFree") },
   ];
 
-  const resourceLinks = [
-    { href: "/faq", label: t("faq") },
-    { href: "/docs", label: t("documentation") },
-    { href: "/videos", label: t("videoTutorials") },
-    { href: "/forum", label: t("communityForum") },
+  // Bu linklerin henüz sayfası olmadığı için geçici olarak `/contact`'a yönlendir
+  const resourceLinks: { href: Pathname; label: string }[] = [
+    { href: "/contact", label: t("helpCenter") },
+    { href: "/contact", label: t("faq") },
+    { href: "/contact", label: t("documentation") },
+    { href: "/contact", label: t("videoTutorials") },
+    { href: "/contact", label: t("communityForum") },
   ];
 
   return (
@@ -76,7 +80,7 @@ export default function Footer() {
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("links")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               {quickLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link href={link.href} className="text-muted-foreground hover:text-primary transition-colors">
                     {link.label}
                   </Link>
@@ -89,7 +93,7 @@ export default function Footer() {
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("resources")}</h3>
             <ul className="grid gap-2 text-sm sm:text-base">
               {resourceLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link href={link.href} className="text-muted-foreground hover:text-primary transition-colors">
                     {link.label}
                   </Link>
