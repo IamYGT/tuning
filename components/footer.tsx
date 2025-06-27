@@ -10,19 +10,19 @@ import { Link } from "@/i18n/navigation"
 export default function Footer() {
   const t = useTranslations("common.footer");
   const nav = useTranslations("common.navigation");
-  
+
   return (
     <footer className="bg-muted/30 border-t">
       <div className="container mx-auto px-4 py-8 sm:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-6">
           <div>
             <div className="mb-3 sm:mb-4">
-              <Image 
-                src="/assets/images/logo/ecu.svg" 
-                alt="ECU Tuning Portal Logo" 
-                width={120} 
-                height={40} 
-                className="h-8 w-auto" 
+              <Image
+                src="/assets/images/logo/ecu.svg"
+                alt="ECU Tuning Portal Logo"
+                width={120}
+                height={40}
+                className="h-8 w-auto"
               />
             </div>
             <p className="text-sm sm:text-base text-muted-foreground mb-4">
@@ -140,7 +140,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-      </div>  
+      </div>
     </footer>
   )
 }

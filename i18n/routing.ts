@@ -1,64 +1,65 @@
-import {defineRouting} from 'next-intl/routing';
- 
+import { defineRouting } from "next-intl/routing";
+
 export const routing = defineRouting({
   // A list of all locales that are supported
-  locales: ['en', 'tr', 'de', 'nl', 'es'],
- 
-  // Used when no locale matches
-  defaultLocale: 'en',
+  locales: ["en", "tr", "de", "nl", "es"],
 
-  // Only include locale prefix when needed (not for default locale)
-  localePrefix: 'as-needed',
+  // Used when no locale matches
+  defaultLocale: "en",
+
+  // SEO friendly approach - use as-needed but with custom logic
+  localePrefix: "as-needed",
+
   // Define path mappings for different locales
   pathnames: {
-    '/': {
-      en: '/',
-      tr: '/',
-      de: '/',
-      nl: '/',
-      es: '/'
+    "/": {
+      en: "/",
+      tr: "/",
+      de: "/",
+      nl: "/",
+      es: "/",
     },
-    '/about': {
-      en: '/about',
-      tr: '/hakkimizda',
-      de: '/uber-uns',
-      nl: '/over-ons',
-      es: '/sobre-nosotros'
+    "/about": {
+      en: "/about",
+      tr: "/hakkimizda",
+      de: "/uber-uns",
+      nl: "/over-ons",
+      es: "/sobre-nosotros",
     },
-    '/contact': {
-      en: '/contact',
-      tr: '/iletisim',
-      de: '/kontakt',
-      nl: '/contact',
-      es: '/contacto'
+    "/contact": {
+      en: "/contact",
+      tr: "/iletisim",
+      de: "/kontakt",
+      nl: "/contact",
+      es: "/contacto",
     },
-    '/features': {
-      en: '/features',
-      tr: '/ozellikler',
-      de: '/funktionen',
-      nl: '/functies',
-      es: '/caracteristicas'
+    "/features": {
+      en: "/features",
+      tr: "/ozellikler",
+      de: "/funktionen",
+      nl: "/functies",
+      es: "/caracteristicas",
     },
-    '/pricing': {
-      en: '/pricing',
-      tr: '/fiyatlandirma',
-      de: '/preise',
-      nl: '/prijzen',
-      es: '/precios'
+    "/pricing": {
+      en: "/pricing",
+      tr: "/fiyatlandirma",
+      de: "/preise",
+      nl: "/prijzen",
+      es: "/precios",
     },
-    '/gallery': {
-      en: '/gallery',
-      tr: '/galeri',
-      de: '/galerie',
-      nl: '/galerij',
-      es: '/galeria'
+    "/gallery": {
+      en: "/gallery",
+      tr: "/galeri",
+      de: "/galerie",
+      nl: "/galerij",
+      es: "/galeria",
     },
-    '/trial': {
-      en: '/trial',
-      tr: '/deneme',
-      de: '/test',
-      nl: '/probeer',
-      es: '/prueba'
-    }
+    "/trial": {
+      en: "/trial",
+      tr: "/deneme",
+      de: "/test",
+      nl: "/probeer",
+      es: "/prueba",
+    },
   },
 });
