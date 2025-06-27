@@ -1,13 +1,11 @@
-import { Link } from "@/i18n/navigation";
-import { LucideIcon } from "lucide-react";
-import type React from "react";
+import { type LucideIcon } from "lucide-react"
 
 interface ContactInfoCardProps {
-  icon: React.ElementType;
-  title: string;
-  description: string;
-  contactInfo: string;
-  link?: string;
+  icon: LucideIcon
+  title: string
+  description: string
+  contactInfo: string
+  link?: string
 }
 
 export default function ContactInfoCard({
@@ -15,25 +13,28 @@ export default function ContactInfoCard({
   title,
   description,
   contactInfo,
-  link,
+  link
 }: ContactInfoCardProps) {
-  return (
-    <>
-      <div className="p-6 rounded-lg bg-card border border-border h-full flex flex-col items-center text-center shadow-sm hover:shadow-lg transition-shadow">
-        <div className="p-3 rounded-full bg-primary/10 mb-4">
-          <Icon className="h-8 w-8 text-primary" />
-        </div>
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-muted-foreground flex-grow">{description}</p>
-        <div className="mt-4">
-          <a
-            href={link || "#"}
-            className="font-medium text-primary hover:underline break-words"
-          >
-            {contactInfo}
-          </a>
-        </div>
+  const isLink = link && (link.startsWith("tel:") || link.startsWith("mailto:"))
+
+  const content = (
+    <div className="bg-card rounded-lg shadow-md p-6 flex flex-col items-center text-center h-full">
+      <div className="bg-primary/10 text-primary p-4 rounded-full mb-4">
+        <Icon className="w-8 h-8" />
       </div>
-    </>
-  );
+      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <p className="text-muted-foreground mb-4">{description}</p>
+      <p className="font-medium break-words">{contactInfo}</p>
+    </div>
+  )
+
+  if (isLink) {
+    return (
+      <a href={link} className="hover:scale-105 transition-transform duration-300 block h-full">
+        {content}
+      </a>
+    )
+  }
+
+  return content
 }

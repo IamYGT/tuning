@@ -18,7 +18,6 @@ export function generateStaticParams() {
 // Generate metadata for SEO
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const resolvedParams = await params;
-  const t = await getTranslations({ locale: resolvedParams.locale, namespace: 'Contact' });
   const tMetadata = await getTranslations({ locale: resolvedParams.locale, namespace: 'metadata' });
   const hreflangs = generateFullHreflangs('/contact', resolvedParams.locale);
 
