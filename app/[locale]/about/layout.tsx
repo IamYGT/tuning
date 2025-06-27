@@ -45,7 +45,7 @@ export async function generateMetadata({
 
   // About page specific metadata
   const title = messages.metadata?.about || 'About Us | ECU Tuning Portal';
-  const description = messages.metadata?.aboutDescription || 'Learn about ECU Tuning Portal mission, vision and professional team. Discover our commitment to automotive tuning excellence.';
+  const description = messages.metadata?.aboutDescription || 'ECU Tuning Portal is a leading software solution for tuning professionals. Learn about our mission, vision, and dedicated team.';
 
   return {
     ...baseMetadata,

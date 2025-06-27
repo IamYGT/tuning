@@ -3,7 +3,7 @@
     "home": "ECU Tuning Portal | Professionele Tuning Systeem Service",
     "homeDescription": "Professioneel ECU-tuningportaal voor automotive professionals. Beheer klantbestanden efficiënt en optimaliseer uw bedrijfsprocessen.",
     "about": "Over Ons | ECU Tuning Portal",
-    "aboutDescription": "Leer meer over ECU Tuning Portal's missie, visie en professionele team. Ontdek onze toewijding aan automotive tuning excellentie.",
+    "aboutDescription": "ECU Tuning Portal is een toonaangevende softwareoplossing voor tuningprofessionals. Leer onze missie, visie en het toegewijde team kennen.",
     "features": "Functies | ECU Tuning Portal",
     "featuresDescription": "Ontdek 19 geavanceerde functies van ECU Tuning Portal. Klantbeheer, bestandstracking, geautomatiseerde facturering en meer.",
     "pricing": "Prijzen | ECU Tuning Portal",
@@ -163,7 +163,7 @@
     }
   },
   "Gallery": {
-    "title": "Onze Galerij",
+    "title": "Onze ECU Tuning Projecten Galerij",
     "subtitle": "Ontdek onze portfolio van succesvolle projecten en klantvoertuigen",
     "imageAlt": "Galerijafbeelding {index}",
     "prevImage": "Vorige afbeelding",
@@ -197,7 +197,7 @@
   "Corporate": {
     "hero": {
       "label": "Over ECU Tuning Portal",
-      "title": "Leer ons kennen",
+      "title": "Maak kennis met de ECU Tuning Portal",
       "description": "ECU Tuning Portal is een toonaangevende softwareoplossing die speciaal is ontworpen voor professionals in automotive tuning. Leer onze missie, visie en het toegewijde team achter ons succes kennen, die allemaal samenwerken om de toekomst van tuning-technologie vorm te geven.",
       "primaryButton": "Neem contact op",
       "secondaryButton": "Meer informatie"
@@ -288,8 +288,8 @@
   },
   "Features": {
     "hero": {
-      "title": "Onze Functies",
-      "description": "Ontdek alle krachtige functies die ECU Tuning Portal de toonaangevende oplossing maken voor professionals in autotuning."
+      "title": "Geavanceerde Functies van de ECU Tuning Portal",
+      "description": "Als een professioneel portaal voor tuningbestandsdiensten biedt de ECU Tuning Portal de meest uitgebreide service in de branche. Optimaliseer uw activiteiten met efficiëntie en betrouwbaarheid."
     },
     "cta": {
       "title": "Klaar om uw bedrijf te transformeren?",
@@ -350,10 +350,10 @@
   "Trial": {
     "title": {
       "days": "7 Dagen",
-      "tryFree": "Probeer Gratis"
+      "tryFree": "Gratis Proefversie van de ECU Tuning Portal"
     },
-    "subtitle": "Professioneel ECU Tuning Bestandsbeheer",
-    "description": "Begin uw gratis 7-daagse ECU Tuning Portal proefperiode. Stroomlijn workflows en transformeer uw professionele tuning processen.",
+    "subtitle": "Ontdek alle premium functies en optimaliseer uw workflow, zonder risico.",
+    "description": "Ervaar de volledige kracht van de ECU Tuning Portal. Geen creditcard vereist. Krijg zeven dagen onbeperkt toegang en zie hoe het uw tuningbedrijf kan transformeren.",
     "features": {
       "fileManagement": {
         "title": "Geavanceerd Bestandsbeheer",
