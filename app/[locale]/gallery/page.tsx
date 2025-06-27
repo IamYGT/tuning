@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server"
 import type { Metadata } from "next"
 import { generateFullHreflangs } from "@/lib/hreflang"
-import { routing } from "@/i18n/routing"
 import { ImageSlider } from "@/components/image-slider"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
