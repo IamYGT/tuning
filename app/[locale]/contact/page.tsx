@@ -24,14 +24,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return {
     metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-    title: `${t('titleMain')} | ECU Tuning Portal`,
+    title: t('titleMain'),
     description: tMetadata('contactDescription'),
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages
     },
     openGraph: {
-      title: `${t('titleMain')} | ECU Tuning Portal`,
+      title: t('titleMain'),
       description: tMetadata('contactDescription'),
       images: ['/assets/images/call.png.avif'],
     },

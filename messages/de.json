@@ -58,7 +58,7 @@
       "mainTitle": "Professionelles Dateiservice-Portal",
       "title": "ECU Tuning Portal v4.2",
       "subtitle": "Bringen Sie Ihr Unternehmen mit der neuesten Version einen Schritt nach vorne!",
-      "description": "Verwalten Sie Ihre Kundendateien effizienter und optimieren Sie Ihre Geschäftsprozesse mit unserem hochwertigen Portal, das von Fachleuten entwickelt wurde.",
+      "description": "Verwalten Sie Ihre Kundendateien effizienter und optimieren Sie Ihre Geschäftsprozesse mit unserem hochwertigen Portal, einem professionellen Tuning-System-Service.",
       "tagline": "ECU Tuning Portal v4.2 bietet Funktionen, die mit der neuesten Technologie ausgestattet sind, um Ihr Unternehmen auf die nächste Stufe zu heben.",
       "cta": "7 Tage kostenlos testen",
       "secondaryCta": "Preise anzeigen"
@@ -199,7 +199,7 @@
     "hero": {
       "label": "Über ECU Tuning Portal",
       "title": "Lernen Sie das ECU Tuning Portal kennen",
-      "description": "ECU Tuning Portal ist eine führende Softwarelösung für Tuning-Profis. Lernen Sie unsere Mission und Vision kennen.",
+      "description": "Lernen Sie das ECU Tuning Portal kennen, eine führende Softwarelösung für Tuning-Profis. Erfahren Sie mehr über unsere Mission und Vision.",
       "primaryButton": "Kontaktieren Sie uns",
       "secondaryButton": "Funktionen entdecken"
     },
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Preispläne",
     "title": "Vorteilhafte Preise und Sonderangebote",
-    "subtitle": "Finden Sie die kostengünstigste Lösung für Ihr Geschäft. Unsere transparenten Preise und Sonderangebote bieten Ihnen den besten Wert.",
+    "subtitle": "Finden Sie die kostengünstigste Lösung für Ihr Geschäft. Entdecken Sie unsere vorteilhaften Preise und Sonderangebote, um den besten Wert zu erhalten.",
     "monthly": "MONATLICH",
     "yearly": "JÄHRLICH",
     "oneTime": "EINMALIG",
@@ -290,7 +290,7 @@
   "Features": {
     "hero": {
       "title": "Erweiterte Funktionen des ECU Tuning Portals",
-      "description": "Unser professionelles Portal für Tuning-Dateidienste bietet den umfassendsten Service der Branche. Optimieren Sie Ihre Abläufe mit Effizienz und Zuverlässigkeit."
+      "description": "Entdecken Sie die erweiterten Funktionen des ECU Tuning Portals. Unser professionelles Portal für Tuning-Dateidienste bietet den umfassendsten Service der Branche."
     },
     "intro": {
       "title": "Warum ECU Tuning Portal wählen?",
@@ -426,8 +426,8 @@
       "days": "7 Tage",
       "tryFree": "Kostenlose Testversion des ECU Tuning Portals"
     },
-    "subtitle": "Entdecken Sie alle Premium-Funktionen und optimieren Sie Ihren Workflow, ohne Risiko.",
-    "description": "Starten Sie Ihre kostenlose 7-Tage-Testversion des ECU Tuning Portals. Erleben Sie alle Funktionen ohne Risiko und ohne Kreditkarte."
+    "subtitle": "Starten Sie noch heute Ihre kostenlose Testversion des ECU Tuning Portals. Entdecken Sie alle Premium-Funktionen und optimieren Sie Ihren Workflow risikofrei.",
+    "description": "Erleben Sie die volle Leistung des ECU Tuning Portals mit einer 7-tägigen Testversion. Keine Kreditkarte erforderlich. Verändern Sie Ihr Tuning-Geschäft."
   },
   "Contact": {
     "titleLabel": "Kontakt aufnehmen",

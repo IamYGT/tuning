@@ -58,7 +58,7 @@
       "mainTitle": "Professional File Service Portal",
       "title": "ECU Tuning Portal v4.2",
       "subtitle": "Take your business a step forward with the latest version!",
-      "description": "Manage your customer files more efficiently and optimize your business processes with our high-quality portal, designed and developed by professionals.",
+      "description": "Manage your customer files more efficiently and optimize your business processes with our high-quality portal, a professional tuning system service.",
       "tagline": "ECU Tuning Portal v4.2 offers features equipped with the latest technology to take your business to the next level.",
       "cta": "Try Free for 7 Days",
       "secondaryCta": "View Pricing"
@@ -199,7 +199,7 @@
     "hero": {
       "label": "About ECU Tuning Portal",
       "title": "Get to Know ECU Tuning Portal",
-      "description": "ECU Tuning Portal is a leading software solution designed for automotive tuning pros. Get to know our mission and vision.",
+      "description": "Get to know ECU Tuning Portal, a leading software solution designed for automotive tuning pros. Learn about our mission and vision.",
       "primaryButton": "Contact Us",
       "secondaryButton": "Explore Features"
     },
@@ -249,7 +249,7 @@
   "Pricing": {
     "label": "Pricing Plans",
     "title": "Advantageous Prices and Special Offers",
-    "subtitle": "Find the most cost-effective solution for your business. Our transparent pricing and special offers provide you with the best value.",
+    "subtitle": "Find the most cost-effective solution for your business. Explore our advantageous prices and special offers to get the best value.",
     "monthly": "MONTHLY",
     "yearly": "YEARLY",
     "oneTime": "ONE TIME",
@@ -290,7 +290,7 @@
   "Features": {
     "hero": {
       "title": "Advanced Features of ECU Tuning Portal",
-      "description": "Our professional tuning file service portal offers the most comprehensive service in the industry. Optimize your operations with efficiency and reliability."
+      "description": "Discover the advanced features of ECU Tuning Portal. Our professional tuning file service portal offers the most comprehensive service in the industry."
     },
     "intro": {
       "title": "Why Choose ECU Tuning Portal?",
@@ -426,8 +426,8 @@
       "days": "7 Days",
       "tryFree": "Free ECU Tuning Portal Trial"
     },
-    "subtitle": "Explore all premium features and optimize your workflow, risk-free.",
-    "description": "Start your free 7-day trial of ECU Tuning Portal. Experience all features risk-free with no credit card required. Transform your tuning business.",
+    "subtitle": "Start your free ECU Tuning Portal trial today. Explore all premium features and optimize your workflow, risk-free.",
+    "description": "Experience the full power of ECU Tuning Portal with a 7-day trial. No credit card required. Transform your tuning business.",
     "features": {
       "fileManagement": {
         "title": "Advanced File Management",
@@ -461,7 +461,7 @@
   "Contact": {
     "titleLabel": "Get in Touch",
     "titleMain": "Contact Our Expert Team",
-    "subtitle": "How can we help you? Feel free to contact our team for your questions, requests, or collaboration proposals.",
+    "subtitle": "How can we help you? To get in touch with our expert team, feel free to use the form below for your questions, requests, or collaboration proposals.",
     "contactInfo": {
       "phoneTitle": "Phone Number",
       "phoneDesc": "Mon-Fri from 9am to 6pm",

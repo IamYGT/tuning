@@ -16,14 +16,14 @@ export async function generateMetadata({
   const hreflangs = generateFullHreflangs('/pricing', resolvedParams.locale);
 
   return {
-    title: `${t('title')} | ECU Tuning Portal`,
+    title: t('title'),
     description: t('subtitle'),
     alternates: {
       canonical: hreflangs.canonical,
       languages: hreflangs.languages
     },
     openGraph: {
-      title: `${t('title')} | ECU Tuning Portal`,
+      title: t('title'),
       description: t('subtitle'),
     },
   };
