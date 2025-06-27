@@ -35,6 +35,7 @@
     },
     "footer": {
       "about": "Professionelles Dateiservice-Portal für ECU-Tuning-Spezialisten und Automobilenthusiasten.",
+      "about_short": "Professioneller ECU-Tuning-Dateiservice.",
       "links": "Schnelllinks",
       "resources": "Ressourcen",
       "subscribe": "Abonnieren Sie unseren Newsletter",
@@ -60,11 +61,11 @@
       "description": "Verwalten Sie Ihre Kundendateien effizienter und optimieren Sie Ihre Geschäftsprozesse mit diesem hochwertigen Portal, das von Fachleuten entworfen und entwickelt wurde.",
       "tagline": "ECU Tuning Portal v4.2 ist bereit, Ihr Unternehmen mit seinen mit neuester Technologie ausgestatteten Funktionen auf die nächste Stufe zu heben.",
       "cta": "7 Tage kostenlos testen",
-      "secondaryCta": "Mehr erfahren"
+      "secondaryCta": "Preise anzeigen"
     },
     "features": {
-      "title": "FUNKTIONEN",
-      "heading": "Besondere Eigenschaften unseres Portals",
+      "title": "KERNKOMPETENZEN",
+      "heading": "Kernkompetenzen unseres Portals",
       "description": "Als professionelles Tuning-Dateiservice-Portal bietet das ECU Tuning Portal mit 19 verschiedenen Funktionen den umfassendsten Service der Branche. Optimieren Sie Ihre Abläufe mit Effizienz und Zuverlässigkeit.",
       "cta": "Entdecken Sie alle unsere Funktionen",
       "items": {
@@ -119,15 +120,15 @@
       }
     },
     "languages": {
-      "title": "SPRACHUNTERSTÜTZUNG",
-      "heading": "Grenzen überwinden mit 16 verschiedenen Sprachen",
+      "title": "INTERNATIONALE UNTERSTÜTZUNG",
+      "heading": "Erreichen Sie globale Märkte mit 16 verschiedenen Sprachen",
       "description": "Sprechen Sie Menschen auf der ganzen Welt mit 16 verschiedenen Sprachen in unserem System an."
     },
     "brands": {
       "title": "Vertraut von führenden Marken"
     },
     "stats": {
-      "title": "STATISTIKEN",
+      "title": "ERFOLGSINDIKATOREN",
       "heading": "Unser Erfolg in Zahlen",
       "description": "Wir bedienen Tausende von Kunden mit jahrelanger Erfahrung und zuverlässiger Servicequalität.",
       "customers": "Zufriedene Kunden",
@@ -136,8 +137,8 @@
       "experience": "Jahre Erfahrung"
     },
     "testimonials": {
-      "title": "KUNDENBEWERTUNGEN",
-      "heading": "Was unsere Benutzer sagen",
+      "title": "BENUTZERFEEDBACK",
+      "heading": "Was unsere zufriedenen Kunden sagen",
       "description": "Lesen Sie die Erfahrungen unserer Kunden über unsere Lösungen, die von Tuning-Profis vertraut und bevorzugt werden.",
       "testimonial1": {
         "name": "Hans Mueller",
@@ -156,7 +157,7 @@
       }
     },
     "cta": {
-      "title": "Bereit, unser erweitertes Portal zu testen?",
+      "title": "Starten Sie jetzt Ihre kostenlose Testversion",
       "description": "Bringen Sie Ihr Geschäft mit ECU Tuning Portal auf die nächste Stufe! 19 Module, ausgestattet mit den fortschrittlichsten Funktionen, die entwickelt wurden, um die Bedürfnisse von Profis zu erfüllen. Verwalten Sie Ihre Kundendateien effektiver und optimieren Sie Ihre Geschäftsprozesse mit ECU Tuning Portal v4.2. Kundenverwaltungssystem, erweitertes Kreditsystem und mehr warten auf Sie.",
       "primaryButton": "7 Tage kostenlos testen",
       "secondaryButton": "Kontakt zum Vertriebsteam"
@@ -463,11 +464,11 @@
     "subtitle": "Wie können wir Ihnen helfen? Zögern Sie nicht, unser Expertenteam für Ihre Fragen, Anfragen oder Kooperationsvorschläge zu kontaktieren.",
     "contactInfo": {
       "phoneTitle": "Telefonnummer",
-      "phoneDesc": "Rufen Sie uns für professionellen Support an",
+      "phoneDesc": "Mo-Fr von 9 bis 18 Uhr",
       "emailTitle": "E-Mail-Adresse",
-      "emailDesc": "Senden Sie uns jederzeit eine E-Mail",
-      "addressTitle": "Büroadresse",
-      "addressDesc": "Besuchen Sie unser Büro"
+      "emailDesc": "Senden Sie uns Ihre Fragen per E-Mail",
+      "addressTitle": "Unsere Büroadresse",
+      "addressDesc": "İncilipınar Viertel, Şehit Mehmet Öter Str. Kepkepzade, Park Geschäftszentrum, B Nr: 7, 27500 Şehitkamil/Gaziantep, Türkei"
     },
     "form": {
       "title": "Senden Sie uns eine Nachricht",

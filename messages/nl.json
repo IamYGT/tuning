@@ -35,6 +35,7 @@
     },
     "footer": {
       "about": "Professioneel bestandsserviceportaal voor ECU-tuning specialisten en auto-enthousiastelingen.",
+      "about_short": "Professionele ECU-tuning bestandsservice.",
       "links": "Snelle Links",
       "resources": "Bronnen",
       "subscribe": "Abonneer op onze nieuwsbrief",
@@ -60,11 +61,11 @@
       "description": "Beheer uw klantbestanden efficiënter en optimaliseer uw bedrijfsprocessen met dit hoogwaardige portaal dat is ontworpen en ontwikkeld door professionals.",
       "tagline": "ECU Tuning Portal v4.2 is klaar om uw bedrijf naar een hoger niveau te tillen met zijn functies die zijn uitgerust met de nieuwste technologie.",
       "cta": "7 dagen gratis proberen",
-      "secondaryCta": "Meer informatie"
+      "secondaryCta": "Bekijk Prijzen"
     },
     "features": {
-      "title": "FUNCTIES",
-      "heading": "Onderscheidende kwaliteiten van ons portaal",
+      "title": "KERNKWALITEITEN",
+      "heading": "Kernkwaliteiten van ons Portaal",
       "description": "Als professioneel tuning-bestandsserviceportaal biedt ECU Tuning Portal met 19 verschillende functies de meest uitgebreide service in de branche. Optimaliseer uw activiteiten met efficiëntie en betrouwbaarheid.",
       "cta": "Ontdek al onze functies",
       "items": {
@@ -119,15 +120,15 @@
       }
     },
     "languages": {
-      "title": "TAALONDERSTEUNING",
-      "heading": "Grenzen overschrijden met 16 verschillende talen",
+      "title": "INTERNATIONALE ONDERSTEUNING",
+      "heading": "Bereik wereldwijde markten met 16 verschillende talen",
       "description": "Bereik mensen over de hele wereld met 16 verschillende talen in ons systeem."
     },
     "brands": {
       "title": "Vertrouwd door toonaangevende merken"
     },
     "stats": {
-      "title": "STATISTIEKEN",
+      "title": "SUCCESINDICATOREN",
       "heading": "Ons succes in cijfers",
       "description": "We bedienen duizenden klanten met jarenlange ervaring en betrouwbare servicekwaliteit.",
       "customers": "Tevreden klanten",
@@ -136,8 +137,8 @@
       "experience": "Jaren ervaring"
     },
     "testimonials": {
-      "title": "KLANTBEOORDELINGEN",
-      "heading": "Wat onze gebruikers zeggen",
+      "title": "GEBRUIKERSFEEDBACK",
+      "heading": "Wat onze tevreden klanten zeggen",
       "description": "Lees de ervaringen van onze klanten over onze oplossingen die worden vertrouwd en geprefereerd door tuning professionals.",
       "testimonial1": {
         "name": "Jan de Vries",
@@ -156,7 +157,7 @@
       }
     },
     "cta": {
-      "title": "Klaar om ons geavanceerde portaal te proberen?",
+      "title": "Start nu uw gratis proefversie",
       "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal! 19 modules uitgerust met de meest geavanceerde functies ontworpen om aan de behoeften van professionals te voldoen. Beheer uw klantbestanden effectiever en optimaliseer uw bedrijfsprocessen met ECU Tuning Portal v4.2. Klantbeheersysteem, Geavanceerd Creditsysteem en meer wachten op u.",
       "primaryButton": "7 dagen gratis proberen",
       "secondaryButton": "Contact met verkoopteam"
@@ -463,11 +464,11 @@
     "subtitle": "Hoe kunnen we u helpen? Neem gerust contact op met ons deskundige team voor uw vragen, verzoeken of samenwerkingsvoorstellen.",
     "contactInfo": {
       "phoneTitle": "Telefoonnummer",
-      "phoneDesc": "Bel ons voor professionele ondersteuning",
+      "phoneDesc": "Ma-Vr van 9 tot 18 uur",
       "emailTitle": "E-mailadres",
-      "emailDesc": "Stuur ons op elk moment een e-mail",
-      "addressTitle": "Kantooradres",
-      "addressDesc": "Bezoek ons kantoor"
+      "emailDesc": "Stuur ons uw vragen per e-mail",
+      "addressTitle": "Ons Kantooradres",
+      "addressDesc": "İncilipınar Wijk, Şehit Mehmet Öter Straat. Kepkepzade, Park Business Center, B Nr: 7, 27500 Şehitkamil/Gaziantep, Turkije"
     },
     "form": {
       "title": "Stuur ons een bericht",

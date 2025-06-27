@@ -43,7 +43,7 @@ export default function TestimonialCarousel() {
     <section className="py-16 bg-background">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-12">
-          <span className="inline-block py-1 px-3 rounded-full bg-red-500/10 text-red-500 text-sm font-medium mb-3 shadow-md backdrop-blur-sm">
+          <span className="inline-block py-1 px-3 rounded-full bg-primary text-primary-foreground text-sm font-medium mb-3 shadow-md">
             <div className="flex items-center">
               <svg className="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.39999 6.32003L15.89 3.49003C19.7 2.22003 21.77 4.30003 20.51 8.11003L17.68 16.6C15.78 22.31 12.66 22.31 10.76 16.6L9.91999 14.08L7.39999 13.24C1.68999 11.34 1.68999 8.23003 7.39999 6.32003Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -76,7 +76,7 @@ export default function TestimonialCarousel() {
                       ))}
                     </div>
                     <p className="text-sm sm:text-base mb-4">{t(testimonial.textKey)}</p>
-                    <h4 className="font-bold">{t(testimonial.nameKey)}</h4>
+                    <h3 className="font-bold">{t(testimonial.nameKey)}</h3>
                     <p className="text-sm text-muted-foreground">{t(testimonial.companyKey)}</p>
                   </div>
                 </CardContent>
@@ -102,7 +102,7 @@ export default function TestimonialCarousel() {
                           ))}
                         </div>
                         <p className="text-sm sm:text-base mb-4">{t(testimonial.textKey)}</p>
-                        <h4 className="font-bold">{t(testimonial.nameKey)}</h4>
+                        <h3 className="font-bold">{t(testimonial.nameKey)}</h3>
                         <p className="text-sm text-muted-foreground">{t(testimonial.companyKey)}</p>
                       </div>
                     </CardContent>

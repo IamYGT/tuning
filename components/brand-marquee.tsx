@@ -84,7 +84,7 @@ export default function BrandMarquee() {
   return (
     <div className="overflow-hidden py-6">
       <div className="mb-4">
-        <h3 className="text-lg font-medium text-center text-gray-300 mb-4">{t('title')}</h3>
+        <h2 className="text-lg font-medium text-center text-gray-300 mb-4">{t('title')}</h2>
       </div>
       {/* Show mobile view on small screens, desktop view on larger screens */}
       <div className="md:hidden">{mobileView}</div>

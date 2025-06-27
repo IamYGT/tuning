@@ -86,11 +86,14 @@ export default function ContactPage() {
       <section className="relative w-full py-16 flex items-center justify-center bg-gradient-to-b from-muted/30 to-background">
         <div className="container px-4 mx-auto text-center">
           <div className="inline-flex items-center justify-center px-4 py-1 mb-4 rounded-full bg-primary/10 text-primary text-sm font-medium">
-            {t("titleLabel")} {t("titleMain")}
+            {t("titleLabel")}
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-8">
-            {t("subtitle")}
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            {t("titleMain")}
           </h1>
+          <p className="text-lg max-w-3xl mx-auto text-muted-foreground">
+            {t("subtitle")}
+          </p>
         </div>
       </section>
 
@@ -121,7 +124,7 @@ export default function ContactPage() {
               icon={MapPin}
               title={t("contactInfo.addressTitle")}
               description={t("contactInfo.addressDesc")}
-              contactInfo="İncilipınar Mahallesi, Şehit Mehmet Öter Cad. Kepkepzade, Park İş Merkezi, B No: 7, 27500 Şehitkamil/Gaziantep, Türkiye"
+              contactInfo={t("contactInfo.addressDesc")}
             />
           </div>
 

@@ -35,6 +35,7 @@
     },
     "footer": {
       "about": "ECU tuning uzmanları ve otomotiv tutkunları için profesyonel dosya servis portalı.",
+      "about_short": "Profesyonel ECU tuning dosya servisi.",
       "links": "Hızlı Bağlantılar",
       "resources": "Kaynaklar",
       "subscribe": "Bültenimize abone olun",
@@ -60,11 +61,11 @@
       "description": "Profesyoneller tarafından tasarlanmış ve geliştirilmiş olan bu yüksek kaliteli portal ile müşteri dosyalarınızı daha verimli yönetin ve iş süreçlerinizi optimize edin.",
       "tagline": "Ecu Tuning Portal v4.2, son teknoloji ile donatılmış özellikleriyle işinizi bir üst seviyeye taşımak için hazır.",
       "cta": "7 Gün Ücretsiz Deneyin",
-      "secondaryCta": "Daha Fazla Bilgi"
+      "secondaryCta": "Fiyatları İncele"
     },
     "features": {
-      "title": "ÖZELLİKLER",
-      "heading": "Portalımızın Ayırt Edici Nitelikleri",
+      "title": "TEMEL YETENEKLER",
+      "heading": "Portalımızın Sunduğu Temel Yetenekler",
       "description": "Profesyonel bir tuning dosya hizmet portalı olarak, ECU Tuning Portal 19 farklı özellikle sektörde en kapsamlı hizmeti sunmaktadır. Operasyonlarınızı verimlilik ve güvenilirlikle optimize edin.",
       "cta": "Tüm Özelliklerimizi Keşfet",
       "items": {
@@ -119,16 +120,16 @@
       }
     },
     "languages": {
-      "title": "DİL DESTEĞİ",
-      "heading": "16 Farklı Dil ile Sınırları Aşın",
+      "title": "ULUSLARARASI DESTEK",
+      "heading": "16 Farklı Dil ile Küresel Pazarlara Ulaşın",
       "description": "Sistemimizde bulunan 16 farklı dil ile bütün dünyadaki insanlara hitap edin."
     },
     "brands": {
       "title": "Önde Gelen Markalar Tarafından Güvenilir"
     },
     "stats": {
-      "title": "İSTATİSTİKLER",
-      "heading": "Başarı Rakamlarımız",
+      "title": "BAŞARI GÖSTERGELERİ",
+      "heading": "Rakamlarla Başarılarımız",
       "description": "Yılların deneyimi ve güvenilir hizmet kalitemizle binlerce müşteriye hizmet veriyoruz.",
       "customers": "Mutlu Müşteri",
       "files": "Dosya Sayısı",
@@ -136,8 +137,8 @@
       "experience": "Yıllık Deneyim"
     },
     "testimonials": {
-      "title": "MÜŞTERİ YORUMLARI",
-      "heading": "Kullanıcılarımız Ne Diyor?",
+      "title": "KULLANICI GERİ BİLDİRİMLERİ",
+      "heading": "Memnun Müşterilerimiz Ne Diyor?",
       "description": "Tuning profesyonelleri tarafından güvenilen ve tercih edilen çözümlerimiz hakkında müşterilerimizin deneyimlerini okuyun.",
       "testimonial1": {
         "name": "Ahmet Öztürk",
@@ -156,7 +157,7 @@
       }
     },
     "cta": {
-      "title": "Gelişmiş Portalımızı Denemeye Hazır Mısınız?",
+      "title": "Hemen Ücretsiz Denemeye Başlayın",
       "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin.",
       "primaryButton": "7 Gün Ücretsiz Deneyin",
       "secondaryButton": "Satış Ekibiyle İletişime Geçin"
@@ -463,11 +464,11 @@
     "subtitle": "Size nasıl yardımcı olabiliriz? Sorularınız, talepleriniz veya işbirliği teklifleriniz için uzman ekibimizle iletişime geçmekten çekinmeyin.",
     "contactInfo": {
       "phoneTitle": "Telefon Numarası",
-      "phoneDesc": "Profesyonel destek için bizi arayın",
+      "phoneDesc": "Pazartesiden Cumaya, 09:00-18:00",
       "emailTitle": "E-posta Adresi",
-      "emailDesc": "İstediğiniz zaman bize e-posta gönderin",
-      "addressTitle": "Ofis Adresi",
-      "addressDesc": "Ofisimizi ziyaret edin"
+      "emailDesc": "Sorularınızı bize e-posta ile gönderin",
+      "addressTitle": "Ofis Adresimiz",
+      "addressDesc": "İncilipınar Mahallesi, Şehit Mehmet Öter Cad. Kepkepzade, Park İş Merkezi, B No: 7, 27500 Şehitkamil/Gaziantep, Türkiye"
     },
     "form": {
       "title": "Bize Mesaj Gönderin",

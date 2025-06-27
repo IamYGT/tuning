@@ -35,6 +35,7 @@
     },
     "footer": {
       "about": "Portal de servicios de archivos profesional para especialistas en sintonización ECU y entusiastas de la automoción.",
+      "about_short": "Servicio profesional de archivos de tuning de ECU.",
       "links": "Enlaces rápidos",
       "resources": "Recursos",
       "subscribe": "Suscríbase a nuestro boletín",
@@ -60,11 +61,11 @@
       "description": "Gestione sus archivos de clientes de manera más eficiente y optimice sus procesos comerciales con este portal de alta calidad diseñado y desarrollado por profesionales.",
       "tagline": "ECU Tuning Portal v4.2 está listo para llevar su negocio al siguiente nivel con sus funciones equipadas con la última tecnología.",
       "cta": "Prueba gratis por 7 días",
-      "secondaryCta": "Saber más"
+      "secondaryCta": "Ver Precios"
     },
     "features": {
-      "title": "CARACTERÍSTICAS",
-      "heading": "Cualidades Distintivas de Nuestro Portal",
+      "title": "CAPACIDADES PRINCIPALES",
+      "heading": "Capacidades Principales de Nuestro Portal",
       "description": "Como portal profesional de servicios de archivos de sintonización, ECU Tuning Portal ofrece el servicio más completo de la industria con 19 características diferentes. Optimice sus operaciones con eficiencia y fiabilidad.",
       "cta": "Explore todas nuestras características",
       "items": {
@@ -119,15 +120,15 @@
       }
     },
     "languages": {
-      "title": "SOPORTE DE IDIOMAS",
-      "heading": "Cruce fronteras con 16 idiomas diferentes",
+      "title": "SOPORTE INTERNACIONAL",
+      "heading": "Alcance mercados globales con 16 idiomas diferentes",
       "description": "Atraiga a personas de todo el mundo con 16 idiomas diferentes en nuestro sistema."
     },
     "brands": {
       "title": "Confiado por marcas líderes"
     },
     "stats": {
-      "title": "ESTADÍSTICAS",
+      "title": "INDICADORES DE ÉXITO",
       "heading": "Nuestro éxito en cifras",
       "description": "Atendemos a miles de clientes con años de experiencia y calidad de servicio confiable.",
       "customers": "Clientes satisfechos",
@@ -136,8 +137,8 @@
       "experience": "Años de experiencia"
     },
     "testimonials": {
-      "title": "OPINIONES DE CLIENTES",
-      "heading": "Lo que dicen nuestros usuarios",
+      "title": "COMENTARIOS DE USUARIOS",
+      "heading": "Lo que dicen nuestros clientes satisfechos",
       "description": "Lea las experiencias de nuestros clientes sobre nuestras soluciones confiables y preferidas por los profesionales de la sintonización.",
       "testimonial1": {
         "name": "Carlos Ruiz",
@@ -156,7 +157,7 @@
       }
     },
     "cta": {
-      "title": "¿Listo para probar nuestro portal avanzado?",
+      "title": "Comience su prueba gratuita ahora",
       "description": "¡Lleve su negocio al siguiente nivel con ECU Tuning Portal! 19 módulos equipados con las características más avanzadas diseñadas para satisfacer las necesidades de los profesionales. Gestione los archivos de sus clientes de manera más efectiva y optimice sus procesos comerciales con ECU Tuning Portal v4.2. Sistema de gestión de clientes, sistema avanzado de créditos y más le esperan.",
       "primaryButton": "Prueba gratuita por 7 días",
       "secondaryButton": "Contactar al equipo de ventas"
@@ -463,11 +464,11 @@
     "subtitle": "¿Cómo podemos ayudarte?",
     "contactInfo": {
       "phoneTitle": "Número de Teléfono",
-      "phoneDesc": "Llámanos para soporte profesional",
+      "phoneDesc": "Lun-Vie de 9am a 6pm",
       "emailTitle": "Dirección de Correo Electrónico",
-      "emailDesc": "Envíanos un correo electrónico en cualquier momento",
-      "addressTitle": "Dirección de la Oficina",
-      "addressDesc": "Visita nuestra oficina"
+      "emailDesc": "Envíenos sus preguntas por correo electrónico",
+      "addressTitle": "La Dirección de Nuestra Oficina",
+      "addressDesc": "Distrito de İncilipınar, Calle Şehit Mehmet Öter. Kepkepzade, Centro de Negocios Park, B No: 7, 27500 Şehitkamil/Gaziantep, Turquía"
     },
     "form": {
       "title": "Envíanos un Mensaje",

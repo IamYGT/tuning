@@ -35,6 +35,7 @@
     },
     "footer": {
       "about": "Professional file service portal for ECU tuning specialists and automotive enthusiasts.",
+      "about_short": "Professional ECU tuning file service.",
       "links": "Quick Links",
       "resources": "Resources",
       "subscribe": "Subscribe to our newsletter",
@@ -60,11 +61,11 @@
       "description": "Manage your customer files more efficiently and optimize your business processes with this high-quality portal designed and developed by professionals.",
       "tagline": "ECU Tuning Portal v4.2 is ready to take your business to the next level with its features equipped with the latest technology.",
       "cta": "Try Free for 7 Days",
-      "secondaryCta": "Learn More"
+      "secondaryCta": "View Pricing"
     },
     "features": {
-      "title": "FEATURES",
-      "heading": "Distinctive Qualities of Our Portal",
+      "title": "CORE CAPABILITIES",
+      "heading": "Core Capabilities of Our Portal",
       "description": "As a professional tuning file service portal, ECU Tuning Portal offers the most comprehensive service in the industry with 19 different features. Optimize your operations with efficiency and reliability.",
       "cta": "Explore All Our Features",
       "items": {
@@ -119,15 +120,15 @@
       }
     },
     "languages": {
-      "title": "LANGUAGE SUPPORT",
-      "heading": "Cross Borders with 16 Different Languages",
+      "title": "INTERNATIONAL SUPPORT",
+      "heading": "Reach Global Markets with 16 Different Languages",
       "description": "Appeal to people all over the world with 16 different languages in our system."
     },
     "brands": {
       "title": "Trusted by Leading Brands"
     },
     "stats": {
-      "title": "STATISTICS",
+      "title": "SUCCESS INDICATORS",
       "heading": "Our Success in Numbers",
       "description": "We serve thousands of customers with years of experience and reliable service quality.",
       "customers": "Happy Customers",
@@ -136,8 +137,8 @@
       "experience": "Years of Experience"
     },
     "testimonials": {
-      "title": "CUSTOMER REVIEWS",
-      "heading": "What Our Users Say",
+      "title": "USER FEEDBACK",
+      "heading": "What Our Satisfied Customers Say",
       "description": "Read our customers' experiences about our solutions trusted and preferred by tuning professionals.",
       "testimonial1": {
         "name": "David Anderson",
@@ -156,7 +157,7 @@
       }
     },
     "cta": {
-      "title": "Ready to Try Our Advanced Portal?",
+      "title": "Start Your Free Trial Now",
       "description": "Take your business to the next level with ECU Tuning Portal! 19 modules equipped with the most advanced features designed to meet the needs of professionals. Manage your customer files more effectively and optimize your business processes with ECU Tuning Portal v4.2. Customer Management System, Advanced Credit System and more are waiting for you.",
       "primaryButton": "Try Free for 7 Days",
       "secondaryButton": "Contact Sales Team"
@@ -463,11 +464,11 @@
     "subtitle": "How can we help you? Feel free to contact our expert team for your questions, requests, or collaboration proposals.",
     "contactInfo": {
       "phoneTitle": "Phone Number",
-      "phoneDesc": "Call us for professional support",
+      "phoneDesc": "Mon-Fri from 9am to 6pm",
       "emailTitle": "Email Address",
-      "emailDesc": "Send us an email anytime",
-      "addressTitle": "Office Address",
-      "addressDesc": "Visit our office"
+      "emailDesc": "Send us your questions by email",
+      "addressTitle": "Our Office Address",
+      "addressDesc": "İncilipınar District, Şehit Mehmet Öter St. Kepkepzade, Park Business Center, B No: 7, 27500 Şehitkamil/Gaziantep, Turkey"
     },
     "form": {
       "title": "Send us a Message",

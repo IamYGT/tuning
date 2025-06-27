@@ -9,10 +9,10 @@ export default function Features() {
     <section className="py-16 bg-background">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-12">
-          <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-medium mb-3 shadow-md backdrop-blur-sm">
+          <span className="inline-block py-1 px-3 rounded-full bg-primary text-primary-foreground text-sm font-medium mb-3 shadow-md">
             <div className="flex items-center">
               <svg className="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 6V18M6 12H18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 6V18M6 12H18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               <span>{t('title')}</span>
             </div>
@@ -34,7 +34,7 @@ export default function Features() {
             </div>
             <p className="text-muted-foreground text-sm sm:text-base text-center sm:text-left">{t('items.customerManagement.description')}</p>
           </div>
-          
+
           {/* Feature Box 2 */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/30 bg-card/80 backdrop-blur-sm hover:border-primary/70 hover:shadow-lg hover:shadow-primary/10 transition-all">
             <div className="flex flex-col sm:flex-row items-center mb-3 sm:mb-4">
@@ -45,7 +45,7 @@ export default function Features() {
             </div>
             <p className="text-muted-foreground text-sm sm:text-base text-center sm:text-left">{t('items.advancedCredit.description')}</p>
           </div>
-          
+
           {/* Feature Box 3 */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/30 bg-card/80 backdrop-blur-sm hover:border-primary/70 hover:shadow-lg hover:shadow-primary/10 transition-all">
             <div className="flex flex-col sm:flex-row items-center mb-3 sm:mb-4">
@@ -56,7 +56,7 @@ export default function Features() {
             </div>
             <p className="text-muted-foreground text-sm sm:text-base text-center sm:text-left">{t('items.fileTracking.description')}</p>
           </div>
-          
+
           {/* Feature Box 4 */}
           <div className="p-3 sm:p-4 md:p-6 rounded-lg border border-primary/30 bg-card/80 backdrop-blur-sm hover:border-primary/70 hover:shadow-lg hover:shadow-primary/10 transition-all">
             <div className="flex flex-col sm:flex-row items-center mb-3 sm:mb-4">
@@ -149,7 +149,7 @@ export default function Features() {
             <p className="text-muted-foreground text-sm sm:text-base text-center sm:text-left">{t('items.vehicleDatabase.description')}</p>
           </div>
         </div>
-        
+
         {/* Discover All Features Button */}
         <div className="text-center">
           <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10" asChild>
