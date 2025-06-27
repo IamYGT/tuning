@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Professioneller Tuning-System-Service",
     "homeDescription": "Professionelles ECU-Tuning-Portal für Kfz-Experten. Verwalten Sie Kundendateien effizient und optimieren Sie Ihre Geschäftsprozesse.",
     "about": "Über uns | ECU Tuning Portal",
-    "aboutDescription": "ECU Tuning Portal ist eine führende Softwarelösung für Tuning-Profis. Lernen Sie unsere Mission, Vision und das engagierte Team kennen.",
+    "aboutDescription": "Entdecken Sie die Mission, Vision und das Engagement des ECU Tuning Portals für Exzellenz im Automobil-Tuning. Treffen Sie unser professionelles Team.",
     "features": "Funktionen | ECU Tuning Portal",
-    "featuresDescription": "Entdecken Sie 19 erweiterte Funktionen des ECU Tuning Portals. Kundenverwaltung, Dateiverfolgung, automatische Abrechnung und mehr.",
+    "featuresDescription": "Entdecken Sie die erweiterten Funktionen des ECU Tuning Portals. Optimieren Sie Ihre Abläufe mit Kundenverwaltung und automatischer Abrechnung.",
     "pricing": "Preise | ECU Tuning Portal",
-    "pricingDescription": "Spezielle Portalsoftware für Chip-Tuning-Profis. Wettbewerbsfähige Preise und fortschrittliche Funktionen erwarten Sie. Entdecken Sie unsere vorteilhaften Angebote.",
+    "pricingDescription": "Entdecken Sie wettbewerbsfähige Preise und erweiterte Funktionen unserer Portalsoftware für Chiptuning-Profis. Vorteilhafte Angebote.",
     "gallery": "Galerie | ECU Tuning Portal",
     "galleryDescription": "Entdecken Sie unser Portfolio erfolgreicher Projekte und Kundenfahrzeuge. Sehen Sie Beispiele unserer professionellen ECU-Tuning-Arbeiten.",
     "contact": "Kontakt | ECU Tuning Portal",
     "contactDescription": "Kontaktieren Sie unser ECU-Tuning-Expertenteam für professionelle Unterstützung, Beratung und umfassende Automotive-Tuning-Lösungen.",
     "trial": "7 Tage kostenlos testen | ECU Tuning Portal",
-    "trialDescription": "Starten Sie Ihre kostenlose 7-tägige Testversion. Entdecken Sie alle Premium-Funktionen und optimieren Sie Ihre Tuning-Workflows."
+    "trialDescription": "Testen Sie das ECU Tuning Portal 7 Tage kostenlos. Entdecken Sie alle Premium-Funktionen und optimieren Sie Ihre Tuning-Workflows risikofrei."
   },
   "common": {
     "navigation": {
@@ -64,7 +64,7 @@
     },
     "features": {
       "title": "FUNKTIONEN",
-      "heading": "Unsere Funktionen",
+      "heading": "Besondere Eigenschaften unseres Portals",
       "description": "Als professionelles Tuning-Dateiservice-Portal bietet das ECU Tuning Portal mit 19 verschiedenen Funktionen den umfassendsten Service der Branche. Optimieren Sie Ihre Abläufe mit Effizienz und Zuverlässigkeit.",
       "cta": "Entdecken Sie alle unsere Funktionen",
       "items": {
@@ -120,7 +120,7 @@
     },
     "languages": {
       "title": "SPRACHUNTERSTÜTZUNG",
-      "heading": "Arbeiten Sie international mit 16 verschiedenen Sprachen",
+      "heading": "Grenzen überwinden mit 16 verschiedenen Sprachen",
       "description": "Sprechen Sie Menschen auf der ganzen Welt mit 16 verschiedenen Sprachen in unserem System an."
     },
     "brands": {
@@ -128,7 +128,7 @@
     },
     "stats": {
       "title": "STATISTIKEN",
-      "heading": "ECU Tuning Portal in Zahlen",
+      "heading": "Unser Erfolg in Zahlen",
       "description": "Wir bedienen Tausende von Kunden mit jahrelanger Erfahrung und zuverlässiger Servicequalität.",
       "customers": "Zufriedene Kunden",
       "files": "Anzahl der Dateien",
@@ -137,7 +137,7 @@
     },
     "testimonials": {
       "title": "KUNDENBEWERTUNGEN",
-      "heading": "Unsere Kundenbewertungen",
+      "heading": "Was unsere Benutzer sagen",
       "description": "Lesen Sie die Erfahrungen unserer Kunden über unsere Lösungen, die von Tuning-Profis vertraut und bevorzugt werden.",
       "testimonial1": {
         "name": "Hans Mueller",
@@ -156,7 +156,7 @@
       }
     },
     "cta": {
-      "title": "Testen Sie das Portal jetzt!",
+      "title": "Bereit, unser erweitertes Portal zu testen?",
       "description": "Bringen Sie Ihr Geschäft mit ECU Tuning Portal auf die nächste Stufe! 19 Module, ausgestattet mit den fortschrittlichsten Funktionen, die entwickelt wurden, um die Bedürfnisse von Profis zu erfüllen. Verwalten Sie Ihre Kundendateien effektiver und optimieren Sie Ihre Geschäftsprozesse mit ECU Tuning Portal v4.2. Kundenverwaltungssystem, erweitertes Kreditsystem und mehr warten auf Sie.",
       "primaryButton": "7 Tage kostenlos testen",
       "secondaryButton": "Kontakt zum Vertriebsteam"
@@ -183,12 +183,12 @@
         "title": "Hohe Leistung",
         "subtitle": "Einfach zu verwalten",
         "feature1": {
-          "title": "Einfache Kundenverwaltung",
-          "description": "Sie können die Dateien der Kunden einsehen, ihre Guthaben sehen, sehen, was sie im Support-System geschrieben haben. Sie können auch Guthaben hinzufügen oder löschen."
+          "title": "Nachgewiesene Leistungssteigerungen",
+          "description": "Jedes Fahrzeug in unserer Galerie ist ein realer Beweis für die durch unsere Software erzielten PS- und Drehmomentsteigerungen."
         },
         "feature2": {
-          "title": "Unterstützung für 16 verschiedene Sprachen",
-          "description": "Unser System ist in Englisch, Spanisch, Deutsch, Niederländisch, Russisch, Arabisch, Portugiesisch, Französisch, Hebräisch, Italienisch, Slowakisch, Ungarisch, Tschechisch, Polnisch, Griechisch und Türkisch integriert."
+          "title": "Maßgeschneiderte Lösungen für jedes Fahrzeug",
+          "description": "Unabhängig von Marke oder Modell nehmen wir präzise und individuelle Anpassungen vor, um das Potenzial jedes Fahrzeugs zu maximieren."
         },
         "primaryButton": "7 Tage kostenlos testen"
       }
@@ -200,33 +200,20 @@
       "title": "Lernen Sie das ECU Tuning Portal kennen",
       "description": "ECU Tuning Portal ist eine führende Softwarelösung, die speziell für Fachleute im Bereich Automotive-Tuning entwickelt wurde. Lernen Sie unsere Mission, Vision und das engagierte Team kennen, das hinter unserem Erfolg steht und gemeinsam die Zukunft der Tuning-Technologie gestaltet.",
       "primaryButton": "Kontaktieren Sie uns",
-      "secondaryButton": "Mehr erfahren"
+      "secondaryButton": "Funktionen entdecken"
     },
     "content": {
-      "title": "ECU Tuning Portal: Vorreiter in der Automobiltechnologie",
-      "paragraph1": "ECU Tuning Portal wurde 2016 mit der Vision gegründet, die Automobilwelt zu revolutionieren. Seitdem behaupten wir unsere führende Position in der Chip-Tuning-Branche durch kontinuierliche Innovation und stetige Neugestaltung des Sektors.",
-      "paragraph2": "Unsere Plattform ist mit modernsten Technologien ausgestattet und bietet Automobilfachleuten unvergleichliche Lösungen. Unser fortschrittliches Dateiverwaltungssystem, die mehrsprachige Benutzeroberfläche und integrierte Zahlungslösungen helfen Ihnen, Ihre Geschäftsprozesse zu optimieren.",
-      "paragraph3": "Über unser Team aus erfahrenen Ingenieuren beobachten wir kontinuierlich die neuesten Automobiltrends und -technologien. Auf diese Weise aktualisieren und verbessern wir unsere Plattform ständig. Unser Ziel ist es, Ihnen stets die innovativsten und effektivsten Chip-Tuning-Lösungen anzubieten.",
-      "paragraph4": "Bei ECU Tuning Portal sind wir nicht nur ein Softwareanbieter, sondern auch ein Geschäftspartner. Wir begleiten unsere Kunden auf ihrem Weg der digitalen Transformation und entwickeln maßgeschneiderte Strategien für ihre Bedürfnisse. Sicherheit, Leistung und Benutzererfahrung haben für uns höchste Priorität.",
-      "paragraph5": "Bis heute haben wir Tausenden von Automobilfachleuten weltweit gedient und ihnen geholfen, ihr Geschäft auszubauen. Kundenzufriedenheit ist für uns von höchster Bedeutung, weshalb wir einen 24/7-Support-Service anbieten.",
-      "paragraph6": "Mit Blick auf die Zukunft setzen wir unsere Bemühungen fort, uns an neue Trends wie Elektrofahrzeuge und autonomes Fahren anzupassen. Als ECU Tuning Portal werden wir weiterhin die Zukunft der Automobiltechnologie gestalten.",
-      "paragraph7": "Vielen Dank, dass Sie sich für uns entschieden haben. Mit ECU Tuning Portal gehen wir gemeinsam in die Zukunft der Automobiltechnologien.",
-      "video": {
-        "title": "Hohe Leistung",
-        "subtitle": "Einfach zu verwalten",
-        "feature1": {
-          "title": "Einfache Kundenverwaltung",
-          "description": "Sie können die Dateien der Kunden prüfen, ihre Guthaben einsehen und sehen, was sie im Support-System geschrieben haben. Sie können auch Guthaben hinzufügen oder löschen."
-        },
-        "feature2": {
-          "title": "Unterstützung für 16 verschiedene Sprachen",
-          "description": "Unser System ist in Englisch, Spanisch, Deutsch, Niederländisch, Russisch, Arabisch, Portugiesisch, Französisch, Hebräisch, Italienisch, Slowakisch, Ungarisch, Tschechisch, Polnisch, Griechisch und Türkisch integriert."
-        },
-        "primaryButton": "7 Tage kostenlos testen"
-      },
-      "stat1": "Gegründet",
-      "stat2": "Support",
-      "stat3": "Kunden",
+      "title": "Unsere Mission und Vision",
+      "paragraph1": "Unsere Mission bei ECU Tuning Portal ist es, Tuning-Profis weltweit die fortschrittlichsten, zuverlässigsten und benutzerfreundlichsten Softwarelösungen anzubieten.",
+      "paragraph2": "Indem wir Brancheninnovationen genau verfolgen und kontinuierliche F&E betreiben, ermöglichen wir unseren Kunden, ihre Geschäfte effizienter, profitabler und wettbewerbsfähiger zu machen. Wir streben danach, durch höchste Kundenzufriedenheit ein Teil ihres Erfolgs zu sein.",
+      "paragraph3": "Unsere Vision ist es, ein weltweit führender Anbieter von ECU-Tuning-Technologie zu sein und als eine Marke anerkannt zu werden, die Industriestandards setzt. Über die reine Softwarebereitstellung hinaus möchten wir ein Wissens- und Innovationszentrum für die Tuning-Community sein.",
+      "paragraph4": "Wir sind bestrebt, die Zukunft der Automobil-Leistung zu gestalten, indem wir Nachhaltigkeit mit technologischem Fortschritt verbinden. Unser größter Wunsch ist es, mit unseren Kunden zu wachsen und ihr vertrauenswürdigster strategischer Geschäftspartner zu werden.",
+      "paragraph5": "Seit 2016 gestalten wir die Zukunft der Tuning-Branche mit einer robusten Infrastruktur und einem erfahrenen Team, das Tausende von Kunden bedient.",
+      "paragraph6": "Unser Team besteht aus leidenschaftlichen Fachleuten, die auf Automobiltechnik, Softwareentwicklung und Kundenservice spezialisiert sind.",
+      "paragraph7": "Der Kern unseres Erfolgs liegt in unserem Engagement, die Bedürfnisse unserer Kunden zu verstehen und ihnen die besten Lösungen anzubieten.",
+      "stat1": "Gründungsjahr",
+      "stat2": "Expertenunterstützung",
+      "stat3": "Zufriedene Kunden",
       "brands": {
         "title": "Unsere vertrauenswürdigen Marken"
       },
@@ -237,11 +224,24 @@
         "code": "Codezeilen",
         "experience": "Jahre Erfahrung"
       },
+      "video": {
+        "title": "Innovation und Support",
+        "subtitle": "Hier für Ihren Erfolg",
+        "feature1": {
+          "title": "Verpflichtung zur kontinuierlichen Innovation",
+          "description": "Indem wir die neuesten Technologien und Methoden der Branche verfolgen, verbessern wir kontinuierlich unser Portal und bieten Ihnen den besten Service."
+        },
+        "feature2": {
+          "title": "24/7 Experten-Support",
+          "description": "Unsere erfahrenen Ingenieure stehen Ihnen rund um die Uhr zur Verfügung, um alle Ihre Fragen zu beantworten und technischen Support zu leisten."
+        },
+        "primaryButton": "7 Tage kostenlos testen"
+      },
       "cta": {
-        "title": "Testen Sie das Portal jetzt!",
-        "description": "Bringen Sie Ihr Unternehmen mit ECU Tuning Portal auf die nächste Stufe! 19 Module mit den fortschrittlichsten Funktionen, die auf die Bedürfnisse von Fachleuten zugeschnitten sind. Verwalten Sie Ihre Kundendateien effektiver und optimieren Sie Ihre Geschäftsprozesse mit ECU Tuning Portal v4.2.",
-        "primaryButton": "7 Tage kostenlos testen",
-        "secondaryButton": "Kontakt zum Vertriebsteam"
+        "title": "Führen Sie Ihr Unternehmen in die Zukunft",
+        "description": "Entdecken Sie unsere branchenführenden Lösungen und erfahren Sie, wie wir Ihre Tuning-Operationen auf die nächste Stufe heben können.",
+        "primaryButton": "Kostenlose Testversion starten",
+        "secondaryButton": "Kontaktieren Sie uns"
       }
     }
   },

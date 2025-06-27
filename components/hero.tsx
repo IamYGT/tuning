@@ -29,9 +29,9 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-white">
               {t('mainTitle')}
             </h1>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
+            <p className="text-3xl md:text-4xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
               {t('title')}
-            </h2>
+            </p>
             <p className="text-xl md:text-2xl font-semibold mb-4 text-white">{t('subtitle')}</p>
             <p className="text-lg mb-4 text-gray-300">
               {t('description')}

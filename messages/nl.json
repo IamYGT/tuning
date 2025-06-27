@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Professionele Tuning Systeem Service",
     "homeDescription": "Professioneel ECU-tuningportaal voor automotive professionals. Beheer klantbestanden efficiënt en optimaliseer uw bedrijfsprocessen.",
     "about": "Over Ons | ECU Tuning Portal",
-    "aboutDescription": "ECU Tuning Portal is een toonaangevende softwareoplossing voor tuningprofessionals. Leer onze missie, visie en het toegewijde team kennen.",
+    "aboutDescription": "Ontdek de missie, visie en toewijding aan excellentie in automotive tuning van ECU Tuning Portal. Maak kennis met ons professionele team.",
     "features": "Functies | ECU Tuning Portal",
-    "featuresDescription": "Ontdek 19 geavanceerde functies van ECU Tuning Portal. Klantbeheer, bestandstracking, geautomatiseerde facturering en meer.",
+    "featuresDescription": "Ontdek de geavanceerde functies van ECU Tuning Portal. Optimaliseer uw activiteiten met klantenbeheer en geautomatiseerde facturering.",
     "pricing": "Prijzen | ECU Tuning Portal",
-    "pricingDescription": "Ontdek concurrerende prijsplannen van ECU Tuning Portal. Speciale aanbiedingen voor professionele automotive tuning oplossingen.",
+    "pricingDescription": "Ontdek concurrerende prijzen en geavanceerde functies van onze portalsoftware voor chiptuningprofessionals. Voordelige aanbiedingen wachten.",
     "gallery": "Galerij | ECU Tuning Portal",
     "galleryDescription": "Ontdek onze portfolio van succesvolle projecten en klantvoertuigen. Bekijk voorbeelden van ons professionele ECU-tuningwerk.",
     "contact": "Contact | ECU Tuning Portal",
     "contactDescription": "Neem contact op met ons ECU-tuning expertenteam voor professionele ondersteuning, advies en uitgebreide automotive tuning oplossingen.",
     "trial": "7 Dagen Gratis Proberen | ECU Tuning Portal",
-    "trialDescription": "Begin uw gratis 7-daagse proefperiode van ECU Tuning Portal. Ontdek alle premium functies en optimaliseer uw tuning workflows."
+    "trialDescription": "Probeer ECU Tuning Portal 7 dagen gratis. Ontdek alle premium functies en optimaliseer uw tuning-workflows zonder risico."
   },
   "common": {
     "navigation": {
@@ -64,7 +64,7 @@
     },
     "features": {
       "title": "FUNCTIES",
-      "heading": "Onze functies",
+      "heading": "Onderscheidende kwaliteiten van ons portaal",
       "description": "Als professioneel tuning-bestandsserviceportaal biedt ECU Tuning Portal met 19 verschillende functies de meest uitgebreide service in de branche. Optimaliseer uw activiteiten met efficiëntie en betrouwbaarheid.",
       "cta": "Ontdek al onze functies",
       "items": {
@@ -120,7 +120,7 @@
     },
     "languages": {
       "title": "TAALONDERSTEUNING",
-      "heading": "Werk internationaal met 16 verschillende talen",
+      "heading": "Grenzen overschrijden met 16 verschillende talen",
       "description": "Bereik mensen over de hele wereld met 16 verschillende talen in ons systeem."
     },
     "brands": {
@@ -128,7 +128,7 @@
     },
     "stats": {
       "title": "STATISTIEKEN",
-      "heading": "ECU Tuning Portal in cijfers",
+      "heading": "Ons succes in cijfers",
       "description": "We bedienen duizenden klanten met jarenlange ervaring en betrouwbare servicekwaliteit.",
       "customers": "Tevreden klanten",
       "files": "Aantal bestanden",
@@ -137,7 +137,7 @@
     },
     "testimonials": {
       "title": "KLANTBEOORDELINGEN",
-      "heading": "Beoordelingen van onze klanten",
+      "heading": "Wat onze gebruikers zeggen",
       "description": "Lees de ervaringen van onze klanten over onze oplossingen die worden vertrouwd en geprefereerd door tuning professionals.",
       "testimonial1": {
         "name": "Jan de Vries",
@@ -156,7 +156,7 @@
       }
     },
     "cta": {
-      "title": "Probeer het portaal nu!",
+      "title": "Klaar om ons geavanceerde portaal te proberen?",
       "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal! 19 modules uitgerust met de meest geavanceerde functies ontworpen om aan de behoeften van professionals te voldoen. Beheer uw klantbestanden effectiever en optimaliseer uw bedrijfsprocessen met ECU Tuning Portal v4.2. Klantbeheersysteem, Geavanceerd Creditsysteem en meer wachten op u.",
       "primaryButton": "7 dagen gratis proberen",
       "secondaryButton": "Contact met verkoopteam"
@@ -183,12 +183,12 @@
         "title": "Hoge Prestaties",
         "subtitle": "Eenvoudig te Beheren",
         "feature1": {
-          "title": "Eenvoudig Klantenbeheer",
-          "description": "U kunt de bestanden van klanten bekijken, hun tegoeden zien, zien wat ze in het ondersteuningssysteem hebben geschreven. U kunt ook tegoeden toevoegen of verwijderen."
+          "title": "Bewezen Prestatieverbeteringen",
+          "description": "Elk voertuig in onze galerij is een reëel bewijs van de pk- en koppelwinst die onze software oplevert."
         },
         "feature2": {
-          "title": "Ondersteuning voor 16 Verschillende Talen",
-          "description": "Ons systeem is geïntegreerd in Engels, Spaans, Duits, Nederlands, Russisch, Arabisch, Portugees, Frans, Hebreeuws, Italiaans, Slowaaks, Hongaars, Tsjechisch, Pools, Grieks en Turks."
+          "title": "Maatwerkoplossingen voor Elk Voertuig",
+          "description": "Ongeacht het merk of model, we maken nauwkeurige en aangepaste aanpassingen om het potentieel van elk voertuig te maximaliseren."
         },
         "primaryButton": "7 Dagen Gratis Proberen"
       }
@@ -200,48 +200,48 @@
       "title": "Maak kennis met de ECU Tuning Portal",
       "description": "ECU Tuning Portal is een toonaangevende softwareoplossing die speciaal is ontworpen voor professionals in automotive tuning. Leer onze missie, visie en het toegewijde team achter ons succes kennen, die allemaal samenwerken om de toekomst van tuning-technologie vorm te geven.",
       "primaryButton": "Neem contact op",
-      "secondaryButton": "Meer informatie"
+      "secondaryButton": "Ontdek Functies"
     },
     "content": {
-      "title": "ECU Tuning Portal: Voorloper in Automotieve Technologie",
-      "paragraph1": "ECU Tuning Portal werd in 2016 opgericht met de visie om de automotieve wereld te revolutioneren. Sindsdien hebben we onze leidende positie in de chip tuning-industrie behouden door voortdurende innovatie en het constant hervormen van de sector.",
-      "paragraph2": "Ons platform is uitgerust met de nieuwste technologieën en biedt ongeëvenaarde oplossingen aan automotieve professionals. Ons geavanceerde bestandsbeheersysteem, meertalige interface en geïntegreerde betalingsoplossingen helpen u uw bedrijfsprocessen te optimaliseren.",
-      "paragraph3": "Ons team van ervaren ingenieurs houdt voortdurend de nieuwste automotieve trends en technologieën in de gaten. Op deze manier updaten en verbeteren we ons platform constant. Ons doel is om u altijd de meest innovatieve en effectieve chip tuning-oplossingen te bieden.",
-      "paragraph4": "Bij ECU Tuning Portal zijn we niet alleen een softwareleverancier, maar ook een zakenpartner. We begeleiden onze klanten op hun digitale transformatiereis en ontwikkelen op maat gemaakte strategieën voor hun behoeften. Veiligheid, prestaties en gebruikerservaring zijn onze topprioriteiten.",
-      "paragraph5": "Tot op heden hebben we duizenden automotieve professionals wereldwijd gediend en hen geholpen hun bedrijf te laten groeien. Klanttevredenheid is voor ons van het grootste belang, daarom bieden we 24/7 ondersteuningsdiensten.",
-      "paragraph6": "Met het oog op de toekomst zetten we onze inspanningen voort om ons aan te passen aan nieuwe trends zoals elektrische voertuigen en autonoom rijden. Als ECU Tuning Portal blijven we de toekomst van automotieve technologie vormgeven.",
-      "paragraph7": "Bedankt dat u voor ons heeft gekozen. Met ECU Tuning Portal zetten we samen stappen naar de toekomst van automotieve technologieën.",
-      "video": {
-        "title": "Hoge Prestaties",
-        "subtitle": "Eenvoudig te beheren",
-        "feature1": {
-          "title": "Eenvoudig Klantenbeheer",
-          "description": "U kunt de bestanden van klanten bekijken, hun tegoeden zien, zien wat ze in het ondersteuningssysteem hebben geschreven. U kunt ook tegoeden toevoegen of verwijderen."
-        },
-        "feature2": {
-          "title": "Ondersteuning voor 16 Verschillende Talen",
-          "description": "Ons systeem is geïntegreerd in Engels, Spaans, Duits, Nederlands, Russisch, Arabisch, Portugees, Frans, Hebreeuws, Italiaans, Slowaaks, Hongaars, Tsjechisch, Pools, Grieks en Turks."
-        },
-        "primaryButton": "7 Dagen Gratis Proberen"
-      },
-      "stat1": "Opgericht",
-      "stat2": "Ondersteuning",
-      "stat3": "Klanten",
+      "title": "Onze Missie en Visie",
+      "paragraph1": "Bij ECU Tuning Portal is het onze missie om automotive tuning professionals wereldwijd te voorzien van de meest geavanceerde, betrouwbare en gebruiksvriendelijke softwareoplossingen.",
+      "paragraph2": "Door nauwlettend de innovaties in de sector te volgen en voortdurend R&D uit te voeren, stellen we onze klanten in staat hun bedrijf efficiënter, winstgevender en concurrerender te maken. We streven ernaar deel uit te maken van hun succes door het hoogste niveau van klanttevredenheid te handhaven.",
+      "paragraph3": "Onze visie is om een wereldleider te zijn in ECU-tuningtechnologie en erkend te worden als een merk dat industrienormen stelt. Naast het zijn van een softwareleverancier, streven we ernaar een centrum van kennis en innovatie te zijn voor de tuninggemeenschap.",
+      "paragraph4": "We zijn toegewijd aan het vormgeven van de toekomst van autoprestaties door duurzaamheid te combineren met technologische vooruitgang. Onze grootste wens is om samen met onze klanten te groeien en hun meest vertrouwde strategische zakenpartner te worden.",
+      "paragraph5": "Sinds 2016 geven we vorm aan de toekomst van de tuningindustrie met een robuuste infrastructuur en een ervaren team dat duizenden klanten bedient.",
+      "paragraph6": "Ons team bestaat uit gepassioneerde professionals die gespecialiseerd zijn in autotechniek, softwareontwikkeling en klantenservice.",
+      "paragraph7": "De kern van ons succes ligt in onze toewijding om de behoeften van onze klanten te begrijpen en hen de beste oplossingen te bieden.",
+      "stat1": "Oprichtingsjaar",
+      "stat2": "Expert Ondersteuning",
+      "stat3": "Tevreden Klanten",
       "brands": {
         "title": "Onze Vertrouwde Merken"
       },
       "stats": {
         "title": "Onze Statistieken",
-        "customers": "Tevreden Klanten",
-        "files": "Aantal Bestanden",
-        "code": "Regels Code",
-        "experience": "Jaren Ervaring"
+        "customers": "Tevreden klanten",
+        "files": "Aantal bestanden",
+        "code": "Coderegels",
+        "experience": "Jaren ervaring"
+      },
+      "video": {
+        "title": "Innovatie en Ondersteuning",
+        "subtitle": "Hier voor Uw Succes",
+        "feature1": {
+          "title": "Toewijding aan Continue Innovatie",
+          "description": "Door de nieuwste technologieën en methoden in de branche te volgen, verbeteren we voortdurend ons portaal en bieden we u de beste service."
+        },
+        "feature2": {
+          "title": "24/7 Expert Ondersteuning",
+          "description": "Onze ervaren ingenieurs staan de klok rond voor u klaar om al uw vragen te beantwoorden en technische ondersteuning te bieden."
+        },
+        "primaryButton": "7 Dagen Gratis Proberen"
       },
       "cta": {
-        "title": "Probeer het Portal Nu!",
-        "description": "Breng uw bedrijf naar een hoger niveau met ECU Tuning Portal! 19 modules uitgerust met de meest geavanceerde functies ontworpen om aan de behoeften van professionals te voldoen. Beheer uw klantbestanden effectiever en optimaliseer uw bedrijfsprocessen met ECU Tuning Portal v4.2.",
-        "primaryButton": "7 dagen gratis proberen",
-        "secondaryButton": "Contact met Verkoopteam"
+        "title": "Breng Uw Bedrijf naar de Toekomst",
+        "description": "Ontdek onze toonaangevende oplossingen en zie hoe we uw tuningactiviteiten naar een hoger niveau kunnen tillen.",
+        "primaryButton": "Start Gratis Proefversie",
+        "secondaryButton": "Neem Contact Op"
       }
     }
   },

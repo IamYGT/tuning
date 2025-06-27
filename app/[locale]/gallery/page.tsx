@@ -118,9 +118,9 @@ export default async function GalleryPage({
                     <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-lg">{t("content.video.feature1.title") || "Easy Customer Management"}</h4>
+                    <h4 className="font-medium text-lg">{t("content.video.feature1.title")}</h4>
                     <p className="text-muted-foreground">
-                      {t("content.video.feature1.description") || "You can examine the files of the customers, see their credits, see what they wrote in the support system. You can also add or delete credits."}
+                      {t("content.video.feature1.description")}
                     </p>
                   </div>
                 </div>
@@ -130,9 +130,9 @@ export default async function GalleryPage({
                     <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-lg">{t("content.video.feature2.title") || "16 Different Language Support"}</h4>
+                    <h4 className="font-medium text-lg">{t("content.video.feature2.title")}</h4>
                     <p className="text-muted-foreground">
-                      {t("content.video.feature2.description") || "Our system is integrated into English, Spanish, German, Dutch, Russian, Arabic, Portuguese, French, Hebrew, Italian, Slovak, Hungarian, Czech, Polish, Greek and Turkish languages."}
+                      {t("content.video.feature2.description")}
                     </p>
                   </div>
                 </div>

@@ -3,17 +3,17 @@
     "home": "ECU Tuning Portal | Profesyonel Tuning Sistem Servisi",
     "homeDescription": "Otomotiv tuning profesyonelleri için tasarlanmış ECU Tuning Portal ile müşteri dosyalarınızı verimli yönetin ve iş süreçlerinizi optimize edin.",
     "about": "Hakkımızda | ECU Tuning Portal",
-    "aboutDescription": "ECU Tuning Portal, tuning uzmanları için lider bir yazılım çözümüdür. Misyonumuz, vizyonumuz ve özel ekibimiz hakkında bilgi edinin.",
+    "aboutDescription": "ECU Tuning Portal'ın misyonunu, vizyonunu ve otomotiv tuning mükemmelliğine olan bağlılığını keşfedin. Profesyonel ekibimizle tanışın.",
     "features": "Özellikler | ECU Tuning Portal",
-    "featuresDescription": "ECU Tuning Portal'ın 19 gelişmiş özelliğini keşfedin. Müşteri yönetimi, dosya takibi, otomatik faturalama ve daha fazlası.",
+    "featuresDescription": "ECU Tuning Portal'ın gelişmiş özelliklerini keşfedin. Müşteri yönetimi, dosya takibi ve otomatik faturalama ile operasyonlarınızı optimize edin.",
     "pricing": "Fiyatlandırma | ECU Tuning Portal",
-    "pricingDescription": "Chip tuning profesyonelleri için özel portal yazılımı. Rekabetçi fiyatlar ve gelişmiş özellikler sizi bekliyor. Avantajlı tekliflerimizi keşfedin.",
+    "pricingDescription": "Chip tuning profesyonelleri için özel portal yazılımımızın rekabetçi fiyatlarını ve gelişmiş özelliklerini keşfedin. Avantajlı teklifler sizi bekliyor.",
     "gallery": "Galeri | ECU Tuning Portal",
     "galleryDescription": "Başarılı projelerimizi ve müşteri araçlarından oluşan portfolyomuzu keşfedin. ECU tuning çalışmalarımızdan örnekler görün.",
     "contact": "İletişim | ECU Tuning Portal",
     "contactDescription": "Uzman ECU tuning ekibimizle iletişime geçin. Profesyonel destek, danışmanlık ve kapsamlı otomotiv tuning çözümleri.",
     "trial": "7 Gün Ücretsiz Deneme | ECU Tuning Portal",
-    "trialDescription": "ECU Tuning Portal'ın 7 gün ücretsiz deneme süresini başlatın. Tüm premium özellikleri keşfedin ve iş akışlarınızı optimize edin."
+    "trialDescription": "ECU Tuning Portal'ı 7 gün ücretsiz deneyin. Tüm premium özellikleri keşfederek tuning iş akışlarınızı risksiz bir şekilde optimize edin."
   },
   "common": {
     "navigation": {
@@ -64,7 +64,7 @@
     },
     "features": {
       "title": "ÖZELLİKLER",
-      "heading": "Özelliklerimiz",
+      "heading": "Portalımızın Ayırt Edici Nitelikleri",
       "description": "Profesyonel bir tuning dosya hizmet portalı olarak, ECU Tuning Portal 19 farklı özellikle sektörde en kapsamlı hizmeti sunmaktadır. Operasyonlarınızı verimlilik ve güvenilirlikle optimize edin.",
       "cta": "Tüm Özelliklerimizi Keşfet",
       "items": {
@@ -120,7 +120,7 @@
     },
     "languages": {
       "title": "DİL DESTEĞİ",
-      "heading": "16 Farklı Dil ile Uluslararası çalışın",
+      "heading": "16 Farklı Dil ile Sınırları Aşın",
       "description": "Sistemimizde bulunan 16 farklı dil ile bütün dünyadaki insanlara hitap edin."
     },
     "brands": {
@@ -128,7 +128,7 @@
     },
     "stats": {
       "title": "İSTATİSTİKLER",
-      "heading": "Rakamlarla ECU Tuning Portal",
+      "heading": "Başarı Rakamlarımız",
       "description": "Yılların deneyimi ve güvenilir hizmet kalitemizle binlerce müşteriye hizmet veriyoruz.",
       "customers": "Mutlu Müşteri",
       "files": "Dosya Sayısı",
@@ -137,7 +137,7 @@
     },
     "testimonials": {
       "title": "MÜŞTERİ YORUMLARI",
-      "heading": "Müşterilerimizin Yorumları",
+      "heading": "Kullanıcılarımız Ne Diyor?",
       "description": "Tuning profesyonelleri tarafından güvenilen ve tercih edilen çözümlerimiz hakkında müşterilerimizin deneyimlerini okuyun.",
       "testimonial1": {
         "name": "Ahmet Öztürk",
@@ -156,8 +156,8 @@
       }
     },
     "cta": {
-      "title": "Hemen Portalı Deneyin!",
-      "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin. Müşteri Yönetim Sistemi, Gelişmiş Kredi Sistemi ve daha fazlası sizi bekliyor.",
+      "title": "Gelişmiş Portalımızı Denemeye Hazır Mısınız?",
+      "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin.",
       "primaryButton": "7 Gün Ücretsiz Deneyin",
       "secondaryButton": "Satış Ekibiyle İletişime Geçin"
     }
@@ -183,12 +183,12 @@
         "title": "Yüksek Performans",
         "subtitle": "Kolay Yönetim",
         "feature1": {
-          "title": "Kolay Müşteri Yönetimi",
-          "description": "Müşterilerin dosyalarını inceleyebilir, kredilerini görebilir, destek sisteminde ne yazdıklarını görebilirsiniz. Ayrıca kredi ekleyebilir veya silebilirsiniz."
+          "title": "Kanıtlanmış Performans Artışı",
+          "description": "Galerimizdeki her araç, yazılımlarımızın sağladığı beygir gücü ve tork artışının gerçek dünyadaki bir kanıtıdır."
         },
         "feature2": {
-          "title": "16 Farklı Dil Desteği",
-          "description": "Sistemimiz İngilizce, İspanyolca, Almanca, Hollandaca, Rusça, Arapça, Portekizce, Fransızca, İbranice, İtalyanca, Slovakça, Macarca, Çekçe, Lehce, Yunanca ve Türkçe dillerine entegre edilmiştir."
+          "title": "Her Araca Özel Çözümler",
+          "description": "Marka ve model ne olursa olsun, her aracın potansiyelini en üst düzeye çıkarmak için hassas ve özel ayarlar yapıyoruz."
         },
         "primaryButton": "7 Gün Ücretsiz Deneyin"
       }
@@ -200,22 +200,22 @@
       "title": "ECU Tuning Portal'ı Yakından Tanıyın",
       "description": "ECU Tuning Portal, otomotiv tuning profesyonelleri için özel olarak tasarlanmış lider bir yazılım çözümüdür. Misyonumuz, vizyonumuz ve başarımızın arkasındaki özel ekibimizi tanıyın, hepsi tuning teknolojisinin geleceğini şekillendirmek için birlikte çalışıyor.",
       "primaryButton": "Bize Ulaşın",
-      "secondaryButton": "Daha Fazla Bilgi"
+      "secondaryButton": "Özellikleri Keşfet"
     },
     "content": {
-      "title": "Ecu Tuning Portal Otomotiv Teknolojisinde Öncü: ECU Tuning'in Geleceğini Şekillendiriyoruz.",
-      "paragraph1": "ECU Tuning Portal, 2016 yılında otomotiv dünyasında devrim yaratma vizyonuyla yola çıktı. O günden bu yana, chip tuning endüstrisinde lider konumumuzu sürdürüyor ve sürekli yeniliklerle sektörü şekillendiriyoruz.",
-      "paragraph2": "Platformumuz, en son teknolojilerle donatılmış olup, otomotiv profesyonellerine benzersiz çözümler sunuyor. Gelişmiş dosya yönetim sistemimiz, çok dilli arayüzümüz ve entegre ödeme çözümlerimizle, iş süreçlerinizi optimize etmenize yardımcı oluyoruz.",
-      "paragraph3": "Deneyimli mühendislerden oluşan ekibimiz, sürekli olarak en son otomotiv trendlerini ve teknolojilerini takip ediyor. Bu sayede, platformumuzu sürekli güncelliyor ve geliştiriyoruz. Amacımız, size her zaman en yenilikçi ve etkili chip tuning çözümlerini sunmak.",
-      "paragraph4": "ECU Tuning Portal olarak, sadece bir yazılım sağlayıcısı değil, aynı zamanda bir iş ortağıyız. Müşterilerimizin dijital dönüşüm yolculuğunda yanlarında yer alıyor, onların ihtiyaçlarına özel stratejiler geliştiriyoruz. Güvenlik, performans ve kullanıcı deneyimi bizim için en önemli öncelikler.",
-      "paragraph5": "Bugüne kadar, dünya çapında binlerce otomotiv profesyoneline hizmet verdik ve onların işlerini büyütmelerine yardımcı olduk. Müşteri memnuniyeti bizim için her şeyden önemli ve bu nedenle 7/24 destek hizmeti sunuyoruz.",
-      "paragraph6": "Geleceğe baktığımızda, elektrikli araçlar ve otonom sürüş gibi yeni trendlere uyum sağlamak için çalışmalarımızı sürdürüyoruz. ECU Tuning Portal olarak, otomotiv teknolojisinin geleceğini şekillendirmeye devam edeceğiz.",
-      "paragraph7": "Bizi tercih ettiğiniz için teşekkür ederiz. ECU Tuning Portal ile geleceğin otomotiv teknolojilerine birlikte adım atıyoruz.",
-      "stat1": "Kuruluş",
-      "stat2": "Destek",
-      "stat3": "Müşteri",
+      "title": "Misyonumuz ve Vizyonumuz",
+      "paragraph1": "ECU Tuning Portal olarak misyonumuz, dünya genelindeki otomotiv tuning profesyonellerine en gelişmiş, güvenilir ve kullanıcı dostu yazılım çözümlerini sunmaktır.",
+      "paragraph2": "Sektördeki yenilikleri yakından takip ederek ve sürekli Ar-Ge çalışmaları yaparak, müşterilerimizin işlerini daha verimli, karlı ve rekabetçi hale getirmelerine olanak tanıyoruz. Müşteri memnuniyetini en üst düzeyde tutarak, onların başarısının bir parçası olmayı hedefliyoruz.",
+      "paragraph3": "Vizyonumuz, ECU tuning teknolojisinde küresel bir lider olmak ve endüstri standartlarını belirleyen bir marka olarak tanınmaktır. Sadece bir yazılım sağlayıcısı olmanın ötesinde, tuning topluluğu için bir bilgi ve inovasyon merkezi olmayı amaçlıyoruz.",
+      "paragraph4": "Sürdürülebilirlik ve teknolojik ilerlemeyi bir araya getirerek, otomotiv performansının geleceğini şekillendirmeye kararlıyız. Müşterilerimizle birlikte büyüyerek, onların en güvendiği stratejik iş ortağı olmak en büyük arzumuzdur.",
+      "paragraph5": "2016'dan beri, binlerce müşteriye hizmet veren güçlü bir altyapı ve deneyimli bir ekiple, tuning endüstrisinin geleceğini şekillendiriyoruz.",
+      "paragraph6": "Ekibimiz, otomotiv mühendisliği, yazılım geliştirme ve müşteri hizmetleri alanlarında uzmanlaşmış tutkulu profesyonellerden oluşmaktadır.",
+      "paragraph7": "Başarımızın temelinde, müşterilerimizin ihtiyaçlarını anlama ve onlara en iyi çözümleri sunma taahhüdümüz yatmaktadır.",
+      "stat1": "Kuruluş Yılı",
+      "stat2": "Uzman Desteği",
+      "stat3": "Memnun Müşteri",
       "brands": {
-        "title": "Güvendiğimiz Markalar"
+        "title": "Güvenilir Markalarımız"
       },
       "stats": {
         "title": "İstatistiklerimiz",
@@ -225,23 +225,23 @@
         "experience": "Yıllık Deneyim"
       },
       "video": {
-        "title": "Yüksek performans",
-        "subtitle": "Kolay yönetim.",
+        "title": "İnovasyon ve Destek",
+        "subtitle": "Başarınız İçin Buradayız",
         "feature1": {
-          "title": "Kolay Müşteri Yönetimi",
-          "description": "Müşterilerin dosyalarını inceleyebilir, kredilerini görebilir, destek sisteminde ne yazdıklarını görebilirsiniz. Ayrıca kredi ekleyebilir veya silebilirsiniz."
+          "title": "Sürekli İnovasyon Taahhüdü",
+          "description": "Sektördeki en son teknolojileri ve yöntemleri takip ederek, portalımızı sürekli geliştiriyor ve size en iyi hizmeti sunuyoruz."
         },
         "feature2": {
-          "title": "16 Farklı Dil Desteği",
-          "description": "Sistemimiz İngilizce, İspanyolca, Almanca, Hollandaca, Rusça, Arapça, Portekizce, Fransızca, İbranice, İtalyanca, Slovakça, Macarca, Çekçe, Lehçe, Yunanca ve Türkçe dillerine entegre edilmiştir."
+          "title": "7/24 Uzman Desteği",
+          "description": "Deneyimli mühendislerimiz, günün her saati tüm sorularınızı yanıtlamak ve teknik destek sağlamak için yanınızda."
         },
         "primaryButton": "7 Gün Ücretsiz Deneyin"
       },
       "cta": {
-        "title": "Hemen Portalı Deneyin!",
-        "description": "Ecu Tuning Portal ile işinizi bir üst seviyeye taşıyın! En gelişmiş özelliklerle donatılmış 19 modül, profesyonellerin ihtiyaçlarını karşılamak üzere tasarlandı. Ecu Tuning Portal v4.2 ile müşteri dosyalarınızı daha etkili yönetin ve iş süreçlerinizi optimize edin.",
-        "primaryButton": "7 Gün Ücretsiz Deneyin",
-        "secondaryButton": "Satış Ekibiyle İletişime Geçin"
+        "title": "İşinizi Geleceğe Taşıyın",
+        "description": "Sektör lideri çözümlerimizle tanışın ve tuning operasyonlarınızı nasıl bir üst seviyeye taşıyabileceğimizi görün.",
+        "primaryButton": "Ücretsiz Denemeyi Başlat",
+        "secondaryButton": "Bize Ulaşın"
       }
     }
   },
