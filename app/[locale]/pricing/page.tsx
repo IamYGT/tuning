@@ -71,94 +71,35 @@ export default async function PricingPage({
       {/* Pricing Section */}
       <section className="py-16 bg-gradient-to-b from-muted/30 to-background">
         <div className="container px-4 mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto relative z-10">
-            {/* Monthly Plan */}
-            <div className="relative rounded-lg p-6 flex flex-col h-full border border-zinc-800 bg-zinc-950 transform transition-all duration-300 hover:translate-y-[-5px]">
-              <h3 className="text-center text-xl font-bold mb-4 text-gray-300">{t("monthly")}</h3>
-
-              <div className="mb-6 text-center">
-                <div className="flex items-baseline justify-center">
-                  <span className="text-5xl font-bold text-white">€{t("monthlyPrice")}</span>
-                  <span className="ml-2 text-gray-400 text-sm">{t("perMonth")}</span>
-                </div>
-              </div>
-
-              <div className="flex-grow space-y-3 mb-6">
-                {features.map((feature) => (
-                  <div key={feature} className="flex items-start">
-                    <Check className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span className="text-sm text-gray-400">{t(`features.${feature}`)}</span>
-                  </div>
-                ))}
-              </div>
-
-              <Button variant="outline" size="lg" className="w-full border-primary text-primary hover:bg-primary/10 mt-auto">
-                <Link href={`https://api.whatsapp.com/send?phone=905466367027&text=Merhaba,%20${t("monthly")}%20paket%20hakkında%20bilgi%20almak%20istiyorum.`} target="_blank" rel="noopener noreferrer" className="w-full">
-                  {t("buyButton")} →
-                </Link>
-              </Button>
-            </div>
-
+          <div className="flex justify-center max-w-6xl mx-auto relative z-10">
             {/* One-time Plan */}
-            <div className="relative rounded-lg p-6 flex flex-col h-full border-2 border-zinc-700 bg-zinc-950 ring-2 ring-primary/20 shadow-xl shadow-primary/20 transform transition-all duration-300 hover:translate-y-[-8px] md:scale-110 md:-translate-y-4 z-20">
+            <div className="relative rounded-lg p-8 flex flex-col border-2 border-zinc-700 bg-zinc-950 ring-2 ring-primary/20 shadow-xl shadow-primary/20 transform transition-all duration-300 hover:translate-y-[-8px] max-w-md w-full">
               <div className="absolute -top-3 left-0 right-0 flex justify-center">
                 <div className="bg-primary text-white px-4 py-1 text-xs font-medium rounded-full">
                   {t("popular")}
                 </div>
               </div>
 
-              <h3 className="text-center text-xl font-bold mb-4 text-gray-300">{t("oneTime")}</h3>
+              <h3 className="text-center text-2xl font-bold mb-6 text-gray-300">{t("oneTime")}</h3>
 
-              <div className="mb-6 text-center">
+              <div className="mb-8 text-center">
                 <div className="flex items-baseline justify-center">
-                  <span className="text-5xl font-bold text-white">€{t("oneTimePrice")}</span>
+                  <span className="text-6xl font-bold text-white">€{t("oneTimePrice")}</span>
                 </div>
+                <p className="text-gray-400 text-sm mt-2">{t("oneTimeDescription")}</p>
               </div>
 
-              <div className="flex-grow space-y-3 mb-6">
+              <div className="flex-grow space-y-4 mb-8">
                 {features.map((feature) => (
                   <div key={feature} className="flex items-start">
-                    <Check className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span className="text-sm text-gray-400">{t(`features.${feature}`)}</span>
+                    <Check className="h-5 w-5 text-primary shrink-0 mr-3" />
+                    <span className="text-sm text-gray-300">{t(`features.${feature}`)}</span>
                   </div>
                 ))}
               </div>
 
-              <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-white mt-auto">
+              <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-white mt-auto py-3 text-lg">
                 <Link href={`https://api.whatsapp.com/send?phone=905466367027&text=Merhaba,%20${t("oneTime")}%20paket%20hakkında%20bilgi%20almak%20istiyorum.`} target="_blank" rel="noopener noreferrer" className="w-full">
-                  {t("buyButton")} →
-                </Link>
-              </Button>
-            </div>
-
-            {/* Yearly Plan */}
-
-            <div className="relative rounded-lg p-6 flex flex-col h-full border border-zinc-800 bg-zinc-950 transform transition-all duration-300 hover:translate-y-[-5px]">
-              <div className="absolute -top-3 left-0 right-0 flex justify-center">
-                <div className="bg-primary text-white px-4 py-1 text-xs font-medium rounded-full">
-                  {t("discount30")}
-                </div>
-              </div>
-              <h3 className="text-center text-xl font-bold mb-4 text-gray-300">{t("yearly")}</h3>
-
-              <div className="mb-6 text-center">
-                <div className="flex items-baseline justify-center">
-                  <span className="text-5xl font-bold text-white">€{t("yearlyPrice")}</span>
-                  <span className="ml-2 text-gray-400 text-sm">{t("perYear")}</span>
-                </div>
-              </div>
-
-              <div className="flex-grow space-y-3 mb-6">
-                {features.map((feature) => (
-                  <div key={feature} className="flex items-start">
-                    <Check className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span className="text-sm text-gray-400">{t(`features.${feature}`)}</span>
-                  </div>
-                ))}
-              </div>
-
-              <Button variant="outline" size="lg" className="w-full border-primary text-primary hover:bg-primary/10 mt-auto">
-                <Link href={`https://api.whatsapp.com/send?phone=905466367027&text=Merhaba,%20${t("yearly")}%20paket%20hakkında%20bilgi%20almak%20istiyorum.`} target="_blank" rel="noopener noreferrer" className="w-full">
                   {t("buyButton")} →
                 </Link>
               </Button>

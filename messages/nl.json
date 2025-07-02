@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "home": "ECU Tuning Portal | Professionele Tuning Systeem Service",
-    "homeDescription": "Professioneel ECU-tuningportaal voor automotive professionals. Beheer klantbestanden efficiënt en optimaliseer uw bedrijfsprocessen.",
+    "home": "EENMALIG 699€ - ECU Tuning Portal | Professionele Tuning Systeem Service",
+    "homeDescription": "EENMALIG 699€ - Professioneel ECU-tuningportaal voor automotive professionals. Beheer klantbestanden efficiënt en optimaliseer uw bedrijfsprocessen.",
     "about": "Over Ons | ECU Tuning Portal",
     "aboutDescription": "Ontdek ECU Tuning Portal, een toonaangevende softwareoplossing voor tuningprofessionals. Leer over onze missie, visie en het team achter ons succes.",
     "features": "Functies | ECU Tuning Portal",
@@ -30,7 +30,7 @@
     "promo": {
       "promoLabel": "SPECIALE AANBIEDING",
       "limitedOffer": "Tijdelijke aanbieding",
-      "offerText": "ECU Tuning Portal voor €1399 in plaats van €1899",
+      "offerText": "ECU Tuning Portal voor €699 in plaats van €1899",
       "buyButton": "Kopen"
     },
     "footer": {
@@ -253,9 +253,10 @@
     "monthly": "MAANDELIJKS",
     "yearly": "JAARLIJKS",
     "oneTime": "EENMALIG",
+    "oneTimeDescription": "Eenmalige Betaling",
     "monthlyPrice": "299",
     "yearlyPrice": "799",
-    "oneTimePrice": "1399",
+    "oneTimePrice": "699",
     "perMonth": "/maand",
     "perYear": "/jaar",
     "billedMonthly": "maandelijks gefactureerd",

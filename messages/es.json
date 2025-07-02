@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "home": "ECU Tuning Portal | Servicio Profesional de Sistemas de Tuning",
-    "homeDescription": "Portal profesional de tuning ECU para profesionales automotrices. Gestione archivos de clientes eficientemente y optimice procesos empresariales.",
+    "home": "UNA SOLA VEZ 699€ - ECU Tuning Portal | Servicio Profesional de Sistemas de Tuning",
+    "homeDescription": "UNA SOLA VEZ 699€ - Portal profesional de tuning ECU para profesionales automotrices. Gestione archivos de clientes eficientemente y optimice procesos empresariales.",
     "about": "Sobre Nosotros | ECU Tuning Portal",
     "aboutDescription": "Descubra el ECU Tuning Portal, una solución de software líder para profesionales del tuning. Conozca nuestra misión, visión y el equipo detrás de nuestro éxito.",
     "features": "Características | ECU Tuning Portal",
@@ -30,7 +30,7 @@
     "promo": {
       "promoLabel": "OFERTA ESPECIAL",
       "limitedOffer": "Oferta por tiempo limitado",
-      "offerText": "ECU Tuning Portal por €1399 en lugar de €1899",
+      "offerText": "ECU Tuning Portal por €699 en lugar de €1899",
       "buyButton": "Comprar"
     },
     "footer": {
@@ -253,9 +253,10 @@
     "monthly": "MENSUAL",
     "yearly": "ANUAL",
     "oneTime": "PAGO ÚNICO",
+    "oneTimeDescription": "Pago Único",
     "monthlyPrice": "299",
     "yearlyPrice": "799",
-    "oneTimePrice": "1399",
+    "oneTimePrice": "699",
     "perMonth": "/mes",
     "perYear": "/año",
     "billedMonthly": "facturado mensualmente",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "home": "ECU Tuning Portal | Profesyonel Tuning Sistem Servisi",
-    "homeDescription": "Otomotiv tuning profesyonelleri için tasarlanmış ECU Tuning Portal ile müşteri dosyalarınızı verimli yönetin ve iş süreçlerinizi optimize edin.",
+    "home": "TEK SEFERLİK 699€ - ECU Tuning Portal | Profesyonel Tuning Sistem Servisi",
+    "homeDescription": "TEK SEFERLİK 699€ - Otomotiv tuning profesyonelleri için tasarlanmış ECU Tuning Portal ile müşteri dosyalarınızı verimli yönetin ve iş süreçlerinizi optimize edin.",
     "about": "Hakkımızda | ECU Tuning Portal",
     "aboutDescription": "Lider tuning yazılımı ECU Tuning Portal'ı keşfedin. Misyonumuz, vizyonumuz ve başarımızın arkasındaki özel ekibimiz hakkında bilgi edinin.",
     "features": "Özellikler | ECU Tuning Portal",
@@ -30,7 +30,7 @@
     "promo": {
       "promoLabel": "ÖZEL TEKLİF",
       "limitedOffer": "Sınırlı Süre Teklifi",
-      "offerText": "ECU Tuning Portal €1899 yerine €1399",
+      "offerText": "ECU Tuning Portal €1899 yerine €699",
       "buyButton": "Satın Al"
     },
     "footer": {
@@ -253,9 +253,10 @@
     "monthly": "AYLIK",
     "yearly": "YILLIK",
     "oneTime": "TEK SEFERLİK",
+    "oneTimeDescription": "Tek Seferlik Ödeme",
     "monthlyPrice": "299",
     "yearlyPrice": "799",
-    "oneTimePrice": "1399",
+    "oneTimePrice": "699",
     "perMonth": "/ay",
     "perYear": "/yıl",
     "billedMonthly": "aylık faturalandırma",
