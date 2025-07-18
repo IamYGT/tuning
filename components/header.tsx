@@ -76,7 +76,7 @@ export default function Header() {
       className="sticky top-0 z-50 w-full bg-slate-900 border-b border-slate-800 shadow-md"
     >
       {/* Promo Banner */}
-      <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-2 px-4 text-center text-xs sm:text-sm relative">
+      <div className="text-white py-2 px-4 text-center text-xs sm:text-sm relative" style={{ backgroundColor: '#C83333' }}>
         <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-white/20 mr-2">
           {promoT("promoLabel")}
         </span>

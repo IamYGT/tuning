@@ -132,7 +132,7 @@ export default function ContactForm() {
             aria-describedby={state.errors?.name ? "name-error" : undefined}
           />
           {state.errors?.name && (
-            <p id="name-error" className="text-sm text-red-500 mt-1">
+            <p id="name-error" className="text-sm text-custom-red mt-1">
               {state.errors.name.join(", ")}
             </p>
           )}
@@ -152,7 +152,7 @@ export default function ContactForm() {
             aria-describedby={state.errors?.email ? "email-error" : undefined}
           />
           {state.errors?.email && (
-            <p id="email-error" className="text-sm text-red-500 mt-1">
+            <p id="email-error" className="text-sm text-custom-red mt-1">
               {state.errors.email.join(", ")}
             </p>
           )}
@@ -185,7 +185,7 @@ export default function ContactForm() {
 
           />
           {state.errors?.phone && (
-            <p id="phone-error" className="text-sm text-red-500 mt-1">
+            <p id="phone-error" className="text-sm text-custom-red mt-1">
               {state.errors.phone.join(", ")}
             </p>
           )}
@@ -206,7 +206,7 @@ export default function ContactForm() {
             aria-describedby={state.errors?.message ? "message-error" : undefined}
           />
           {state.errors?.message && (
-            <p id="message-error" className="text-sm text-red-500 mt-1">
+            <p id="message-error" className="text-sm text-custom-red mt-1">
               {state.errors.message.join(", ")}
             </p>
           )}

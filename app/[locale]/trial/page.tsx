@@ -158,9 +158,9 @@ export default function TrialPage() {
     <section className="relative w-full min-h-screen flex items-center overflow-hidden bg-gray-900">
       {/* Dark background with layered red glowing radial effects */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-radial from-red-900/20 to-transparent opacity-70" />
-        <div className="absolute left-1/4 top-1/4 w-1/2 h-1/2 bg-gradient-radial from-red-700/10 to-transparent opacity-50" />
-        <div className="absolute right-1/3 bottom-1/3 w-1/3 h-1/3 bg-gradient-radial from-red-600/10 to-transparent opacity-40" />
+        <div className="absolute inset-0 bg-gradient-radial from-custom-red-900/20 to-transparent opacity-70" />
+        <div className="absolute left-1/4 top-1/4 w-1/2 h-1/2 bg-gradient-radial from-custom-red-700/10 to-transparent opacity-50" />
+        <div className="absolute right-1/3 bottom-1/3 w-1/3 h-1/3 bg-gradient-radial from-custom-red-600/10 to-transparent opacity-40" />
       </div>
 
       {/* Light grid texture overlay */}
@@ -258,7 +258,7 @@ export default function TrialPage() {
                   aria-describedby="name-error"
                 />
                 {state.errors?.name && (
-                  <p id="name-error" className="mt-1 text-sm text-red-400">{state.errors.name.join(", ")}</p>
+                  <p id="name-error" className="mt-1 text-sm text-custom-red-400">{state.errors.name.join(", ")}</p>
                 )}
               </div>
 
@@ -277,7 +277,7 @@ export default function TrialPage() {
                   aria-describedby="email-error"
                 />
                 {state.errors?.email && (
-                  <p id="email-error" className="mt-1 text-sm text-red-400">{state.errors.email.join(", ")}</p>
+                  <p id="email-error" className="mt-1 text-sm text-custom-red-400">{state.errors.email.join(", ")}</p>
                 )}
               </div>
 
@@ -306,7 +306,7 @@ export default function TrialPage() {
                   aria-describedby="phone-error"
                 />
                 {state.errors?.phone && (
-                  <p id="phone-error" className="mt-1 text-sm text-red-400">{state.errors.phone.join(", ")}</p>
+                  <p id="phone-error" className="mt-1 text-sm text-custom-red-400">{state.errors.phone.join(", ")}</p>
                 )}
               </div>
 
@@ -324,7 +324,7 @@ export default function TrialPage() {
                   aria-describedby="message-error"
                 />
                 {state.errors?.message && (
-                  <p id="message-error" className="mt-1 text-sm text-red-400">{state.errors.message.join(", ")}</p>
+                  <p id="message-error" className="mt-1 text-sm text-custom-red-400">{state.errors.message.join(", ")}</p>
                 )}
               </div>
 

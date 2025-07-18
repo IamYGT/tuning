@@ -274,7 +274,7 @@ export default async function AboutPage({
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-red-900/70 to-orange-900/70">
+      <section className="py-16 bg-gradient-to-r from-custom-red-900/70 to-orange-900/70">
         <div className="container px-4 mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 flex flex-col justify-center">
@@ -286,7 +286,7 @@ export default async function AboutPage({
                   {t("content.cta.description")}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" variant="default" className="bg-white text-red-900 hover:bg-gray-200" asChild>
+                  <Button size="lg" variant="default" className="bg-white text-custom-red-900 hover:bg-gray-200" asChild>
                     <Link href="/trial">
                       {t("content.cta.primaryButton")} <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
